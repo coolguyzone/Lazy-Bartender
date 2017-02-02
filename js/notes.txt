@@ -1,0 +1,118 @@
+Liquor Categories:
+  Clear:
+    1.vodka
+    2.gin
+    3.light rum
+    4.light tequila
+    5. moonshine
+    6. fruity vodka
+    7. vanilla vodka
+    8. malibu rum
+    9. dry vermouth
+    10. sake
+    11. cachaca
+    12. Baijiu
+    13. Pisco
+    14. Kirschwasser
+    15. Peach schnapps
+    16. peppermint schnapps
+    17. creme de menthe
+    18. Citrus Vodka
+
+
+  Brown:
+    1.Bourbon Whiskey
+    2. scotch
+    3. coffee liquer
+    4. drambuie
+    5. dark rum
+    6. spiced rum
+    7. dark tequila
+    8. Brandy
+    9. Cognac
+    10. canadian whisky
+    11. irish whiskey
+    12. rye whiskey
+    13. sweet vermouth
+    14. Cinammon Whiskey
+    15. Chocolate Liquer
+    16. Jagermeister
+    17. Fernet
+    18. frangelico
+    19. grand marnier
+    20. anejo rum
+    21. southern comfort
+    22. amaretto
+    23. 151 rum
+    24. blended whiskey
+
+  Colorful:
+    1. hypnotiq
+    2. absinthe
+    3. pimm's
+    4. goldschlagger
+    5. Irish Cream
+    6. triple sec
+    7. Midori
+    8. chartreuse
+    9. campari
+    10. creme de banane
+    11. strawberry schnapps
+    12. apricot brandy
+    13. Sloe gin
+    14. white creme de cacao
+    15. blackberry brandy
+    16. apple brandy
+    17. green creme de menthe
+    18. maraschino liqueur
+
+  Mixers:
+    1. cola
+    2. lemon-lime soda
+    3. ginger ale
+    4. lemonade
+    5. iced tea
+    6. club soda
+    7. ginger beer
+    8. orange juice
+    9. apple juice
+    10. cranberry juice
+    11. grapefruit juice
+    12. lemon juice
+    13. sour mix
+    14. margarita mix
+    15. lime juice
+    16. hot chocolate
+    17. tonic water
+    18. pineapple juice
+    19. bitters
+    20. orange bitters
+    21. grenadine
+    22. Guava Juice
+    23. Apple Cider
+
+
+  Produce:
+    1.cherry
+    2. lemon peel
+    3. celery
+    4. orange
+    5. lime
+    6. egg white
+    7. fresh mint
+    8. sugar
+    9. cream
+    10. milk
+    11. coffee
+    12. nutmeg
+    13. ginger
+    14. brown sugar
+    15. cloves
+    16. allspice
+    17. cinnamon
+
+    Beer/Wine:
+    1. sherry
+    2. red wine
+    3. white wine
+    4. champagne
