@@ -8,6 +8,10 @@ body {
   font-family: arial;
 }
 
+.hidden {
+  display: none;
+}
+
 /*HEADER*/
 h1{
   text-align: center;
@@ -118,11 +122,9 @@ form{
   border-radius: 20px;
   text-align: center;
   font-size: 1.2em;
+  cursor: pointer;
 }
 
-.recipe-link span {
-  margin
-}
 
 .recipe-link:nth-of-type(-n+2){
   margin-bottom: 10px;
@@ -161,4 +163,5 @@ form{
   top: 10px;
   font-size: 2em;
   font-weight: bold;
+  cursor: pointer;
 }

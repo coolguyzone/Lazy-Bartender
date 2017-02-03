@@ -372,3 +372,53 @@ const drinkList = [
 
 
 ]
+let availableIngredients = [];
+const checkboxes = document.querySelectorAll('input[type=checkbox]');
+const card = document.querySelector('.card');
+const cardClose = document.querySelector('.card-close');
+const recipeLink = document.querySelector('.recipe-link');
+const recipeBox = document.querySelector('.recipe-box');
+
+//CARDS
+//CLOSE CARD WHEN CLICKING ON X
+cardClose.addEventListener('click', closeCard);
+
+function closeCard() {
+  card.classList.add('hidden');
+}
+
+//MAKE CARD LINKS SHOW recipe-box
+// recipeLink.addEventListener('click', showCard);
+//
+// function showCard() {
+//   card.classList.remove('hidden');
+// }
+
+function addOrRemove(array, value) {
+  var index = array.indexOf(value);
+  if(index === -1) {
+    array.push(value);
+  } else{
+    array.splice(index,1);
+  }
+}
+
+checkboxes.forEach(function(element){
+  element.addEventListener('click', addIngredient);
+})
+
+function addIngredient(event) {
+
+  // availableIngredients.push(event.target.id);
+  addOrRemove(availableIngredients, event.target.id);
+
+  drinkList.forEach(function(element){
+    if(element.ingredients.indexOf(event.target.id) > -1){
+      let recipeLink = document.createElement('div');
+      recipeLink.classList.add('recipe-link');
+      recipeLink.innerHTML=`<span>${element.name}</span>`;
+      recipeBox.append(recipeLink);
+    }
+  })
+  console.log(availableIngredients);
+}
