@@ -95,14 +95,70 @@ form{
 
 /*BOTTOM*/
 .bottom {
-}
-.recipe-box {
   background-color: #101010;
   height: 130px;
-  width: 60%;
+  width: 620px;
   border-radius: 5px;
   position: fixed;
   bottom: 3%;
   left: 20%;
   right: 20%;
+  margin: 0 auto;
+}
+.recipe-box {
+  margin: 10px 46px;
+}
+
+.recipe-link {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  width: 260px;
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.recipe-link span {
+  margin
+}
+
+.recipe-link:nth-of-type(-n+2){
+  margin-bottom: 10px;
+}
+
+/*CARDS*/
+.card {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 1;
+  left: 20%;
+  right: 20%;
+}
+
+.card-title h2{
+    text-align: center;
+    font-size: 3em;
+    color: red;
+}
+
+.card-ingredients, .card-body, .card-glass {
+  margin: 0 100px 80px 100px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 2em;
+  font-weight: bold;
 }
