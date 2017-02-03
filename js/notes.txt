@@ -18,6 +18,7 @@ Liquor Categories:
     16. peppermint schnapps
     17. creme de menthe
     18. Citrus Vodka
+    19. Sambuca
 
 
   Brown:
@@ -110,6 +111,7 @@ Liquor Categories:
     15. cloves
     16. allspice
     17. cinnamon
+    18. Vanilla Ice-Cream
 
     Beer/Wine:
     1. sherry
