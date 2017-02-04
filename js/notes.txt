@@ -46,32 +46,45 @@ Liquor Categories:
     23. 151 Proof Rum
     24. Blended Whiskey
     Black Sambuca
+    Añejo Rum
 
   Colorful:
-    1. hypnotiq
     2. absinthe
-    3. pimm's
-    4. goldschlagger
     5. Irish Cream
     6. triple sec
-    7. Midori
-    8. chartreuse
+    7. Midori Melon
+    8. yellow chartreuse
+    green chartreuse
     9. campari
-    10. creme de banane
+    10. Creme de Banane
     11. strawberry schnapps
     12. apricot brandy
     13. Sloe gin
-    14. white creme de cacao
+    14. creme de cacao
     15. blackberry brandy
     16. apple brandy
     17. green creme de menthe
     18. maraschino liqueur
+    'Chambord Raspberry Liqueur'
+
+    Beer/Wine: {
+    Red Wine
+    White Wine
+    Champagne
+    Ale
+    Lager
+    Guinness Stout
+    Sherry
+    Port
+
+    }
 
   Mixers:
     1. cola
     2. lemon-lime soda
     3. ginger ale
     4. lemonade
+    pink lemonade
     5. iced tea
     6. club soda
     7. ginger beer
@@ -86,32 +99,43 @@ Liquor Categories:
     16. hot chocolate
     17. tonic water
     18. pineapple juice
-    19. bitters
+    19. angostura bitters
     20. orange bitters
+    simple syrup
     21. grenadine
     22. Guava Juice
     23. Apple Cider
+    tomato juice
 
 
   Produce:
     1.cherry
     2. lemon peel
-    3. celery
     4. orange
+    orange peel
     5. lime
+    lime peel
     6. egg white
-    7. fresh mint
+    7. mint
     8. sugar
+    powdered sugar
+    brown sugar
     9. cream
+    whipped cream
     10. milk
     11. coffee
     12. nutmeg
     13. ginger
-    14. brown sugar
     15. cloves
     16. allspice
     17. cinnamon
     18. Vanilla Ice-Cream
+    chocolate ice cream
+    Fruit
+    Worcestershire sauce
+    tabasco sauce
+    maple syrup
+    tea
 
     Beer/Wine:
     1. sherry
