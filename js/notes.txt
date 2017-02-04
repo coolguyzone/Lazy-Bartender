@@ -1,24 +1,26 @@
 Liquor Categories:
   Clear:
-    1.vodka
-    2.gin
-    3.light rum
-    4.light tequila
-    5. moonshine
-    6. fruity vodka
-    7. vanilla vodka
-    8. malibu rum
-    9. dry vermouth
-    10. sake
-    11. cachaca
-    12. Baijiu
+    1.Vodka
+    2.Gin
+    3.Light Rum
+    4.Tequila
+    6.
+    8. Malibu Rum
+    9. Dry Vermouth
+    10. Sake
+    11. Cachaca
     13. Pisco
     14. Kirschwasser
-    15. Peach schnapps
+    15. Peach Schnapps
     16. peppermint schnapps
-    17. creme de menthe
-    18. Citrus Vodka
+    17. Creme de Menthe
     19. Sambuca
+    Lemon Vodka
+    Citrus Vodka
+    Lime Vodka
+    Peach Vodka
+    Cranberry Vodka
+    Vanilla Vodka
 
 
   Brown:
@@ -43,6 +45,7 @@ Liquor Categories:
     22. Amaretto
     23. 151 Proof Rum
     24. Blended Whiskey
+    Black Sambuca
 
   Colorful:
     1. hypnotiq
