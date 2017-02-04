@@ -22,30 +22,27 @@ Liquor Categories:
 
 
   Brown:
-    1.Bourbon Whiskey
-    2. scotch
-    3. coffee liquer
-    4. drambuie
-    5. dark rum
-    6. spiced rum
-    7. dark tequila
+    1.Bourbon
+    2. Scotch
+    3. Coffee Liqueur
+    4. Drambuie
+    5. Dark Rum
+    6. Spiced Rum
+    7. Gold Tequila
     8. Brandy
     9. Cognac
-    10. canadian whisky
-    11. irish whiskey
-    12. rye whiskey
-    13. sweet vermouth
-    14. Cinammon Whiskey
-    15. Chocolate Liquer
-    16. Jagermeister
-    17. Fernet
-    18. frangelico
-    19. grand marnier
-    20. anejo rum
-    21. southern comfort
-    22. amaretto
-    23. 151 rum
-    24. blended whiskey
+    10. Canadian Whisky
+    11. Irish Whiskey
+    12. Rye Whiskey
+    13. Sweet Vermouth
+    15. Chocolate Liqueur
+    16. Jägermeister
+    18. Frangelico
+    19. Grand Marnier
+    21. Southern Comfort
+    22. Amaretto
+    23. 151 Proof Rum
+    24. Blended Whiskey
 
   Colorful:
     1. hypnotiq
