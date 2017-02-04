@@ -21654,15 +21654,34 @@ icons.forEach(function(element){
 })
 
 function displayArrowBox(event){
-  let ul = document.createElement('ul');
+  let ul1 = document.createElement('ul');
+  let ul2 = document.createElement('ul');
+  let ul3 = document.createElement('ul');
+  let ul4 = document.createElement('ul');
   ingredientArr = iconReference[event.target.id];
   ingredientArr.forEach(function(element){
     let li = document.createElement('li');
-    li.innerHTML = `<input type="checkbox" id="${element}">${element}<label for=""></label>`
-    ul.append(li);
+    li.innerHTML = `<input type="checkbox" id="${element}">${element}<label for=""></label>`;
+
+    if (ingredientArr.indexOf(element) < 7){
+      ul1.append(li);
+    }
+    else if (ingredientArr.indexOf(element) < 14){
+      ul2.append(li);
+    }
+    else if(ingredientArr.indexOf(element) < 21) {
+      ul3.append(li);
+    }
+    else if(ingredientArr.indexOf(element) < 28) {
+      ul4.append(li);
+    }
   })
   console.log(ingredientArr);
-  form.append(ul);
+  form.append(ul1);
+  form.append(ul2);
+  form.append(ul3);
+  form.append(ul4);
+
   arrowBox.classList.remove('hidden-with-space');
   //set eventlistener on CHECKBOXES
   let checkboxes = document.querySelectorAll('input[type=checkbox]');
