@@ -99,14 +99,14 @@ form{
 
 /*BOTTOM*/
 .bottom {
-  background-color: #101010;
+  background-color: #282828;
   height: 130px;
   width: 620px;
   border-radius: 5px;
-  position: fixed;
+  /*position: fixed;
   bottom: 3%;
   left: 20%;
-  right: 20%;
+  right: 20%;*/
   margin: 0 auto;
 }
 .recipe-box {
