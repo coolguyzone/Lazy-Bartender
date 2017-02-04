@@ -21496,7 +21496,33 @@ const drinkList = [
 
 
 ]
-const brownLiquors = [
+
+const iconReference = {
+  brownDrinks: [
+    'Bourbon',
+    'Scotch',
+    'Coffee Liqueur',
+    'Drambuie',
+    'Dark Rum',
+    'Spiced Rum',
+    'Gold Tequila',
+    'Brandy',
+    'Cognac',
+    'Canadian Whisky',
+    'Irish Whiskey',
+    'Rye Whiskey',
+    'Sweet Vermouth',
+    'Chocolate Liqueur',
+    'Jägermeister',
+    'Frangelico',
+    'Grand Marnier',
+    'Southern Comfort',
+    'Amaretto',
+    '151 Proof Rum',
+    'Blended Whiskey'
+  ]
+}
+const brownDrinks = [
   'Bourbon',
   'Scotch',
   'Coffee Liqueur',
@@ -21521,7 +21547,6 @@ const brownLiquors = [
 ]
 let availableIngredients = ['Water', 'Ice'];
 let availableDrinks = [];
-const checkboxes = document.querySelectorAll('input[type=checkbox]');
 const card = document.querySelector('.card');
 const cardClose = document.querySelector('.card-close');
 let recipeLinks = document.querySelectorAll('.recipe-link');
@@ -21531,7 +21556,9 @@ const cardIngredients = document.querySelector('.card-ingredients');
 const cardBody = document.querySelector('.card-body');
 const cardGlass = document.querySelector('.card-glass');
 const vowels = ['a','e','i','o','u'];
-
+const icons = document.querySelectorAll('.icon');
+const arrowBox = document.querySelector('.arrow_box');
+const form = document.querySelector('form');
 //CARDS
 //CLOSE CARD WHEN CLICKING ON X
 cardClose.addEventListener('click', closeCard);
@@ -21550,9 +21577,7 @@ function addOrRemove(array, value) {
   }
 }
 
-checkboxes.forEach(function(element){
-  element.addEventListener('click', addIngredient);
-})
+
 
 //function to see if the ingredients array contains all the ingredients for a drink
 
@@ -21621,6 +21646,30 @@ function displayRecipe(event){
   }
   console.log(cardIngredients);
   card.classList.remove('hidden');
+}
+
+//ADD EVENT LISTENER TO ICONS
+icons.forEach(function(element){
+  element.addEventListener('click', displayArrowBox);
+})
+
+function displayArrowBox(event){
+  let ul = document.createElement('ul');
+  ingredientArr = iconReference[event.target.id];
+  ingredientArr.forEach(function(element){
+    let li = document.createElement('li');
+    li.innerHTML = `<input type="checkbox" id="${element}">${element}<label for=""></label>`
+    ul.append(li);
+  })
+  console.log(ingredientArr);
+  form.append(ul);
+  arrowBox.classList.remove('hidden-with-space');
+  //set eventlistener on CHECKBOXES
+  let checkboxes = document.querySelectorAll('input[type=checkbox]');
+  checkboxes.forEach(function(element){
+    element.addEventListener('click', addIngredient);
+  })
+
 }
 
 //Vowel Checker
