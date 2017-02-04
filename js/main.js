@@ -21503,8 +21503,8 @@ const drinkList = [
 
 
 ]
-let availableIngredients = [];
-
+let availableIngredients = ['Water', 'Ice'];
+let availableDrinks = [];
 const checkboxes = document.querySelectorAll('input[type=checkbox]');
 const card = document.querySelector('.card');
 const cardClose = document.querySelector('.card-close');
@@ -21561,12 +21561,12 @@ function addIngredient(event) {
         x = false;
       }
             }
-      if (x === true) {
+      if (x === true && (availableDrinks.indexOf(drinkList[i].name) < 0)) {
         let recipeLink = document.createElement('div');
         recipeLink.classList.add('recipe-link');
         recipeLink.innerHTML=`<span>${drinkList[i].name}</span>`;
         recipeBox.append(recipeLink);
-
+        availableDrinks.push(drinkList[i].name);
     }
   }
 
