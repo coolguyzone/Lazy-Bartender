@@ -313,7 +313,7 @@ const drinkList = [
 
   {
       name: "Apple Blow Fizz",
-      ingredients: [ 'Apple Brandy', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated water'],
+      ingredients: [ 'Apple Brandy', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated Water'],
       measures: [ '2 oz ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -321,7 +321,7 @@ const drinkList = [
 
   {
       name: "Apple Brandy Highball",
-      ingredients: [ 'Apple Brandy', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Apple Brandy', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour apple brandy over ice cubes in a highball glass. Fill with carbonated water and stir. Add a twist of lemon peel on top and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
       glass: 'Highball glass'
@@ -353,7 +353,7 @@ const drinkList = [
 
   {
       name: "Apple Rum Rickey",
-      ingredients: [ 'Light Rum', 'Applejack', 'Lime', 'Carbonated water'],
+      ingredients: [ 'Light Rum', 'Applejack', 'Lime', 'Carbonated Water'],
       measures: [ '3/4 oz ', '3/4 oz ', '1/4 '],
       instructions: "Pour applejack and rum into a highball glass over ice cubes. Fill with carbonated water. Squeeze lime and drop in glass. Stir and serve.",
       glass: 'Highball glass'
@@ -377,7 +377,7 @@ const drinkList = [
 
   {
       name: "Apricot Anise Collins",
-      ingredients: [ 'Apricot Brandy', 'Gin', 'Anisette', 'Lemon Juice', 'Carbonated water', 'Lemon'],
+      ingredients: [ 'Apricot Brandy', 'Gin', 'Anisette', 'Lemon Juice', 'Carbonated Water', 'Lemon'],
       measures: [ '1/2 oz ', '1 1/2 oz ', '1 1/2 tsp ', '1 tblsp '],
       instructions: "Shake gin, brandy, anisette, and lemon juice with ice and strain into a collins glass over ice cubes. Fill with carbonated water and stir lightly. Decorate with the slice of lemon and serve.",
       glass: 'Collins glass'
@@ -449,7 +449,7 @@ const drinkList = [
 
   {
       name: "Bahama Mama",
-      ingredients: [ 'Coffee Liqueur', 'Dark Rum', 'Coconut Liqueur', '151 Proof Rum', 'Lemon', 'Pineapple Juice'],
+      ingredients: [ 'Coffee Liqueur', 'Dark Rum', 'Coconut Liqueur', 'Bacardi-151', 'Lemon', 'Pineapple Juice'],
       measures: [ '1/4 oz ', '1/2 oz ', '1/2 oz ', '1/4 oz ', 'Juice of 1/2 ', '4 oz '],
       instructions: "Combine all ingredients and pour over cracked ice in a collins glass. Decorate with a strawberry or cherry and serve.",
       glass: 'Collins glass'
@@ -513,7 +513,7 @@ const drinkList = [
 
   {
       name: "Banana Punch #1",
-      ingredients: [ 'Apricot Brandy', 'Vodka', 'Lime', 'Banana', 'Carbonated water', 'Mint'],
+      ingredients: [ 'Apricot Brandy', 'Vodka', 'Lime', 'Banana', 'Carbonated Water', 'Mint'],
       measures: [ '1 1/2 tsp ', '2 oz ', 'Juice of 1/2 ', '1/2 ', ' sprigs '],
       instructions: "Pour brandy, vodka, and juice of lime into a collins glass over crushed ice. Fill with carbonated water and stir. Decorate with banana slices and mint sprigs and serve.",
       glass: 'Collins glass'
@@ -665,7 +665,7 @@ const drinkList = [
 
   {
       name: "Bermuda Highball",
-      ingredients: [ 'Brandy', 'Gin', 'Dry Vermouth', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Brandy', 'Gin', 'Dry Vermouth', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz '],
       instructions: "Pour brandy, gin, and dry vermouth into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist of lemon and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
       glass: 'Highball glass'
@@ -729,7 +729,7 @@ const drinkList = [
 
   {
       name: "Billy Taylor",
-      ingredients: [ 'Gin', 'Lime', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Lime', 'Carbonated Water'],
       measures: [ '2 oz ', 'Juice of 1/2 '],
       instructions: "Pour gin and juice of lime into a collins glass over ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Collins glass'
@@ -1105,7 +1105,7 @@ const drinkList = [
 
   {
       name: "Bourbon Highball",
-      ingredients: [ 'Bourbon', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Bourbon', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour bourbon into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist of lemon peel and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
       glass: 'Highball glass'
@@ -1241,7 +1241,7 @@ const drinkList = [
 
   {
       name: "Brandy Collins",
-      ingredients: [ 'Lemon', 'Brandy', 'Powdered sugar', 'Orange', 'Carbonated water', 'Cherry'],
+      ingredients: [ 'Lemon', 'Brandy', 'Powdered sugar', 'Orange', 'Carbonated Water', 'Cherry'],
       measures: [ 'Juice of 1/2 ', '2 oz ', '1 tsp ', '1 slice '],
       instructions: "Shake juice of lemon, brandy, and powdered sugar with cracked ice and strain into a collins glass. Add ice cubes, fill with carbonated water, and stir. Garnish with a slice of orange and top with a cherry. Serve with a straw.",
       glass: 'Collins glass'
@@ -1297,7 +1297,7 @@ const drinkList = [
 
   {
       name: "Brandy Highball",
-      ingredients: [ 'Brandy', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Brandy', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour brandy into a highball glass over ice cubes. Fill with carbonated water, add the twist of lemon peel, stir gently, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
       glass: 'Highball glass'
@@ -1313,7 +1313,7 @@ const drinkList = [
 
   {
       name: "Brandy Sangaree",
-      ingredients: [ 'Brandy', 'Powdered sugar', 'Water', 'Carbonated water', 'Port', 'Nutmeg'],
+      ingredients: [ 'Brandy', 'Powdered sugar', 'Water', 'Carbonated Water', 'Port', 'Nutmeg'],
       measures: [ '2 oz ', '1/2 tsp ', '1 tsp '],
       instructions: "Dissolve powdered sugar in 1 tsp. water. Add brandy and pour into a highball glass over ice cubes. Fill with carbonated water and stir. Float port on top, sprinkle lightly with nutmeg, and serve.",
       glass: 'Highball glass'
@@ -1609,7 +1609,7 @@ const drinkList = [
 
   {
       name: "California Lemonade",
-      ingredients: [ 'Blended Whiskey', 'Lemon', 'Lime', 'Powdered sugar', 'Grenadine', 'Carbonated water'],
+      ingredients: [ 'Blended Whiskey', 'Lemon', 'Lime', 'Powdered sugar', 'Grenadine', 'Carbonated Water'],
       measures: [ '2 oz ', 'Juice of 1 ', 'Juice of 1 ', '1 tblsp ', '1/4 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over shaved ice. Fill with carbonated water and stir. Decorate with slices of orange and lemon. Add the cherry and serve with a straw.",
       glass: 'Collins glass'
@@ -1849,7 +1849,7 @@ const drinkList = [
 
   {
       name: "Cherry Fizz",
-      ingredients: [ 'Cherry Brandy', 'Lemon', 'Carbonated water', 'Cherry'],
+      ingredients: [ 'Cherry Brandy', 'Lemon', 'Carbonated Water', 'Cherry'],
       measures: [ '2 oz ', 'Juice of 1/2 '],
       instructions: "Shake juice of lemon and cherry brandy with ice and strain into a highball glass over two ice cubes. Fill with carbonated water and stir. Top with the cherry and serve.",
       glass: 'Highball glass'
@@ -1889,7 +1889,7 @@ const drinkList = [
 
   {
       name: "Chicago Fizz",
-      ingredients: [ 'Light Rum', 'Port', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated water'],
+      ingredients: [ 'Light Rum', 'Port', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated Water'],
       measures: [ '1 oz ', '1 oz ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -1913,7 +1913,7 @@ const drinkList = [
 
   {
       name: "Chocolate Mint Rum",
-      ingredients: [ 'Dark Rum', '151 Proof Rum', 'Dark Creme de Cacao', 'White Creme de Menthe', 'Light cream'],
+      ingredients: [ 'Dark Rum', 'Bacardi-151', 'Dark Creme de Cacao', 'White Creme de Menthe', 'Light cream'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', '2 tsp ', '1/2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -1921,7 +1921,7 @@ const drinkList = [
 
   {
       name: "Chocolate Rum",
-      ingredients: [ 'Light Rum', '151 Proof Rum', 'Creme de Cacao', 'White Creme de Menthe', 'Cream'],
+      ingredients: [ 'Light Rum', 'Bacardi-151', 'Creme de Cacao', 'White Creme de Menthe', 'Cream'],
       measures: [ '1 oz ', '1 tsp ', '1/2 oz ', '1/2 oz ', '1 tblsp '],
       instructions: "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
       glass: 'Old-fashioned glass'
@@ -2049,7 +2049,7 @@ const drinkList = [
 
   {
       name: "Cognac Highball",
-      ingredients: [ 'Cognac', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Cognac', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour cognac into a highball glass over ice cubes. Fill with carbonated water. Add the twist of lemon peel, stir, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
       glass: 'Highball glass'
@@ -2145,7 +2145,7 @@ const drinkList = [
 
   {
       name: "Country Club Cooler",
-      ingredients: [ 'Dry Vermouth', 'Carbonated water', 'Grenadine', 'Orange spiral', 'Lemon Peel'],
+      ingredients: [ 'Dry Vermouth', 'Carbonated Water', 'Grenadine', 'Orange spiral', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour grenadine and 2 oz. carbonated water into a collins glass and stir. Add ice cubes and dry vermouth. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass.",
       glass: 'Collins glass'
@@ -2161,7 +2161,7 @@ const drinkList = [
 
   {
       name: "Cream Fizz",
-      ingredients: [ 'Gin', 'Powdered sugar', 'Lemon', 'Light cream', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Powdered sugar', 'Lemon', 'Light cream', 'Carbonated Water'],
       measures: [ '2 oz ', '1 tsp ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -2473,7 +2473,7 @@ const drinkList = [
 
   {
       name: "Doralto",
-      ingredients: [ 'Tequila', 'Lemon Juice', 'Sugar',   'Angostura Bitters', 'Tonic water', 'Lime'],
+      ingredients: [ 'Tequila', 'Lemon Juice', 'Sugar',   'Angostura Bitters', 'Tonic Water', 'Lime'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 tsp superfine ', '1 dash ', '4 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the tequila, lemon juice, sugar, and bitters. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the tonic water and garnish with the lime wedge.",
       glass: 'Highball glass'
@@ -2537,7 +2537,7 @@ const drinkList = [
 
   {
       name: "Dubonnet Fizz",
-      ingredients: [ 'Dubonnet Rouge', 'Cherry Brandy', 'Carbonated water', 'Orange', 'Lemon'],
+      ingredients: [ 'Dubonnet Rouge', 'Cherry Brandy', 'Carbonated Water', 'Orange', 'Lemon'],
       measures: [ '2 oz ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -2617,7 +2617,7 @@ const drinkList = [
 
   {
       name: "English Highball",
-      ingredients: [ 'Brandy', 'Gin', 'Sweet Vermouth', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Brandy', 'Gin', 'Sweet Vermouth', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz '],
       instructions: "Pour brandy, gin, and sweet vermouth into a highball glass over ice cubes. Fill with carbonated water. Add the twist of lemon peel, stir, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
       glass: 'Highball glass'
@@ -2641,7 +2641,7 @@ const drinkList = [
 
   {
       name: "Entwistle's Error",
-      ingredients: [ 'Dark Rum', 'Lemon Juice', 'Tonic water'],
+      ingredients: [ 'Dark Rum', 'Lemon Juice', 'Tonic Water'],
       measures: [ '2 oz ', '1/2 oz ', '4 oz '],
       instructions: "Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well.",
       glass: 'Highball glass'
@@ -2929,7 +2929,7 @@ const drinkList = [
 
   {
       name: "Free Silver",
-      ingredients: [ 'Dark Rum', 'Gin', 'Lemon', 'Powdered sugar', 'Milk', 'Carbonated water'],
+      ingredients: [ 'Dark Rum', 'Gin', 'Lemon', 'Powdered sugar', 'Milk', 'Carbonated Water'],
       measures: [ '1/2 oz ', '1 1/2 oz ', 'Juice of 1/4 ', '1/2 tsp ', '1 tblsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Collins glass'
@@ -3105,7 +3105,7 @@ const drinkList = [
 
   {
       name: "Gin And Bitter Lemon",
-      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Tonic water'],
+      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Tonic Water'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 tsp superfine ', '4 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the tonic water.",
       glass: 'Highball glass'
@@ -3121,7 +3121,7 @@ const drinkList = [
 
   {
       name: "Gin And Pink",
-      ingredients: [ 'Gin', 'Tonic water',   'Angostura Bitters', 'Lemon Peel'],
+      ingredients: [ 'Gin', 'Tonic Water',   'Angostura Bitters', 'Lemon Peel'],
       measures: [ '2 oz ', '5 oz ', '2 dashes ', '1 twist of '],
       instructions: "In a highball glass almost filled with ice cubes, combine the gin, gonic, and bitters. Stir well and garnish with the lemon twist.",
       glass: 'Highball glass'
@@ -3137,7 +3137,7 @@ const drinkList = [
 
   {
       name: "Gin And Tonic",
-      ingredients: [ 'Gin', 'Tonic water', 'Lime'],
+      ingredients: [ 'Gin', 'Tonic Water', 'Lime'],
       measures: [ '2 oz ', '5 oz '],
       instructions: "Pour the gin and the tonic water into a highball glass almost filled with ice cubes. Stir well. Garnish with the lime wedge.",
       glass: 'Highball glass'
@@ -3169,7 +3169,7 @@ const drinkList = [
 
   {
       name: "Gin Cooler",
-      ingredients: [ 'Gin', 'Carbonated water', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
+      ingredients: [ 'Gin', 'Carbonated Water', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice and add gin. Fill with carbonated water and stir. Add the lemon peel and the orange spiral so that the end of the orange spiral dangles over rim of glass.",
       glass: 'Collins glass'
@@ -3193,7 +3193,7 @@ const drinkList = [
 
   {
       name: "Gin Fizz",
-      ingredients: [ 'Gin', 'Lemon', 'Powdered sugar', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Lemon', 'Powdered sugar', 'Carbonated Water'],
       measures: [ '2 oz ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake gin, juice of lemon, and powdered sugar with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -3201,7 +3201,7 @@ const drinkList = [
 
   {
       name: "Gin Highball",
-      ingredients: [ 'Gin', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Gin', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour gin into a highball glass over ice cubes. Fill with carbonated water. Add the twist of lemon peel, stir, and serve.",
       glass: 'Highball glass'
@@ -3217,7 +3217,7 @@ const drinkList = [
 
   {
       name: "Gin Sangaree",
-      ingredients: [ 'Gin', 'Carbonated water', 'Port', 'Powdered sugar', 'Water', 'Nutmeg'],
+      ingredients: [ 'Gin', 'Carbonated Water', 'Port', 'Powdered sugar', 'Water', 'Nutmeg'],
       measures: [ '2 oz '],
       instructions: "Dissolve powdered sugar in water and add gin. Pour into a highball glass over 2 ice cubes. Fill with carbonated water and stir. Float port on top, sprinkle lightly with nutmeg, and serve.",
       glass: 'Highball glass'
@@ -3225,7 +3225,7 @@ const drinkList = [
 
   {
       name: "Gin Rickey",
-      ingredients: [ 'Gin', 'Lime', 'Carbonated water', 'Lime'],
+      ingredients: [ 'Gin', 'Lime', 'Carbonated Water', 'Lime'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 '],
       instructions: "Pour juice of lime and gin into a highball glass over ice cubes. Fill with carbonated water and stir. Add the wedge of lime and serve.",
       glass: 'Highball glass'
@@ -3241,7 +3241,7 @@ const drinkList = [
 
   {
       name: "Gin Smash",
-      ingredients: [ 'Gin', 'Carbonated water', 'Sugar', 'Mint', 'Orange', 'Cherry'],
+      ingredients: [ 'Gin', 'Carbonated Water', 'Sugar', 'Mint', 'Orange', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1 cube ', '1 slice '],
       instructions: "Muddle sugar with carbonated water and mint sprigs in an old-fashioned glass. Add gin and 1 ice cube. Stir, add the orange slice and the cherry, and serve.",
       glass: 'Old-fashioned glass'
@@ -3249,7 +3249,7 @@ const drinkList = [
 
   {
       name: "Gin Squirt",
-      ingredients: [ 'Gin', 'Grenadine', 'Powdered sugar', 'Pineapple', 'Strawberries', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Grenadine', 'Powdered sugar', 'Pineapple', 'Strawberries', 'Carbonated Water'],
       measures: [ '1 1/2 oz ', '1 tsp ', '1 tblsp ', '3 chunks '],
       instructions: "Stir gin, grenadine, and powdered sugar with ice and strain into a highball glass over ice cubes. Fill with carbonated water and stir. Decorate with the pineapple chunks and the strawberries and serve.",
       glass: 'Highball glass'
@@ -3329,7 +3329,7 @@ const drinkList = [
 
   {
       name: "Golden Fizz",
-      ingredients: [ 'Gin', 'Lemon', 'Sugar', 'Egg yolk', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Lemon', 'Sugar', 'Egg yolk', 'Carbonated Water'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 ', '1/2 tblsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass. Fill with carbonated water and serve.",
       glass: 'Highball glass'
@@ -3417,7 +3417,7 @@ const drinkList = [
 
   {
       name: "Green Fizz",
-      ingredients: [ 'Gin', 'Green Creme de Menthe', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Green Creme de Menthe', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated Water'],
       measures: [ '2 oz ', '1 tsp ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over 2 ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -3505,7 +3505,7 @@ const drinkList = [
 
   {
       name: "Harvard Cooler",
-      ingredients: [ 'Carbonated water', 'Apple Brandy', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
+      ingredients: [ 'Carbonated Water', 'Apple Brandy', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
       measures: [],
       instructions: "Pour 2 oz. carbonated water in a collins glass. Add powdered sugar and stir. Add ice cubes and apple brandy. Fill with carbonated water and stir again. Add the twist of lemon peel and the spiral of orange so that the end dangles over rim of glass.",
       glass: 'Collins glass'
@@ -3697,7 +3697,7 @@ const drinkList = [
 
   {
       name: "Hudson Bay",
-      ingredients: [ 'Cherry Brandy', 'Gin', '151 Proof Rum', 'Orange Juice', 'Lime Juice'],
+      ingredients: [ 'Cherry Brandy', 'Gin', 'Bacardi-151', 'Orange Juice', 'Lime Juice'],
       measures: [ '1/2 oz ', '1 oz ', '1 1/2 tsp ', '1 tblsp ', '1 1/2 tsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -3753,7 +3753,7 @@ const drinkList = [
 
   {
       name: "Imperial Fizz",
-      ingredients: [ 'Light Rum', 'Blended Whiskey', 'Lemon', 'Powdered sugar', 'Carbonated water'],
+      ingredients: [ 'Light Rum', 'Blended Whiskey', 'Lemon', 'Powdered sugar', 'Carbonated Water'],
       measures: [ '1/2 oz ', '1 1/2 oz ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -3761,7 +3761,7 @@ const drinkList = [
 
   {
       name: "Irish Rickey",
-      ingredients: [ 'Irish Whiskey', 'Lime', 'Lime', 'Carbonated water'],
+      ingredients: [ 'Irish Whiskey', 'Lime', 'Lime', 'Carbonated Water'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 ', '1 wedge '],
       instructions: "Pour Irish whiskey and juice of lime into a highball glass over ice cubes. Fill with carbonated water and stir. Add the wedge of lime and serve.",
       glass: 'Highball glass'
@@ -3889,7 +3889,7 @@ const drinkList = [
 
   {
       name: "Japanese Fizz",
-      ingredients: [ 'Blended Whiskey', 'Lemon', 'Powdered sugar', 'Port', 'Egg White', 'Carbonated water'],
+      ingredients: [ 'Blended Whiskey', 'Lemon', 'Powdered sugar', 'Port', 'Egg White', 'Carbonated Water'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 ', '1 tsp ', '1 tblsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -3961,7 +3961,7 @@ const drinkList = [
 
   {
       name: "Jocose Julep",
-      ingredients: [ 'Bourbon', 'Green Creme de Menthe', 'Lime Juice', 'Sugar', 'Mint', 'Carbonated water'],
+      ingredients: [ 'Bourbon', 'Green Creme de Menthe', 'Lime Juice', 'Sugar', 'Mint', 'Carbonated Water'],
       measures: [ '2 1/2 oz ', '1/2 oz ', '1 oz ', '1 tsp '],
       instructions: "Blend all ingredients (except carbonated water) in an electric blender at a low speed for a short length of time. Pour into a collins glass over ice cubes. Fill with carbonated water and serve.",
       glass: 'Collins glass'
@@ -4105,7 +4105,7 @@ const drinkList = [
 
   {
       name: "Klondike Cooler",
-      ingredients: [ 'Blended Whiskey', 'Carbonated water', 'Powdered sugar', 'Lemon Peel', 'Orange spiral'],
+      ingredients: [ 'Blended Whiskey', 'Carbonated Water', 'Powdered sugar', 'Lemon Peel', 'Orange spiral'],
       measures: [ '2 oz '],
       instructions: "Mix powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice and add blended whiskey. Fill with carbonated water and stir. Add twist of lemon peel and orange spiral so that the end dangles over rim of glass.",
       glass: 'Collins glass'
@@ -4193,7 +4193,7 @@ const drinkList = [
 
   {
       name: "Lady Love Fizz",
-      ingredients: [ 'Gin', 'Light cream', 'Powdered sugar', 'Lemon', 'Egg White', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Light cream', 'Powdered sugar', 'Lemon', 'Egg White', 'Carbonated Water'],
       measures: [ '2 oz ', '2 tsp ', '1 tsp ', 'Juice of 1/2 '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a cocktail glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Cocktail glass'
@@ -4321,7 +4321,7 @@ const drinkList = [
 
   {
       name: "Lone Tree Cooler",
-      ingredients: [ 'Carbonated water', 'Gin', 'Dry Vermouth', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
+      ingredients: [ 'Carbonated Water', 'Gin', 'Dry Vermouth', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
       measures: [],
       instructions: "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass.",
       glass: 'Collins glass'
@@ -4633,7 +4633,7 @@ const drinkList = [
 
   {
       name: "May Blossum Fizz",
-      ingredients: [ 'Swedish Punsch', 'Grenadine', 'Lemon', 'Carbonated water'],
+      ingredients: [ 'Swedish Punsch', 'Grenadine', 'Lemon', 'Carbonated Water'],
       measures: [ '2 oz ', '1 tsp ', 'Juice of 1/2 '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -4681,7 +4681,7 @@ const drinkList = [
 
   {
       name: "Merry Widow Fizz",
-      ingredients: [ 'Sloe gin', 'Orange', 'Lemon', 'Egg White', 'Powdered sugar', 'Carbonated water'],
+      ingredients: [ 'Sloe gin', 'Orange', 'Lemon', 'Egg White', 'Powdered sugar', 'Carbonated Water'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -4761,7 +4761,7 @@ const drinkList = [
 
   {
       name: "Mint Collins",
-      ingredients: [ 'Gin', 'Lemon', 'Carbonated water', 'Orange', 'Lemon', 'Cherry'],
+      ingredients: [ 'Gin', 'Lemon', 'Carbonated Water', 'Orange', 'Lemon', 'Cherry'],
       measures: [ '2 oz mint flavored ', 'Juice of 1/2 '],
       instructions: "Shake gin and juice of lemon with ice and strain into a collins glass over ice cubes. Fill with carbonated water and stir. Add slices of orange and lemon, top with the cherry, and serve with a straw.",
       glass: 'Collins glass'
@@ -4801,7 +4801,7 @@ const drinkList = [
 
   {
       name: "Mississippi Planters Punch",
-      ingredients: [ 'Brandy', 'Light Rum', 'Bourbon', 'Lemon', 'Powdered sugar', 'Carbonated water'],
+      ingredients: [ 'Brandy', 'Light Rum', 'Bourbon', 'Lemon', 'Powdered sugar', 'Carbonated Water'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', 'Juice of 1/2 ', '1 tblsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Collins glass'
@@ -4921,7 +4921,7 @@ const drinkList = [
 
   {
       name: "Morning Glory Fizz",
-      ingredients: [ 'Scotch', 'Anis', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated water'],
+      ingredients: [ 'Scotch', 'Anis', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated Water'],
       measures: [ '2 oz ', '1/2 tsp ', 'Juice of 1 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -5233,7 +5233,7 @@ const drinkList = [
 
   {
       name: "Papaya Sling",
-      ingredients: [ 'Gin', 'Lime', 'Papaya Juice',   'Angostura Bitters', 'Carbonated water', 'Pineapple'],
+      ingredients: [ 'Gin', 'Lime', 'Papaya Juice',   'Angostura Bitters', 'Carbonated Water', 'Pineapple'],
       measures: [ '1 1/2 oz ', 'Juice of 1 ', '1 tblsp ', '1 dash '],
       instructions: "Shake all ingredients (except carbonated water and pineapple stick) with ice and strain into a collins glass over ice cubes. Fill with carbonated water and stir. Add the pineapple stick and serve.",
       glass: 'Collins glass'
@@ -5273,7 +5273,7 @@ const drinkList = [
 
   {
       name: "Peach Blow Fizz",
-      ingredients: [ 'Gin', 'Light cream', 'Lemon', 'Powdered sugar', 'Peach', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Light cream', 'Lemon', 'Powdered sugar', 'Peach', 'Carbonated Water'],
       measures: [ '2 oz ', '1 oz ', 'Juice of 1/2 ', '1/2 tsp ', '1/4 '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -5377,7 +5377,7 @@ const drinkList = [
 
   {
       name: "Pineapple Cooler",
-      ingredients: [ 'White wine', 'Pineapple Juice', 'Carbonated water', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
+      ingredients: [ 'White wine', 'Pineapple Juice', 'Carbonated Water', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
       measures: [ '2 oz ', '2 oz '],
       instructions: "Put white wine, pineapple juice, powdered sugar, and 2 oz. carbonated water in a collins glass and stir. Add ice cubes, fill with carbonated water, and stir again. Add the lemon peel and the orange spiral so the end dangles over rim of glass.",
       glass: 'Collins glass'
@@ -5713,7 +5713,7 @@ const drinkList = [
 
   {
       name: "Remsen Cooler",
-      ingredients: [ 'Gin', 'Carbonated water', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
+      ingredients: [ 'Gin', 'Carbonated Water', 'Powdered sugar', 'Orange spiral', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Put powdered sugar and 2 oz. carbonated water into a collins glass and stir. Add ice cubes and gin, fill with carbonated water, and stir again. Add the twist of lemon peel and the spiral of orange so that the end dangles over rim of glass.",
       glass: 'Collins glass'
@@ -5865,7 +5865,7 @@ const drinkList = [
 
   {
       name: "Royal Gin Fizz",
-      ingredients: [ 'Gin', 'Lemon', 'Powdered sugar', 'Egg', 'Carbonated water'],
+      ingredients: [ 'Gin', 'Lemon', 'Powdered sugar', 'Egg', 'Carbonated Water'],
       measures: [ '2 oz ', 'Juice of 1/2 ', '1 tsp ', '1 whole '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -5889,7 +5889,7 @@ const drinkList = [
 
   {
       name: "Ruby Fizz",
-      ingredients: [ 'Sloe gin', 'Grenadine', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated water'],
+      ingredients: [ 'Sloe gin', 'Grenadine', 'Lemon', 'Powdered sugar', 'Egg White', 'Carbonated Water'],
       measures: [ '2 oz ', '1 tsp ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -5913,7 +5913,7 @@ const drinkList = [
 
   {
       name: "Rum Collins",
-      ingredients: [ 'Light Rum', 'Lime', 'Powdered sugar', 'Carbonated water', 'Lemon', 'Cherry'],
+      ingredients: [ 'Light Rum', 'Lime', 'Powdered sugar', 'Carbonated Water', 'Lemon', 'Cherry'],
       measures: [ '2 oz ', 'Juice of 1 ', '1 tsp '],
       instructions: "Shake rum, juice of lime, and powdered sugar with ice and strain into a collins glass over ice cubes. Fill with carbonated water and stir. Add the slice of lemon, top with the cherry, and serve.",
       glass: 'Collins glass'
@@ -5969,7 +5969,7 @@ const drinkList = [
 
   {
       name: "Rum Highball",
-      ingredients: [ 'Rum', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Rum', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz light or dark '],
       instructions: "Pour rum into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist of lemon peel and serve.",
       glass: 'Highball glass'
@@ -5993,7 +5993,7 @@ const drinkList = [
 
   {
       name: "Rum Old-fashioned",
-      ingredients: [ 'Light Rum', '151 Proof Rum', 'Powdered sugar',   'Angostura Bitters', 'Water', 'Lime Peel'],
+      ingredients: [ 'Light Rum', 'Bacardi-151', 'Powdered sugar',   'Angostura Bitters', 'Water', 'Lime Peel'],
       measures: [ '1 1/2 oz ', '1 tsp ', '1/2 tsp ', '1 dash ', '1 tsp ', 'Twist of '],
       instructions: "Stir powdered sugar, water, and bitters in an old-fashioned glass. When sugar has dissolved add ice cubes and light rum. Add the twist of lime peel, float 151 proof rum on top, and serve.",
       glass: 'Old-fashioned glass'
@@ -6025,7 +6025,7 @@ const drinkList = [
 
   {
       name: "Rum Swizzle",
-      ingredients: [ 'Rum', 'Carbonated water', 'Lime', 'Powdered sugar',   'Angostura Bitters'],
+      ingredients: [ 'Rum', 'Carbonated Water', 'Lime', 'Powdered sugar',   'Angostura Bitters'],
       measures: [ '2 oz light or dark '],
       instructions: "Dissolve powdered sugar in mixture of 2 oz. carbonated water and juice of lime in a collins glass. Fill glass with ice and stir. Add bitters and rum. Fill with carbonated water, stir, and serve with a swizzle stick.",
       glass: 'Collins glass'
@@ -6193,7 +6193,7 @@ const drinkList = [
 
   {
       name: "Scotch Cooler",
-      ingredients: [ 'Scotch', 'White Creme de Menthe', 'Carbonated water'],
+      ingredients: [ 'Scotch', 'White Creme de Menthe', 'Carbonated Water'],
       measures: [ '2 oz ', '3 dashes '],
       instructions: "Pour scotch and creme de menthe over ice cubes in a highball glass. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -6225,7 +6225,7 @@ const drinkList = [
 
   {
       name: "Scotch Highball",
-      ingredients: [ 'Scotch', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Scotch', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour scotch in a highball glass over ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -6257,7 +6257,7 @@ const drinkList = [
 
   {
       name: "Scotch Rickey",
-      ingredients: [ 'Scotch', 'Lime', 'Carbonated water', 'Lime Peel'],
+      ingredients: [ 'Scotch', 'Lime', 'Carbonated Water', 'Lime Peel'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 '],
       instructions: "Pour scotch and juice of lime into a highball glass over ice cubes. Fill with carbonated water and stir. Add the lime peel/rind and serve.",
       glass: 'Highball glass'
@@ -6481,7 +6481,7 @@ const drinkList = [
 
   {
       name: "Singapore Sling",
-      ingredients: [ 'Cherry Brandy', 'Grenadine', 'Gin', 'Sour Mix', 'Carbonated water', 'Cherry'],
+      ingredients: [ 'Cherry Brandy', 'Grenadine', 'Gin', 'Sour Mix', 'Carbonated Water', 'Cherry'],
       measures: [ '1/2 oz ', '1/2 oz ', '1 oz ', '2 oz '],
       instructions: "Pour grenadine, gin, and sweet and sour into a collins glass over ice cubes and stir well. Fill with carbonated water and top with cherry brandy. Add the cherry on top and serve.",
       glass: 'Collins glass'
@@ -6489,7 +6489,7 @@ const drinkList = [
 
   {
       name: "Silver Stallion Fizz",
-      ingredients: [ 'Vanilla Ice-Cream', 'Gin', 'Carbonated water'],
+      ingredients: [ 'Vanilla Ice-Cream', 'Gin', 'Carbonated Water'],
       measures: [ '1 scoop ', '2 oz '],
       instructions: "Shake gin and vanilla ice-cream with ice and strain into a highball glass. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -6505,7 +6505,7 @@ const drinkList = [
 
   {
       name: "Sister Starseeker",
-      ingredients: [ 'Light Rum', 'Lemon Juice', 'Grenadine', 'Tonic water', 'Lemon'],
+      ingredients: [ 'Light Rum', 'Lemon Juice', 'Grenadine', 'Tonic Water', 'Lemon'],
       measures: [ '2 oz ', '1 oz ', '1 tsp ', '4 oz '],
       instructions: "Pour the rum, lemon juice, grenadine, and tonic water into a highball glass almost filled with ice cubes. Stir well and garnish with the lemon wedge.",
       glass: 'Highball glass'
@@ -6537,7 +6537,7 @@ const drinkList = [
 
   {
       name: "Sloe Gin Collins",
-      ingredients: [ 'Sloe gin', 'Lemon', 'Carbonated water', 'Lemon', 'Orange', 'Cherry'],
+      ingredients: [ 'Sloe gin', 'Lemon', 'Carbonated Water', 'Lemon', 'Orange', 'Cherry'],
       measures: [ '2 oz ', 'Juice of 1/2 '],
       instructions: "Shake sloe gin and juice of lemon with ice and strain into a collins glass. Add several ice cubes, fill with carbonated water, and stir. Add slices of lemon and orange, top with the cherry, and serve with a straw.",
       glass: 'Collins glass'
@@ -6553,7 +6553,7 @@ const drinkList = [
 
   {
       name: "Sloe Gin Rickey",
-      ingredients: [ 'Sloe gin', 'Lime', 'Carbonated water', 'Lime'],
+      ingredients: [ 'Sloe gin', 'Lime', 'Carbonated Water', 'Lime'],
       measures: [ '2 oz ', 'Juice of 1/2 '],
       instructions: "Pour sloe gin and juice of lime into a highball glass over ice cubes. Fill with carbonated water and stir. Drop the wedge of lime in glass and serve.",
       glass: 'Highball glass'
@@ -6641,7 +6641,7 @@ const drinkList = [
 
   {
       name: "Smith And Kearns",
-      ingredients: [ 'Coffee Liqueur', 'Light cream', 'Carbonated water'],
+      ingredients: [ 'Coffee Liqueur', 'Light cream', 'Carbonated Water'],
       measures: [ '1 oz ', '1 oz '],
       instructions: "Pour Kahlua and light cream into a highball glass filled with ice and stir well. Fill with carbonated water, stir lightly, and serve.",
       glass: 'Highball glass'
@@ -6817,7 +6817,7 @@ const drinkList = [
 
   {
       name: "Starseeker",
-      ingredients: [ 'Light Rum', 'Orange Juice', 'Grenadine', 'Tonic water'],
+      ingredients: [ 'Light Rum', 'Orange Juice', 'Grenadine', 'Tonic Water'],
       measures: [ '2 oz ', '1 oz ', '1 tsp ', '4 oz '],
       instructions: "Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well and garnish with the lemon wedge.",
       glass: 'Highball glass'
@@ -6905,7 +6905,7 @@ const drinkList = [
 
   {
       name: "Strawberry Fields Forever",
-      ingredients: [ 'Brandy', 'Strawberry Schnapps', 'Carbonated water', 'Strawberries'],
+      ingredients: [ 'Brandy', 'Strawberry Schnapps', 'Carbonated Water', 'Strawberries'],
       measures: [ '1/2 oz ', '2 oz '],
       instructions: "Pour brandy and schnapps over ice in a highball glass. Fill with carbonated water and stir. Garnish with a strawberry and serve.",
       glass: 'Highball glass'
@@ -7009,7 +7009,7 @@ const drinkList = [
 
   {
       name: "T.N.T. No. 2",
-      ingredients: [ 'Tequila', 'Tonic water'],
+      ingredients: [ 'Tequila', 'Tonic Water'],
       measures: [ '1 oz '],
       instructions: "Pour ingredients into an old-fashioned glass over ice cubes. Stir well and serve.",
       glass: 'Old-fashioned glass'
@@ -7105,7 +7105,7 @@ const drinkList = [
 
   {
       name: "Tequila Old-Fashioned",
-      ingredients: [ 'Tequila', 'Carbonated water', 'Sugar',   'Angostura Bitters', 'Pineapple'],
+      ingredients: [ 'Tequila', 'Carbonated Water', 'Sugar',   'Angostura Bitters', 'Pineapple'],
       measures: [ '1 1/2 oz ', '1 splash ', '1/2 tsp ', '1 dash ', '1 stick '],
       instructions: "Mix sugar, bitters, and 1 tsp. water in an old-fashioned glass. Add tequila, ice cubes, and carbonated water. Add the stick of pineapple and serve.",
       glass: 'Old-fashioned glass'
@@ -7257,7 +7257,7 @@ const drinkList = [
 
   {
       name: "Torridora Cocktail",
-      ingredients: [ 'Light Rum', '151 Proof Rum', 'Coffee Brandy', 'Cream'],
+      ingredients: [ 'Light Rum', 'Bacardi-151', 'Coffee Brandy', 'Cream'],
       measures: [ '1 1/2 oz ', '1 tsp ', '1/2 oz ', '1 1/2 tsp '],
       instructions: "Shake light rum, brandy, and cream with ice and strain into a cocktail glass. Float 151 proof rum on top and serve.",
       glass: 'Cocktail glass'
@@ -7401,7 +7401,7 @@ const drinkList = [
 
   {
       name: "Vermouth Cassis",
-      ingredients: [ 'Dry Vermouth', 'Creme de Cassis', 'Carbonated water'],
+      ingredients: [ 'Dry Vermouth', 'Creme de Cassis', 'Carbonated Water'],
       measures: [ '1 1/2 oz ', '3/4 oz '],
       instructions: "Stir vermouth and creme de cassis in a highball glass with ice cubes. Fill with carbonated water, stir again, and serve.",
       glass: 'Highball glass'
@@ -7473,7 +7473,7 @@ const drinkList = [
 
   {
       name: "Vodka And Tonic",
-      ingredients: [ 'Vodka', 'Tonic water'],
+      ingredients: [ 'Vodka', 'Tonic Water'],
       measures: [ '2 oz '],
       instructions: "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
       glass: 'Highball glass'
@@ -7481,7 +7481,7 @@ const drinkList = [
 
   {
       name: "Vodka Collins",
-      ingredients: [ 'Vodka', 'Lemon', 'Powdered sugar', 'Carbonated water', 'Cherry', 'Orange'],
+      ingredients: [ 'Vodka', 'Lemon', 'Powdered sugar', 'Carbonated Water', 'Cherry', 'Orange'],
       measures: [ '2 oz ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake vodka, juice of lemon, and powdered sugar with ice and strain into a collins glass. Add several ice cubes, fill with carbonated water, and stir. Decorate with slices of orange, lemon, and top with the cherry. Serve with a straw.",
       glass: 'Collins glass'
@@ -7641,7 +7641,7 @@ const drinkList = [
 
   {
       name: "Whiskey Collins",
-      ingredients: [ 'Blended Whiskey', 'Powdered sugar', 'Lemon', 'Carbonated water', 'Cherry', 'Orange'],
+      ingredients: [ 'Blended Whiskey', 'Powdered sugar', 'Lemon', 'Carbonated Water', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 tsp ', 'Juice of 1/2 '],
       instructions: "Shake blended whiskey, juice of lemon, and powdered sugar with ice and strain into a collins glass. Add several ice cubes, fill with carbonated water, and stir. Decorate with slices of orange, lemon, and top with the cherry. Serve with a straw.",
       glass: 'Collins glass'
@@ -7665,7 +7665,7 @@ const drinkList = [
 
   {
       name: "Whiskey Highball",
-      ingredients: [ 'Blended Whiskey', 'Carbonated water', 'Lemon Peel'],
+      ingredients: [ 'Blended Whiskey', 'Carbonated Water', 'Lemon Peel'],
       measures: [ '2 oz '],
       instructions: "Pour blended whiskey into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist of lemon peel and serve.",
       glass: 'Highball glass'
@@ -7689,7 +7689,7 @@ const drinkList = [
 
   {
       name: "Whiskey Rickey",
-      ingredients: [ 'Blended Whiskey', 'Lime', 'Carbonated water', 'Lime'],
+      ingredients: [ 'Blended Whiskey', 'Lime', 'Carbonated Water', 'Lime'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 '],
       instructions: "Pour blended whiskey and juice of lime into a highball glass over ice cubes. Fill with carbonated water and stir. Drop the wedge of lime in glass and serve.",
       glass: 'Highball glass'
@@ -7921,7 +7921,7 @@ const drinkList = [
 
   {
       name: "End Wrench",
-      ingredients: [ 'Orange Juice', 'Tonic water', 'Ice'],
+      ingredients: [ 'Orange Juice', 'Tonic Water', 'Ice'],
       measures: [ '1 part ', '1 part '],
       instructions: "Add ice. Tastes remarkably like a screwdriver.",
       glass: 'vote'
@@ -8609,7 +8609,7 @@ const drinkList = [
 
   {
       name: "Lemon Shot",
-      ingredients: [ 'Galliano', 'Absolut Citron', 'Lemon', 'Sugar', '151 Proof Rum'],
+      ingredients: [ 'Galliano', 'Absolut Citron', 'Lemon', 'Sugar', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', ' wedge ', 'Bacardi '],
       instructions: "Mix Galliano and Absolut Citron in a shot glass, lay lemon wedge sprinkled with sugar over glass and pour a rum over wedge and glass. light rum with a lighter and let burn for a second. Do shot quickly and suck on lemon. If it is done correctly, this will taste like a shot of sweet lemonade.",
       glass: 'Shot glass'
@@ -9001,7 +9001,7 @@ const drinkList = [
 
   {
       name: "Pineapple Liqueur",
-      ingredients: [ 'Pineapple', 'Sugar', '151 Proof Rum', 'Vodka', 'Lemon Juice', 'Pineapple Juice'],
+      ingredients: [ 'Pineapple', 'Sugar', 'Bacardi-151', 'Vodka', 'Lemon Juice', 'Pineapple Juice'],
       measures: [ '400 gr ', '100 gr ', '1/8 L ', '1/8 L ', 'A little '],
       instructions: "Crush pineapple pieces *very* finely. Put together with the pineapple juice in a pan, add the sugar. Leave to stand over night. Drain syrup and strain pineapple pieces through a cheese cloth or in a food processor. Mix juice with rum and vodka, add lemon juice to taste. Pour in a 0.7 l bottle and fill to the brim with pineapple juice or water. Leave at least one week.",
       glass: 'vote'
@@ -9121,7 +9121,7 @@ const drinkList = [
 
   {
       name: "Champagne Punch #1",
-      ingredients: [ 'Champagne', 'Cointreau', 'Brandy', 'Carbonated water'],
+      ingredients: [ 'Champagne', 'Cointreau', 'Brandy', 'Carbonated Water'],
       measures: [ '1 bottle chilled ', '1/2 cup ', '1/2 cup ', '1/2 bottle '],
       instructions: "Combine all of the ingredients and serve in punch cups.",
       glass: 'vote'
@@ -9873,7 +9873,7 @@ const drinkList = [
 
   {
       name: "Mind Eraser",
-      ingredients: [ 'Vodka', 'Coffee Liqueur', 'Tonic water'],
+      ingredients: [ 'Vodka', 'Coffee Liqueur', 'Tonic Water'],
       measures: [ '2 oz ', '2 oz ', '2 oz '],
       instructions: "In a rocks glass pour vodka, the Kahlua and then the tonic water. Serve with a straw.",
       glass: 'Old-fashioned glass'
@@ -9889,7 +9889,7 @@ const drinkList = [
 
   {
       name: "Pamela",
-      ingredients: [ 'Vodka', 'Tonic water', 'Cucumber'],
+      ingredients: [ 'Vodka', 'Tonic Water', 'Cucumber'],
       measures: [ ' slices '],
       instructions: "Simply make a standard vodka and tonic and garnish liberally with sliced cucumbers. sounds funny, but makes a great hot weather drink.",
       glass: 'vote'
@@ -9993,7 +9993,7 @@ const drinkList = [
 
   {
       name: "Wahoo",
-      ingredients: [ '151 Proof Rum', 'Amaretto'],
+      ingredients: [ 'Bacardi-151', 'Amaretto'],
       measures: [ '1 shot ', '1 shot '],
       instructions: "Over ice add 151 and amaretto. Top off with pineapple juice.",
       glass: 'vote'
@@ -10145,7 +10145,7 @@ const drinkList = [
 
   {
       name: "Vulcan Mind Meld",
-      ingredients: [ 'Ouzo', '151 Proof Rum'],
+      ingredients: [ 'Ouzo', 'Bacardi-151'],
       measures: [ '1 part ', '1 part '],
       instructions: "Pour ingredients into glass (usually a double shot glass.) Drink quickly.",
       glass: 'Shot glass'
@@ -10201,7 +10201,7 @@ const drinkList = [
 
   {
       name: "Prairie Fire #1",
-      ingredients: [ '151 Proof Rum', 'Tabasco sauce'],
+      ingredients: [ 'Bacardi-151', 'Tabasco sauce'],
       measures: [ '1 oz '],
       instructions: "Fill shot class with rum, Float Tabasco Sauce on top, Drink",
       glass: 'vote'
@@ -10321,7 +10321,7 @@ const drinkList = [
 
   {
       name: "Long vodka",
-      ingredients: [ 'Vodka', 'Lime',  'Angostura Bitters', 'Tonic water', 'Ice'],
+      ingredients: [ 'Vodka', 'Lime',  'Angostura Bitters', 'Tonic Water', 'Ice'],
       measures: [ '5 cl ', '1/2 ', '4 dashes ', '1 dl Schweppes '],
       instructions: "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
       glass: 'Highball glass'
@@ -10345,7 +10345,7 @@ const drinkList = [
 
   {
       name: "Flaming Dr. Pepper",
-      ingredients: [ 'Amaretto', 'Vodka', '151 Proof Rum', 'Dr. Pepper', 'Beer'],
+      ingredients: [ 'Amaretto', 'Vodka', 'Bacardi-151', 'Dr Pepper', 'Beer'],
       measures: [ '1 oz ', '1 oz ', '1 oz Bacardi ', '1 oz ', '1 oz '],
       instructions: "Add Amaretto, Bacardi, and vodka. Mix in the Dr. Pepper and beer",
       glass: 'vote'
@@ -10401,7 +10401,7 @@ const drinkList = [
 
   {
       name: "Mogul Masher",
-      ingredients: [ 'Cocoa powder', '151 Proof Rum', 'Rumple Minze', 'Water', 'Whipped cream'],
+      ingredients: [ 'Cocoa powder', 'Bacardi-151', 'Rumple Minze', 'Water', 'Whipped cream'],
       measures: [ '1 package ', '1 oz Bacardi ', '1 oz ', '8 oz hot '],
       instructions: "Mix hot chocolate according to instructions in a 12 oz. glass or larger and add liquors...top with whipped cream...beware!!!!! These sneak up on you!!!!",
       glass: 'vote'
@@ -10457,7 +10457,7 @@ const drinkList = [
 
   {
       name: "The Shanaynay",
-      ingredients: [ '151 Proof Rum', 'Water'],
+      ingredients: [ 'Bacardi-151', 'Water'],
       measures: [ '2 oz Bacardi ', '12 oz '],
       instructions: "Mix the water and rum, add powdered lemonade mix to taste. Stir and enjoy!",
       glass: 'vote'
@@ -10505,7 +10505,7 @@ const drinkList = [
 
   {
       name: "Instant Death",
-      ingredients: [ '151 Proof Rum', 'Everclear', 'Jägermeister', 'Water', 'Salt'],
+      ingredients: [ 'Bacardi-151', 'Everclear', 'Jägermeister', 'Water', 'Salt'],
       measures: [ '3 oz Bacardi ', '3 oz ', '3 oz ', '5 oz ', '1 dash '],
       instructions: "Put in all alcohol first and water last, then salt",
       glass: 'vote'
@@ -10513,7 +10513,7 @@ const drinkList = [
 
   {
       name: "Flaming Huscroft",
-      ingredients: [ 'Beer', 'Southern Comfort', '151 Proof Rum', 'Everclear', 'Rum', 'Club Soda', 'Mountain Dew', 'Ice'],
+      ingredients: [ 'Beer', 'Southern Comfort', 'Bacardi-151', 'Everclear', 'Rum', 'Club Soda', 'Mountain Dew', 'Ice'],
       measures: [ '1 oz Blackened Voodoo ', '2 oz ', '1/4 oz Bacardi ', '1/4 oz ', '1/2 oz ', '4 oz ', '1 oz ', '24 oz '],
       instructions: "Throw all in a glass, light it: When flame goes down, chug but make sure you have a chaser, or your in trouble.",
       glass: 'vote'
@@ -10529,7 +10529,7 @@ const drinkList = [
 
   {
       name: "Eat Hot Death",
-      ingredients: [ '151 Proof Rum', 'Lemon Juice'],
+      ingredients: [ 'Bacardi-151', 'Lemon Juice'],
       measures: [ '2 oz ', '10 drops '],
       instructions: "Mix in a double shot glass.",
       glass: 'Shot glass'
@@ -10737,7 +10737,7 @@ const drinkList = [
 
   {
       name: "Flaming Dr. Pepper #2",
-      ingredients: [ 'Amaretto', '151 Proof Rum', 'Beer'],
+      ingredients: [ 'Amaretto', 'Bacardi-151', 'Beer'],
       measures: [ '3/4 shot '],
       instructions: "Fill the shot glass about 3/4 full with Amaretto and top it off with enough 151 to make it burn. Put the shot glass in another glass and fill the new glass with beer (right up to the level of the shot glass). Light the Amaretto/151 and let it burn awhile. Blow it out (or leave it burning if you're brave) and slam it. Tastes just like Dr. Pepper.",
       glass: 'Shot glass'
@@ -10921,7 +10921,7 @@ const drinkList = [
 
   {
       name: "Yellow Bird",
-      ingredients: [ '151 Proof Rum', 'Galliano', 'Vodka', 'Sour Mix'],
+      ingredients: [ 'Bacardi-151', 'Galliano', 'Vodka', 'Sour Mix'],
       measures: [ '1 oz Bacardi ', '0.5 oz ', '0.5 oz ', '4 oz '],
       instructions: "Pour all the alcoholic ingredients in a highball glass, Stir Sour mix in a mixer and fill the glass.",
       glass: 'Highball glass'
@@ -10985,7 +10985,7 @@ const drinkList = [
 
   {
       name: "Sunoco 251",
-      ingredients: [ '151 Proof Rum', 'Vodka', 'Green Chartreuse'],
+      ingredients: [ 'Bacardi-151', 'Vodka', 'Green Chartreuse'],
       measures: [ '1/2 shot ', '1/2 shot 100 proof ', '1 dash '],
       instructions: "Combine the vodka and rum in a shot glass. Add the chartreuse to make the drink a gasoline-type color.",
       glass: 'Shot glass'
@@ -11065,7 +11065,7 @@ const drinkList = [
 
   {
       name: "Puerto Rican Monkey Fuck",
-      ingredients: [ 'Coffee Liqueur', 'Creme de Banane', '151 Proof Rum'],
+      ingredients: [ 'Coffee Liqueur', 'Creme de Banane', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/8 oz Bacardi '],
       instructions: "Mix Kahlua and Creme de Banana in a shaker with ice. Strain into a shot glass. Float the 151 on top.",
       glass: 'Shot glass'
@@ -11145,7 +11145,7 @@ const drinkList = [
 
   {
       name: "Extraterrestrial",
-      ingredients: [ 'Irish cream', 'Midori Melon', 'Vodka', '151 Proof Rum'],
+      ingredients: [ 'Irish cream', 'Midori Melon', 'Vodka', 'Bacardi-151'],
       measures: [ '1 jigger ', '1 jigger ', '1 jigger Stoli ', 'Bacardi '],
       instructions: "Pour the jigger of Midori first. Then, very gingerly, slowly pour the Irish Cream on top of the Midori. If done properly, the Irish Cream will sit on top of the Midori without mixing. Repeat the procedure with the Stoli over the Irish Cream. This will give you a very attractive three layer drink. Optional - add a teaspoon or so of Bacardi 151 on the top of the drink. Then, light the 151 and let burn for 5-10 seconds. Put out with a napkin. Shoot the drink and enjoy!",
       glass: 'vote'
@@ -11521,7 +11521,7 @@ const drinkList = [
 
   {
       name: "Prarie Dog",
-      ingredients: [ '151 Proof Rum', 'Tabasco sauce'],
+      ingredients: [ 'Bacardi-151', 'Tabasco sauce'],
       measures: [ '1 1/2 oz ', '2-3 dashes '],
       instructions: "build contents into a shot glass guaranteed night-ender for 21st birthday outings! (invented @ 901 Club, Los Angeles)",
       glass: 'Shot glass'
@@ -11545,7 +11545,7 @@ const drinkList = [
 
   {
       name: "Napalm",
-      ingredients: [ 'Aftershock', 'Cinnamon Schnapps', '151 Proof Rum'],
+      ingredients: [ 'Aftershock', 'Cinnamon Schnapps', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', '1 splash '],
       instructions: "Pour into shot glass putting the 151 in last. Light the 151 and Bombs away!!! (Be sure to blow it out before drinking)",
       glass: 'Shot glass'
@@ -11649,7 +11649,7 @@ const drinkList = [
 
   {
       name: "Hard Core",
-      ingredients: [ '151 Proof Rum', 'Everclear', 'Triple Sec', 'Amaretto', 'Cola', 'Orange'],
+      ingredients: [ 'Bacardi-151', 'Everclear', 'Triple Sec', 'Amaretto', 'Cola', 'Orange'],
       measures: [ '1 shot Bacardi ', '1 shot ', '3/4 shot ', '3/4 shot ', ' wedge '],
       instructions: "Combine all into a tall glass or wine goblet. Add the Cola last. Hang orange on rim of glass. Taste good but is super strong.",
       glass: 'Highball glass'
@@ -11657,7 +11657,7 @@ const drinkList = [
 
   {
       name: "Mad Cow",
-      ingredients: [ 'Coffee Liqueur', 'Cream', '151 Proof Rum'],
+      ingredients: [ 'Coffee Liqueur', 'Cream', 'Bacardi-151'],
       measures: [ '1 part ', '1 part ', '1 part '],
       instructions: "Mix in a shaker 1/4 filled with ice and pour into liberal shot glasses.",
       glass: 'Shot glass'
@@ -11665,7 +11665,7 @@ const drinkList = [
 
   {
       name: "Godhead",
-      ingredients: [ 'Rum', 'Vodka', 'Raspberry Liqueur', 'Lime Juice', '151 Proof Rum'],
+      ingredients: [ 'Rum', 'Vodka', 'Raspberry Liqueur', 'Lime Juice', 'Bacardi-151'],
       measures: [ '1/4 shot ', '1/4 shot ', '1/4 shot ', '1 dash ', '1 dash '],
       instructions: "Pour Rum, Vodka, Raspberry Liqueur and Lime Juice a strainer glass. Chill with ice and strain into your shot glass. Float 151 Rum on top of shot. Throw down or ignite and throw down. (Igniting the 151 Rum will lower the alcoholic content.)",
       glass: 'Shot glass'
@@ -11761,7 +11761,7 @@ const drinkList = [
 
   {
       name: "Liquid Cocaine #2",
-      ingredients: [ 'Rumple Minze', 'Jägermeister', '151 Proof Rum'],
+      ingredients: [ 'Rumple Minze', 'Jägermeister', 'Bacardi-151'],
       measures: [ '1/3 ', '1/3 ', '1/3 Bacardi '],
       instructions: "Chill over ice and pour.",
       glass: 'vote'
@@ -11769,7 +11769,7 @@ const drinkList = [
 
   {
       name: "Key Largo Kooler",
-      ingredients: [ 'Key Largo Schnapps', 'Spiced Rum', 'Orange Juice', 'Pineapple Juice', 'Cranberry Juice', '151 Proof Rum'],
+      ingredients: [ 'Key Largo Schnapps', 'Spiced Rum', 'Orange Juice', 'Pineapple Juice', 'Cranberry Juice', 'Bacardi-151'],
       measures: [ '1 oz ', '1/2 oz ', '4 oz ', '4 oz ', '2 oz ', '1/2 oz Bacardi '],
       instructions: "Mix juices and alcohol in mixing tin, flash blend, and pour over ice in a 23 oz. squall glass and float Bacardi 151 rum. Garnish with an orange flag and umbrella.",
       glass: 'vote'
@@ -11937,7 +11937,7 @@ const drinkList = [
 
   {
       name: "Keremiki",
-      ingredients: [ '151 Proof Rum', 'Goldschlager', 'Rumple Minze'],
+      ingredients: [ 'Bacardi-151', 'Goldschlager', 'Rumple Minze'],
       measures: [ '1/3 oz Bacardi ', '1/3 oz ', '1/3 oz '],
       instructions: "Mix and shoot.",
       glass: 'vote'
@@ -11985,7 +11985,7 @@ const drinkList = [
 
   {
       name: "Beeaauu's Rum and Coke",
-      ingredients: [ 'Rum', 'Dark Rum', '151 Proof Rum', 'Cola', 'Lime Juice'],
+      ingredients: [ 'Rum', 'Dark Rum', 'Bacardi-151', 'Cola', 'Lime Juice'],
       measures: [ '2 oz Barbados ', '2 oz ', '1 oz Bacardi ', '6 oz ', '1/2 oz fresh '],
       instructions: "Mix all ingredients in a tall glass with ice. Garnish with a lime wedge.",
       glass: 'Highball glass'
@@ -11993,7 +11993,7 @@ const drinkList = [
 
   {
       name: "Graveyard (light)",
-      ingredients: [ 'Triple Sec', '151 Proof Rum', 'Vodka', 'Gin', 'Tequila', 'Beer', 'Stout'],
+      ingredients: [ 'Triple Sec', 'Bacardi-151', 'Vodka', 'Gin', 'Tequila', 'Beer', 'Stout'],
       measures: [ '1 or 1/2 pint ', '1 or 1/2 pint Bacardi ', '1 or 1/2 pint ', '1 or 1/2 pint ', '1 or 1/2 pint '],
       instructions: "Mix the 5 whites in equal amounts in a beer mug. fill up the rest of the space with half beer and half stout.",
       glass: 'Beer mug'
@@ -12009,7 +12009,7 @@ const drinkList = [
 
   {
       name: "Graveyard",
-      ingredients: [ 'Triple Sec', '151 Proof Rum', 'Vodka', 'Gin', 'Tequila', 'Bourbon', 'Scotch', 'Beer', 'Stout'],
+      ingredients: [ 'Triple Sec', 'Bacardi-151', 'Vodka', 'Gin', 'Tequila', 'Bourbon', 'Scotch', 'Beer', 'Stout'],
       measures: [ '1 or 1/2 pint ', '1 or 1/2 pint Bacardi ', '1 or 1/2 pint ', '1 or 1/2 pint ', '1 or 1/2 pint ', '1 or 1/2 pint ', '1 or 1/2 pint '],
       instructions: "Mix the 5 whites and 2 whiskies in a beer mug in equal amounts. Top up the rest of the mug with half beer and half stout.",
       glass: 'Beer mug'
@@ -12121,7 +12121,7 @@ const drinkList = [
 
   {
       name: "Tidal Wave",
-      ingredients: [ 'Gin', 'Light Rum', 'Vodka', 'Peach Schnapps', 'Orange Juice', 'Pineapple Juice', 'Grenadine', '151 Proof Rum'],
+      ingredients: [ 'Gin', 'Light Rum', 'Vodka', 'Peach Schnapps', 'Orange Juice', 'Pineapple Juice', 'Grenadine', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz Smirnoff ', '1/2 oz ', '2 oz ', '2 oz ', '1 dash ', 'Bacardi '],
       instructions: "Pour gin, vodka, rum and peach schnapps over ice in a collins glass. Add orange and pineapple juices, a dash of grenadine, and float 151 rum on top. Garnish with a piece of fresh cut pineapple. The wave will sweep you away!!!!!",
       glass: 'Collins glass'
@@ -12185,7 +12185,7 @@ const drinkList = [
 
   {
       name: "Fire in Heaven",
-      ingredients: [ '151 Proof Rum', 'Tabasco sauce'],
+      ingredients: [ 'Bacardi-151', 'Tabasco sauce'],
       measures: [ '1 oz ', '1 dash '],
       instructions: "Fill up shot glass with 151 proof Rum. Then add a dash of Tabasco into the glass. Allow a few seconds to settle. Drink fast and stand back.",
       glass: 'Shot glass'
@@ -12241,7 +12241,7 @@ const drinkList = [
 
   {
       name: "The Beavis",
-      ingredients: [ 'Everclear', 'Purple passion', 'Vodka', 'Cider', 'Southern Comfort', '151 Proof Rum', 'Wine', 'Water'],
+      ingredients: [ 'Everclear', 'Purple passion', 'Vodka', 'Cider', 'Southern Comfort', 'Bacardi-151', 'Wine', 'Water'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz Bacardi ', '1 oz Plum ', '1 oz '],
       instructions: "Pour all the shit together, and hope it don't explode! Drink as fast as you can, with no food, and say your prayers.",
       glass: 'vote'
@@ -12281,7 +12281,7 @@ const drinkList = [
 
   {
       name: "Utar",
-      ingredients: [ 'Light Rum', 'Dark Rum', 'Lemonade', '151 Proof Rum', 'Spiced Rum'],
+      ingredients: [ 'Light Rum', 'Dark Rum', 'Lemonade', 'Bacardi-151', 'Spiced Rum'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part Bacardi ', '1 part '],
       instructions: "mix in glass and chug",
       glass: 'vote'
@@ -12289,7 +12289,7 @@ const drinkList = [
 
   {
       name: "Gorilla Fart #1",
-      ingredients: [ 'Wild Turkey', '151 Proof Rum'],
+      ingredients: [ 'Wild Turkey', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz Bacardi '],
       instructions: "Pour in shot glass. Take a sniff and shoot!",
       glass: 'Shot glass'
@@ -12441,7 +12441,7 @@ const drinkList = [
 
   {
       name: "Gorilla's Puke",
-      ingredients: [ 'Wild Turkey', '151 Proof Rum'],
+      ingredients: [ 'Wild Turkey', 'Bacardi-151'],
       measures: [ '1 oz ', '1 oz Bacardi '],
       instructions: "Layer in normal shot glass. Can be lit and shot through straw.",
       glass: 'Shot glass'
@@ -12505,7 +12505,7 @@ const drinkList = [
 
   {
       name: "Bahama Todd",
-      ingredients: [ 'Light Rum', 'Dark Rum', 'Spiced Rum', 'Malibu Rum', '151 Proof Rum', 'Blue Curacao', 'Pineapple Juice'],
+      ingredients: [ 'Light Rum', 'Dark Rum', 'Spiced Rum', 'Malibu Rum', 'Bacardi-151', 'Blue Curacao', 'Pineapple Juice'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz Bacardi ', '1/2 oz ', '5 oz '],
       instructions: "Add light rum, dark rum, spiced rum, and malibu rum to ice filled glass. Mix in pineapple juice and blue curacao. Float 151 rum on top.",
       glass: 'vote'
@@ -12609,7 +12609,7 @@ const drinkList = [
 
   {
       name: "Harlee's Planters Punch",
-      ingredients: [ 'Light Rum', 'Dark Rum', 'Orange Juice', 'Pineapple Juice', 'Grenadine', '151 Proof Rum'],
+      ingredients: [ 'Light Rum', 'Dark Rum', 'Orange Juice', 'Pineapple Juice', 'Grenadine', 'Bacardi-151'],
       measures: [ '1 oz ', '2 oz ', '2 oz ', '2 oz ', '1/2 oz ', '1/2 oz Bacardi '],
       instructions: "measure light and dark rum into glass, add juices, grenadine...shake well, top with 151 rum... garnish with cherry and orange slice.",
       glass: 'vote'
@@ -12745,7 +12745,7 @@ const drinkList = [
 
   {
       name: "Flaming Dr. Pepper (alternative)",
-      ingredients: [ 'Amaretto', '151 Proof Rum', 'Lager'],
+      ingredients: [ 'Amaretto', 'Bacardi-151', 'Lager'],
       measures: [ '1/2 oz ', '1/2 oz Bacardi ', '6 oz '],
       instructions: "Put Amaretto in bottom of shot glass, top with Rum. Pour Beer into glass. Light shot, pick up shot by the sides and drop entire shot glass (bottom first) into beer. When bottom of shot glass hits bottom of beer glass chug (the beer will put out the flame).",
       glass: 'Shot glass'
@@ -12785,7 +12785,7 @@ const drinkList = [
 
   {
       name: "Greazy Deigo",
-      ingredients: [ 'Zima', '151 Proof Rum', 'Kool-Aid'],
+      ingredients: [ 'Zima', 'Bacardi-151', 'Kool-Aid'],
       measures: [ '12 oz ', '2 shots Bacardi ', 'Mango '],
       instructions: "Empty zima into glass. Then add the 2 shots of 151 rum. next add the Kool-Aid. Mix until a light froth is achieved...and enjoy",
       glass: 'vote'
@@ -13017,7 +13017,7 @@ const drinkList = [
 
   {
       name: "The Boiling Panther",
-      ingredients: [ 'Spiced Rum', 'Dr. Pepper'],
+      ingredients: [ 'Spiced Rum', 'Dr Pepper'],
       measures: [ '2 shots ', 'Fill glass '],
       instructions: "Poor shots into glass. Fill with Dr. Pepper or Mt. Dew and mix. Enjoy.",
       glass: 'vote'
@@ -13025,7 +13025,7 @@ const drinkList = [
 
   {
       name: "Tanqueray and Tonic",
-      ingredients: [ 'Gin', 'Tonic water', 'Lime'],
+      ingredients: [ 'Gin', 'Tonic Water', 'Lime'],
       measures: [ '2/3 ', '1/3 ', '1 slice '],
       instructions: "Add ice to glass. Fill 2/3 of the way up with Tanqueray Gin, and the remaining 1/3 with tonic water. Add lime.",
       glass: 'Old-fashioned glass'
@@ -13081,7 +13081,7 @@ const drinkList = [
 
   {
       name: "Miami Vice",
-      ingredients: [ '151 Proof Rum', 'Pina colada Mix', 'Daiquiri Mix'],
+      ingredients: [ 'Bacardi-151', 'Pina colada Mix', 'Daiquiri Mix'],
       measures: [ '5 oz Bacardi ', 'frozen ', 'frozen '],
       instructions: "First: Mix pina colada with 2.5 oz. of rum with ice(set aside). Second: Mix daiquiri with 2.5 oz. of rum with ice. Third: While frozen, add pina colda mix then daiquiri mix in glass (Making sure they do not get mixed together).",
       glass: 'Cocktail glass'
@@ -13089,7 +13089,7 @@ const drinkList = [
 
   {
       name: "AT&T",
-      ingredients: [ 'Absolut Vodka', 'Gin', 'Tonic water'],
+      ingredients: [ 'Absolut Vodka', 'Gin', 'Tonic Water'],
       measures: [ '1 oz ', '1 oz ', '4 oz '],
       instructions: "Pour Vodka and Gin over ice, add Tonic and Stir",
       glass: 'vote'
@@ -13145,7 +13145,7 @@ const drinkList = [
 
   {
       name: "Long Island Iced Tea #4",
-      ingredients: [ 'Triple Sec', 'Absolut Vodka', 'Gold Tequila', '151 Proof Rum', 'Gin', 'Sour Mix', 'Cola'],
+      ingredients: [ 'Triple Sec', 'Absolut Vodka', 'Gold Tequila', 'Bacardi-151', 'Gin', 'Sour Mix', 'Cola'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz Bacardi ', '3/4 oz ', '4 oz ', '2 oz '],
       instructions: "Mix all liquors and sweet and sour and top off with Pepsi Cola. Stir and Serve with a Lemon wheel.",
       glass: 'Collins glass'
@@ -13193,7 +13193,7 @@ const drinkList = [
 
   {
       name: "Four Horsemen",
-      ingredients: [ 'Gold Tequila', 'Jägermeister', 'Rumple Minze', '151 Proof Rum'],
+      ingredients: [ 'Gold Tequila', 'Jägermeister', 'Rumple Minze', 'Bacardi-151'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz Bacardi '],
       instructions: "Pour contents in shaker over ice and shake well. Pour into glass. This is a big shooter so you have to use a small rocks glass.",
       glass: 'Cocktail glass'
@@ -13409,7 +13409,7 @@ const drinkList = [
 
   {
       name: "Fin N' Tonic",
-      ingredients: [ 'Gin', 'Peppermint Schnapps', 'Tonic water'],
+      ingredients: [ 'Gin', 'Peppermint Schnapps', 'Tonic Water'],
       measures: [ '1 oz ', '1 oz ', '1 oz '],
       instructions: "mix ingredients and serve over ice.",
       glass: 'vote'
@@ -13497,7 +13497,7 @@ const drinkList = [
 
   {
       name: "Dead Dog Vomit",
-      ingredients: [ '151 Proof Rum', 'Tequila', 'Jägermeister'],
+      ingredients: [ 'Bacardi-151', 'Tequila', 'Jägermeister'],
       measures: [ '1 oz ', 'Layer 1 oz ', 'Layer 1 oz '],
       instructions: "In a high-ball glass add 0ne shot of 151 rum and then layer each if the other ingredents on top.",
       glass: 'Highball glass'
@@ -13537,7 +13537,7 @@ const drinkList = [
 
   {
       name: "Stabilizer",
-      ingredients: [ '151 Proof Rum', 'Rumple Minze'],
+      ingredients: [ 'Bacardi-151', 'Rumple Minze'],
       measures: [ '3/4 oz Bacardi ', '3/4 oz '],
       instructions: "Chill the Rumple Minze until VERY cold. Then pour over the 151 in a shot glass. They will not layer, so don't try it. Then drink the shot quickly...don't waste time smelling the shot or sipping it...just drink it. The sit back and enjoy!",
       glass: 'Shot glass'
@@ -13777,7 +13777,7 @@ const drinkList = [
 
   {
       name: "San Juan Tea",
-      ingredients: [ 'Bacardi Limon', '151 Proof Rum', 'Sour Mix', 'Cola'],
+      ingredients: [ 'Bacardi Limon', 'Bacardi-151', 'Sour Mix', 'Cola'],
       measures: [ '1 1/2 oz ', '1/2 oz Bacardi ', '3 oz ', 'Top with '],
       instructions: "Shake liquor and sour mix. Garnish with lemon wedge.",
       glass: 'Collins glass'
@@ -13897,7 +13897,7 @@ const drinkList = [
 
   {
       name: "Reynolds Special",
-      ingredients: [ 'Gin', 'Grapefruit Juice', 'Ice', 'Tonic water'],
+      ingredients: [ 'Gin', 'Grapefruit Juice', 'Ice', 'Tonic Water'],
       measures: [ '2 oz ', '2 oz ', 'Add 4-5 cubes ', 'Fill 4-5 oz '],
       instructions: "In a tall glass pour a generous shot or two of gin and a roughly equal amount of grapefruit juice add plenty of ice fill with tonic (preferably diet) lime twist is optional",
       glass: 'Highball glass'
@@ -13929,7 +13929,7 @@ const drinkList = [
 
   {
       name: "Pitbull on Crack #1",
-      ingredients: [ 'Gold Tequila', 'Jägermeister', 'Jim Beam', '151 Proof Rum'],
+      ingredients: [ 'Gold Tequila', 'Jägermeister', 'Jim Beam', 'Bacardi-151'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part Bacardi '],
       instructions: "chill and serve",
       glass: 'Shot glass'
@@ -13945,7 +13945,7 @@ const drinkList = [
 
   {
       name: "Fiery Balls of Death",
-      ingredients: [ '151 Proof Rum', 'Everclear', 'Triple Sec'],
+      ingredients: [ 'Bacardi-151', 'Everclear', 'Triple Sec'],
       measures: [ '1/3 shot Bacardi ', '1/3 shot ', '1/3 shot '],
       instructions: "Pour the shit in the shot glass. Light on fire, pray for your life and down it.",
       glass: 'Shot glass'
@@ -14009,7 +14009,7 @@ const drinkList = [
 
   {
       name: "Pepper Slammer",
-      ingredients: [ 'Southern Comfort', 'Dr. Pepper'],
+      ingredients: [ 'Southern Comfort', 'Dr Pepper'],
       measures: [ '1/3 cup ', 'Fill with '],
       instructions: "add southern comfort to glass with ice. fill with dr. pepper pop.",
       glass: 'Old-fashioned glass'
@@ -14049,7 +14049,7 @@ const drinkList = [
 
   {
       name: "Barcardi Volcano",
-      ingredients: [ 'Lime', 'Cola', '151 Proof Rum', 'Everclear'],
+      ingredients: [ 'Lime', 'Cola', 'Bacardi-151', 'Everclear'],
       measures: [ 'Juice of 1/2 ', '1/2 glass ', '1/2 glass Bacardi ', '1 jigger '],
       instructions: "Put the juice of 1/2 Lime in glass, then pour in cola and barcardi dark. Top up with Everclear. Light. Figure out how to drink it!",
       glass: 'Old-fashioned glass'
@@ -14161,7 +14161,7 @@ const drinkList = [
 
   {
       name: "Afterburner #1",
-      ingredients: [ 'Aftershock', '151 Proof Rum'],
+      ingredients: [ 'Aftershock', 'Bacardi-151'],
       measures: [ '1/2 shot ', '1/2 shot Bacardi '],
       instructions: "pour both ingredients and let them mix some(you can stir it some to help it out)",
       glass: 'Shot glass'
@@ -14241,7 +14241,7 @@ const drinkList = [
 
   {
       name: "Southern Doctor",
-      ingredients: [ 'Southern Comfort', 'Dr. Pepper'],
+      ingredients: [ 'Southern Comfort', 'Dr Pepper'],
       measures: [ '3 oz ', 'Fill with '],
       instructions: "Pour Southern Comfort in mason jar, fill with Dr. Pepper, chill with ice, and throw a party!",
       glass: 'Mason jar'
@@ -14449,7 +14449,7 @@ const drinkList = [
 
   {
       name: "The Whammie",
-      ingredients: [ 'Light Rum', 'Spiced Rum', '151 Proof Rum', 'Peach Brandy', 'Creme de Cassis', 'Creme de Banane', 'Raspberry Liqueur', 'Orange Juice', 'Pineapple Juice', 'Grenadine'],
+      ingredients: [ 'Light Rum', 'Spiced Rum', 'Bacardi-151', 'Peach Brandy', 'Creme de Cassis', 'Creme de Banane', 'Raspberry Liqueur', 'Orange Juice', 'Pineapple Juice', 'Grenadine'],
       measures: [ '1 oz ', '1 oz ', '1 oz Bacardi ', '1 oz ', '1 oz ', '1 oz ', '1 oz ', 'Fill with equal part ', 'And ', 'Add '],
       instructions: "Fill a 20 ounce glass with ice. Add the 7 shots. Finish off with with orange and pineapple juice. Add Grenadine until it turns pink. Top with Cherries.",
       glass: 'Hurricane glass'
@@ -14657,7 +14657,7 @@ const drinkList = [
 
   {
       name: "Antifreeze",
-      ingredients: [ 'Vodka', 'Blue Curacao', '151 Proof Rum', 'Peppermint Schnapps'],
+      ingredients: [ 'Vodka', 'Blue Curacao', 'Bacardi-151', 'Peppermint Schnapps'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz Bacardi ', '1/2 oz '],
       instructions: "chill with ice cubes in shaker. Pour into rocks glass or split into two shots",
       glass: 'Shot glass'
@@ -14689,7 +14689,7 @@ const drinkList = [
 
   {
       name: "Amoco Shot",
-      ingredients: [ '151 Proof Rum', 'Everclear', 'Coffee Liqueur'],
+      ingredients: [ 'Bacardi-151', 'Everclear', 'Coffee Liqueur'],
       measures: [ '1/2 oz Bacardi ', '1/2 oz ', '1 drop '],
       instructions: "Pour the Bacardi 151 in, then the Everclear. Just put a drop of Kahlua right in the middle. Don't smell it, and take it. It should start your engines!",
       glass: 'Shot glass'
@@ -14761,7 +14761,7 @@ const drinkList = [
 
   {
       name: "Absolut limousine",
-      ingredients: [ 'Absolut Citron', 'Lime Juice', 'Ice', 'Tonic water'],
+      ingredients: [ 'Absolut Citron', 'Lime Juice', 'Ice', 'Tonic Water'],
       measures: [ '2/3 ', '1/3 ', 'Fill with ', 'Top it up with '],
       instructions: "Fill Absolut into a glass. Add Lime juice. Add Ice and lime wedges.",
       glass: 'vote'
@@ -14857,7 +14857,7 @@ const drinkList = [
 
   {
       name: "Shut the hell up",
-      ingredients: [ '151 Proof Rum', 'Crown Royal', 'Jägermeister', 'Everclear', 'Grenadine'],
+      ingredients: [ 'Bacardi-151', 'Crown Royal', 'Jägermeister', 'Everclear', 'Grenadine'],
       measures: [ '1/2 part Bacardi ', '1 part ', '1 part ', '1/2 part ', '2 splashes '],
       instructions: "Pour Jager at bottom of glass. Mix Crown, Everclear, & 151 separately to layer on top of the Jager. Splash the Grenadine. Attempt to shoot & SHUT THE HELL UP.",
       glass: 'Old-fashioned glass'
@@ -15193,7 +15193,7 @@ const drinkList = [
 
   {
       name: "Soft Serbian",
-      ingredients: [ 'Vodka', 'Pernod', '151 Proof Rum', 'Orange Juice', 'Tonic water', 'Ice'],
+      ingredients: [ 'Vodka', 'Pernod', 'Bacardi-151', 'Orange Juice', 'Tonic Water', 'Ice'],
       measures: [ '2 cl Smirnoff ', '1 cl ', '1 cl Bacardi ', 'Fill half 12 cl ', 'Fill rest 12 cl ', 'crushed '],
       instructions: "Mix alcohol, then juice and tonic water. Add crushed ice and drink.",
       glass: 'Highball glass'
@@ -15377,7 +15377,7 @@ const drinkList = [
 
   {
       name: "Flaming Dragon",
-      ingredients: [ 'Green Chartreuse', '151 Proof Rum'],
+      ingredients: [ 'Green Chartreuse', 'Bacardi-151'],
       measures: [ '1 oz ', '1 oz '],
       instructions: "Mix together in a double shot glass. Light on fire. Let the flames warm the concoction about 20 secs. Blow out fire. Swallow quickly. Be careful as the glass may be hot. Now lay on the ground, put your claws in the air, and wrestle with the dragon.",
       glass: 'Shot glass'
@@ -15441,7 +15441,7 @@ const drinkList = [
 
   {
       name: "Captain Pepper",
-      ingredients: [ 'Spiced Rum', 'Dr. Pepper'],
+      ingredients: [ 'Spiced Rum', 'Dr Pepper'],
       measures: [ '1 shot ', '6 oz '],
       instructions: "Mix. Then drink. Repeat as necessary.",
       glass: 'Highball glass'
@@ -15449,7 +15449,7 @@ const drinkList = [
 
   {
       name: "Baileys Comet #2",
-      ingredients: ['Irish Cream', 'Goldschlager', '151 Proof Rum'],
+      ingredients: ['Irish Cream', 'Goldschlager', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', 'splash Bacardi '],
       instructions: "layer in order given, splash 151 on top light on fire, sprinkle cinnamon on top to produce sparks instead of just a flame",
       glass: 'Shot glass'
@@ -15569,7 +15569,7 @@ const drinkList = [
 
   {
       name: "Matty's Magic Mixture",
-      ingredients: [ 'Vodka', 'Grenadine', 'Orange Juice', 'Tonic water'],
+      ingredients: [ 'Vodka', 'Grenadine', 'Orange Juice', 'Tonic Water'],
       measures: [ '2 oz ', '1 oz ', '3 oz ', 'fill '],
       instructions: "combine ingredients in mug and stir until fizzy",
       glass: 'Beer mug'
@@ -15577,7 +15577,7 @@ const drinkList = [
 
   {
       name: "My Antonella",
-      ingredients: [ 'Gin', 'Chambord Raspberry Liqueur', 'Tonic water', 'Lime', 'Olive', 'Ice'],
+      ingredients: [ 'Gin', 'Chambord Raspberry Liqueur', 'Tonic Water', 'Lime', 'Olive', 'Ice'],
       measures: [ '1 oz ', '1 oz ', '3 oz ', '1 wedge '],
       instructions: "In a highball glass, combine Gin and Chambord over ice. Stir. Add two Italian green olives and fill with tonic water. Garnish with lime wedge.",
       glass: 'Highball glass'
@@ -15601,7 +15601,7 @@ const drinkList = [
 
   {
       name: "151 Florida Bushwacker",
-      ingredients: [ 'Malibu Rum', 'Light Rum', '151 Proof Rum', 'Dark Creme de Cacao', 'Cointreau', 'Milk', 'Coconut Liqueur', 'Vanilla Ice-Cream'],
+      ingredients: [ 'Malibu Rum', 'Light Rum', 'Bacardi-151', 'Dark Creme de Cacao', 'Cointreau', 'Milk', 'Coconut Liqueur', 'Vanilla Ice-Cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz Bacardi ', '1 oz ', '1 oz ', '3 oz ', '1 oz ', '1 cup '],
       instructions: "Combine all ingredients. Blend until smooth. Garnish with chocolate shavings if desired.",
       glass: 'Beer mug'
@@ -15617,7 +15617,7 @@ const drinkList = [
 
   {
       name: "Beam Me Up Scottie Mac",
-      ingredients: [ '151 Proof Rum', 'Creme de Banane','Irish Cream'],
+      ingredients: [ 'Bacardi-151', 'Creme de Banane','Irish Cream'],
       measures: [ '1/2 oz Bacardi ', '1/2 oz ', '1 oz '],
       instructions: "Chill rum. Then layer. Creme de Banana first, then Baileys and float rum on top.",
       glass: 'Champagne flute'
@@ -15689,7 +15689,7 @@ const drinkList = [
 
   {
       name: "ACID",
-      ingredients: [ '151 Proof Rum', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Wild Turkey'],
       measures: [ '1 oz Bacardi ', '1 oz '],
       instructions: "Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.",
       glass: 'Shot glass'
@@ -15809,7 +15809,7 @@ const drinkList = [
 
   {
       name: "Grim Reaper",
-      ingredients: [ 'Coffee Liqueur', '151 Proof Rum', 'Grenadine'],
+      ingredients: [ 'Coffee Liqueur', 'Bacardi-151', 'Grenadine'],
       measures: [ '1 oz ', '1 oz Bacardi ', '1 dash '],
       instructions: "Mix Kahlua and 151 in glass. Quickly add ice and pour grenadine over ice to give ice red tint.",
       glass: 'Old-fashioned glass'
@@ -15921,7 +15921,7 @@ const drinkList = [
 
   {
       name: "Lighthouse",
-      ingredients: [ 'Coffee Liqueur','Irish Cream', '151 Proof Rum'],
+      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Bacardi-151'],
       measures: [ '1/3 oz ', '1/3 oz ', '1/3 oz '],
       instructions: "Pour Kahlua in shot glass then with a spoon slowly pour Irish Cream into the shot glass on top of the Kahlua then pour the 151 Rum with the Spoon slowly on top of the Irish Cream then light on fire.. Blow out Flame Before Drinking!",
       glass: 'Shot glass'
@@ -16073,7 +16073,7 @@ const drinkList = [
 
   {
       name: "Concord",
-      ingredients: [ 'Coffee Liqueur','Irish Cream', '151 Proof Rum'],
+      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', 'Float Bacardi '],
       instructions: "Layer ingredients in above order in a shot glass. Light Bacardi 151 Rum, and serve.",
       glass: 'Shot glass'
@@ -16105,7 +16105,7 @@ const drinkList = [
 
   {
       name: "Feel The Burn",
-      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Ouzo', 'Wild Turkey', '151 Proof Rum'],
+      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Ouzo', 'Wild Turkey', 'Bacardi-151'],
       measures: [ 'Layer 1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz Bacardi '],
       instructions: "Layer all ingredients and light on fire to warm. Blow out flame and drink in one gulp.",
       glass: 'Cocktail glass'
@@ -16113,7 +16113,7 @@ const drinkList = [
 
   {
       name: "Vanilla Vargas",
-      ingredients: [ 'Ice', '151 Proof Rum', 'Crown Royal', 'Vanilla Liqueur', 'Cola'],
+      ingredients: [ 'Ice', 'Bacardi-151', 'Crown Royal', 'Vanilla Liqueur', 'Cola'],
       measures: [ '1/2 glass ', '1 shot Bacardi ', '1 shot ', '4 shots ', '1 can '],
       instructions: "Fill the highball glass (or preferrably a 32oz glass) half way with crushed ice. Then add the shots of alcohol in this order: bacardi 151 rum, crown royal, and vanilla liqeur. Now pour one can of pepsi into the mixture. Finally, stir well with a barspoon, or any long spoon to evenly distribute the ingredients.",
       glass: 'Highball glass'
@@ -16121,7 +16121,7 @@ const drinkList = [
 
   {
       name: "Golden Cola",
-      ingredients: [ 'Ice', 'Goldschlager', '151 Proof Rum', 'Vanilla Liqueur', 'Cola'],
+      ingredients: [ 'Ice', 'Goldschlager', 'Bacardi-151', 'Vanilla Liqueur', 'Cola'],
       measures: [ '1/2 glass ', '4 shots ', '1 shot Bacardi ', '1 shot ', '1 can '],
       instructions: "Fill highball glass(or preferably a 32 oz. glass) halfway with crushed ice. Add alcohol contents over ice. Pour coke over mixture. Mix well.",
       glass: 'Highball glass'
@@ -16153,7 +16153,7 @@ const drinkList = [
 
   {
       name: "Caribbean Smoked Torch",
-      ingredients: [ 'Brandy', 'Dark Rum', 'Malibu Rum', 'Midori Melon', 'Orange Juice', 'Pineapple Juice', 'Cranberry Juice', 'Ice', 'Chambord Raspberry Liqueur', '151 Proof Rum'],
+      ingredients: [ 'Brandy', 'Dark Rum', 'Malibu Rum', 'Midori Melon', 'Orange Juice', 'Pineapple Juice', 'Cranberry Juice', 'Ice', 'Chambord Raspberry Liqueur', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz ', '1/2 oz Bacardi '],
       instructions: "Mix all the ingredients, except for the 151 rum in a tin glass or shaker. Steam the snifter, using the 1/2oz. of 151 lighting it, until it consumes itself. After that pour the content of the shaker in the hot snifter. It will create a really good smelling cloud of smoke, that it's what distinguish this coktail.",
       glass: 'Brandy snifter'
@@ -16257,7 +16257,7 @@ const drinkList = [
 
   {
       name: "Terminator",
-      ingredients: [ '151 Proof Rum', 'Rumple Minze'],
+      ingredients: [ 'Bacardi-151', 'Rumple Minze'],
       measures: [ '1/2 oz Bacardi ', '1/2 oz '],
       instructions: "151 first, then Rumple Minze",
       glass: 'Shot glass'
@@ -16345,7 +16345,7 @@ const drinkList = [
 
   {
       name: "Nuthugger",
-      ingredients: [ '151 Proof Rum', 'Vodka', 'Lime Juice', 'Beer'],
+      ingredients: [ 'Bacardi-151', 'Vodka', 'Lime Juice', 'Beer'],
       measures: [ '1 oz Bacardi ', '1 oz ', '3 oz ', 'Fill with '],
       instructions: "Pour in hard liquors first and lime juice follows. Top with beer until full. Do not stir. Enjoy!!",
       glass: 'vote'
@@ -16361,7 +16361,7 @@ const drinkList = [
 
   {
       name: "Kill Me Now",
-      ingredients: [ 'Tequila', '151 Proof Rum', 'Vodka', 'Gin', 'Amaretto'],
+      ingredients: [ 'Tequila', 'Bacardi-151', 'Vodka', 'Gin', 'Amaretto'],
       measures: [ '3 oz ', '3 oz ', '3 oz ', '3 oz ', '2 oz '],
       instructions: "Mix all ingredients in hurricane glass.",
       glass: 'Hurricane glass'
@@ -16401,7 +16401,7 @@ const drinkList = [
 
   {
       name: "Booty Juice",
-      ingredients: [ 'Midori Melon', 'Malibu Rum', 'Spiced Rum', '151 Proof Rum'],
+      ingredients: [ 'Midori Melon', 'Malibu Rum', 'Spiced Rum', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/4 oz Bacardi '],
       instructions: "Fill mixing glass 1/2 full with ice. Add all ingerdients. Strain into a rocks glass.",
       glass: 'Old-fashioned glass'
@@ -16497,7 +16497,7 @@ const drinkList = [
 
   {
       name: "Passed Out Naked on the Bathroom Floor",
-      ingredients: [ 'Rumple Minze', 'Jägermeister', 'Gold Tequila', '151 Proof Rum'],
+      ingredients: [ 'Rumple Minze', 'Jägermeister', 'Gold Tequila', 'Bacardi-151'],
       measures: [ '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz Bacardi '],
       instructions: "Pour each ingredient into the shot glass, in this order: Rumple Minze, Jägermeister, Jose Cuervo Gold Tequila, then Bacardi 151 Rum. No need to mix, it mixes fine in this order.",
       glass: 'Shot glass'
@@ -16505,7 +16505,7 @@ const drinkList = [
 
   {
       name: "Wild Sex",
-      ingredients: [ 'Ice', 'Malibu Rum', 'Peach Schnapps', '151 Proof Rum', 'Orange Juice', 'Cranberry Juice', 'Pineapple Juice', 'Grenadine'],
+      ingredients: [ 'Ice', 'Malibu Rum', 'Peach Schnapps', 'Bacardi-151', 'Orange Juice', 'Cranberry Juice', 'Pineapple Juice', 'Grenadine'],
       measures: [ ' cubes '],
       instructions: "Fill glass with ice and pour Malibu, peach schnapps and 151 into glass. After putting the right amount of liquor put your juices on top and splash of grenadine. When you have all of that done take your shaker tin, fitting it on top of the glass and give it a couple of good shakes.",
       glass: 'Hurricane glass'
@@ -16529,7 +16529,7 @@ const drinkList = [
 
   {
       name: "Voodoo Dew",
-      ingredients: [ '151 Proof Rum', 'Mountain Dew'],
+      ingredients: [ 'Bacardi-151', 'Mountain Dew'],
       measures: [ '3 shots Bacardi ', '1 can '],
       instructions: "Poor shots into jar or glass and then poor can of dew in!! Mix well and enjoy!!!",
       glass: 'Mason jar'
@@ -16721,7 +16721,7 @@ const drinkList = [
 
   {
       name: "Boat drink",
-      ingredients: [ 'Spiced Rum', 'Tonic water', 'Lime'],
+      ingredients: [ 'Spiced Rum', 'Tonic Water', 'Lime'],
       measures: [ '2 oz ', 'Splash ', 'Rim glass '],
       instructions: "To a glass of ice add Captain Morgan's spiced rum. Add a splash of tonic water. Rim glass with lime. Drink. Repeat.",
       glass: 'Highball glass'
@@ -16737,7 +16737,7 @@ const drinkList = [
 
   {
       name: "Ankle Breaker",
-      ingredients: [ '151 Proof Rum', 'Cherry Brandy', 'Lime Juice', 'Simple Syrup'],
+      ingredients: [ 'Bacardi-151', 'Cherry Brandy', 'Lime Juice', 'Simple Syrup'],
       measures: [ '2 oz ', '1 oz ', '1 oz fresh ', '1 tsp '],
       instructions: "Combine all ingredients with cracked ice in a cocktail shaker. Shake well. Strain into a chilled old-fashioned glass.",
       glass: 'Old-fashioned glass'
@@ -16745,7 +16745,7 @@ const drinkList = [
 
   {
       name: "Flaming Gorilla",
-      ingredients: [ 'Peppermint Schnapps', 'Coffee Liqueur', '151 Proof Rum'],
+      ingredients: [ 'Peppermint Schnapps', 'Coffee Liqueur', 'Bacardi-151'],
       measures: [ '1 part ', '1 part ', '1 part Bacardi '],
       instructions: "pour into shot glass, layering ingredients, from top to bottom light on fire and extinguish after 15 seconds.",
       glass: 'Shot glass'
@@ -16857,7 +16857,7 @@ const drinkList = [
 
   {
       name: "Sweet Death",
-      ingredients: [ 'Malibu Rum', '151 Proof Rum', 'Vodka', 'Sour Mix', 'Cranberry Juice'],
+      ingredients: [ 'Malibu Rum', 'Bacardi-151', 'Vodka', 'Sour Mix', 'Cranberry Juice'],
       measures: [ '1 oz ', '1 oz Bacardi ', '1 oz ', 'Half Fill With ', 'Fill With '],
       instructions: "Fill glass with ice then pour ingrediants in order then stir.",
       glass: 'vote'
@@ -16945,7 +16945,7 @@ const drinkList = [
 
   {
       name: "Submarine (conventional)",
-      ingredients: [ 'Gin', 'Ginger Ale', 'Tonic water'],
+      ingredients: [ 'Gin', 'Ginger Ale', 'Tonic Water'],
       measures: [ '4 cl ', '2 cl ', 'Fill with '],
       instructions: "Start with the gin, then fill up with the tonic water. And last, add the ginger ale.",
       glass: 'Highball glass'
@@ -16953,7 +16953,7 @@ const drinkList = [
 
   {
       name: "Submarine (nuclear)",
-      ingredients: [ 'Gin', 'Ginger Ale', 'Tonic water'],
+      ingredients: [ 'Gin', 'Ginger Ale', 'Tonic Water'],
       measures: [ '8 cl ', '2 cl ', 'Fill with '],
       instructions: "Start with the gin, then fill up the glas with tonic water. And last, add the ginger ale.",
       glass: 'Highball glass'
@@ -17001,7 +17001,7 @@ const drinkList = [
 
   {
       name: "Acid Cookie",
-      ingredients: [ 'Rumple Minze','Irish Cream', 'Butterscotch Schnapps', '151 Proof Rum', 'Cream'],
+      ingredients: [ 'Rumple Minze','Irish Cream', 'Butterscotch Schnapps', 'Bacardi-151', 'Cream'],
       measures: [ '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz Bacardi ', '1 splash '],
       instructions: "Mix liquor togther. Add Cream. Shake Well. Strain & Serve",
       glass: 'Shot glass'
@@ -17121,7 +17121,7 @@ const drinkList = [
 
   {
       name: "Nystedt",
-      ingredients: [ 'Absolut Vodka', 'Lemon-Lime Soda', 'Orange Juice', 'Tonic water', 'Lemon Juice'],
+      ingredients: [ 'Absolut Vodka', 'Lemon-Lime Soda', 'Orange Juice', 'Tonic Water', 'Lemon Juice'],
       measures: [ '1 part ', '2 parts ', '2 parts ', '2 parts grapefruit ', 'A little freshly squeezed '],
       instructions: "Shake the orange juice and the grape tonic with lots of ice in a shaker. Pour it in a glass and add the 7-Up and the Vodka. Last, add some lemon and decorate with one slice of orange and one slice of lemon.",
       glass: 'Collins glass'
@@ -17185,7 +17185,7 @@ const drinkList = [
 
   {
       name: "K-V-S Kaboom",
-      ingredients: [ '151 Proof Rum', 'Jack Daniels', 'Absolut Kurant', 'Everclear', 'Cranberry Juice', 'Fruit', 'Ice'],
+      ingredients: [ 'Bacardi-151', 'Jack Daniels', 'Absolut Kurant', 'Everclear', 'Cranberry Juice', 'Fruit', 'Ice'],
       measures: [ '1 bottle Bacardi ', '1 bottle ', '1 bottle ', '1 bottle ', '2 gal ', 'Some ', '3 bags '],
       instructions: "Mix all ingredients into a large punch bowl or ice chest. Slice fruit and add into mixture. More Cranberry juice may be added if you are a bunch of light-weights. Stir vigorously with a paddle.",
       glass: 'Punch bowl'
@@ -17209,7 +17209,7 @@ const drinkList = [
 
   {
       name: "Honolulu Action",
-      ingredients: [ 'Grenadine', 'Midori Melon', 'Blue Curacao','Irish Cream', 'Tequila', 'Vodka', '151 Proof Rum', 'Whipped cream'],
+      ingredients: [ 'Grenadine', 'Midori Melon', 'Blue Curacao','Irish Cream', 'Tequila', 'Vodka', 'Bacardi-151', 'Whipped cream'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part ', '1 part ', '1 part ', '1 part Bacardi ', 'top '],
       instructions: "Layer ingredients in the above order, top with whipped cream, top with a sprinkle of Li Hing Powder.",
       glass: 'Shot glass'
@@ -17321,7 +17321,7 @@ const drinkList = [
 
   {
       name: "Malaria Killer",
-      ingredients: [ 'Campari', 'Tonic water', 'Orange'],
+      ingredients: [ 'Campari', 'Tonic Water', 'Orange'],
       measures: [ '4 cl ', 'Add 1/2 bottle indian ', '1 slice '],
       instructions: "Pour Campari in the glass. Add Indian Tonic Water. Stir with a spoon. Add ice if you want & a slice of Orange.",
       glass: 'Highball glass'
@@ -17529,7 +17529,7 @@ const drinkList = [
 
   {
       name: "The Drink of Champions",
-      ingredients: [ 'Crown Royal', 'Dr. Pepper'],
+      ingredients: [ 'Crown Royal', 'Dr Pepper'],
       measures: [ '2 oz '],
       instructions: "Pour Crown Royal into beer mug (or whatever type of glass that is available). Fill with chilled Dr. Pepper or add ice cubes before pouring. Stir gently with fork, spoon, knife, toothbrush or whatever is handy or forget to stir and wait for surprise at bottom.",
       glass: 'Beer mug'
@@ -17545,7 +17545,7 @@ const drinkList = [
 
   {
       name: "Screaming Dead Nazi",
-      ingredients: [ 'Jägermeister', '151 Proof Rum', 'Rumple Minze'],
+      ingredients: [ 'Jägermeister', 'Bacardi-151', 'Rumple Minze'],
       measures: [ '1/3 ', '1/3 Bacardi ', '1/3 '],
       instructions: "Pour all in shot glass, one by one. Set aflame, blow it out, and enjoy.....",
       glass: 'Shot glass'
@@ -17753,7 +17753,7 @@ const drinkList = [
 
   {
       name: "Tequonic",
-      ingredients: [ 'Tequila', 'Lemon', 'Tonic water'],
+      ingredients: [ 'Tequila', 'Lemon', 'Tonic Water'],
       measures: [ '2 oz ', 'Juice of 1/2 '],
       instructions: "Pour tequila over ice cubes into old-fashioned glass. Add fruit juice, fill with tonic water, and stir.",
       glass: 'Old-fashioned glass'
@@ -17857,7 +17857,7 @@ const drinkList = [
 
   {
       name: "Lethal Weapon",
-      ingredients: [ '151 Proof Rum', 'Vodka', 'Mountain Dew', 'Triple Sec'],
+      ingredients: [ 'Bacardi-151', 'Vodka', 'Mountain Dew', 'Triple Sec'],
       measures: [ '1 shot Bacardi ', '2 shots ', '1 can ', 'dash '],
       instructions: "Combine all into a tall glass and serve with ice. As an option, use two cans of Mountain Dew if the drink seems too strong for you.",
       glass: 'Highball glass'
@@ -17953,7 +17953,7 @@ const drinkList = [
 
   {
       name: "Rain Man",
-      ingredients: [ '151 Proof Rum', 'Midori Melon', 'Orange Juice'],
+      ingredients: [ 'Bacardi-151', 'Midori Melon', 'Orange Juice'],
       measures: [ '1 1/4 oz ', '3/4 oz ', '4 oz '],
       instructions: "Shake all ingredients together, then pour into a hurricane glass filled with ice.",
       glass: 'Hurricane glass'
@@ -18001,7 +18001,7 @@ const drinkList = [
 
   {
       name: "Tiffany Marshall",
-      ingredients: [ 'Dark Rum', 'Vodka', 'Orange Juice', 'Carbonated water', 'Lemon Juice'],
+      ingredients: [ 'Dark Rum', 'Vodka', 'Orange Juice', 'Carbonated Water', 'Lemon Juice'],
       measures: [ '1 L ', '1 L ', '1/2 L ', '3 L ', 'Add to taste '],
       instructions: "Mix as punch. Add orange or lemon slices, or olives.",
       glass: 'vote'
@@ -18065,7 +18065,7 @@ const drinkList = [
 
   {
       name: "Space Odyssey",
-      ingredients: [ '151 Proof Rum', 'Malibu Rum', 'Pineapple Juice', 'Orange Juice', 'Grenadine', 'Cherries'],
+      ingredients: [ 'Bacardi-151', 'Malibu Rum', 'Pineapple Juice', 'Orange Juice', 'Grenadine', 'Cherries'],
       measures: [ '1 shot Bacardi ', '1 shot ', '1 shot '],
       instructions: "Fill glass with ice and add shots of Bacardi and Malibu. Add splash of pineapple juice and top with orange juice. Add grenadine for color and garnish with cherries.",
       glass: 'vote'
@@ -18297,7 +18297,7 @@ const drinkList = [
 
   {
       name: "252",
-      ingredients: [ '151 Proof Rum', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Wild Turkey'],
       measures: [ '1/2 shot Bacardi ', '1/2 shot '],
       instructions: "Add both ingredients to shot glass, shoot, and get drunk quick",
       glass: 'Shot glass'
@@ -18385,7 +18385,7 @@ const drinkList = [
 
   {
       name: "RumRunner's RubyRed",
-      ingredients: [ 'Vodka', 'Grapefruit Juice', 'Tonic water'],
+      ingredients: [ 'Vodka', 'Grapefruit Juice', 'Tonic Water'],
       measures: [ '2 oz ', '5-6 oz Ruby red ', 'Top with '],
       instructions: "Fill large glass with ice Add Vodka and Ruby Red juice Top with Tonic Pour from one glass to another to mix",
       glass: 'vote'
@@ -18409,7 +18409,7 @@ const drinkList = [
 
   {
       name: "Vulcan Mind-Probe",
-      ingredients: [ 'Ouzo', '151 Proof Rum'],
+      ingredients: [ 'Ouzo', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "Mix and sereve straight up.",
       glass: 'Shot glass'
@@ -18553,7 +18553,7 @@ const drinkList = [
 
   {
       name: "Crimson Tide",
-      ingredients: [ 'Absolut Vodka', 'Malibu Rum', 'Chambord Raspberry Liqueur', 'Maui', 'Southern Comfort', '151 Proof Rum', 'Cranberry Juice', 'Sprite'],
+      ingredients: [ 'Absolut Vodka', 'Malibu Rum', 'Chambord Raspberry Liqueur', 'Maui', 'Southern Comfort', 'Bacardi-151', 'Cranberry Juice', 'Sprite'],
       measures: [ '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz Bacardi ', '1/4 oz ', '1/4 oz '],
       instructions: "combine all ingrediants, chill over ice, strain.",
       glass: 'vote'
@@ -18577,7 +18577,7 @@ const drinkList = [
 
   {
       name: "Old Crusty",
-      ingredients: [ '151 Proof Rum', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Wild Turkey'],
       measures: [ '1 oz Bacardi ', '1 oz '],
       instructions: " ",
       glass: 'Shot glass'
@@ -18713,7 +18713,7 @@ const drinkList = [
 
   {
       name: "Penguino",
-      ingredients: [ 'Light Rum', 'Cointreau', 'Tonic water'],
+      ingredients: [ 'Light Rum', 'Cointreau', 'Tonic Water'],
       measures: [ '1 shot ', '1 shot ', '6 oz '],
       instructions: "Fill collins glass with ice, add one shot light rum and one shot Cointreau or triple sec. Fill with tonic. Serve ungarnished, or with cherry.",
       glass: 'Collins glass'
@@ -18825,7 +18825,7 @@ const drinkList = [
 
   {
       name: "Jelly Bean #2",
-      ingredients: [ 'Coffee Liqueur', 'Anisette', '151 Proof Rum'],
+      ingredients: [ 'Coffee Liqueur', 'Anisette', 'Bacardi-151'],
       measures: [ '1/2 shot ', '1/2 shot ', '1/2 shot Bacardi '],
       instructions: "Pour ingredients in the above order into highball glass. Tilt glass until mixture is close to top of glass and light. Wait a few seconds, then right before shooting it, blow it out so you don't burn your face off!",
       glass: 'Highball glass'
@@ -18841,7 +18841,7 @@ const drinkList = [
 
   {
       name: "Pepito Lolito",
-      ingredients: [ 'Gin', 'Blue Curacao', 'Tonic water', 'Orange Soda', 'Ice', 'Lemon'],
+      ingredients: [ 'Gin', 'Blue Curacao', 'Tonic Water', 'Orange Soda', 'Ice', 'Lemon'],
       measures: [ 'Add ', 'With ', 'Then ', 'And ', '1 handful ', '1 slice '],
       instructions: "Add gin and Curaco, more gin than curaco. Mix the soda, which should have orange flavour (eg. Fanta or something like that) and the tonic, 1/2 of each. Fill up until the bitter gin taste is gone, and the drink is all green. Be sure that all the ingredients are very cold, and add ice. To make it perfect, a slice of lemon is to be slid around the edge of the glass, and then put in the drink.",
       glass: 'Collins glass'
@@ -19081,7 +19081,7 @@ const drinkList = [
 
   {
       name: "Gorilla",
-      ingredients: [ '151 Proof Rum', 'Jägermeister'],
+      ingredients: [ 'Bacardi-151', 'Jägermeister'],
       measures: [ '1 shot Bacardi ', '1 shot '],
       instructions: "none",
       glass: 'vote'
@@ -19097,7 +19097,7 @@ const drinkList = [
 
   {
       name: "Dr. Daniel",
-      ingredients: [ 'Jack Daniels', 'Dr. Pepper', 'Ice'],
+      ingredients: [ 'Jack Daniels', 'Dr Pepper', 'Ice'],
       measures: [ '2 oz ', '5 oz '],
       instructions: "Put ice in glass. Pour in ingredients. Gently swirl to mix. Drink.",
       glass: 'vote'
@@ -19193,7 +19193,7 @@ const drinkList = [
 
   {
       name: "Duck's Ass",
-      ingredients: ['Irish Cream', 'Coffee Liqueur', '151 Proof Rum'],
+      ingredients: ['Irish Cream', 'Coffee Liqueur', 'Bacardi-151'],
       measures: [ '1 shot ', '1 shot ', '1 shot Bacardi '],
       instructions: "mix in tumbler with ice strain in shot glass.",
       glass: 'Shot glass'
@@ -19337,7 +19337,7 @@ const drinkList = [
 
   {
       name: "Mad Scientist #2",
-      ingredients: [ 'Midori Melon', 'Sour Mix', 'Club Soda', '151 Proof Rum'],
+      ingredients: [ 'Midori Melon', 'Sour Mix', 'Club Soda', 'Bacardi-151'],
       measures: [ '1 oz ', '1 1/2 oz ', '1 splash '],
       instructions: "Mix melon liqueur, sour, and soda with ice in shaker. Shake and strain into martini glass. Top with rum and ignite.",
       glass: 'Shot glass'
@@ -19649,7 +19649,7 @@ const drinkList = [
 
   {
       name: "Texas Sling",
-      ingredients: [ 'Coffee Liqueur', 'Irish cream', 'Amaretto', '151 Proof Rum', 'Cream'],
+      ingredients: [ 'Coffee Liqueur', 'Irish cream', 'Amaretto', 'Bacardi-151', 'Cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz Bacardi ', '1 oz '],
       instructions: "Blend with Ice until smooth. Serve in a tulip glass, top with whip cream.",
       glass: 'vote'
@@ -19697,7 +19697,7 @@ const drinkList = [
 
   {
       name: "Candy",
-      ingredients: [ 'Dr. Pepper', '151 Proof Rum', 'Amaretto'],
+      ingredients: [ 'Dr Pepper', 'Bacardi-151', 'Amaretto'],
       measures: [ '12 oz ', '1 1/4 oz Bacardi ', '3/4 oz '],
       instructions: "Fill a glass with ice. Pour the 151. Pour the Dr. Pepper. Pour the Amaretto. Stir.",
       glass: 'vote'
@@ -19833,7 +19833,7 @@ const drinkList = [
 
   {
       name: "Gorilla Fart #3",
-      ingredients: [ '151 Proof Rum', 'Southern Comfort', 'Jack Daniels'],
+      ingredients: [ 'Bacardi-151', 'Southern Comfort', 'Jack Daniels'],
       measures: [ '1/3 shot Bacardi ', '1/3 shot ', '1/3 shot '],
       instructions: "Pour in glass, drink!",
       glass: 'Shot glass'
@@ -20017,7 +20017,7 @@ const drinkList = [
 
   {
       name: "Gorilla's Tit",
-      ingredients: [ 'Coffee Liqueur', 'Yukon Jack', '151 Proof Rum'],
+      ingredients: [ 'Coffee Liqueur', 'Yukon Jack', 'Bacardi-151'],
       measures: [ '1 oz ', '1 oz ', '1 oz Bacardi '],
       instructions: "After mixing each ingredient in order shown, light the 151 with a match. Blow out the flames, and sip drink quickly with a straw.",
       glass: 'Old-fashioned glass'
@@ -20057,7 +20057,7 @@ const drinkList = [
 
   {
       name: "Dick-in-the-Dirt",
-      ingredients: [ 'Peach Schnapps', '151 Proof Rum', 'Southern Comfort', 'Yukon Jack', 'Pineapple Juice', 'Cranberry Juice', 'Grand Marnier'],
+      ingredients: [ 'Peach Schnapps', 'Bacardi-151', 'Southern Comfort', 'Yukon Jack', 'Pineapple Juice', 'Cranberry Juice', 'Grand Marnier'],
       measures: [ '1 shot ', '1/2 shot Bacardi ', '1/2 shot ', '1/2 shot ', '1 splash ', '1 splash ', '1 splash '],
       instructions: "Mix all ingredients in a tall glass on the rocks.",
       glass: 'vote'
@@ -20073,7 +20073,7 @@ const drinkList = [
 
   {
       name: "Flaming Dr.",
-      ingredients: [ 'Firewater', 'Dr. Pepper'],
+      ingredients: [ 'Firewater', 'Dr Pepper'],
       measures: [ '1.5 oz ', '12 oz '],
       instructions: "Pour both into a pint glass, mix and drink.",
       glass: 'Pint glass'
@@ -20089,7 +20089,7 @@ const drinkList = [
 
   {
       name: "Pineappleless Pineapple Juice",
-      ingredients: [ 'Southern Comfort', '151 Proof Rum', 'Lemon-Lime Soda', 'Orange Juice', 'Cola'],
+      ingredients: [ 'Southern Comfort', 'Bacardi-151', 'Lemon-Lime Soda', 'Orange Juice', 'Cola'],
       measures: [ '4 1/2 oz ', '1 splash Bacardi ', '3 oz ', '4 oz ', '4 oz '],
       instructions: "Pour Southern Comfort to the first line of a 16 oz. Solo Brand plastic cup. Add splash of Bacardi 151 Rum. Add 7-Up, Orange Juice, and Coca-Cola. Swirl it around in the cup a little bit and enjoy.",
       glass: 'vote'
@@ -20137,7 +20137,7 @@ const drinkList = [
 
   {
       name: "Crack Pipe",
-      ingredients: [ '151 Proof Rum', 'Rumple Minze', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Rumple Minze', 'Wild Turkey'],
       measures: [ '1 oz Bacardi ', '1 oz ', '1 oz '],
       instructions: "Shake with ice, strain into glass",
       glass: 'Highball glass'
@@ -20177,7 +20177,7 @@ const drinkList = [
 
   {
       name: "Skane-i-fier",
-      ingredients: [ 'Ice', 'Whiskey', 'Malibu Rum', 'Dr. Pepper'],
+      ingredients: [ 'Ice', 'Whiskey', 'Malibu Rum', 'Dr Pepper'],
       measures: [ ' cubes ', ' stir '],
       instructions: "Fill glass with ice. Add whiskey, Malibu and Dr. Pepper Stir.",
       glass: 'Whiskey sour glass'
@@ -20225,7 +20225,7 @@ const drinkList = [
 
   {
       name: "Fu** me like a beast",
-      ingredients: [ 'Tequila', 'Midori Melon', 'Chambord Raspberry Liqueur', 'Pineapple Juice', 'Orange Juice', 'Grenadine', '151 Proof Rum'],
+      ingredients: [ 'Tequila', 'Midori Melon', 'Chambord Raspberry Liqueur', 'Pineapple Juice', 'Orange Juice', 'Grenadine', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 part ', '1 part ', '1 dash ', 'Top with Bacardi '],
       instructions: "Combine all ingredients except 151, shake well with ice, pour into highball glass and top it off with Bacardi 151.",
       glass: 'Highball glass'
@@ -20249,7 +20249,7 @@ const drinkList = [
 
   {
       name: "Blue Smurf Piss",
-      ingredients: [ 'Jägermeister', '151 Proof Rum', 'Rumple Minze', 'Goldschlager', 'Blue Curacao'],
+      ingredients: [ 'Jägermeister', 'Bacardi-151', 'Rumple Minze', 'Goldschlager', 'Blue Curacao'],
       measures: [ '1/5 shot ', '1/5 shot Bacardi ', '1/5 shot ', '1/5 shot ', '1/5 shot '],
       instructions: "Pour as listed.",
       glass: 'Shot glass'
@@ -20505,7 +20505,7 @@ const drinkList = [
 
   {
       name: "Weakness",
-      ingredients: [ 'Goldschlager', 'Rumple Minze', '151 Proof Rum', 'Jägermeister'],
+      ingredients: [ 'Goldschlager', 'Rumple Minze', 'Bacardi-151', 'Jägermeister'],
       measures: [ '1 oz ', '1 oz ', '1 oz Bacardi ', '1 oz '],
       instructions: "Pour all four shots into a low ball glass, chill if you care.",
       glass: 'Cocktail glass'
@@ -20529,7 +20529,7 @@ const drinkList = [
 
   {
       name: "Zombie #2",
-      ingredients: [ 'Lemon Juice', 'Grenadine', 'Orange Juice', 'Cherry Heering', 'White Rum', 'Dark Rum', '151 Proof Rum'],
+      ingredients: [ 'Lemon Juice', 'Grenadine', 'Orange Juice', 'Cherry Heering', 'White Rum', 'Dark Rum', 'Bacardi-151'],
       measures: [ '1 1/4 oz ', '2 dashes ', '3/4 oz blood ', '3/4 oz ', '3/4 oz ', '2 oz ', '3/4 oz dark '],
       instructions: "Shake over ice in a shaker, and strain into a large highball glass over crushed ice.",
       glass: 'Highball glass'
@@ -20537,7 +20537,7 @@ const drinkList = [
 
   {
       name: "Zombie #3",
-      ingredients: [ 'Gold Rum', 'Lime Juice', 'Rum', 'White Rum', 'Pineapple Juice', 'Papaya Juice', 'Simple Syrup', '151 Proof Rum', 'Pineapple', 'Powdered sugar'],
+      ingredients: [ 'Gold Rum', 'Lime Juice', 'Rum', 'White Rum', 'Pineapple Juice', 'Papaya Juice', 'Simple Syrup', 'Bacardi-151', 'Pineapple', 'Powdered sugar'],
       measures: [ '1 1/2 oz ', '3 tsp ', '1 tblsp Jamaican ', '1 tblsp ', '1 tblsp ', '1 tblsp ', '1 1/2 tsp ', '1 tsp '],
       instructions: "Shake all ingedients over ice, except the high-proof rum, the pineapple stick and the sugar. Strain and add ice. Garnish with pineapple and a cherry. Float the high-proof rum at top and sprinkle a litter sugar over it.",
       glass: 'Highball glass'
@@ -20593,7 +20593,7 @@ const drinkList = [
 
   {
       name: "Three Stages of Friendship",
-      ingredients: [ 'Jack Daniels', 'Tequila', '151 Proof Rum'],
+      ingredients: [ 'Jack Daniels', 'Tequila', 'Bacardi-151'],
       measures: [ '1/3 oz ', '1/3 oz ', '1/3 oz '],
       instructions: "Mix all three in a shot glass and shoot the damn thing.",
       glass: 'Shot glass'
@@ -20633,7 +20633,7 @@ const drinkList = [
 
   {
       name: "Hot Lunch",
-      ingredients: [ '151 Proof Rum', 'Tabasco sauce'],
+      ingredients: [ 'Bacardi-151', 'Tabasco sauce'],
       measures: [ '2 oz Bacardi ', '1 dash '],
       instructions: "Mix all ingredients in glass. Garnish with small pickle. Light contents of glass on fire. Tilt head back and have your buddy pour it into your mouth (very carefully). Have four more hot lunches and go to bed. You have no business going anywhere after the abuse you just gave yourself.",
       glass: 'Cocktail glass'
@@ -20649,7 +20649,7 @@ const drinkList = [
 
   {
       name: "Hairy Buffalo",
-      ingredients: [ 'Gin', '151 Proof Rum', 'Gold Tequila', 'Vodka', 'Tennessee Whiskey', 'Fruit', 'Fruit punch', 'Ice'],
+      ingredients: [ 'Gin', 'Bacardi-151', 'Gold Tequila', 'Vodka', 'Tennessee Whiskey', 'Fruit', 'Fruit punch', 'Ice'],
       measures: [ '1 fifth ', '1 fifth ', '1 fifth ', '1 fifth ', '1 fifth ', 'Selection ofite ', '2 cans ', ' cubes '],
       instructions: "Mix all ingredients into a large cooler, punch bowl or garbage can (a new one). Cut larger fruit into pieces and add.",
       glass: 'Punch bowl'
@@ -21009,7 +21009,7 @@ const drinkList = [
 
   {
       name: "Dr. Pepper #5",
-      ingredients: [ 'Amaretto', '151 Proof Rum', 'Beer'],
+      ingredients: [ 'Amaretto', 'Bacardi-151', 'Beer'],
       measures: [ '1/2 shot ', '1/2 shot Bacardi ', '1/2 glass '],
       instructions: "Mix the Amaretto & Bacardi in one shot glass. Fill the beer mug 1/2 way with beer. Light the Bacardi & Amaretto with a match or lighter. Drop the flaming shot glass into the beer. It immediately begins to foam up. At this point gulp it down (be careful not to swallow the shot glass!).",
       glass: 'Beer mug'
@@ -21265,7 +21265,7 @@ const drinkList = [
 
   {
       name: "Tiffany's Wet and Ready",
-      ingredients: [ 'Malibu Rum', 'Pineapple Juice', '151 Proof Rum', 'Grenadine', 'Ice'],
+      ingredients: [ 'Malibu Rum', 'Pineapple Juice', 'Bacardi-151', 'Grenadine', 'Ice'],
       measures: [ '1 1/2 oz '],
       instructions: "Fill Mason jar with crushed ice. Add pineapple juice and Malibu rum. Mix well. Add splash of greanadine and 151 proof rum. Garnish with cherry, pineapple, or other fruit slice.",
       glass: 'Mason jar'
@@ -21281,7 +21281,7 @@ const drinkList = [
 
   {
       name: "Leatherneck",
-      ingredients: [ 'Tabasco sauce', '151 Proof Rum'],
+      ingredients: [ 'Tabasco sauce', 'Bacardi-151'],
       measures: [],
       instructions: "Pour 1/4 inch to one inch Tabasco into shot glass. Pour Rum over Tabasco and shoot it.",
       glass: 'Shot glass'
@@ -21353,7 +21353,7 @@ const drinkList = [
 
   {
       name: "Rum Aid",
-      ingredients: [ '151 Proof Rum', 'Malibu Rum', 'Rum', 'Grand Marnier', 'Sour Mix', 'Ginger Ale'],
+      ingredients: [ 'Bacardi-151', 'Malibu Rum', 'Rum', 'Grand Marnier', 'Sour Mix', 'Ginger Ale'],
       measures: [ '1 oz Bacardi ', '1 oz ', '1 oz ', '2 tblsp ', '1 ml ', '1 part '],
       instructions: "Skaking Serves with ice an a Lemon",
       glass: 'Margarita/Coupette glass'
@@ -21401,7 +21401,7 @@ const drinkList = [
 
   {
       name: "FireBall Shooter",
-      ingredients: [ 'Cinnamon Schnapps', '151 Proof Rum', 'Tabasco sauce'],
+      ingredients: [ 'Cinnamon Schnapps', 'Bacardi-151', 'Tabasco sauce'],
       measures: [ '1 shot ', '1 shot Bacardi ', '2 dashes '],
       instructions: "Mix the Schnapps, Rum and Tabasco in a Shooter Glass. Stir briefly.",
       glass: 'Shot glass'
@@ -21617,7 +21617,7 @@ const drinkList = [
 
   {
       name: "Liquid Cocaine #3",
-      ingredients: [ 'Jägermeister', '151 Proof Rum', 'Rumple Minze'],
+      ingredients: [ 'Jägermeister', 'Bacardi-151', 'Rumple Minze'],
       measures: [ '3 parts ', '2 parts Bacardi ', '1 part '],
       instructions: "Keep all 3 liquors in freezer till they are viscous. (Jägermeister should have a syrup quality.) Mix all three in shaker and pour in a extra tall frosted shot glass. (Should be one of those unusually tall shot glasses if possible, otherwise use small whiskey glass as this is a unusually large shot.) Serve Cold!",
       glass: 'Shot glass'
@@ -21905,7 +21905,7 @@ const drinkList = [
 
   {
       name: "Flaming Goat",
-      ingredients: [ 'Vodka', 'Gin', 'Rum', 'Tequila', 'Triple Sec', 'Blue Curacao', 'Sour Mix', 'Cranberry Juice', 'Ice', '151 Proof Rum'],
+      ingredients: [ 'Vodka', 'Gin', 'Rum', 'Tequila', 'Triple Sec', 'Blue Curacao', 'Sour Mix', 'Cranberry Juice', 'Ice', 'Bacardi-151'],
       measures: [ '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz ', '1 splash ', 'Bacardi '],
       instructions: "Mix vodka, gin, rum, tequila, triple sec and curacao. Add sour mix. Add Curacao until it's dark purple. Fill glass with ice cubes and fload Bacardi 151 rum on top. Have the flame blown out before drinking add a straw.",
       glass: 'Hurricane glass'
@@ -22225,7 +22225,7 @@ const drinkList = [
 
   {
       name: "Suicide The Shot",
-      ingredients: [ '151 Proof Rum', 'Tabasco sauce'],
+      ingredients: [ 'Bacardi-151', 'Tabasco sauce'],
       measures: [ '11/2 oz ', '1/4 oz '],
       instructions: "Float Tabasco a top of rum.",
       glass: 'Shot glass'
@@ -22313,7 +22313,7 @@ const drinkList = [
 
   {
       name: "The 5th Element",
-      ingredients: [ 'Pineapple Juice', 'Sprite', '151 Proof Rum', 'Southern Comfort', 'Everclear'],
+      ingredients: [ 'Pineapple Juice', 'Sprite', 'Bacardi-151', 'Southern Comfort', 'Everclear'],
       measures: [ '3 oz ', '3 oz ', '1 oz Bacardi ', '1 oz ', '1 oz '],
       instructions: "Chill mug, add ice, pour Sprite and juice into mug. Then add rum and Southern Comfort. Finally add the 5th element: Everclear!",
       glass: 'Beer mug'
@@ -22345,7 +22345,7 @@ const drinkList = [
 
   {
       name: "Perfect Flaming Dr. Pepper",
-      ingredients: [ 'Amaretto', 'Coffee Liqueur', 'Root beer Schnapps', '151 Proof Rum', 'Beer'],
+      ingredients: [ 'Amaretto', 'Coffee Liqueur', 'Root beer Schnapps', 'Bacardi-151', 'Beer'],
       measures: [ '1/2 shot ', '1/4 shot ', '1/8 shot '],
       instructions: "In the shot glass, pour amaretto, then kahlua, then root beer schnapps. Finally float rum on top. Fill a beer mug (with something like bud or coors) half way. Light shot on fire, drop into beer mug and slam as fast as you can! By the way, the faster its slamed, the more it tastes like Dr. Pepper",
       glass: 'Beer mug'
@@ -22401,7 +22401,7 @@ const drinkList = [
 
   {
       name: "Stormcloud",
-      ingredients: [ 'Amaretto', '151 Proof Rum','Irish Cream'],
+      ingredients: [ 'Amaretto', 'Bacardi-151','Irish Cream'],
       measures: [ '3/4 oz ', 'splash Bacardi ', '1/4 oz '],
       instructions: "Build in shot glass. Float Baileys in amaretto and top with 151. The Baileys should float in the middle.",
       glass: 'Shot glass'
@@ -22425,7 +22425,7 @@ const drinkList = [
 
   {
       name: "DewRunRum",
-      ingredients: [ '151 Proof Rum', 'Mountain Dew'],
+      ingredients: [ 'Bacardi-151', 'Mountain Dew'],
       measures: [ '1 part Bacardi ', '16 parts '],
       instructions: "Use Green Plastic Dixie cups 16oz. 2 Ice cubes. Place one shot of 151 into glass Pour Mountain Dew over 151 and ice.",
       glass: 'vote'
@@ -22481,7 +22481,7 @@ const drinkList = [
 
   {
       name: "Real Romulan Ale",
-      ingredients: [ '151 Proof Rum', 'Everclear', 'Blue Curacao'],
+      ingredients: [ 'Bacardi-151', 'Everclear', 'Blue Curacao'],
       measures: [ '375 ml Bacardi ', '375 ml ', '375 ml '],
       instructions: "Select a bottle (preferably decorative, but not too ornate) that will hold just over 1 liter of liquid. Combine 375ml of each ingredient in the bottle. Marvel at the entrancing color and exquisite character that is The Ale. -- Put the bottle in your freezer and wait 2 hours. -- Pour a shot and hold on to your hat!",
       glass: 'Shot glass'
@@ -22601,7 +22601,7 @@ const drinkList = [
 
   {
       name: "Jake-Knife",
-      ingredients: [ 'Jägermeister', 'Cola', '151 Proof Rum'],
+      ingredients: [ 'Jägermeister', 'Cola', 'Bacardi-151'],
       measures: [ '2 oz ', 'Fill with ', 'Top with Bacardi '],
       instructions: "Pour Jägermeister in shaker over ice. Fill with coke and shake til your arms are sore. Pour into glass and top with a smidgen of Bacrdi 151. If your feeling mean, feel free to light it!",
       glass: 'Cocktail glass'
@@ -22705,7 +22705,7 @@ const drinkList = [
 
   {
       name: "Tequila BoomBoom",
-      ingredients: [ 'Tequila', 'Tabasco sauce', 'Tonic water'],
+      ingredients: [ 'Tequila', 'Tabasco sauce', 'Tonic Water'],
       measures: [ '2 parts ', '8 drops ', '1 part '],
       instructions: "Throw everything in a glass. Put a towel over the glass slam it on the bar. Before the foam hits the edge off the glass you must have finished it .",
       glass: 'Cocktail glass'
@@ -22761,7 +22761,7 @@ const drinkList = [
 
   {
       name: "Dragon's Breath",
-      ingredients: [ 'Firewater', '151 Proof Rum'],
+      ingredients: [ 'Firewater', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz Bacardi '],
       instructions: "pour in fire water float bacardi 151 rum on top ignite",
       glass: 'Shot glass'
@@ -22801,7 +22801,7 @@ const drinkList = [
 
   {
       name: "Death Wish",
-      ingredients: [ 'Southern Comfort', 'Dr. Pepper'],
+      ingredients: [ 'Southern Comfort', 'Dr Pepper'],
       measures: [ '1/2 ', '1/2 '],
       instructions: "Pour in cup and stir.",
       glass: 'Beer mug'
@@ -22886,7 +22886,7 @@ const iconReference = {
     'Grand Marnier',
     'Southern Comfort',
     'Amaretto',
-    '151 Proof Rum',
+    'Bacardi-151',
     'Blended Whiskey',
     'Black Sambuca',
     'Añejo Rum'
@@ -22951,7 +22951,7 @@ const iconReference = {
     'Iced Tea',
     'Club Soda',
     'Ginger Beer',
-    'Dr. Pepper',
+    'Dr Pepper',
     'Orange Juice',
     'Apple Juice',
     'Cranberry Juice',
@@ -23024,7 +23024,68 @@ const icons = document.querySelectorAll('.icon');
 const arrowBox = document.querySelector('.arrow_box');
 const form = document.querySelector('form');
 const arrowLeft = document.querySelector('.arrow-left');
-const arrowRight = document.querySelector('.arrow-right')
+const arrowRight = document.querySelector('.arrow-right');
+
+//CHECK LOCALSTORAGE
+window.onload = function(){
+  if (localStorage.getItem("inventory") === null) {
+  }
+  else {
+    availableIngredients = localStorage.inventory.split(',');
+    for (var i = 0; i < drinkList.length; i++) {
+      let x = true;
+      let drinkIngredients = drinkList[i].ingredients;
+      for (var j = 0; j < drinkIngredients.length; j++) {
+        if(availableIngredients.indexOf(drinkIngredients[j]) < 0 ){
+          x = false;
+        }
+      }
+      if (x === true && (availableDrinks.indexOf(drinkList[i].name) < 0)) {
+        let recipeLink = document.createElement('div');
+        recipeLink.classList.add('recipe-link');
+        recipeLink.innerHTML=`${drinkList[i].name}`;
+        availableDrinks.push(drinkList[i].name);
+        //Add eventlistener on recipeLink
+
+        recipeLink.addEventListener('click', displayRecipe);
+        let recipeCount = document.querySelectorAll('.recipe-link').length;
+        if (recipeCount < 8) {
+          recipeBox1.classList.add('populated');
+          recipeBox1.append(recipeLink);
+        }
+        else if (recipeCount < 16) {
+          recipeBox2.classList.add('populated');
+          recipeBox2.append(recipeLink);
+          //CAROUSEL ARROW
+            arrowRight.classList.remove('hidden');
+            arrowRight.addEventListener('click', scrollRight);
+            arrowLeft.addEventListener('click', scrollLeft);
+
+        }
+        else if (recipeCount < 24) {
+          recipeBox3.classList.add('populated');
+          recipeBox3.append(recipeLink);
+        }
+        else if (recipeCount < 32) {
+          recipeBox4.classList.add('populated');
+          recipeBox4.append(recipeLink);
+        }
+        else if (recipeCount < 40) {
+          recipeBox5.classList.add('populated');
+          recipeBox5.append(recipeLink);
+        }
+        else if (recipeCount < 48) {
+          recipeBox6.classList.add('populated');
+          recipeBox6.append(recipeLink);
+        }
+        else if (recipeCount < 56) {
+          recipeBox7.classList.add('populated');
+          recipeBox7.append(recipeLink);
+        }
+      }
+    }
+  }
+}
 
 //CARDS
 //CLOSE CARD WHEN CLICKING ON X
@@ -23042,6 +23103,7 @@ function addOrRemove(array, value) {
   } else{
     array.splice(index,1);
   }
+  localStorage.setItem('inventory', array);
 }
 
 
@@ -23171,6 +23233,7 @@ function displayArrowBox(event){
     let li = document.createElement('li');
     li.innerHTML = `<input type="checkbox" id="${element}">${element}<label for=""></label>`;
 
+
     if (ingredientArr.indexOf(element) < 7){
       ul1.append(li);
     }
@@ -23182,6 +23245,10 @@ function displayArrowBox(event){
     }
     else if(ingredientArr.indexOf(element) < 28) {
       ul4.append(li);
+    }
+    let input = li.querySelector('input');
+    if (availableIngredients.indexOf(element) > -1) {
+      input.checked = true;
     }
   })
   console.log(ingredientArr);
