@@ -21720,14 +21720,6 @@ const drinkList = [
   },
 
   {
-      name: "Mark and Coke",
-      ingredients: [ 'Ice', 'Bourbon', 'Cola'],
-      measures: [ ' (Makers Mark) '],
-      instructions: "Fill cocktail glass to the top with clean ice. Straight pour about 4 oz of Makers Mark over ice. Add Coca-Cola to taste.",
-      glass: 'Cocktail glass'
-  },
-
-  {
       name: "Mudslide #3",
       ingredients: ['Irish Cream', 'Coffee Liqueur', 'Cola'],
       measures: [ '1 or 2 shot ', '1 or 2 shot ', 'Fill with 1 '],
@@ -23092,12 +23084,23 @@ function displayRecipe(event){
   cardTitle.innerHTML = `<h2>${drinkObject.name}</h2>`;
   cardIngredients.innerHTML = '<h3>Ingredients</h3>  <ul>  </ul>'
   let ul = document.querySelector('.card-ingredients ul');
-//Iterate through drink ingredients and add them to card
-  drinkObject.ingredients.forEach(function(element){
+//Iterate through drink ingredients and add them to card as well as measures
+  for (var i = 0; i < drinkObject.ingredients.length; i++) {
     let li = document.createElement('li');
-    li.innerHTML = `-${element}`;
+    let span1 = document.createElement('span');
+    let span2 = document.createElement('span');
+    span1.innerHTML = `-${drinkObject.measures[i]}`;
+    span2.innerHTML = drinkObject.ingredients[i];
+    li.append(span1);
+    li.append(span2);
     ul.append(li);
-  })
+  }
+
+  // drinkObject.ingredients.forEach(function(element){
+  //   let li = document.createElement('li');
+  //   li.innerHTML = `-${element}`;
+  //   ul.append(li);
+  // })
   cardBody.innerHTML = `<h3>Recipe</h3><p>${drinkObject.instructions}</p>`
 //List the type of glass to use, or leave empty if the answer is 'vote'
   if(drinkObject.glass === 'vote'){
