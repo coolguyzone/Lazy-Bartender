@@ -23008,8 +23008,13 @@ let availableIngredients = ['Water', 'Ice'];
 let availableDrinks = [];
 const card = document.querySelector('.card');
 const cardClose = document.querySelector('.card-close');
-let recipeLinks = document.querySelectorAll('.recipe-link');
-const recipeBox = document.querySelector('.recipe-box');
+const recipeBox1 = document.querySelector('.recipe-box1');
+const recipeBox2 = document.querySelector('.recipe-box2');
+const recipeBox3 = document.querySelector('.recipe-box3');
+const recipeBox4 = document.querySelector('.recipe-box4');
+const recipeBox5 = document.querySelector('.recipe-box5');
+const recipeBox6 = document.querySelector('.recipe-box6');
+const recipeBox7 = document.querySelector('.recipe-box7');
 const cardTitle = document.querySelector('.card-title');
 const cardIngredients = document.querySelector('.card-ingredients');
 const cardBody = document.querySelector('.card-body');
@@ -23063,10 +23068,35 @@ function addIngredient(event) {
         let recipeLink = document.createElement('div');
         recipeLink.classList.add('recipe-link');
         recipeLink.innerHTML=`${drinkList[i].name}`;
-        recipeBox.append(recipeLink);
         availableDrinks.push(drinkList[i].name);
-//Add eventlistener on recipeLink
         recipeLink.addEventListener('click', displayRecipe);
+        //CAROUSEL
+        let recipeCount = document.querySelectorAll('.recipe-link').length;
+        if (recipeCount < 8) {
+          recipeBox1.append(recipeLink);
+        }
+        else if (recipeCount < 16) {
+          recipeBox2.append(recipeLink);
+        }
+        else if (recipeCount < 24) {
+          recipeBox3.append(recipeLink);
+        }
+        else if (recipeCount < 32) {
+          recipeBox4.append(recipeLink);
+        }
+        else if (recipeCount < 40) {
+          recipeBox5.append(recipeLink);
+        }
+        else if (recipeCount < 48) {
+          recipeBox6.append(recipeLink);
+        }
+        else if (recipeCount < 56) {
+          recipeBox7.append(recipeLink);
+        }
+
+
+//Add eventlistener on recipeLink
+
     }
   }
 
@@ -23096,11 +23126,7 @@ function displayRecipe(event){
     ul.append(li);
   }
 
-  // drinkObject.ingredients.forEach(function(element){
-  //   let li = document.createElement('li');
-  //   li.innerHTML = `-${element}`;
-  //   ul.append(li);
-  // })
+
   cardBody.innerHTML = `<h3>Recipe</h3><p>${drinkObject.instructions}</p>`
 //List the type of glass to use, or leave empty if the answer is 'vote'
   if(drinkObject.glass === 'vote'){
