@@ -58,7 +58,7 @@ h1{
 
 .arrow_box:after, .arrow_box:before {
 	bottom: 100%;
-	left: 29%;
+	left: 15%;
 	border: solid transparent;
 	content: " ";
 	height: 0;

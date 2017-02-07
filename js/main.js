@@ -23026,6 +23026,8 @@ const form = document.querySelector('form');
 const arrowLeft = document.querySelector('.arrow-left');
 const arrowRight = document.querySelector('.arrow-right');
 
+
+
 //CHECK LOCALSTORAGE
 window.onload = function(){
   if (localStorage.getItem("inventory") === null) {
@@ -23118,6 +23120,15 @@ function arrayContainsAnotherArray(arr1, arr2){
 }
 
 function addIngredient(event) {
+  recipeBox1.innerHTML="";
+  recipeBox2.innerHTML="";
+  recipeBox3.innerHTML="";
+  recipeBox4.innerHTML="";
+  recipeBox5.innerHTML="";
+  recipeBox6.innerHTML="";
+  recipeBox7.innerHTML="";
+  availableDrinks = [];
+
 
   addOrRemove(availableIngredients, event.target.id);
 
@@ -23192,6 +23203,9 @@ function displayRecipe(event){
     let li = document.createElement('li');
     let span1 = document.createElement('span');
     let span2 = document.createElement('span');
+    // if (drinkObject.measures[i] === undefined) {
+    //
+    // }
     span1.innerHTML = `-${drinkObject.measures[i]}`;
     span2.innerHTML = drinkObject.ingredients[i];
     li.append(span1);
@@ -23229,6 +23243,30 @@ function displayArrowBox(event){
   let ul3 = document.createElement('ul');
   let ul4 = document.createElement('ul');
   ingredientArr = iconReference[event.target.id];
+  if (event.target.id === 'clearDrinks') {
+    let styleElem =  document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 15%;}';
+  }
+  else if (event.target.id === 'brownDrinks') {
+    let styleElem =  document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 29%;}';
+  }
+  else if(event.target.id === 'fruitDrinks') {
+    let styleElem =  document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 43%;}';
+  }
+  else if (event.target.id === 'beerWine') {
+    let styleElem =  document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 57%;}';
+  }
+  else if (event.target.id === 'mixers') {
+    let styleElem =  document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 71%;}';
+  }
+  else {
+    let styleElem =  document.head.appendChild(document.createElement("style"));
+    styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 85%;}';
+  }
   ingredientArr.forEach(function(element){
     let li = document.createElement('li');
     li.innerHTML = `<input type="checkbox" id="${element}">${element}<label for=""></label>`;
