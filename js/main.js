@@ -23269,7 +23269,7 @@ function displayArrowBox(event){
   }
   ingredientArr.forEach(function(element){
     let li = document.createElement('li');
-    li.innerHTML = `<input type="checkbox" id="${element}">${element}<label for=""></label>`;
+    li.innerHTML = `<input type="checkbox" id="${element}"><label for="">${element}</label>`;
 
 
     if (ingredientArr.indexOf(element) < 7){
