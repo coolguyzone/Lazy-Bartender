@@ -23203,10 +23203,12 @@ function displayRecipe(event){
     let li = document.createElement('li');
     let span1 = document.createElement('span');
     let span2 = document.createElement('span');
-    // if (drinkObject.measures[i] === undefined) {
-    //
-    // }
-    span1.innerHTML = `-${drinkObject.measures[i]}`;
+    if (drinkObject.measures[i] !== undefined) {
+      span1.innerHTML = `-${drinkObject.measures[i]}`;
+    }
+    else {
+      span1.innerHTML = `-`;
+    }
     span2.innerHTML = drinkObject.ingredients[i];
     li.append(span1);
     li.append(span2);
