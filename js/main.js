@@ -23295,48 +23295,61 @@ function displayArrowBox(event){
 //CAROUSEL
 let currentBox = 1;
 function scrollRight(event) {
-  console.log(document.querySelector(`.recipe-box${currentBox+1}`))
-  if (document.querySelector(`.recipe-box${currentBox+1}`).classList.contains('populated')){
-    document.querySelector(`.recipe-box${currentBox}`).classList.add('hidden');
-    currentBox++;
-    document.querySelector(`.recipe-box${currentBox}`).classList.remove('hidden');
+  document.querySelector(`.recipe-box${currentBox}`).classList.add('hidden');
+  currentBox++;
+  document.querySelector(`.recipe-box${currentBox}`).classList.remove('hidden');
+  if (currentBox > 1) {
+    arrowLeft.classList.remove('hidden');
+  }
+  if (document.querySelector(`.recipe-box${currentBox+1}`).classList.contains('populated') === false) {
+    arrowRight.classList.add('hidden');
   }
 }
-
 
 function scrollLeft(event) {
-  if (currentBox === 2) {
-    recipeBox2.classList.add('hidden');
-    recipeBox1.classList.remove('hidden');
+    document.querySelector(`.recipe-box${currentBox}`).classList.add('hidden');
+    document.querySelector(`.recipe-box${currentBox-1}`).classList.remove('hidden');
     currentBox--;
-    arrowLeft.classList.add('hidden');
-  }
-  else if (currentBox === 3) {
-    recipeBox3.classList.add('hidden');
-    recipeBox2.classList.remove('hidden');
-    currentBox--;
-  }
-  else if (currentBox === 4) {
-    recipeBox4.classList.add('hidden');
-    recipeBox3.classList.remove('hidden');
-    currentBox--;
-  }
-  else if (currentBox === 5) {
-    recipeBox5.classList.add('hidden');
-    recipeBox4.classList.remove('hidden');
-    currentBox--;
-  }
-  else if (currentBox === 6) {
-    recipeBox6.classList.add('hidden');
-    recipeBox5.classList.remove('hidden');
-    currentBox--;
-  }
-  else if (currentBox === 7) {
-    recipeBox7.classList.add('hidden');
-    recipeBox6.classList.remove('hidden');
-    currentBox--;
-  }
+    if (currentBox === 1) {
+      arrowLeft.classList.add('hidden');
+      if (recipeBox2.classList.contains('populated')) {
+        arrowRight.classList.remove('hidden');
+      }
+    }
+
 }
+  // if (currentBox === 2) {
+  //   recipeBox2.classList.add('hidden');
+  //   recipeBox1.classList.remove('hidden');
+  //   currentBox--;
+  //   arrowLeft.classList.add('hidden');
+  // }
+  // else if (currentBox === 3) {
+  //   recipeBox3.classList.add('hidden');
+  //   recipeBox2.classList.remove('hidden');
+  //   currentBox--;
+  // }
+  // else if (currentBox === 4) {
+  //   recipeBox4.classList.add('hidden');
+  //   recipeBox3.classList.remove('hidden');
+  //   currentBox--;
+  // }
+  // else if (currentBox === 5) {
+  //   recipeBox5.classList.add('hidden');
+  //   recipeBox4.classList.remove('hidden');
+  //   currentBox--;
+  // }
+  // else if (currentBox === 6) {
+  //   recipeBox6.classList.add('hidden');
+  //   recipeBox5.classList.remove('hidden');
+  //   currentBox--;
+  // }
+  // else if (currentBox === 7) {
+  //   recipeBox7.classList.add('hidden');
+  //   recipeBox6.classList.remove('hidden');
+  //   currentBox--;
+  // }
+// }
 
 
 //Vowel Checker
