@@ -22,6 +22,20 @@ h1{
   font-size: 4em;
 }
 
+.restart {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 12%;
+  height: 40px;
+  line-height: 40px;
+  background-color: black;
+  text-align: center;
+  font-size: 1.2em;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
 /*MAIN*/
 .main {
   /*width: 80%;*/

@@ -23025,6 +23025,7 @@ const arrowBox = document.querySelector('.arrow_box');
 const form = document.querySelector('form');
 const arrowLeft = document.querySelector('.arrow-left');
 const arrowRight = document.querySelector('.arrow-right');
+const restart = document.querySelector('.restart');
 
 
 
@@ -23320,4 +23321,15 @@ function clearCarousel() {
   recipeBox7.classList.add('hidden');
   arrowRight.classList.add('hidden');
   arrowLeft.classList.add('hidden');
+}
+
+//Restart Button
+restart.addEventListener('click', resetBar);
+
+function resetBar() {
+  var areYouSure = confirm("Are you sure you want to empty your bar?");
+  if (areYouSure) {
+    localStorage.clear();
+    location.reload();
+  }
 }
