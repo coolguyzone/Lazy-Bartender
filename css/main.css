@@ -225,7 +225,7 @@ and (orientation : portrait) {
   .arrow_box {
     height: 800px;
     font-size: 2em;
-    margin-bottom: 400px;
+    margin-bottom: 300px;
   }
   input[type='checkbox'] {
     -webkit-appearance:none;
