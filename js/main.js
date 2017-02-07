@@ -23295,41 +23295,14 @@ function displayArrowBox(event){
 //CAROUSEL
 let currentBox = 1;
 function scrollRight(event) {
-  if (currentBox === 1 && recipeBox2.classList.contains('populated')) {
-    recipeBox1.classList.add('hidden');
-    recipeBox2.classList.remove('hidden');
+  console.log(document.querySelector(`.recipe-box${currentBox+1}`))
+  if (document.querySelector(`.recipe-box${currentBox+1}`).classList.contains('populated')){
+    document.querySelector(`.recipe-box${currentBox}`).classList.add('hidden');
     currentBox++;
-  }
-  else if (currentBox === 2 && recipeBox3.classList.contains('populated')) {
-    recipeBox2.classList.add('hidden');
-    recipeBox3.classList.remove('hidden');
-    currentBox++;
-  }
-  else if (currentBox === 3 && recipeBox4.classList.contains('populated')) {
-    recipeBox3.classList.add('hidden');
-    recipeBox4.classList.remove('hidden');
-    currentBox++;
-  }
-  else if (currentBox === 4 && recipeBox5.classList.contains('populated')) {
-    recipeBox4.classList.add('hidden');
-    recipeBox5.classList.remove('hidden');
-    currentBox++;
-  }
-  else if (currentBox === 5 && recipeBox6.classList.contains('populated')) {
-    recipeBox5.classList.add('hidden');
-    recipeBox6.classList.remove('hidden');
-    currentBox++;
-  }
-  else if (currentBox === 6 && recipeBox7.classList.contains('populated')) {
-    recipeBox6.classList.add('hidden');
-    recipeBox7.classList.remove('hidden');
-    currentBox++;
-    arrowRight.classList.add('hidden');
-  }
-  if (currentBox > 1) {
-    arrowLeft.classList.remove('hidden');
+    document.querySelector(`.recipe-box${currentBox}`).classList.remove('hidden');
   }
 }
+
 
 function scrollLeft(event) {
   if (currentBox === 2) {
