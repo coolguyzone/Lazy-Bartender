@@ -1,3 +1,12 @@
+Color Scheme:
+#312A7E
+#6B243F
+#1B5023
+#6F4625
+#A89F38
+#391326
+
+
 Liquor Categories:
   Clear:
     1.Vodka

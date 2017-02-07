@@ -148,7 +148,7 @@ form{
   height: 0;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 20px solid goldenrod;
+  border-left: 20px solid #A89F38;
   position: absolute;
   right: 8px;
 }
@@ -158,7 +158,7 @@ form{
   height: 0;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-right:20px solid goldenrod;
+  border-right:20px solid #A89F38;
   position: absolute;
   left: 8px;
 }
@@ -183,7 +183,7 @@ form{
 .card-title h2{
     text-align: center;
     font-size: 3em;
-    color: red;
+    color: #312A7E;
 }
 
 .card-ingredients, .card-body, .card-glass {
