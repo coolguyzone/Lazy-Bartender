@@ -23100,11 +23100,7 @@ function closeCard() {
 //MAKE CARD LINKS SHOW recipe-box
 function addOrRemove(array, value) {
   var index = array.indexOf(value);
-  if(index === -1) {
-    array.push(value);
-  } else{
-    array.splice(index,1);
-  }
+  index === -1 ? array.push(value) : array.splice(index,1);
   localStorage.setItem('inventory', array);
 }
 
@@ -23203,12 +23199,7 @@ function displayRecipe(event){
     let li = document.createElement('li');
     let span1 = document.createElement('span');
     let span2 = document.createElement('span');
-    if (drinkObject.measures[i] !== undefined) {
-      span1.innerHTML = `-${drinkObject.measures[i]}`;
-    }
-    else {
-      span1.innerHTML = `-`;
-    }
+    drinkObject.measures[i] !== undefined ? span1.innerHTML = `-${drinkObject.measures[i]}`: span1.innerHTML = `-`;
     span2.innerHTML = drinkObject.ingredients[i];
     li.append(span1);
     li.append(span2);
@@ -23234,10 +23225,7 @@ function displayRecipe(event){
 }
 
 //ADD EVENT LISTENER TO ICONS
-icons.forEach(function(element){
-  element.addEventListener('click', displayArrowBox);
-})
-
+icons.forEach(element => element.addEventListener('click', displayArrowBox));
 function displayArrowBox(event){
   form.innerHTML = '';
   let ul1 = document.createElement('ul');
@@ -23300,9 +23288,7 @@ function displayArrowBox(event){
   arrowBox.classList.remove('hidden-with-space');
   //set eventlistener on CHECKBOXES
   let checkboxes = document.querySelectorAll('input[type=checkbox]');
-  checkboxes.forEach(function(element){
-    element.addEventListener('click', addIngredient);
-  })
+  checkboxes.forEach(element => element.addEventListener('click', addIngredient));
 
 }
 

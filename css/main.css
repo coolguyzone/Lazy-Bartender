@@ -204,6 +204,18 @@ form{
   cursor: pointer;
 }
 
+/*input[type='checkbox'] {
+  -webkit-appearance:none;
+  width:12px;
+  height:12px;
+  background:white;
+  border-radius:1px;
+  border: 2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: black;
+}*/
+
 
 /*MEDIA QUERIES*/
 
@@ -213,6 +225,7 @@ and (orientation : portrait) {
   .arrow_box {
     height: 800px;
     font-size: 2em;
+    margin-bottom: 400px;
   }
   input[type='checkbox'] {
     -webkit-appearance:none;
