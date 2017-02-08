@@ -211,7 +211,7 @@ function arrayContainsAnotherArray(arr1, arr2){
 
 function addOrRemoveIngredient(event) {
   availableDrinks = [];
-  addOrRemove(availableIngredients, event.Currenttarget.id);
+  addOrRemove(availableIngredients, event.currentTarget.id);
   loadCarousel();
   if (screen.width < 736) {
     if(event.currentTarget.style.backgroundColor.length < 1) {
