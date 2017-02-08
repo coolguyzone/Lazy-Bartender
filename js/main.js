@@ -211,7 +211,7 @@ function arrayContainsAnotherArray(arr1, arr2){
 
 function addOrRemoveIngredient(event) {
   availableDrinks = [];
-  addOrRemove(availableIngredients, event.currentTarget.id);
+  addOrRemove(availableIngredients, event.Currenttarget.id);
   loadCarousel();
   if (screen.width < 736) {
     if(event.currentTarget.style.backgroundColor.length < 1) {
@@ -267,6 +267,9 @@ function displayRecipe(event){
 //ADD EVENT LISTENER TO ICONS
 icons.forEach(element => element.addEventListener('click', displayArrowBox));
 function displayArrowBox(event){
+  //USE SETTIMOUT TO ENSURE ANIMATION CAN HAPPEN REPEATEDLY
+  setTimeout(() => event.target.classList.remove("animated", "tada"), 1000);
+  event.target.classList.add("animated", "tada");
   form.innerHTML = '';
   let ul1 = document.createElement('ul');
   let ul2 = document.createElement('ul');
