@@ -283,6 +283,9 @@ input[type='checkbox']:checked {
 @media only screen
 and (max-device-width : 736px)
 and (orientation : portrait) {
+  body {
+    font-family: arial;
+  }
   .arrow_box {
     height: 580px;
     font-size: 2em;
@@ -388,5 +391,8 @@ and (orientation : portrait) {
   .card-body p {
     margin-top: 0;
     font-size: 2em;
+  }
+  h1{
+    margin-bottom: 50px;
   }
 }
