@@ -1168,6 +1168,14 @@ const drinkList = [
   },
 
   {
+    name: "Old Fashioned",
+    ingredients: ['Bourbon', 'Angostura Bitters', 'Sugar', 'Water'],
+    measure:['1.5 oz ', '2 dashes ', '1 cube ', '1 dash '],
+    instructions: "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange twist, and a cocktail cherry.",
+    glass: 'Old-fashioned glass'
+  },
+
+  {
       name: "Boxcar",
       ingredients: [ 'Gin', 'Triple Sec', 'Lemon Juice', 'Grenadine', 'Egg White'],
       measures: [ '1 1/2 oz ', '1 oz ', '1 tsp ', '1/2 tsp '],
@@ -23075,14 +23083,13 @@ function arrayContainsAnotherArray(arr1, arr2){
 
 function addOrRemoveIngredient(event) {
   availableDrinks = [];
-  addOrRemove(availableIngredients, event.target.id);
+  addOrRemove(availableIngredients, event.currentTarget.id);
   loadCarousel();
   if (screen.width < 736) {
-    event.preventDefault();
-    if(event.target.style.backgroundColor.length < 1) {
-      event.target.style.backgroundColor='#645551';
+    if(event.currentTarget.style.backgroundColor.length < 1) {
+      event.currentTarget.style.backgroundColor='#645551';
     }
-    else (event.target.style.backgroundColor = '');
+    else (event.currentTarget.style.backgroundColor = '');
   }
 
   console.log(availableIngredients);
@@ -23183,6 +23190,11 @@ function displayArrowBox(event){
     let input = li.querySelector('input');
     if (availableIngredients.indexOf(element) > -1) {
       input.checked = true;
+    }
+    if(screen.width < 736) {
+      if (availableIngredients.indexOf(element) > -1) {
+        li.style.backgroundColor='#645551';
+      }
     }
   })
   console.log(ingredientArr);
