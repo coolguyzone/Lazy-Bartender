@@ -23026,6 +23026,8 @@ const form = document.querySelector('form');
 const arrowLeft = document.querySelector('.arrow-left');
 const arrowRight = document.querySelector('.arrow-right');
 const restart = document.querySelector('.restart');
+const firstTime = document.querySelector('.first-time');
+const getStarted = document.querySelector('.get-started');
 
 
 
@@ -23036,6 +23038,12 @@ window.onload = function(){
   else {
     availableIngredients = localStorage.inventory.split(',');
     loadCarousel();
+  }
+//HIDE INSTRUCTIONS IF USER HAS BEEN HERE BEFORE
+  if(localStorage.getItem("FirstTime") === null) {
+  }
+  else {
+    firstTime.classList.add('hidden');
   }
 }
 
@@ -23333,3 +23341,9 @@ function resetBar() {
     location.reload();
   }
 }
+
+//First Time
+getStarted.addEventListener('click', () => {
+  firstTime.classList.add('hidden');
+  localStorage.setItem('FirstTime', 'nope');
+});
