@@ -279,7 +279,7 @@ input[type='checkbox']:checked {
 and (max-device-width : 736px)
 and (orientation : portrait) {
   .arrow_box {
-    height: 800px;
+    height: 600px;
     font-size: 2em;
     margin-bottom: 100px;
   }
