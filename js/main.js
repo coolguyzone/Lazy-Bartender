@@ -23077,6 +23077,14 @@ function addOrRemoveIngredient(event) {
   availableDrinks = [];
   addOrRemove(availableIngredients, event.target.id);
   loadCarousel();
+  if (screen.width < 736) {
+    event.preventDefault();
+    if(event.target.style.backgroundColor.length < 1) {
+      event.target.style.backgroundColor='#645551';
+    }
+    else (event.target.style.backgroundColor = '');
+  }
+
   console.log(availableIngredients);
 }
 
@@ -23188,6 +23196,8 @@ function displayArrowBox(event){
   if (screen.width < 736) {
     let formLIs = document.querySelectorAll('form li');
     formLIs.forEach(element => element.addEventListener('click', addOrRemoveIngredient));
+    let checkboxes = document.querySelectorAll('input[type=checkbox]');
+    checkboxes.forEach((element) => element.classList.add('hidden'))
   }
   else {
     //set eventlistener on CHECKBOXES
