@@ -5,8 +5,8 @@
 body {
   background-color: #474747;
   color: white;
-  font-family: arial;
-  /*font-family: 'Caveat Brush', cursive;*/
+  font-family: 'Indie Flower', arial;
+  font-weight: bold;
 }
 
 .hidden {
@@ -21,6 +21,8 @@ body {
 h1{
   text-align: center;
   font-size: 4em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .restart {
@@ -72,6 +74,8 @@ h1{
 	background: #d5cace;
 	border: 4px solid #c2e1f5;
   margin: 40px auto;
+  margin-top: 24px;
+  margin-bottom: 18px;
   color: black;
   height: 200px;
   width: 100%;
@@ -154,7 +158,7 @@ form{
   background-color: black;
   border-radius: 20px;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.4em;
   cursor: pointer;
   margin-bottom: 6px;
 }
