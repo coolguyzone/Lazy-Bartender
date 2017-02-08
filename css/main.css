@@ -326,4 +326,11 @@ and (orientation : portrait) {
     line-height: 50px;
     font-size: 1.5em;
   }
+  /*HIDE ARROWBOX POINTER*/
+  .arrow_box:after, .arrow_box:before {
+    border: none;
+  }
+  .arrow_box {
+    margin-top: 10px;
+  }
 }
