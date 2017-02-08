@@ -279,7 +279,7 @@ input[type='checkbox']:checked {
 and (max-device-width : 736px)
 and (orientation : portrait) {
   .arrow_box {
-    height: 600px;
+    height: 500px;
     font-size: 2em;
     margin-bottom: 100px;
   }
@@ -294,12 +294,13 @@ and (orientation : portrait) {
   input[type='checkbox']:checked {
       background: black;
   }
-  label {
-    margin-bottom: -4px !important;
-  }
+
   form li {
     border: 1px solid black;
+    border-radius: 5px;
     width: 400px;
+    text-align: center;
+    font-weight: bold;
   }
   form ul {
     margin-bottom: 0;
