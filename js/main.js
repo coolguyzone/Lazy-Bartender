@@ -23156,6 +23156,7 @@ function displayArrowBox(event){
   }
   ingredientArr.forEach(function(element){
     let li = document.createElement('li');
+    li.id =element;
     li.innerHTML = `<input type="checkbox" id="${element}"><label for="">${element}</label>`;
 
 
@@ -23183,10 +23184,16 @@ function displayArrowBox(event){
   form.append(ul4);
 
   arrowBox.classList.remove('hidden-with-space');
-  //set eventlistener on CHECKBOXES
-  let checkboxes = document.querySelectorAll('input[type=checkbox]');
-  checkboxes.forEach(element => element.addEventListener('click', addOrRemoveIngredient));
-
+  //MEDIA QUERY
+  if (screen.width < 736) {
+    let formLIs = document.querySelectorAll('form li');
+    formLIs.forEach(element => element.addEventListener('click', addOrRemoveIngredient));
+  }
+  else {
+    //set eventlistener on CHECKBOXES
+    let checkboxes = document.querySelectorAll('input[type=checkbox]');
+    checkboxes.forEach(element => element.addEventListener('click', addOrRemoveIngredient));
+  }
 }
 
 //CAROUSEL
