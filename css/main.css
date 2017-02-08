@@ -395,4 +395,19 @@ and (orientation : portrait) {
   h1{
     margin-bottom: 50px;
   }
+  .first-time {
+    height: 560px;
+  }
+  .first-time h2 {
+    font-size: 3.1em;
+  }
+  .first-time p {
+    font-size: 2.7em;
+  }
+  .get-started {
+    font-size: 3.1em;
+    width: 325px;
+    height: 71px;
+    line-height: 71px;
+  }
 }
