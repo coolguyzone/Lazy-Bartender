@@ -177,9 +177,10 @@ window.onload = function(){
   }
 //HIDE INSTRUCTIONS IF USER HAS BEEN HERE BEFORE
   if(localStorage.getItem("FirstTime") === null) {
+    firstTime.classList.remove('hidden');
   }
   else {
-    firstTime.classList.add('hidden');
+    // firstTime.classList.add('hidden');
   }
 }
 
