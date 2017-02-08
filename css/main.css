@@ -6,6 +6,7 @@ body {
   background-color: #474747;
   color: white;
   font-family: arial;
+  /*font-family: 'Caveat Brush', cursive;*/
 }
 
 .hidden {
@@ -344,5 +345,44 @@ and (orientation : portrait) {
     line-height: 40px;
     width: 350px;
     font-size: 1.8em;
+  }
+  .card {
+    width: 800px;
+    height: 800px;
+    left: 9%;
+    right: 20%;
+    top: 16%;
+  }
+  .card-title h2 {
+    font-size: 5em;
+  }
+  .card-close {
+    font-size: 3em;
+  }
+  .card-title h2 {
+    font-size: 5em;
+    margin-bottom: 0;
+  }
+  .card-ingredients {
+    margin-bottom: 0;
+  }
+  .card h3 {
+    font-size: 3em;
+  }
+  .card-ingredients h3 {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .card ul {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .card-body h3 {
+    margin-bottom: 0;
+  }
+  .card-body p {
+    margin-top: 0;
+    font-size: 2em;
   }
 }
