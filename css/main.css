@@ -262,6 +262,13 @@ and (orientation : portrait) {
   label {
     margin-bottom: -4px !important;
   }
+  form li {
+    border: 1px solid black;
+    width: 400px;
+  }
+  form ul {
+    margin-bottom: 0;
+  }
 }
 
 /*FIRST TIME*/
