@@ -332,5 +332,17 @@ and (orientation : portrait) {
   }
   .arrow_box {
     margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .bottom {
+    width: 800px;
+    height: 200px;
+  }
+
+  .recipe-link {
+    height: 40px;
+    line-height: 40px;
+    width: 350px;
+    font-size: 1.8em;
   }
 }
