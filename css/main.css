@@ -315,4 +315,15 @@ and (orientation : portrait) {
   .icon-column img {
     width: 70%;
   }
+  .icon-column p {
+    font-size: 2em;
+  }
+
+  .restart{
+    top: 0;
+    width: 14%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+  }
 }
