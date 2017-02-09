@@ -460,6 +460,7 @@ and (orientation : portrait) {
     line-height: 71px;
   }
   .close-arrow-box {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-top: -10px;
   }
 }
