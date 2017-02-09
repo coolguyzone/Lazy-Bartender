@@ -182,15 +182,19 @@ form{
   display: inline-block;
   height: 25px;
   line-height: 25px;
-  width: 260px;
+  width: 254px;
   background-color: black;
   border-radius: 20px;
   text-align: center;
   font-size: 1.4em;
   cursor: pointer;
   margin-bottom: 6px;
+  border: 1px solid white;
 }
 
+.recipe-link:nth-of-type(even) {
+  margin-left: 6px;
+}
 
 .recipe-link:nth-of-type(-n+2){
   margin-top: 6px;
