@@ -396,6 +396,10 @@ function scrollLeft(event) {
       arrowRight.classList.remove('hidden');
     }
   }
+  //MAKE SURE LEFT ARROW REAPPEARS AFTER SCROLLING RIGHT TO LAST BOX
+  if (document.querySelector(`.recipe-box${currentBox+1}`).classList.contains('populated')) {
+    arrowRight.classList.remove('hidden');
+  }
 }
 
 
