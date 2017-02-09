@@ -25,7 +25,8 @@ const iconReference = {
     'Bacardi-151',
     'Blended Whiskey',
     'Black Sambuca',
-    'Añejo Rum'
+    'Añejo Rum',
+    'Benedictine'
   ],
   clearDrinks: [
     'Vodka',
@@ -66,7 +67,9 @@ const iconReference = {
     'Apple Brandy',
     'Green Creme de Menthe',
     'Maraschino Liqueur',
-    'Chambord Raspberry Liqueur'
+    'Chambord Raspberry Liqueur',
+    'Blue Curacao',
+    'Cherry Brandy'
   ],
   beerWine: [
     'Red Wine',
@@ -76,7 +79,8 @@ const iconReference = {
     'Lager',
     'Guinness Stout',
     'Sherry',
-    'Port'
+    'Port',
+    'Hard Cider'
   ],
   mixers: [
     'Cola',
@@ -105,7 +109,8 @@ const iconReference = {
     'Simple Syrup',
     'Grenadine',
     'Guava Juice',
-    'Apple Cider'
+    'Apple Cider',
+    'Mountain Dew'
   ],
   produce: [
     'Cherry',
@@ -136,11 +141,15 @@ const iconReference = {
     'Worcestershire Sauce',
     'Tabasco Sauce',
     'Maple Syrup',
-    'Tea'
+    'Tea',
+    'Olive',
+    'Egg Yolk',
+    'Banana',
+    'Honey'
   ]
 }
 
-let availableIngredients = ['Water', 'Ice'];
+let availableIngredients = ['Water', 'Ice', 'Salt'];
 let availableDrinks = [];
 const card = document.querySelector('.card');
 const cardClose = document.querySelector('.card-close');
@@ -207,12 +216,6 @@ function addOrRemove(array, value) {
 
 //function to see if the ingredients array contains all the ingredients for a drink
 
-function arrayContainsAnotherArray(arr1, arr2){
-  for (var i = 0; i < arr1.length; i++) {
-    if(arr1.indexOf(arr1[i]) === -1)
-    arr1[i]
-  }
-}
 
 function addOrRemoveIngredient(event) {
   availableDrinks = [];

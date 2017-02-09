@@ -113,7 +113,7 @@ const drinkList = [
 
   {
       name: "Brandy Alexander",
-      ingredients: [ 'Brandy', 'Creme de Cacao', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Brandy', 'Creme de Cacao', 'Cream', 'Nutmeg'],
       measures: [ '1 oz ', '1 oz white ', '1 oz '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
       glass: 'Cocktail glass'
@@ -121,7 +121,7 @@ const drinkList = [
 
   {
       name: "Alexander #2",
-      ingredients: [ 'Gin', 'Creme de Cacao', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Gin', 'Creme de Cacao', 'Cream', 'Nutmeg'],
       measures: [ '1 oz ', '1 oz white ', '1 oz '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a cocktail glass. Sprinkle nutmeg on top and serve.",
       glass: 'Cocktail glass'
@@ -129,7 +129,7 @@ const drinkList = [
 
   {
       name: "Alexander",
-      ingredients: [ 'Gin', 'Creme de Cacao', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Gin', 'Creme de Cacao', 'Cream', 'Nutmeg'],
       measures: [ '1/2 oz ', '1/2 oz white ', '2 oz '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a cocktail glass. Sprinkle nutmeg on top and serve.",
       glass: 'Cocktail glass'
@@ -185,7 +185,7 @@ const drinkList = [
 
   {
       name: "Almond Joy",
-      ingredients: [ 'Amaretto', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Amaretto', 'Creme de Cacao', 'Cream'],
       measures: [ '1/2 oz ', '1/2 oz white ', '2 oz '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -193,7 +193,7 @@ const drinkList = [
 
   {
       name: "Amaretto And Cream",
-      ingredients: [ 'Amaretto', 'Light cream'],
+      ingredients: [ 'Amaretto', 'Cream'],
       measures: [ '1 1/2 oz ', '1 1/2 oz '],
       instructions: "Shake well with cracked ice, strain contents into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -281,7 +281,7 @@ const drinkList = [
 
   {
       name: "Angel's Kiss",
-      ingredients: [ 'Creme de Cacao', 'Sloe gin', 'Brandy', 'Light cream'],
+      ingredients: [ 'Creme de Cacao', 'Sloe gin', 'Brandy', 'Cream'],
       measures: [ '1/4 oz white ', '1/4 oz ', '1/4 oz ', '1/4 oz '],
       instructions: "Pour ingredients carefully, in order given, into a pousse-cafe glass so that they do not mix.",
       glass: 'Pousse cafe glass'
@@ -289,7 +289,7 @@ const drinkList = [
 
   {
       name: "Angel's Wing",
-      ingredients: [ 'Creme de Cacao', 'Brandy', 'Light cream'],
+      ingredients: [ 'Creme de Cacao', 'Brandy', 'Cream'],
       measures: [ '1/2 oz white ', '1/2 oz ', '1 tblsp '],
       instructions: "Pour ingredients carefully, in order given, into a pousse-cafe glass so that they do not mix. Serve without mixing.",
       glass: 'Pousse cafe glass'
@@ -441,7 +441,7 @@ const drinkList = [
 
   {
       name: "Babbie's Special Cocktail",
-      ingredients: [ 'Apricot Brandy', 'Gin', 'Light cream'],
+      ingredients: [ 'Apricot Brandy', 'Gin', 'Cream'],
       measures: [ '1 1/2 oz ', '1 tsp ', '1 tblsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -521,7 +521,7 @@ const drinkList = [
 
   {
       name: "Banana Rum Cream",
-      ingredients: [ 'Dark Rum', 'Creme de Banane', 'Light cream'],
+      ingredients: [ 'Dark Rum', 'Creme de Banane', 'Cream'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -529,7 +529,7 @@ const drinkList = [
 
   {
       name: "Barbary Coast",
-      ingredients: [ 'Scotch', 'Gin', 'Rum', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Scotch', 'Gin', 'Rum', 'Creme de Cacao', 'Cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz white ', '1/2 oz '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -1081,7 +1081,7 @@ const drinkList = [
 
   {
       name: "Bourbon County Cowboy",
-      ingredients: [ 'Bourbon', 'Light cream'],
+      ingredients: [ 'Bourbon', 'Cream'],
       measures: [ '2 oz ', '1/2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the bourbon and cream. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -1097,7 +1097,7 @@ const drinkList = [
 
   {
       name: "Bourbon Flip",
-      ingredients: [ 'Bourbon', 'Egg', 'Sugar', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Bourbon', 'Egg', 'Sugar', 'Cream', 'Nutmeg'],
       measures: [ '2 oz ', '1 tsp superfine ', '1/2 oz ', '1/8 tsp grated '],
       instructions: "In a shaker half-filled with ice cubes, combine the bourbon, egg, sugar, and cream. Shake well. Strain into a sour glass and garnish with the nutmeg.",
       glass: 'Whiskey sour glass'
@@ -1297,7 +1297,7 @@ const drinkList = [
 
   {
       name: "Brandy Flip",
-      ingredients: [ 'Brandy', 'Egg', 'Sugar', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Brandy', 'Egg', 'Sugar', 'Cream', 'Nutmeg'],
       measures: [ '2 oz ', '1 whole ', '1 tsp superfine ', '1/2 oz ', '1/8 tsp grated '],
       instructions: "In a shaker half-filled with ice cubes, combine the brandy, egg, sugar, and cream. Shake well. Strain into a sour glass and garnish with the nutmeg.",
       glass: 'Whiskey sour glass'
@@ -1425,7 +1425,7 @@ const drinkList = [
 
   {
       name: "Bronx Golden Cocktail",
-      ingredients: [ 'Dry Vermouth', 'Sweet Vermouth', 'Gin', 'Orange', 'Orange', 'Egg yolk'],
+      ingredients: [ 'Dry Vermouth', 'Sweet Vermouth', 'Gin', 'Orange', 'Orange', 'Egg Yolk'],
       measures: [ '1/2 oz ', '1/2 oz ', '1 oz ', 'Juice of 1/4 ', '1 slice '],
       instructions: "Shake all ingredients (except orange slice) with ice and strain into a whiskey sour glass. Add the orange slice and serve.",
       glass: 'Whiskey sour glass'
@@ -1465,7 +1465,7 @@ const drinkList = [
 
   {
       name: "Bull's Eye",
-      ingredients: [ 'Brandy', 'Cider', 'Ginger Ale'],
+      ingredients: [ 'Brandy', 'Hard Cider', 'Ginger Ale'],
       measures: [ '1 oz ', '2 oz hard '],
       instructions: "Pour brandy and hard cider into a highball glass over ice cubes. Fill with ginger ale, stir, and serve.",
       glass: 'Highball glass'
@@ -1577,7 +1577,7 @@ const drinkList = [
 
   {
       name: "Cafe De Paris Cocktail",
-      ingredients: [ 'Gin', 'Anis', 'Light cream', 'Egg White'],
+      ingredients: [ 'Gin', 'Anis', 'Cream', 'Egg White'],
       measures: [ '1 1/2 oz ', '1 tsp ', '1 tsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -1665,7 +1665,7 @@ const drinkList = [
 
   {
       name: "Cappucino Cocktail",
-      ingredients: [ 'Coffee Brandy', 'Vodka', 'Light cream'],
+      ingredients: [ 'Coffee Brandy', 'Vodka', 'Cream'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz '],
       instructions: "Shake all ingredients well with cracked ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -1673,7 +1673,7 @@ const drinkList = [
 
   {
       name: "Capri",
-      ingredients: [ 'Creme de Cacao', 'Creme de Banane', 'Light cream'],
+      ingredients: [ 'Creme de Cacao', 'Creme de Banane', 'Cream'],
       measures: [ '3/4 oz white ', '3/4 oz ', '3/4 oz '],
       instructions: "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
       glass: 'Old-fashioned glass'
@@ -1752,8 +1752,8 @@ const drinkList = [
   },
 
   {
-      name: "Catherine Of Sheridan Square",
-      ingredients: [ 'Dark Rum', 'Coffee Liqueur', 'Light cream', 'Coffee', 'Ice'],
+      name: "Catherine Of Sheridan",
+      ingredients: [ 'Dark Rum', 'Coffee Liqueur', 'Cream', 'Coffee', 'Ice'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 oz ', '4 oz cold ', 'crushed '],
       instructions: "Pour all of the ingredients into an Irish coffee glass filled with crushed ice. Stir well.",
       glass: 'Irish coffee cup'
@@ -1809,7 +1809,7 @@ const drinkList = [
 
   {
       name: "Casino Royale",
-      ingredients: [ 'Gin', 'Lemon Juice', 'Maraschino Liqueur', 'Orange Bitters', 'Egg yolk'],
+      ingredients: [ 'Gin', 'Lemon Juice', 'Maraschino Liqueur', 'Orange Bitters', 'Egg Yolk'],
       measures: [ '2 oz ', '1/2 oz ', '1 tsp ', '1 dash '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
       glass: 'Whiskey sour glass'
@@ -1841,7 +1841,7 @@ const drinkList = [
 
   {
       name: "Cherried Cream Rum",
-      ingredients: [ 'Light Rum', 'Cherry Brandy', 'Light cream'],
+      ingredients: [ 'Light Rum', 'Cherry Brandy', 'Cream'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -1865,7 +1865,7 @@ const drinkList = [
 
   {
       name: "Cherry Flip",
-      ingredients: [ 'Cherry Brandy', 'Powdered sugar', 'Light cream', 'Egg', 'Nutmeg'],
+      ingredients: [ 'Cherry Brandy', 'Powdered sugar', 'Cream', 'Egg', 'Nutmeg'],
       measures: [ '1 1/2 oz ', '1 tsp ', '2 tsp ', '1 whole '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
       glass: 'Whiskey sour glass'
@@ -1873,7 +1873,7 @@ const drinkList = [
 
   {
       name: "Cherry Rum",
-      ingredients: [ 'Light Rum', 'Cherry Brandy', 'Light cream'],
+      ingredients: [ 'Light Rum', 'Cherry Brandy', 'Cream'],
       measures: [ '1 1/4 oz ', '1 1/2 tsp ', '1 tblsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -1921,7 +1921,7 @@ const drinkList = [
 
   {
       name: "Chocolate Mint Rum",
-      ingredients: [ 'Dark Rum', 'Bacardi-151', 'Dark Creme de Cacao', 'White Creme de Menthe', 'Light cream'],
+      ingredients: [ 'Dark Rum', 'Bacardi-151', 'Dark Creme de Cacao', 'White Creme de Menthe', 'Cream'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', '2 tsp ', '1/2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -1993,7 +1993,7 @@ const drinkList = [
 
   {
       name: "Climax",
-      ingredients: [ 'Amaretto', 'Creme de Cacao', 'Triple Sec', 'Vodka', 'Creme de Banane', 'Light cream'],
+      ingredients: [ 'Amaretto', 'Creme de Cacao', 'Triple Sec', 'Vodka', 'Creme de Banane', 'Cream'],
       measures: [ '1/2 oz ', '1/2 oz white ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 oz '],
       instructions: "Shake all ingredients well with cracked ice, strain into a chilled cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -2033,7 +2033,7 @@ const drinkList = [
 
   {
       name: "Coffee Grasshopper",
-      ingredients: [ 'Coffee Brandy', 'White Creme de Menthe', 'Light cream'],
+      ingredients: [ 'Coffee Brandy', 'White Creme de Menthe', 'Cream'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz '],
       instructions: "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
       glass: 'Old-fashioned glass'
@@ -2041,7 +2041,7 @@ const drinkList = [
 
   {
       name: "Coffee Flip",
-      ingredients: [ 'Brandy', 'Port', 'Powdered sugar', 'Egg', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Brandy', 'Port', 'Powdered sugar', 'Egg', 'Cream', 'Nutmeg'],
       measures: [ '1 oz ', '1 oz ', '1 tsp ', '1 whole ', '2 tsp '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
       glass: 'Whiskey sour glass'
@@ -2169,7 +2169,7 @@ const drinkList = [
 
   {
       name: "Cream Fizz",
-      ingredients: [ 'Gin', 'Powdered sugar', 'Lemon', 'Light cream', 'Carbonated Water'],
+      ingredients: [ 'Gin', 'Powdered sugar', 'Lemon', 'Cream', 'Carbonated Water'],
       measures: [ '2 oz ', '1 tsp ', 'Juice of 1/2 ', '1 tsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -2177,7 +2177,7 @@ const drinkList = [
 
   {
       name: "Creamy Orange",
-      ingredients: [ 'Brandy', 'Sherry', 'Orange Juice', 'Light cream'],
+      ingredients: [ 'Brandy', 'Sherry', 'Orange Juice', 'Cream'],
       measures: [ '3/4 oz ', '1 oz cream ', '1 oz ', '1 tblsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -2193,7 +2193,7 @@ const drinkList = [
 
   {
       name: "Creamy Screwdriver",
-      ingredients: [ 'Vodka', 'Orange Juice', 'Sugar', 'Egg yolk'],
+      ingredients: [ 'Vodka', 'Orange Juice', 'Sugar', 'Egg Yolk'],
       measures: [ '2 oz ', '6 oz ', '1 tsp '],
       instructions: "Combine all ingredients with 1/2 cup crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into a collins glass and serve.",
       glass: 'Collins glass'
@@ -2272,7 +2272,7 @@ const drinkList = [
   },
 
   {
-      name: "Dance With A Dream Cocktail",
+      name: "Dance With A Dream",
       ingredients: [ 'Brandy', 'Triple Sec', 'Anisette'],
       measures: [ '2 oz ', '1/2 oz ', '1 tsp '],
       instructions: "In a shaker falf-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -2425,7 +2425,7 @@ const drinkList = [
 
   {
       name: "Dirty White Mother",
-      ingredients: [ 'Brandy', 'Coffee Liqueur', 'Light cream'],
+      ingredients: [ 'Brandy', 'Coffee Liqueur', 'Cream'],
       measures: [ '1 1/2 oz ', '1/2 oz '],
       instructions: "Pour brandy and Kahlua into an old-fashioned glass filled with ice cubes and stir. Float cream on top and serve.",
       glass: 'Old-fashioned glass'
@@ -2656,7 +2656,7 @@ const drinkList = [
   },
 
   {
-      name: "Everybody's Irish Cocktail",
+      name: "Everybody's Irish",
       ingredients: [ 'Irish Whiskey', 'Green Creme de Menthe', 'Green Chartreuse', 'Olive'],
       measures: [ '2 oz ', '1 tsp ', '1 tsp ', '1 green '],
       instructions: "Stir all ingredients (except green olive) with ice and strain into a cocktail glass. Add the green olive and serve.",
@@ -2681,7 +2681,7 @@ const drinkList = [
 
   {
       name: "Eye-Opener",
-      ingredients: [ 'Light Rum', 'Triple Sec', 'Pernod', 'Creme de Cacao', 'Egg yolk', 'Sugar'],
+      ingredients: [ 'Light Rum', 'Triple Sec', 'Pernod', 'Creme de Cacao', 'Egg Yolk', 'Sugar'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '2 tsp ', '1 tsp white ', '1 tsp superfine '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
       glass: 'Whiskey sour glass'
@@ -2785,7 +2785,7 @@ const drinkList = [
 
   {
       name: "Fifth Avenue",
-      ingredients: [ 'Creme de Cacao', 'Apricot Brandy', 'Light cream'],
+      ingredients: [ 'Creme de Cacao', 'Apricot Brandy', 'Cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '1 tblsp '],
       instructions: "Pour ingredients into a parfait glass (in order given) so that each ingredient floats on preceding one. Serve without mixing.",
       glass: 'Parfait glass'
@@ -2848,7 +2848,7 @@ const drinkList = [
   },
 
   {
-      name: "Flirting With The Sandpiper",
+      name: "The Sandpiper",
       ingredients: [ 'Light Rum', 'Cherry Brandy', 'Orange Juice', 'Orange Bitters'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '3 oz ', '2 dashes '],
       instructions: "Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well.",
@@ -2921,7 +2921,7 @@ const drinkList = [
 
   {
       name: "Foxy Lady",
-      ingredients: [ 'Amaretto', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Amaretto', 'Creme de Cacao', 'Cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '2 oz '],
       instructions: "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -3305,7 +3305,7 @@ const drinkList = [
 
   {
       name: "Golden Bronx",
-      ingredients: [ 'Gin', 'Dry Vermouth', 'Sweet Vermouth', 'Orange Juice', 'Egg yolk'],
+      ingredients: [ 'Gin', 'Dry Vermouth', 'Sweet Vermouth', 'Orange Juice', 'Egg Yolk'],
       measures: [ '2 oz ', '1 tsp ', '1 tsp ', '1/2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
       glass: 'Whiskey sour glass'
@@ -3321,7 +3321,7 @@ const drinkList = [
 
   {
       name: "Golden Cadillac",
-      ingredients: [ 'Galliano', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Galliano', 'Creme de Cacao', 'Cream'],
       measures: [ '1 oz ', '2 oz white ', '1 oz '],
       instructions: "Combine all ingredients with 1/2 cup crushed ice in an electric blender. Blend at low speed for ten seconds. Strain into a champagne flute and serve.",
       glass: 'Champagne flute'
@@ -3337,7 +3337,7 @@ const drinkList = [
 
   {
       name: "Golden Fizz",
-      ingredients: [ 'Gin', 'Lemon', 'Sugar', 'Egg yolk', 'Carbonated Water'],
+      ingredients: [ 'Gin', 'Lemon', 'Sugar', 'Egg Yolk', 'Carbonated Water'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 ', '1/2 tblsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass. Fill with carbonated water and serve.",
       glass: 'Highball glass'
@@ -3345,7 +3345,7 @@ const drinkList = [
 
   {
       name: "Golden Slipper",
-      ingredients: [ 'Apricot Brandy', 'Yellow Chartreuse', 'Egg yolk'],
+      ingredients: [ 'Apricot Brandy', 'Yellow Chartreuse', 'Egg Yolk'],
       measures: [ '2 oz ', '3/4 oz ', '1 unbroken '],
       instructions: "Stir brandy and chartreuse with ice and strain into a cocktail glass. Float unbroken egg yolk on top and serve.",
       glass: 'Cocktail glass'
@@ -3385,7 +3385,7 @@ const drinkList = [
 
   {
       name: "Grasshopper",
-      ingredients: [ 'Green Creme de Menthe', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Green Creme de Menthe', 'Creme de Cacao', 'Cream'],
       measures: [ '3/4 oz ', '3/4 oz white ', '3/4 oz '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -3801,7 +3801,7 @@ const drinkList = [
 
   {
       name: "Italian Sombrero",
-      ingredients: [ 'Amaretto', 'Light cream'],
+      ingredients: [ 'Amaretto', 'Cream'],
       measures: [ '1 1/2 oz ', '3 oz '],
       instructions: "Shake amaretto and cream well, pour into a champagne flute, and serve.",
       glass: 'Champagne flute'
@@ -3865,7 +3865,7 @@ const drinkList = [
 
   {
       name: "Jamaica Hop",
-      ingredients: [ 'Coffee Brandy', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Coffee Brandy', 'Creme de Cacao', 'Cream'],
       measures: [ '1 oz ', '1 oz white ', '1 oz '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -4201,7 +4201,7 @@ const drinkList = [
 
   {
       name: "Lady Love Fizz",
-      ingredients: [ 'Gin', 'Light cream', 'Powdered sugar', 'Lemon', 'Egg White', 'Carbonated Water'],
+      ingredients: [ 'Gin', 'Cream', 'Powdered sugar', 'Lemon', 'Egg White', 'Carbonated Water'],
       measures: [ '2 oz ', '2 tsp ', '1 tsp ', 'Juice of 1/2 '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a cocktail glass over two ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Cocktail glass'
@@ -4273,7 +4273,7 @@ const drinkList = [
 
   {
       name: "Lil Naue",
-      ingredients: [ 'Brandy', 'Apricot Brandy', 'Port', 'Powdered sugar', 'Egg yolk', 'Cinnamon'],
+      ingredients: [ 'Brandy', 'Apricot Brandy', 'Port', 'Powdered sugar', 'Egg Yolk', 'Cinnamon'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', '1 tsp '],
       instructions: "Shake all ingredients (except cinnamon) with ice and strain into a red wine glass. Sprinkle cinnamon on top and serve.",
       glass: 'Red wine glass'
@@ -4520,8 +4520,8 @@ const drinkList = [
   },
 
   {
-      name: "Margaret In The Marketplace",
-      ingredients: [ 'Añejo Rum', 'Lime Juice', 'Grenadine', 'Light cream'],
+      name: "Margaret's Market'",
+      ingredients: [ 'Añejo Rum', 'Lime Juice', 'Grenadine', 'Cream'],
       measures: [ '2 oz ', '2 tsp ', '1 tsp ', '1/2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -4592,7 +4592,7 @@ const drinkList = [
   },
 
   {
-      name: "Martini (Traditional 2-to-1)",
+      name: "Martini (2-to-1)",
       ingredients: [ 'Gin', 'Dry Vermouth', 'Olive'],
       measures: [ '1 1/2 oz ', '3/4 oz '],
       instructions: "Stir gin and vermouth over ice cubes in a mixing glass. Strain into a cocktail glass, add the olive, and serve.",
@@ -4673,7 +4673,7 @@ const drinkList = [
 
   {
       name: "Menage A Trois",
-      ingredients: [ 'Dark Rum', 'Triple Sec', 'Light cream'],
+      ingredients: [ 'Dark Rum', 'Triple Sec', 'Cream'],
       measures: [ '1 oz ', '1 oz ', '1 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -4808,7 +4808,7 @@ const drinkList = [
   },
 
   {
-      name: "Mississippi Planters Punch",
+      name: "Mississippi Punch",
       ingredients: [ 'Brandy', 'Light Rum', 'Bourbon', 'Lemon', 'Powdered sugar', 'Carbonated Water'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', 'Juice of 1/2 ', '1 tblsp '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over ice cubes. Fill with carbonated water, stir, and serve.",
@@ -4873,7 +4873,7 @@ const drinkList = [
 
   {
       name: "Montezuma",
-      ingredients: [ 'Tequila', 'Madeira', 'Egg yolk'],
+      ingredients: [ 'Tequila', 'Madeira', 'Egg Yolk'],
       measures: [ '1 1/2 oz ', '1 oz '],
       instructions: "Blend all ingredients with 1/2 cup crushed ice in an electric blender at a low speed for a short length of time. Pour into a champagne flute and serve.",
       glass: 'Champagne flute'
@@ -5153,7 +5153,7 @@ const drinkList = [
 
   {
       name: "Orgasm",
-      ingredients: [ 'Creme de Cacao', 'Amaretto', 'Triple Sec', 'Vodka', 'Light cream'],
+      ingredients: [ 'Creme de Cacao', 'Amaretto', 'Triple Sec', 'Vodka', 'Cream'],
       measures: [ '1/2 oz white ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 oz '],
       instructions: "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -5168,7 +5168,7 @@ const drinkList = [
   },
 
   {
-      name: "Other Original Singapore Sling",
+      name: "Singapore Sling #3",
       ingredients: [ 'Gin', 'Cherry Brandy', 'Lime Juice', 'Benedictine', 'Brandy'],
       measures: [ '2 oz ', '1 oz ', '1 oz ', '1/4 tsp ', '1/4 tsp '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, cherry brandy, and lime juice. Shake well. Strain into a collins glass almost filled with ice cubes. Drop the Benedictine and brandy into the center of the drink.",
@@ -5281,7 +5281,7 @@ const drinkList = [
 
   {
       name: "Peach Blow Fizz",
-      ingredients: [ 'Gin', 'Light cream', 'Lemon', 'Powdered sugar', 'Peach', 'Carbonated Water'],
+      ingredients: [ 'Gin', 'Cream', 'Lemon', 'Powdered sugar', 'Peach', 'Carbonated Water'],
       measures: [ '2 oz ', '1 oz ', 'Juice of 1/2 ', '1/2 tsp ', '1/4 '],
       instructions: "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over ice cubes. Fill with carbonated water, stir, and serve.",
       glass: 'Highball glass'
@@ -5289,7 +5289,7 @@ const drinkList = [
 
   {
       name: "Peach Bunny",
-      ingredients: [ 'Peach Brandy', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Peach Brandy', 'Creme de Cacao', 'Cream'],
       measures: [ '3/4 oz ', '3/4 oz white ', '3/4 oz '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -5321,7 +5321,7 @@ const drinkList = [
 
   {
       name: "Peppermint Stick",
-      ingredients: [ 'Peppermint Schnapps', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Peppermint Schnapps', 'Creme de Cacao', 'Cream'],
       measures: [ '1 oz ', '1 1/2 oz white ', '1 oz '],
       instructions: "Shake all ingredients with ice, strain into a champagne flute, and serve.",
       glass: 'Champagne flute'
@@ -5401,7 +5401,7 @@ const drinkList = [
 
   {
       name: "Pink Cream Fizz",
-      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Light cream', 'Grenadine', 'Club Soda'],
+      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Cream', 'Grenadine', 'Club Soda'],
       measures: [ '2 oz ', '1 oz ', '1 tsp superfine ', '1 oz ', '1 tsp ', '4 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, lemon juice, sugar, cream, and grenadine. Shake well. Strain into a collins glass almost filled with ice cubes. Add the club soda. Stir well.",
       glass: 'Collins glass'
@@ -5417,7 +5417,7 @@ const drinkList = [
 
   {
       name: "Pink Lady",
-      ingredients: [ 'Gin', 'Grenadine', 'Light cream', 'Egg White'],
+      ingredients: [ 'Gin', 'Grenadine', 'Cream', 'Egg White'],
       measures: [ '1 1/2 oz ', '1 tsp ', '1 tsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -5433,7 +5433,7 @@ const drinkList = [
 
   {
       name: "Pink Squirrel",
-      ingredients: [ 'Creme de Noyaux', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Creme de Noyaux', 'Creme de Cacao', 'Cream'],
       measures: [ '1 oz ', '1 tblsp white ', '1 tblsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -5448,7 +5448,7 @@ const drinkList = [
   },
 
   {
-      name: "Piper At The Gates Of Dawn",
+      name: "Piper At The Gates",
       ingredients: [ 'Scotch', 'Coffee Liqueur', 'Maraschino Liqueur', 'Heavy cream'],
       measures: [ '1 1/2 oz ', '1 oz ', '1/2 oz ', '1 oz '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the Scotch, Kahlua, and maraschino liqueur. Stir well. Strain into old-fashioned glass almost filled with ice cubes. Pour the cream over the back of a teaspoon so that it floats on top of the drink.",
@@ -5513,7 +5513,7 @@ const drinkList = [
 
   {
       name: "Port Wine Flip",
-      ingredients: [ 'Port', 'Light cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
+      ingredients: [ 'Port', 'Cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
       measures: [ '1 1/2 oz ', '2 tsp ', '1 tsp ', '1 whole '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
       glass: 'Whiskey sour glass'
@@ -5633,7 +5633,7 @@ const drinkList = [
 
   {
       name: "Quentin",
-      ingredients: [ 'Dark Rum', 'Coffee Liqueur', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Dark Rum', 'Coffee Liqueur', 'Cream', 'Nutmeg'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 oz ', '1/8 tsp grated '],
       instructions: "In a shaker half-filled with ice cubes, combine the rum, Kahlua, and cream. Shake well. Strain into a cocktail glass and garnish with the nutmeg.",
       glass: 'Cocktail glass'
@@ -5801,7 +5801,7 @@ const drinkList = [
 
   {
       name: "Root Beer Float",
-      ingredients: [ 'Vodka', 'Galliano', 'Light cream', 'Cola', 'Whipped cream'],
+      ingredients: [ 'Vodka', 'Galliano', 'Cream', 'Cola', 'Whipped cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz '],
       instructions: "Pour vodka, galliano, and light cream into a collins glass filled with ice cubes and stir well. Fill with cola, stir lightly, top with whipped cream, and serve.",
       glass: 'Collins glass'
@@ -5848,8 +5848,8 @@ const drinkList = [
   },
 
   {
-      name: "Royal Clover Club Cocktail",
-      ingredients: [ 'Gin', 'Lemon', 'Grenadine', 'Egg yolk'],
+      name: "Royal Clover Club",
+      ingredients: [ 'Gin', 'Lemon', 'Grenadine', 'Egg Yolk'],
       measures: [ '1 1/2 oz ', 'Juice of 1/2 ', '1 tblsp '],
       instructions: "Shake all ingredients with ice, strain into a whiskey sour glass, and serve.",
       glass: 'Whiskey sour glass'
@@ -6161,7 +6161,7 @@ const drinkList = [
 
   {
       name: "Scooter",
-      ingredients: [ 'Brandy', 'Amaretto', 'Light cream'],
+      ingredients: [ 'Brandy', 'Amaretto', 'Cream'],
       measures: [ '1 oz ', '1 oz ', '1 oz '],
       instructions: "Shake all ingredients well with cracked ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -6177,7 +6177,7 @@ const drinkList = [
 
   {
       name: "Scotch Bird Flyer",
-      ingredients: [ 'Scotch', 'Triple Sec', 'Light cream', 'Powdered sugar', 'Egg yolk'],
+      ingredients: [ 'Scotch', 'Triple Sec', 'Cream', 'Powdered sugar', 'Egg Yolk'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 oz ', '1/2 tsp '],
       instructions: "Shake all ingredients with ice, strain into a champagne flute, and serve.",
       glass: 'Champagne flute'
@@ -6225,7 +6225,7 @@ const drinkList = [
 
   {
       name: "Scotch Flip",
-      ingredients: [ 'Scotch', 'Egg', 'Sugar', 'Light cream', 'Nutmeg'],
+      ingredients: [ 'Scotch', 'Egg', 'Sugar', 'Cream', 'Nutmeg'],
       measures: [ '2 oz ', '1 tsp superfine ', '1/2 oz ', '1/8 tsp grated '],
       instructions: "In a shaker half-filled with ice cubes, combine the Scotch, egg, sugar, and cream. Shake well. Strain into a sour glass and garnish with the nutmeg.",
       glass: 'Whiskey sour glass'
@@ -6401,7 +6401,7 @@ const drinkList = [
 
   {
       name: "Sherry Flip",
-      ingredients: [ 'Sherry', 'Light cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
+      ingredients: [ 'Sherry', 'Cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
       measures: [ '1 1/2 oz cream ', '2 tsp ', '1 tsp ', '1 whole '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
       glass: 'Whiskey sour glass'
@@ -6433,7 +6433,7 @@ const drinkList = [
 
   {
       name: "Sidecar",
-      ingredients: [ 'Cognac', 'Cointreau', 'Lemon Juice'],
+      ingredients: [ 'Cognac', 'Triple Sec', 'Lemon Juice'],
       measures: [ '2 oz ', '1/2 oz ', '1 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -6449,7 +6449,7 @@ const drinkList = [
 
   {
       name: "Silk Stockings",
-      ingredients: [ 'Tequila', 'Creme de Cacao', 'Grenadine', 'Light cream', 'Cinnamon'],
+      ingredients: [ 'Tequila', 'Creme de Cacao', 'Grenadine', 'Cream', 'Cinnamon'],
       measures: [ '1 1/2 oz ', '1 oz ', '1 dash ', '1 1/2 oz '],
       instructions: "Shake all ingredients (except cinnamon) with ice and strain into a cocktail glass. Sprinkle cinnamon on top and serve.",
       glass: 'Cocktail glass'
@@ -6553,7 +6553,7 @@ const drinkList = [
 
   {
       name: "Sloe Gin Flip",
-      ingredients: [ 'Sloe gin', 'Light cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
+      ingredients: [ 'Sloe gin', 'Cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
       measures: [ '1 tblsp ', '2 tsp ', '1 tsp ', '1 whole '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
       glass: 'Whiskey sour glass'
@@ -6584,7 +6584,7 @@ const drinkList = [
   },
 
   {
-      name: "Sloppy Joe's Cocktail No. 1",
+      name: "Sloppy Joe's No. 1",
       ingredients: [ 'Light Rum', 'Dry Vermouth', 'Triple Sec', 'Grenadine', 'Lime'],
       measures: [ '3/4 oz ', '3/4 oz ', '1/4 tsp ', '1/4 tsp ', 'Juice of 1 '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6592,7 +6592,7 @@ const drinkList = [
   },
 
   {
-      name: "Sloppy Joe's Cocktail No. 2",
+      name: "Sloppy Joe's No. 2",
       ingredients: [ 'Brandy', 'Triple Sec', 'Port', 'Pineapple Juice', 'Grenadine'],
       measures: [ '3/4 oz ', '1/4 tsp ', '3/4 oz ', '3/4 oz ', '1/4 tsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6649,7 +6649,7 @@ const drinkList = [
 
   {
       name: "Smith And Kearns",
-      ingredients: [ 'Coffee Liqueur', 'Light cream', 'Carbonated Water'],
+      ingredients: [ 'Coffee Liqueur', 'Cream', 'Carbonated Water'],
       measures: [ '1 oz ', '1 oz '],
       instructions: "Pour Kahlua and light cream into a highball glass filled with ice and stir well. Fill with carbonated water, stir lightly, and serve.",
       glass: 'Highball glass'
@@ -6673,7 +6673,7 @@ const drinkList = [
 
   {
       name: "Sombrero",
-      ingredients: [ 'Coffee Brandy', 'Light cream'],
+      ingredients: [ 'Coffee Brandy', 'Cream'],
       measures: [ '1 1/2 oz ', '1 oz '],
       instructions: "Pour brandy into an old-fashioned glass over ice cubes. Float cream on top and serve.",
       glass: 'Old-fashioned glass'
@@ -6993,7 +6993,7 @@ const drinkList = [
 
   {
       name: "Sweet Maria",
-      ingredients: [ 'Amaretto', 'Vodka', 'Light cream'],
+      ingredients: [ 'Amaretto', 'Vodka', 'Cream'],
       measures: [ '1/2 oz ', '1 oz ', '1 tblsp '],
       instructions: "Shake all ingredients with cracked ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -7160,7 +7160,7 @@ const drinkList = [
   },
 
   {
-      name: "The Original Singapore Sling",
+      name: "Singapore Sling # 2",
       ingredients: [ 'Gin', 'Benedictine', 'Cherry Brandy', 'Club Soda'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '4 oz '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the gin, Benedictine, and chery brandy. Stir well. Strain into a colliins glass almost filled with ice cubes. Top with the club soda and stir well.",
@@ -7201,7 +7201,7 @@ const drinkList = [
 
   {
       name: "Thunder",
-      ingredients: [ 'Brandy', 'Powdered sugar', 'Cayenne pepper', 'Egg yolk'],
+      ingredients: [ 'Brandy', 'Powdered sugar', 'Cayenne pepper', 'Egg Yolk'],
       measures: [ '1 1/2 oz ', '1 tsp ', '1 pinch '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -7209,7 +7209,7 @@ const drinkList = [
 
   {
       name: "Thunder-And-Lightning",
-      ingredients: [ 'Brandy', 'Powdered sugar', 'Egg yolk'],
+      ingredients: [ 'Brandy', 'Powdered sugar', 'Egg Yolk'],
       measures: [ '1 1/2 oz ', '1 tsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
       glass: 'Cocktail glass'
@@ -7240,7 +7240,7 @@ const drinkList = [
   },
 
   {
-      name: "To Hell With Swords And Garter",
+      name: "To Hell With Swords",
       ingredients: [ 'Scotch', 'Dry Vermouth', 'Pineapple Juice'],
       measures: [ '1 1/2 oz ', '1 oz ', '1 1/2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into an old-fashioned glass almost filled with ice cubes.",
@@ -7681,7 +7681,7 @@ const drinkList = [
 
   {
       name: "Whiskey Flip",
-      ingredients: [ 'Blended Whiskey', 'Light cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
+      ingredients: [ 'Blended Whiskey', 'Cream', 'Powdered sugar', 'Egg', 'Nutmeg'],
       measures: [ '1 1/2 oz ', '2 tsp ', '1 tsp ', '1 whole '],
       instructions: "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
       glass: 'Whiskey sour glass'
@@ -7745,7 +7745,7 @@ const drinkList = [
 
   {
       name: "White Russian",
-      ingredients: [ 'Vodka', 'Coffee Liqueur', 'Light cream'],
+      ingredients: [ 'Vodka', 'Coffee Liqueur', 'Cream'],
       measures: [ '2 oz ', '1 oz '],
       instructions: "Pour vodka and'Irish Cream' over ice cubes in an old-fashioned glass. Fill with light cream and serve.",
       glass: 'Old-fashioned glass'
@@ -7936,35 +7936,11 @@ const drinkList = [
   },
 
   {
-      name: "Grapefruit and Orange Cocktail",
-      ingredients: [ 'Orange Juice', 'Grapefruit Juice'],
-      measures: [ '2 cl ', '6 cl '],
-      instructions: "Mix and stir with ice in a mixing glass, strain off into a large cocktail glass.",
-      glass: 'Cocktail glass'
-  },
-
-  {
       name: "Grapefruit Lemonade",
       ingredients: [ 'Grenadine', 'Grapefruit Juice', 'Club Soda'],
       measures: [ '2 cl ', '6 cl '],
       instructions: "Place some ice cubes in a large tumbler, add grenadine syrup and grapefruit juice, top up with soda water. Stir a little and serve with a drinking straw.",
       glass: 'vote'
-  },
-
-  {
-      name: "Hot Buttered Rum Batter #1",
-      ingredients: [ 'Brown sugar', 'Butter', 'Nutmeg', 'Cinnamon', 'Cloves', 'Cardamom', 'Vanilla extract'],
-      measures: [ '1 lb ', '1/2 lb salted ', '1 tsp ground ', '1 tsp ground ', '1 tsp ground ', '1 tsp ground white ', '1 tsp '],
-      instructions: "Blend all ingredients in a food processer or mixer and store in the fridge or freezer. To make a drink add a shot of good dark rum along with 1 or 2 tbl spoons of batter to a mug of very hot water. Serve in irish coffee cup.",
-      glass: 'Irish coffee cup'
-  },
-
-  {
-      name: "Hot Buttered Rum Batter #2",
-      ingredients: [ 'Brown sugar', 'Sugar', 'Butter', 'Vanilla Ice-Cream'],
-      measures: [ '1/2 cup ', '1/2 cup white ', '1/2 lb ', '1 pint good quality '],
-      instructions: "Blend all ingredients in a food processer or mixer and store in the fridge or freezer. To make a drink add a shot of good dark rum along with 1 or 2 tbl spoons of batter to a mug of very hot water. Serve in irish coffee cup.",
-      glass: 'Irish coffee cup'
   },
 
   {
@@ -7993,7 +7969,7 @@ const drinkList = [
 
   {
       name: "Lemon Flip",
-      ingredients: [ 'Egg yolk', 'Simple Syrup', 'Lemon Juice'],
+      ingredients: [ 'Egg Yolk', 'Simple Syrup', 'Lemon Juice'],
       measures: [ '2 tsp ', '4 cl '],
       instructions: "Put several ice cubes in a shaker, add egg yolk, sugar syrup and lemon juice. Shake very well and strain into a highball glass. Serve with a drinking straw.",
       glass: 'Highball glass'
@@ -8065,7 +8041,7 @@ const drinkList = [
 
   {
       name: "Orange Flip",
-      ingredients: [ 'Orange Juice', 'Egg yolk', 'Honey'],
+      ingredients: [ 'Orange Juice', 'Egg Yolk', 'Honey'],
       measures: [ '10 cl ', '1 tblsp '],
       instructions: "Mix in a blender.",
       glass: 'vote'
@@ -8185,7 +8161,7 @@ const drinkList = [
 
   {
       name: "Grape Flip",
-      ingredients: [ 'Milk', 'Grape Juice', 'Egg yolk', 'Raspberry syrup'],
+      ingredients: [ 'Milk', 'Grape Juice', 'Egg Yolk', 'Raspberry syrup'],
       measures: [ '10 cl cold ', '5 cl red ', '2 tsp '],
       instructions: "Shake or blend very well, serve icecold in a burgundy glass. If you wish to garnish, use grapes.",
       glass: 'vote'
@@ -8243,14 +8219,6 @@ const drinkList = [
       name: "Banana Strawberry Shake",
       ingredients: [ 'Strawberries', 'Banana', 'Yoghurt', 'Milk', 'Honey'],
       measures: [ '1/2 lb frozen ', '1 frozen ', '1 cup plain ', '1 cup ', ' to taste '],
-      instructions: "Blend all together in a blender until smooth.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Banana Strawberry Shake Daiquiri-type",
-      ingredients: [ 'Strawberries', 'Banana', 'Apple Juice'],
-      measures: [ '1/2 lb frozen ', '1 frozen ', '2 cups fresh '],
       instructions: "Blend all together in a blender until smooth.",
       glass: 'vote'
   },
@@ -8456,82 +8424,10 @@ const drinkList = [
   },
 
   {
-      name: "Apple Berry Smoothie",
-      ingredients: [ 'Berries', 'Apple'],
-      measures: [ '1 cup '],
-      instructions: "Throw everything into a blender and liquify.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Grape lemon pineapple Smoothie",
-      ingredients: [ 'Grapes', 'Lemon', 'Pineapple'],
-      measures: [ '1 cup ', '1/4 ', '1/2 '],
-      instructions: "Throw everything into a blender and liquify.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Kiwi Papaya Smoothie",
-      ingredients: [ 'Kiwi', 'Papaya'],
-      measures: [ '1/2 '],
-      instructions: "Throw everything into a blender and liquify.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Mango Orange Smoothie",
-      ingredients: [ 'Mango', 'Orange'],
-      measures: [],
-      instructions: "Throw everything into a blender and liquify.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Pineapple Gingerale Smoothie",
-      ingredients: [ 'Ginger', 'Pineapple'],
-      measures: [ '1/4 inch ', '1/2 '],
-      instructions: "Throw everything into a blender and liquify.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Kill the cold Smoothie",
-      ingredients: [ 'Ginger', 'Lemon', 'Water'],
-      measures: [ '1 inch ', '1/4 ', '1 cup hot '],
-      instructions: "Juice ginger and lemon and add it to hot water. You may add cardomom.",
-      glass: 'vote'
-  },
-
-  {
       name: "Strawberry Shivers",
       ingredients: [ 'Strawberries', 'Honey', 'Water'],
       measures: [ '1 1/2 cup ', '4 tsp ', '1/2 cup '],
       instructions: "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Tomato Tang",
-      ingredients: [ 'Tomato Juice', 'Lemon Juice', 'Celery salt'],
-      measures: [ '2 cups ', '1-2 tblsp ', '1 dash '],
-      instructions: "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Sweet Bananas",
-      ingredients: [ 'Milk', 'Banana', 'Honey'],
-      measures: [ '2 cups ', '1 tblsp '],
-      instructions: "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Yoghurt Cooler",
-      ingredients: [ 'Yoghurt', 'Fruit', 'Ice'],
-      measures: [ '1 cup ', '1 cup '],
-      instructions: "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up. Note: Use lots of ice in this one - great on hot days! To add ice: Remove the center of the cover while the blender is on - drop 3 or 4 ice cubs and blend until they're completely crushed.",
       glass: 'vote'
   },
 
@@ -8609,7 +8505,7 @@ const drinkList = [
 
   {
       name: "Spanish chocolate",
-      ingredients: [ 'Milk', 'Chocolate', 'Cinnamon', 'Egg yolk'],
+      ingredients: [ 'Milk', 'Chocolate', 'Cinnamon', 'Egg Yolk'],
       measures: [ '2 cups ', '2 oz sweet ', '1/2 tsp ', '2 beaten '],
       instructions: "Stir the milk with the chocolate and the cinnamon over low heat until the chocolate dissolves. Add the eggs and beat the mixture until it becomes thick, taking care not to boil. Serve in coffee mug.",
       glass: 'Coffee mug'
@@ -8680,22 +8576,6 @@ const drinkList = [
   },
 
   {
-      name: "Frappé",
-      ingredients: [ 'Coffee', 'Milk', 'Sugar'],
-      measures: [ '1/2 cup strong black ', '1/2 cup ', '1-2 tsp '],
-      instructions: "Mix together. Blend at highest blender speed for about 1 minute. Pour into a glass and drink with a straw. Notes: This works best if everything is cold (if you make fresh coffee, mix it with the milk and let it sit in the fridge for 1/2 hour. If it is not frothy, add more milk, or even just some more milk powder. The froth gradually turns to liquid at the bottom of the glass, so you will find that you can sit and drink this for about 1/2 hour, with more iced coffee continually appearing at the bottom. Very refreshing.",
-      glass: 'vote'
-  },
-
-  {
-      name: "Iced Coffee",
-      ingredients: [ 'Coffee', 'Sugar', 'Water', 'Milk'],
-      measures: [ '1/4 cup instant ', '1/4 cup ', '1/4 cup hot ', '4 cups cold '],
-      instructions: "Mix together until coffee and sugar is dissolved. Add milk. Shake well. Using a blender or milk shake maker produces a very foamy drink. Serve in coffee mug.",
-      glass: 'Coffee mug'
-  },
-
-  {
       name: "Iced Coffee Fillip",
       ingredients: [ 'Coffee Liqueur', 'Coffee'],
       measures: [ '2 tsp ', 'Strong cold '],
@@ -8725,14 +8605,6 @@ const drinkList = [
       measures: [ '2 cups ', '3-4 tsp ', '1 chunk dried ', '3-4 crushed ', '1 piece ', '1-2 whole ', ' to taste '],
       instructions: "Bring 2 cups of water to boil. Add all the ingredients and boil again for about 15 seconds. Let stand for a minute. Warm milk in a pot. Filter tea into cups. Add milk and sugar. That's IT.",
       glass: 'vote'
-  },
-
-  {
-      name: "Spiking coffee",
-      ingredients: [ 'Coffee', 'Cinnamon'],
-      measures: [],
-      instructions: "Incidentally, a pinch of cinnamon is indeed a nice addition to coffee but true heaven is a cardamom seed. Of course, you serve it in a coffee mug.",
-      glass: 'Coffee mug'
   },
 
   {
@@ -9129,7 +9001,7 @@ const drinkList = [
 
   {
       name: "Champagne Punch #1",
-      ingredients: [ 'Champagne', 'Cointreau', 'Brandy', 'Carbonated Water'],
+      ingredients: [ 'Champagne', 'Triple Sec', 'Brandy', 'Carbonated Water'],
       measures: [ '1 bottle chilled ', '1/2 cup ', '1/2 cup ', '1/2 bottle '],
       instructions: "Combine all of the ingredients and serve in punch cups.",
       glass: 'vote'
@@ -9153,14 +9025,14 @@ const drinkList = [
 
   {
       name: "Coquito",
-      ingredients: [ 'Water', 'Cream of coconut', 'Milk', 'Condensed milk', 'Egg yolk', 'Cinnamon', 'White Rum'],
+      ingredients: [ 'Water', 'Cream of coconut', 'Milk', 'Condensed milk', 'Egg Yolk', 'Cinnamon', 'White Rum'],
       measures: [ '1/2 L ', '15 oz ', '12 oz evaporated ', '14 oz ', '2-3 sticks ', '1 L '],
       instructions: "Boil the cinnamon sticks in the water. Take the sticks out when the water is yellow and has the smell and taste of cinnamon. Add the evaporated milk, condensed milk and egg yolks and cook at low temperature. While it's cooking stir to avoid it sticking to the bottom of the pot. When it is boiling for a few minutes, add the cream of coconut and rum. Stir well and take off the burner. Let it cool and it will be ready. Keep it in the refrigerator and it will last for a very long time.",
       glass: 'vote'
   },
 
   {
-      name: "Chowning's Tavern Wine Cooler",
+      name: "Tavern Wine Cooler",
       ingredients: [ 'Lemonade', 'Mint', 'Red wine', 'Maraschino cherry'],
       measures: [ '3/4 glass ', '1/4 glass dry '],
       instructions: "This makes a colorful as well as refreshing drink if the liquids are not mixed together. Pour the lemonade over crushed ice, then add the red wine. Garnish with a sprig of mint and a cherry. Good for hot days.",
@@ -9241,7 +9113,7 @@ const drinkList = [
 
   {
       name: "Egg Nog #4",
-      ingredients: [ 'Egg yolk', 'Sugar', 'Milk', 'Light Rum', 'Bourbon', 'Vanilla extract', 'Salt', 'Whipping cream', 'Egg White', 'Sugar', 'Nutmeg'],
+      ingredients: [ 'Egg Yolk', 'Sugar', 'Milk', 'Light Rum', 'Bourbon', 'Vanilla extract', 'Salt', 'Whipping cream', 'Egg White', 'Sugar', 'Nutmeg'],
       measures: [ '1/4 cup ', '2 cups ', '1/2 cup ', '1/2 cup ', '1 tsp ', '1/4 tsp ', '1 cup ', '1/4 cup ', 'Ground '],
       instructions: "In a small mixer bowl beat egg yolks till blended. Gradually add 1/4 cup sugar, beating at high speed till thick and lemon colored. Stir in milk, stir in rum, bourbon, vanilla, and salt. Chill thoroughly. Whip cream. Wash beaters well. In a large mixer bowl beat egg whites till soft peaks form. Gradually add remaining 1/4 cup sugar, beating to stiff peaks. Fold yolk mixture and whipped cream into egg whites. Serve immediately. Sprinkle nutmeg over each serving. Serve in a punch bowl or another big bowl. NOTE: For a nonalcoholic eggnog, prepare Eggnog as above, except omit the bourbon and rum and increase the milk to 3 cups.",
       glass: 'Punch bowl'
@@ -9720,7 +9592,7 @@ const drinkList = [
   },
 
   {
-      name: "Sangria - The World's Best",
+      name: "Sangria #3",
       ingredients: [ 'Red wine', 'Sugar', 'Lemon', 'Orange', 'Apple', 'Brandy', 'Club Soda'],
       measures: [ '1 1/2 L ', '1 cup ', '1 large ', '1 large ', '1 large ', '3-4 oz plain '],
       instructions: "Mix wine, sugar and fruit, and let sit in the fridge for 18-24 hours. The mixture will have a somewhat syrupy consistency. Before serving stir in brandy and cut the mixture with soda water until it have a thinner, more wine like consistency. Serve from a pitcher in wine glasses.",
@@ -9753,7 +9625,7 @@ const drinkList = [
 
   {
       name: "Syllabub",
-      ingredients: [ 'White wine', 'Milk', 'Lemon Peel', 'Light cream', 'Lemon Juice', 'Egg', 'Sugar', 'Nutmeg'],
+      ingredients: [ 'White wine', 'Milk', 'Lemon Peel', 'Cream', 'Lemon Juice', 'Egg', 'Sugar', 'Nutmeg'],
       measures: [ '2 cups ', '3 cups ', '5 tblsp grated ', '2 cups ', '1/3 cup ', '1-1/2 cup '],
       instructions: "Combine wine, lemon rind, and juice. Stir in 1 cup of the sugar and let stand until sugar dissolves. Combine milk and cream, add wine mixture, and beat with a rotary beater until frothy. Beat egg whites until stiff, add remaining 1/2 cup sugar, a little at a time, beating constantly until whites stand in peaks. Pour wine mixture into punch bowl, top with puffs of egg white, and sprinkle whites with nutmeg.",
       glass: 'Punch bowl'
@@ -10065,7 +9937,7 @@ const drinkList = [
 
   {
       name: "Diesel",
-      ingredients: [ 'Lager', 'Cider', 'Blackcurrant cordial'],
+      ingredients: [ 'Lager', 'Hard Cider', 'Blackcurrant cordial'],
       measures: [ '1/2 pint ', '1/2 pint ', '1 dash '],
       instructions: "Pour the lager first then add the blackcurrant cordial. Top up with the cider. The colour sholud be very dark approaching the colour of Guiness.",
       glass: 'Pint glass'
@@ -10129,7 +10001,7 @@ const drinkList = [
 
   {
       name: "Red Death #2",
-      ingredients: [ 'Absolut Vodka', 'Southern Comfort', 'Amaretto', 'Sloe gin', 'Triple Sec', 'Orange Juice'],
+      ingredients: [ 'Vodka', 'Southern Comfort', 'Amaretto', 'Sloe gin', 'Triple Sec', 'Orange Juice'],
       measures: [],
       instructions: "Pour all the ingedients in mixing glass with ice. Shake and strain into shot glass(es).",
       glass: 'Shot glass'
@@ -10161,7 +10033,7 @@ const drinkList = [
 
   {
       name: "Jack & Coke",
-      ingredients: [ 'Jack Daniels', 'Cola', 'Ice'],
+      ingredients: [ 'Bourbon', 'Cola', 'Ice'],
       measures: [ '2 oz ', '10 oz '],
       instructions: "Pour jack daniels into large glass filled with ice. Pour Coca-Cola into glass. Stir lightly.",
       glass: 'vote'
@@ -10177,7 +10049,7 @@ const drinkList = [
 
   {
       name: "Mona-Lisa",
-      ingredients: [ 'Absolut Vodka', 'Lemon Soda'],
+      ingredients: [ 'Vodka', 'Lemon Soda'],
       measures: [ '1 part ', '1 part '],
       instructions: "Stir ingredients and poor into a highball glass. Dance while drinking to the song Mona-Lisa with Rob'n'Raz. Oh! boy will you get drunk!",
       glass: 'Highball glass'
@@ -10217,7 +10089,7 @@ const drinkList = [
 
   {
       name: "Gray Hound",
-      ingredients: [ 'Drambuie', 'Cointreau'],
+      ingredients: [ 'Drambuie', 'Triple Sec'],
       measures: [ '1 part ', '1 part '],
       instructions: "Put a small measure of each ingredient into a shot glass, not completely filling it. Lick the palm of your hand and ignite the drink. Immediately put your hand over the glass. The flames will go out and there will be a vacuum holding the glass to your hand. Take the glass and hand up to your mouth. Take off your hand and deeply inhale the fumes and then knock the drink back.",
       glass: 'Shot glass'
@@ -10281,7 +10153,7 @@ const drinkList = [
 
   {
       name: "Stevie Ray Vaughn",
-      ingredients: [ 'Jack Daniels', 'Southern Comfort', 'Triple Sec', 'Sour Mix', 'Orange Juice'],
+      ingredients: [ 'Bourbon', 'Southern Comfort', 'Triple Sec', 'Sour Mix', 'Orange Juice'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '1 oz ', '5 oz '],
       instructions: "Shake ingredients over ice. Strain into shot glasses.",
       glass: 'Shot glass'
@@ -10289,7 +10161,7 @@ const drinkList = [
 
   {
       name: "Romulan Ale",
-      ingredients: [ 'White Rum', 'Blue Curacao', 'Sprite', 'Tabasco sauce'],
+      ingredients: [ 'White Rum', 'Blue Curacao', 'Lemon-Lime Soda', 'Tabasco sauce'],
       measures: [ '1 1/2 oz ', '1 oz ', ' (or 7-Up) '],
       instructions: "Mix all ingredients together. Pour into a tall, narrow glass. Add a grain of salt.",
       glass: 'vote'
@@ -10336,7 +10208,7 @@ const drinkList = [
   },
 
   {
-      name: "Owen's Grandmother's Revenge",
+      name: "Grandma's Revenge",
       ingredients: [ 'Whiskey', 'Beer', 'Lemonade', 'Ice'],
       measures: [ '12 oz ', '12 oz ', '12 oz frozen ', '1 cup crushed '],
       instructions: "Add ingredients and mix in blender.",
@@ -10441,7 +10313,7 @@ const drinkList = [
 
   {
       name: "Freight Train",
-      ingredients: [ 'Tequila', 'Jack Daniels'],
+      ingredients: [ 'Tequila', 'Bourbon'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "Pour ingredients into 1 ounce shot glass",
       glass: 'Shot glass'
@@ -10489,7 +10361,7 @@ const drinkList = [
 
   {
       name: "Superb Cosmopolitan",
-      ingredients: [ 'Vodka', 'Cointreau', 'Lime Juice', 'Cranberry Juice', 'Chambord Raspberry Liqueur', 'Lemon Peel'],
+      ingredients: [ 'Vodka', 'Triple Sec', 'Lime Juice', 'Cranberry Juice', 'Chambord Raspberry Liqueur', 'Lemon Peel'],
       measures: [ '1 1/4 oz ', '1/2 oz ', '1/4 oz fresh ', '4 splashes ', 'Float 1/2 oz ', 'Twist of '],
       instructions: "Stir the first four ingredients with ice. Strain into a frosted cocktail glass. Float Chambord on top and add a twist of lemon.",
       glass: 'Cocktail glass'
@@ -10545,7 +10417,7 @@ const drinkList = [
 
   {
       name: "Tuve Nightmare",
-      ingredients: [ 'White wine', 'Ginger Ale', 'Sprite', 'Pisang Ambon', 'Vodka', 'Cucumber', 'Lime'],
+      ingredients: [ 'White wine', 'Ginger Ale', 'Lemon-Lime Soda', 'Pisang Ambon', 'Vodka', 'Cucumber', 'Lime'],
       measures: [ '5 L ', '3 L ', '1.5 L ', '0.5 L ', '0.75-1.5 L ', 'Lots of ', ', sliced '],
       instructions: "Mix the Vodka with the cider or the wine. Drop the fruit from a height of at least 3 feet. Pour the sprite and the Ginger Ale with the rest Carefully pour the Pisang Ambon into the punch. Enjoy!",
       glass: 'vote'
@@ -10817,7 +10689,7 @@ const drinkList = [
 
   {
       name: "Toasted Almond",
-      ingredients: [ 'Amaretto', 'Coffee Liqueur', 'Light cream'],
+      ingredients: [ 'Amaretto', 'Coffee Liqueur', 'Cream'],
       measures: [ '2 oz ', '2 oz ', '2 oz '],
       instructions: "shake, strain into highball glass.",
       glass: 'Highball glass'
@@ -10865,7 +10737,7 @@ const drinkList = [
 
   {
       name: "Spearmint Lifesaver",
-      ingredients: [ 'Jack Daniels', 'Mountain Dew'],
+      ingredients: [ 'Bourbon', 'Mountain Dew'],
       measures: [ '1 oz ', '2 cups '],
       instructions: "Mix 'em, garnish with a slice of lime (optional).",
       glass: 'vote'
@@ -11057,7 +10929,7 @@ const drinkList = [
 
   {
       name: "Snake Bite (UK)",
-      ingredients: [ 'Lager', 'Cider'],
+      ingredients: [ 'Lager', 'Hard Cider'],
       measures: [ '1/2 pint ', '1/2 pint sweet or dry '],
       instructions: "Pour ingredients into a pint glass. Drink. Fall over.",
       glass: 'Pint glass'
@@ -11120,7 +10992,7 @@ const drinkList = [
   },
 
   {
-      name: "Mint Russki, or Spearmint Ivan",
+      name: "Mint Russki",
       ingredients: [ 'Vodka', 'Mint'],
       measures: [ '2-3 shots frozen ', '3-6 fresh '],
       instructions: "1. Place 3 to 6 twisted or crushed fresh mint leaves into a medium sized cocktail glass 2. Add 2 to 3 shots of your favorite frozen vodka 3. Add ice if desired 4. Stir lightly",
@@ -11169,7 +11041,7 @@ const drinkList = [
 
   {
       name: "Porch Climber",
-      ingredients: [ 'Beer', 'Pink Lemonade', 'Absolut Vodka', 'Canadian Whisky'],
+      ingredients: [ 'Beer', 'Pink Lemonade', 'Vodka', 'Canadian Whisky'],
       measures: [ '1 case Molson Canadian ', '2 cans ', '26 oz ', '26 oz '],
       instructions: "Pour all over ice in large cooler. Then climmb the pporchs.",
       glass: 'vote'
@@ -11184,7 +11056,7 @@ const drinkList = [
   },
 
   {
-      name: "Mike Samm's Purple Passionate Punch",
+      name: "Purple Punch",
       ingredients: [ 'Malibu Rum', 'Chambord Raspberry Liqueur', 'Triple Sec', 'Pineapple Juice', 'Lemon Juice'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '2 1/2 oz ', '1 splash sweetened '],
       instructions: "Add all ingredients into a mixing tin with ice. Place mixing glass on top. Shake vigorously. Spin tin & glass on the palm of hand. Throw behind your back and catch with opposite hand. Repeat in various ways until your customers or guests are mystified. Serve in collins with out a garnish.",
@@ -11209,7 +11081,7 @@ const drinkList = [
 
   {
       name: "Fjellbekk (Mountain Stream)",
-      ingredients: [ 'Vodka', 'Aquavit', 'Lime Juice', 'Sprite'],
+      ingredients: [ 'Vodka', 'Aquavit', 'Lime Juice', 'Lemon-Lime Soda'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz ', ' (or 7-UP) '],
       instructions: "Mix everything in a glass with ice.",
       glass: 'Highball glass'
@@ -11233,7 +11105,7 @@ const drinkList = [
 
   {
       name: "Lynchburg Lemonade",
-      ingredients: [ 'Jack Daniels', 'Triple Sec', 'Sour Mix', 'Sprite'],
+      ingredients: [ 'Bourbon', 'Triple Sec', 'Sour Mix', 'Lemon-Lime Soda'],
       measures: [ '1 part ', '1 part ', '1 part ', '4 parts '],
       instructions: "Mix ingredients into a punch bowl.",
       glass: 'Punch bowl'
@@ -11273,7 +11145,7 @@ const drinkList = [
 
   {
       name: "Surputte",
-      ingredients: [ 'Absolut Vodka', 'Cointreau', 'Lemon Juice', 'Lime Juice'],
+      ingredients: [ 'Vodka', 'Triple Sec', 'Lemon Juice', 'Lime Juice'],
       measures: [ '1 oz ', '1 oz ', '1/4 oz ', '1/4 oz fresh '],
       instructions: "Add some 7-UP and ice A slice of Lime on the edge",
       glass: 'vote'
@@ -11296,8 +11168,8 @@ const drinkList = [
   },
 
   {
-      name: "Mai Tai, Michael's Ultimate",
-      ingredients: [ 'Lime', 'Dark Rum', 'Light Rum', 'Orange Liqueur', 'Orange', 'Lemon', 'Pineapple Juice', 'Sugar'],
+      name: "Mai Tai #2",
+      ingredients: [ 'Lime', 'Dark Rum', 'Light Rum', 'Triple Sec', 'Orange', 'Lemon', 'Pineapple Juice', 'Sugar'],
       measures: [ 'Juice of 1/6 ', '1-1/2 oz very ', '1-1/2 oz ', '3/4 oz ', 'Juice of 1/4 ', 'Juice of 1/4 ', '2 oz ', ' to taste '],
       instructions: "Squeeze lime wedge in tall glass with ice. Add other ingredients. Sugar is optional.",
       glass: 'Highball glass'
@@ -11361,7 +11233,7 @@ const drinkList = [
 
   {
       name: "Long Island Iced Tea #3",
-      ingredients: [ 'Vodka', 'Gin', 'Tequila', 'Light Rum', 'Cointreau', 'Lemon Juice', 'Cola'],
+      ingredients: [ 'Vodka', 'Gin', 'Tequila', 'Light Rum', 'Triple Sec', 'Lemon Juice', 'Cola'],
       measures: [ '1 cl Finlandia ', '1 cl ', '1 cl ', '1 cl ', '1 cl ', '8 cl '],
       instructions: "Fill a Collins glass with crushed ice. Pour the spirits and the juice over the ice. Add cola until the drink becomes tea coloured.",
       glass: 'Collins glass'
@@ -11377,7 +11249,7 @@ const drinkList = [
 
   {
       name: "Veterinary",
-      ingredients: [ 'Grain alcohol', 'Lime Juice', 'Sprite'],
+      ingredients: [ 'Grain alcohol', 'Lime Juice', 'Lemon-Lime Soda'],
       measures: [ '1 part pure ', '2 parts ', '3 parts '],
       instructions: "Pour alcohol over ice cubes in tall glass. Add lime juice and Sprite / 7-UP. Stir well.",
       glass: 'Highball glass'
@@ -11449,7 +11321,7 @@ const drinkList = [
 
   {
       name: "Green Goblin",
-      ingredients: [ 'Cider', 'Lager', 'Blue Curacao'],
+      ingredients: [ 'Hard Cider', 'Lager', 'Blue Curacao'],
       measures: [ '1/2 pint hard ', '1/2 pint ', '1 shot '],
       instructions: "Cider First, Lager then Curacao",
       glass: 'Pint glass'
@@ -11465,7 +11337,7 @@ const drinkList = [
 
   {
       name: "Marvellaid",
-      ingredients: [ 'Orange vodka', 'Cointreau'],
+      ingredients: [ 'Orange vodka', 'Triple Sec'],
       measures: [ '1 3/4 oz ', '1 3/4 oz '],
       instructions: "Chill martini glass. Mix equal parts stoli and Cointreau. Chill and strain. Garnish with orange slice.",
       glass: 'vote'
@@ -11505,7 +11377,7 @@ const drinkList = [
 
   {
       name: "Cheapo student bevvy",
-      ingredients: [ 'Cider', 'Gin', 'Blackcurrant squash'],
+      ingredients: [ 'Hard Cider', 'Gin', 'Blackcurrant squash'],
       measures: [ '1 bottle ', '25 cl cheap ', '1 dash '],
       instructions: "Mix in a pint glass. Down very quickly.",
       glass: 'Pint glass'
@@ -11569,7 +11441,7 @@ const drinkList = [
 
   {
       name: "Sizzler",
-      ingredients: [ 'Vodka', 'Jack Daniels', 'Lemonade', 'Beer'],
+      ingredients: [ 'Vodka', 'Bourbon', 'Lemonade', 'Beer'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '1 oz '],
       instructions: "Mix all to gether until fizzing.",
       glass: 'vote'
@@ -11577,7 +11449,7 @@ const drinkList = [
 
   {
       name: "Pink Panty Pulldowns",
-      ingredients: [ 'Sprite', 'Pink Lemonade', 'Vodka'],
+      ingredients: [ 'Lemon-Lime Soda', 'Pink Lemonade', 'Vodka'],
       measures: [ '1 L ', '2 cups ', '2 cups '],
       instructions: "Shake well",
       glass: 'vote'
@@ -11761,7 +11633,7 @@ const drinkList = [
 
   {
       name: "Mexican Virgin",
-      ingredients: [ 'Tequila', 'Cider'],
+      ingredients: [ 'Tequila', 'Hard Cider'],
       measures: [ '2 oz ', '3 oz cherry '],
       instructions: "Pour into an 8 oz. glass and stir. Then pour into another 8 oz. glass over ice.",
       glass: 'vote'
@@ -11825,7 +11697,7 @@ const drinkList = [
 
   {
       name: "Red Death (MAC style)",
-      ingredients: [ 'White wine', 'Absolut Vodka', 'Gin', 'White Rum', 'Candy', 'Raspberry Juice', 'Water'],
+      ingredients: [ 'White wine', 'Vodka', 'Gin', 'White Rum', 'Candy', 'Raspberry Juice', 'Water'],
       measures: [ '80 oz ', '120 oz ', '60 oz dry ', '2 pint ', '2 packages ', '5 packages ', '16 L '],
       instructions: "mix together in large container....stir in the alcohol from atart of list till the halls....for melted halls centers do the following...: use a needle and thread and put it through each halls..tie a knot after each one...place in 1 to 2 litres of boiling..and i mean boiling hot water until all are melted pour into bowl and mix in the water and raspberry juice. have fun should serve 10 to 20 people at 1 litre each we use this for our residence house drink ..it is safe and actually very tastey..try it and see.",
       glass: 'vote'
@@ -11841,7 +11713,7 @@ const drinkList = [
 
   {
       name: "Scarlet Fever",
-      ingredients: [ 'Absolut Vodka', 'White Rum', 'Gin', 'Cranberry Juice'],
+      ingredients: [ 'Vodka', 'White Rum', 'Gin', 'Cranberry Juice'],
       measures: [ '12-14 oz ', '12-14 oz ', '6-8 oz dry ', '6 oz '],
       instructions: "mix together and shake, pour into a draft glass add 3 ice cubes and garnish with a lemon wheel on the side.",
       glass: 'vote'
@@ -11857,7 +11729,7 @@ const drinkList = [
 
   {
       name: "The Crying Game",
-      ingredients: [ 'Jack Daniels', 'Lime vodka', 'Coffee Liqueur','Irish Cream', 'Grenadine', 'Tequila', 'Rum', 'Tomato Juice'],
+      ingredients: [ 'Bourbon', 'Lime vodka', 'Coffee Liqueur','Irish Cream', 'Grenadine', 'Tequila', 'Rum', 'Tomato Juice'],
       measures: [ '1/5 ', '1/5 ', '1/5 ', '1/5 ', '1/5 ', '1 oz ', '1 oz ', '5 oz '],
       instructions: "Mix JD and Vodka together with Kahlua. Heat over medium flame Baileys, Tequila, and Rum. Mix all together with tomato juice and top with grenadine. Garnish with a stalk of celery and green onion. Enjoy!!!",
       glass: 'vote'
@@ -11937,7 +11809,7 @@ const drinkList = [
 
   {
       name: "Albysjön",
-      ingredients: [ 'Vodka', 'Fanta', 'Sprite', 'Kiwi'],
+      ingredients: [ 'Vodka', 'Fanta', 'Lemon-Lime Soda', 'Kiwi'],
       measures: [ '2 oz Stefanoffs ', '1 oz ', '0.5 oz ', '0.5 oz '],
       instructions: "Pour vodka in glass then the rest, stir well. By the way for best results add Kiwi juice concentrate last",
       glass: 'vote'
@@ -12049,7 +11921,7 @@ const drinkList = [
 
   {
       name: "Green Frog",
-      ingredients: [ 'Pisang Ambon', 'Sprite', 'Lime Juice'],
+      ingredients: [ 'Pisang Ambon', 'Lemon-Lime Soda', 'Lime Juice'],
       measures: [ '1 part ', '2 parts ', 'Some drop '],
       instructions: "Fill a highball glass with 1 part Pisang Ambon. Pour 2 parts sprite in glas. then add some lime. Remember some ice-cubes. Drink with straw.",
       glass: 'Highball glass'
@@ -12232,7 +12104,7 @@ const drinkList = [
   },
 
   {
-      name: "Præriebål (Norwegian version of Prairie Fire)",
+      name: "Præriebål",
       ingredients: [ 'Tequila', 'Tabasco sauce'],
       measures: [ '4 cl ', '4 cl '],
       instructions: "Pour tequlia in a double shot glass. Then pour Tabasco in the same glass.",
@@ -12249,7 +12121,7 @@ const drinkList = [
 
   {
       name: "The Beavis",
-      ingredients: [ 'Everclear', 'Purple passion', 'Vodka', 'Cider', 'Southern Comfort', 'Bacardi-151', 'Wine', 'Water'],
+      ingredients: [ 'Everclear', 'Purple passion', 'Vodka', 'Hard Cider', 'Southern Comfort', 'Bacardi-151', 'Wine', 'Water'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz Bacardi ', '1 oz Plum ', '1 oz '],
       instructions: "Pour all the shit together, and hope it don't explode! Drink as fast as you can, with no food, and say your prayers.",
       glass: 'vote'
@@ -12265,14 +12137,14 @@ const drinkList = [
 
   {
       name: "North Polar",
-      ingredients: [ 'Gin', 'Cointreau', 'Campari'],
+      ingredients: [ 'Gin', 'Triple Sec', 'Campari'],
       measures: [ '1 part ', '1 part ', '1 part '],
       instructions: "Mix and server over ice with a slice of orange",
       glass: 'vote'
   },
 
   {
-      name: "STP (the motor oil of course)",
+      name: "STP (motor oil)",
       ingredients: [ 'Scotch', 'Vodka', 'Maple syrup'],
       measures: [ '10 oz ', '5 oz ', '4 oz '],
       instructions: "Add whiskyand vodka to glass of ice. Stir in maple syrup. Wait 2 minutes and enjoy.",
@@ -12297,7 +12169,7 @@ const drinkList = [
 
   {
       name: "Gorilla Fart #1",
-      ingredients: [ 'Wild Turkey', 'Bacardi-151'],
+      ingredients: [ 'Bourbon', 'Bacardi-151'],
       measures: [ '1/2 oz ', '1/2 oz Bacardi '],
       instructions: "Pour in shot glass. Take a sniff and shoot!",
       glass: 'Shot glass'
@@ -12305,7 +12177,7 @@ const drinkList = [
 
   {
       name: "Patsy mix",
-      ingredients: [ 'Brandy', 'Cider', 'Ice'],
+      ingredients: [ 'Brandy', 'Hard Cider', 'Ice'],
       measures: [ '1/2 oz ', '2 oz pear '],
       instructions: "Pour in Brandy and Babycham on ice",
       glass: 'vote'
@@ -12417,7 +12289,7 @@ const drinkList = [
 
   {
       name: "French Sailor",
-      ingredients: [ 'Cointreau', 'Absolut Citron', 'Sugar'],
+      ingredients: [ 'Triple Sec', 'Absolut Citron', 'Sugar'],
       measures: [ '1 part ', '1 part ', '1 cube '],
       instructions: "Mix 1 part warm Cointreau and 1 part Vodka into a tumbler with a cube of sugar. Stir until sugar is disolved.",
       glass: 'vote'
@@ -12449,7 +12321,7 @@ const drinkList = [
 
   {
       name: "Gorilla's Puke",
-      ingredients: [ 'Wild Turkey', 'Bacardi-151'],
+      ingredients: [ 'Bourbon', 'Bacardi-151'],
       measures: [ '1 oz ', '1 oz Bacardi '],
       instructions: "Layer in normal shot glass. Can be lit and shot through straw.",
       glass: 'Shot glass'
@@ -12537,7 +12409,7 @@ const drinkList = [
 
   {
       name: "Orange Climax",
-      ingredients: [ 'Peach Schnapps', 'Pineapple Juice', 'Orange Juice', 'Jack Daniels'],
+      ingredients: [ 'Peach Schnapps', 'Pineapple Juice', 'Orange Juice', 'Bourbon'],
       measures: [ '1 oz ', '2 oz ', '1 oz ', '1/2 oz '],
       instructions: "Mix one after the other then shake and top with whip cream",
       glass: 'vote'
@@ -12577,7 +12449,7 @@ const drinkList = [
 
   {
       name: "Three Wise Men",
-      ingredients: [ 'Jack Daniels', 'Jim Beam', 'Johnnie Walker'],
+      ingredients: [ 'Bourbon', 'Bourbon', 'Johnnie Walker'],
       measures: [ '1/3 shot ', '1/3 shot ', '1/3 shot '],
       instructions: "layer in a shot glass, Jimmy, Jack, then Johnnie",
       glass: 'Shot glass'
@@ -12681,7 +12553,7 @@ const drinkList = [
 
   {
       name: "Whoomp",
-      ingredients: [ 'Everclear', 'Dark Rum', 'Jim Beam', 'Vodka', 'Peach Schnapps', 'Jack Daniels', 'Fruit Juice', 'Fruit punch'],
+      ingredients: [ 'Everclear', 'Dark Rum', 'Bourbon', 'Vodka', 'Peach Schnapps', 'Bourbon', 'Fruit Juice', 'Fruit punch'],
       measures: [ '1 bottle ', '1 bottle ', '1 bottle ', '1 bottle 100 proof ', '1 bottle ', '1 bottle ', '2 cans frozen ', '1 can '],
       instructions: "Add all the shit into one large cooler or what ever you have that will hold it add one block of ice and mix then consume till it whomps you in the ASS",
       glass: 'vote'
@@ -12713,7 +12585,7 @@ const drinkList = [
 
   {
       name: "Lash",
-      ingredients: [ 'Vodka', 'Amaretto', 'Ice', 'Sprite'],
+      ingredients: [ 'Vodka', 'Amaretto', 'Ice', 'Lemon-Lime Soda'],
       measures: [ '1.5 oz ', '1,5 oz ', 'Full glass ', 'Remainder '],
       instructions: "Fill tall glass with ice. add Vodka and Amaretto. Fill remainder of glass with Sprite or 7up",
       glass: 'Highball glass'
@@ -12737,7 +12609,7 @@ const drinkList = [
 
   {
       name: "Jackhammer",
-      ingredients: [ 'Jack Daniels', 'Amaretto'],
+      ingredients: [ 'Bourbon', 'Amaretto'],
       measures: [ '1 oz ', '1 oz '],
       instructions: "Serve over ice- Warning,Deadly!",
       glass: 'vote'
@@ -12752,7 +12624,7 @@ const drinkList = [
   },
 
   {
-      name: "Flaming Dr. Pepper (alternative)",
+      name: "Flaming Dr. Pepper 3",
       ingredients: [ 'Amaretto', 'Bacardi-151', 'Lager'],
       measures: [ '1/2 oz ', '1/2 oz Bacardi ', '6 oz '],
       instructions: "Put Amaretto in bottom of shot glass, top with Rum. Pour Beer into glass. Light shot, pick up shot by the sides and drop entire shot glass (bottom first) into beer. When bottom of shot glass hits bottom of beer glass chug (the beer will put out the flame).",
@@ -12760,7 +12632,7 @@ const drinkList = [
   },
 
   {
-      name: "Flaming Jesse or Tropical SunShine",
+      name: "Flaming Jesse",
       ingredients: [ 'Malibu Rum', 'Vodka','Irish Cream', 'Orange Juice'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', '4-6 oz '],
       instructions: "Put all ingredients in a shaker with ice. Shake, strain into a collin's glass. Garnish with an orange slice.",
@@ -12817,7 +12689,7 @@ const drinkList = [
 
   {
       name: "Modified Duck Fart",
-      ingredients: [ 'Crown Royal','Irish Cream', 'Coffee Liqueur'],
+      ingredients: [ 'Canadian Whisky','Irish Cream', 'Coffee Liqueur'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz '],
       instructions: "Layer liquors in order listed from top to bottom in shot glass. Drink all at once.",
       glass: 'Shot glass'
@@ -12920,7 +12792,7 @@ const drinkList = [
   },
 
   {
-      name: "Chocolate Raspberry Delight",
+      name: "Choco Berry Delight",
       ingredients: ['Irish Cream', 'Chambord Raspberry Liqueur'],
       measures: [ '1 1/2 oz ', '1 1/2 oz '],
       instructions: "Serve on ice or blend for a milk shake effect.",
@@ -12937,7 +12809,7 @@ const drinkList = [
 
   {
       name: "3 Wise Men",
-      ingredients: [ 'Jack Daniels', 'Johnnie Walker', 'Jim Beam'],
+      ingredients: [ 'Bourbon', 'Johnnie Walker', 'Bourbon'],
       measures: [ '1/3 oz ', '1/3 oz ', '1/3 oz '],
       instructions: "put them them in a glass... and slam it to tha head.",
       glass: 'Collins glass'
@@ -12977,14 +12849,14 @@ const drinkList = [
 
   {
       name: "Lloyd Special",
-      ingredients: [ 'Jack Daniels', 'Grand Marnier'],
+      ingredients: [ 'Bourbon', 'Grand Marnier'],
       measures: [ '2/3 oz ', '1/3 oz '],
       instructions: "Pour into shot glass and shoot it back.",
       glass: 'Shot glass'
   },
 
   {
-      name: "Canadian Funky Electric Cider",
+      name: "Electric Cider",
       ingredients: [ 'Canadian Whisky', 'Apple Cider'],
       measures: [ '3/4 oz ', '2 1/2 oz Canadian '],
       instructions: "Place 3/4 oz. of whiskey in an old-fashioned glass. Add 2.5 oz. of optinally warmed Canadian Apple Cider. If served cold, crushed ice is optional.",
@@ -13041,7 +12913,7 @@ const drinkList = [
 
   {
       name: "Grateful Dead #2",
-      ingredients: [ 'Vodka', 'Rum', 'Gin', 'Triple Sec', 'Chambord Raspberry Liqueur', 'Sour Mix', 'Sprite'],
+      ingredients: [ 'Vodka', 'Rum', 'Gin', 'Triple Sec', 'Chambord Raspberry Liqueur', 'Sour Mix', 'Lemon-Lime Soda'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz ', '2 parts ', '1 splash '],
       instructions: "fill glass with ice. Add each liquor, then pour sour mix to top. stir. splash of 7up or sprite.",
       glass: 'Highball glass'
@@ -13097,7 +12969,7 @@ const drinkList = [
 
   {
       name: "AT&T",
-      ingredients: [ 'Absolut Vodka', 'Gin', 'Tonic Water'],
+      ingredients: [ 'Vodka', 'Gin', 'Tonic Water'],
       measures: [ '1 oz ', '1 oz ', '4 oz '],
       instructions: "Pour Vodka and Gin over ice, add Tonic and Stir",
       glass: 'vote'
@@ -13121,7 +12993,7 @@ const drinkList = [
 
   {
       name: "Joe Cocker",
-      ingredients: [ 'Amaretto', 'Southern Comfort', 'Crown Royal', 'Jack Daniels'],
+      ingredients: [ 'Amaretto', 'Southern Comfort', 'Canadian Whisky', 'Bourbon'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part '],
       instructions: "Put all into a Shot Glass",
       glass: 'Shot glass'
@@ -13153,7 +13025,7 @@ const drinkList = [
 
   {
       name: "Long Island Iced Tea #4",
-      ingredients: [ 'Triple Sec', 'Absolut Vodka', 'Gold Tequila', 'Bacardi-151', 'Gin', 'Sour Mix', 'Cola'],
+      ingredients: [ 'Triple Sec', 'Vodka', 'Gold Tequila', 'Bacardi-151', 'Gin', 'Sour Mix', 'Cola'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz Bacardi ', '3/4 oz ', '4 oz ', '2 oz '],
       instructions: "Mix all liquors and sweet and sour and top off with Pepsi Cola. Stir and Serve with a Lemon wheel.",
       glass: 'Collins glass'
@@ -13385,7 +13257,7 @@ const drinkList = [
 
   {
       name: "Fraustadt",
-      ingredients: [ 'Absolut Vodka', 'Cointreau', 'Midori Melon', 'Lemon Juice'],
+      ingredients: [ 'Vodka', 'Triple Sec', 'Midori Melon', 'Lemon Juice'],
       measures: [ '2 cl ', '2 cl ', '2 cl ', 'Fill with '],
       instructions: "Fill the Boston shaker with all the ingridiens and a lot of icecubes, then shake untill your hands goes into hypothermia. Pour up in a highball glas and put a lemonslice on the edge.",
       glass: 'Highball glass'
@@ -13465,7 +13337,7 @@ const drinkList = [
 
   {
       name: "Sweet Temptation",
-      ingredients: [ 'Triple Sec', 'Peachtree Schnapps', 'Sprite', 'Sour Mix', 'Ice', 'Lime'],
+      ingredients: [ 'Triple Sec', 'Peachtree Schnapps', 'Lemon-Lime Soda', 'Sour Mix', 'Ice', 'Lime'],
       measures: [ '1 1/2 cl ', '1/2 cl ', 'Add 11-13 cl ', 'Fizz on top 2-4 cl ', ' cubes ', ' on top '],
       instructions: "Fill a Higball glass 2/3 with ice cubes. build the alcoholic and the sprite into the glass. The sour mix on top as a fizz.(shaken/mixed). Served with straw and a slice of citrus on top.",
       glass: 'Highball glass'
@@ -13593,7 +13465,7 @@ const drinkList = [
 
   {
       name: "Belgian Blue",
-      ingredients: [ 'Vodka', 'Coconut Liqueur', 'Blue Curacao', 'Sprite'],
+      ingredients: [ 'Vodka', 'Coconut Liqueur', 'Blue Curacao', 'Lemon-Lime Soda'],
       measures: [ '2 cl ', '1 cl ', '1 cl ', 'Fill with '],
       instructions: "Just pour all ingredients in the glass and stir...",
       glass: 'Highball glass'
@@ -13601,7 +13473,7 @@ const drinkList = [
 
   {
       name: "B-52 #3",
-      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Cointreau'],
+      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Triple Sec'],
       measures: [ '2 cl ', '2 cl ', '2 cl '],
       instructions: "Layer the three ingredients in that order. And, I am terrible sorry, this is the only way to make a B-52 the right way.",
       glass: 'Shot glass'
@@ -13632,7 +13504,7 @@ const drinkList = [
   },
 
   {
-      name: "Screaming Orgasm (San Francisco Style)",
+      name: "Screaming Orgasm III",
       ingredients: ['Irish Cream', 'Triple Sec', 'Cognac'],
       measures: [ '1 oz ', '1 oz ', '0.5 oz '],
       instructions: "Simply mix then add ice.",
@@ -13657,7 +13529,7 @@ const drinkList = [
 
   {
       name: "Red Snapper",
-      ingredients: [ 'Crown Royal', 'Amaretto', 'Cranberry Juice'],
+      ingredients: [ 'Canadian Whisky', 'Amaretto', 'Cranberry Juice'],
       measures: [ '1 shot ', '1 shot ', '1 shot '],
       instructions: "One shot each, shake n shoot",
       glass: 'Old-fashioned glass'
@@ -13681,7 +13553,7 @@ const drinkList = [
 
   {
       name: "Triple Asp",
-      ingredients: [ 'Absolut Vodka', 'Absolut Citron', 'Absolut Kurant', 'Sprite'],
+      ingredients: [ 'Vodka', 'Absolut Citron', 'Absolut Kurant', 'Lemon-Lime Soda'],
       measures: [ '2 cl ', '2 cl ', '2 cl ', 'Fill with '],
       instructions: "Poor the ingredients in a glass. Ice if preffered. Drink it on a hot summer-night.",
       glass: 'Highball glass'
@@ -13737,7 +13609,7 @@ const drinkList = [
 
   {
       name: "Absolut Summertime",
-      ingredients: [ 'Absolut Citron', 'Sour Mix', 'Sprite', 'Club Soda', 'Lemon'],
+      ingredients: [ 'Absolut Citron', 'Sour Mix', 'Lemon-Lime Soda', 'Club Soda', 'Lemon'],
       measures: [ '1 1/2 oz ', '3/4 oz ', '1/2 oz ', '3 oz ', '1 slice '],
       instructions: "Add all ingredients except lemon to shaker filled with ice. Cover and shake vigorously. Strain contents into ice filled collins glass. Garnish with lemon.",
       glass: 'Collins glass'
@@ -13745,7 +13617,7 @@ const drinkList = [
 
   {
       name: "The Jack Hammer",
-      ingredients: [ 'Jack Daniels', 'Gold Tequila'],
+      ingredients: [ 'Bourbon', 'Gold Tequila'],
       measures: [ '1 oz ', '1 oz '],
       instructions: "Pour both shots into one shot glass, straight up!",
       glass: 'Shot glass'
@@ -13753,7 +13625,7 @@ const drinkList = [
 
   {
       name: "Paralyzer #1",
-      ingredients: [ 'Tequila', 'Vodka', 'Coffee Liqueur', 'Light cream', 'Cola'],
+      ingredients: [ 'Tequila', 'Vodka', 'Coffee Liqueur', 'Cream', 'Cola'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '4 oz ', '4 1/2 oz '],
       instructions: "Built in a 8-10 oz zombie or collins glass,over ice .First add the tequila, vodka & kahlua.fill glass 1/2 full with coke,then top with light cream or milk.There is no garnish. but stir gently with straw.",
       glass: 'Collins glass'
@@ -13841,7 +13713,7 @@ const drinkList = [
 
   {
       name: "Strawberry Surprise",
-      ingredients: [ 'Ice', 'Light Rum', 'Strawberry syrup', 'Pina colada Mix', 'Sprite'],
+      ingredients: [ 'Ice', 'Light Rum', 'Strawberry syrup', 'Pina colada Mix', 'Lemon-Lime Soda'],
       measures: [ '1 glass ', '1 shot ', '1 shot ', '1 shot ', '1 can '],
       instructions: "Add ice and shots in a hurricane or other tall glass. Add 1/2 of the sprite. Shake Well Add rest of sprite. Finished ingredient should look similar to pink lemonade. Enjoy!",
       glass: 'Hurricane glass'
@@ -13849,7 +13721,7 @@ const drinkList = [
 
   {
       name: "Cosmopolitan Martini",
-      ingredients: [ 'Cointreau', 'Vodka', 'Lime', 'Cranberry Juice'],
+      ingredients: [ 'Triple Sec', 'Vodka', 'Lime', 'Cranberry Juice'],
       measures: [ '1/2 oz ', '1 oz ', 'Juice of 1/2 ', '1 splash '],
       instructions: "Pour all ingredients in mixing glass half filled with ice, shake and strain into chilled Martini glass.",
       glass: 'vote'
@@ -13937,7 +13809,7 @@ const drinkList = [
 
   {
       name: "Pitbull on Crack #1",
-      ingredients: [ 'Gold Tequila', 'Jägermeister', 'Jim Beam', 'Bacardi-151'],
+      ingredients: [ 'Gold Tequila', 'Jägermeister', 'Bourbon', 'Bacardi-151'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part Bacardi '],
       instructions: "chill and serve",
       glass: 'Shot glass'
@@ -14105,7 +13977,7 @@ const drinkList = [
 
   {
       name: "Robot",
-      ingredients: [ 'Jack Daniels', 'Absolut Vodka', 'Grenadine'],
+      ingredients: [ 'Bourbon', 'Vodka', 'Grenadine'],
       measures: [ '1/2 pint ', '1/8 pint ', '2 drops '],
       instructions: "Mix well, add ice last. Serves two normal people or one alcoholic.",
       glass: 'Highball glass'
@@ -14304,8 +14176,8 @@ const drinkList = [
   },
 
   {
-      name: "Pan Galactic Gargle Blaster",
-      ingredients: [ 'Coffee Liqueur', 'Vodka', 'Cherry Brandy', 'Lime Juice', 'Lemon-Lime Soda', 'Cider', 'Ice'],
+      name: "Pan Galactic",
+      ingredients: [ 'Coffee Liqueur', 'Vodka', 'Cherry Brandy', 'Lime Juice', 'Lemon-Lime Soda', 'Hard Cider', 'Ice'],
       measures: [ '35 cl ', '35 cl ', '17.5 cl ', '1 dash ', '1/2 glass ', '1/2 glass dry ', 'About 4 '],
       instructions: "Take a pintglass (= approx. 0.5 litres) Put the Tia Maria, the vodka and the cherry brandy together. Add a dash of lime juice. Fill the rest of the glass up with (50% - 50%) with dry cider and 7 -up Add ice cubes.",
       glass: 'vote'
@@ -14345,7 +14217,7 @@ const drinkList = [
 
   {
       name: "Bourbon and sprite",
-      ingredients: [ 'Bourbon', 'Sprite'],
+      ingredients: [ 'Bourbon', 'Lemon-Lime Soda'],
       measures: [ '4 oz ', '7 oz '],
       instructions: "Pour the bourbon into the highball or whiskey sour glass with some ice. cubes preferred then mix the rest of glass with Sprite or Seven up.",
       glass: 'Whiskey sour glass'
@@ -14385,7 +14257,7 @@ const drinkList = [
 
   {
       name: "Ozone",
-      ingredients: [ 'Amaretto', 'Beer', 'Sour Mix', 'Sprite'],
+      ingredients: [ 'Amaretto', 'Beer', 'Sour Mix', 'Lemon-Lime Soda'],
       measures: [ '1.5 oz ', 'Splash ', '3 oz ', 'Splash '],
       instructions: "Fill glass with ice Add Amaretto Add splash beer Add sweet & sour Top with sprite Stir lightly",
       glass: 'Old-fashioned glass'
@@ -14577,7 +14449,7 @@ const drinkList = [
 
   {
       name: "White Spider #2",
-      ingredients: [ 'Sour Mix', 'Gin', 'Cointreau'],
+      ingredients: [ 'Sour Mix', 'Gin', 'Triple Sec'],
       measures: [ '1 oz ', '1 oz ', '1/2 oz '],
       instructions: "Shake ingredients with ice, strain into cocktail glass.",
       glass: 'Cocktail glass'
@@ -14617,7 +14489,7 @@ const drinkList = [
 
   {
       name: "Top Shelf Margarita",
-      ingredients: [ 'Cointreau', 'Grand Marnier', 'Sour Mix', 'Lime Juice', 'Tequila'],
+      ingredients: [ 'Triple Sec', 'Grand Marnier', 'Sour Mix', 'Lime Juice', 'Tequila'],
       measures: [ '1/2 oz ', '1/2 oz ', '2 1/2 oz ', '1 oz ', '1 1/2 oz '],
       instructions: "Fill mixing glass with ice Pour in all ingredients Shake well Pour into salt rimmed glass Add lime wedge or wheel",
       glass: 'Margarita/Coupette glass'
@@ -14641,7 +14513,7 @@ const drinkList = [
 
   {
       name: "Derailer",
-      ingredients: [ 'Rum', 'Gin', 'Vodka', 'Amaretto', 'Triple Sec', 'Peach Schnapps', 'Grenadine', 'Cranberry Juice', 'Grapefruit Juice', 'Sloe gin', 'Sprite'],
+      ingredients: [ 'Rum', 'Gin', 'Vodka', 'Amaretto', 'Triple Sec', 'Peach Schnapps', 'Grenadine', 'Cranberry Juice', 'Grapefruit Juice', 'Sloe gin', 'Lemon-Lime Soda'],
       measures: [ '2 cups ', '2 cups ', '2 cups ', '2 cups ', '1 cup ', '2 cups ', '1 cup ', '1 gal ', '1 can ', '2 cups ', '1 bottle '],
       instructions: "This is the punch we serve at our annual Halloween party. We use a big, black, plastic cauldron to mix this punch in. You can use any LARGE vat to concoct this wonderful drink. Add all alcohols first, then add juices. Add the Sprite just before serving. If you want... do as we do, and drop in chunks of dry-ice to create a bubbling, smoking cauldron of pure Halloweeen evil! It's safe to drink, and does not really change the taste all that much! YAHOO! GET DERAILED!",
       glass: 'Punch bowl'
@@ -14657,7 +14529,7 @@ const drinkList = [
 
   {
       name: "Lemon Drop #4",
-      ingredients: [ 'Absolut Vodka', 'Margarita Mix', 'Triple Sec', 'Lemon', 'Sugar'],
+      ingredients: [ 'Vodka', 'Margarita Mix', 'Triple Sec', 'Lemon', 'Sugar'],
       measures: [ '2 1/2 oz ', 'Mix with 2 oz ', 'Add 2 tblsp ', 'Juice of 1 ', '2 packages '],
       instructions: "pour over cracked ice, and strain into a cocktail glass with sugar around its rim.",
       glass: 'Cocktail glass'
@@ -14673,7 +14545,7 @@ const drinkList = [
 
   {
       name: "Warp Core Breach",
-      ingredients: [ 'Goldschlager', 'Tequila', 'Jack Daniels'],
+      ingredients: [ 'Goldschlager', 'Tequila', 'Bourbon'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz '],
       instructions: "Put 1/2 ounce of Goldschlager in 1 1/2 ounce shot glass. Then put Tequila on top followed by Jack Daniels. Down it and party till she's cute.",
       glass: 'Shot glass'
@@ -14721,7 +14593,7 @@ const drinkList = [
 
   {
       name: "Absolut Sex",
-      ingredients: [ 'Absolut Kurant', 'Midori Melon', 'Cranberry Juice', 'Sprite'],
+      ingredients: [ 'Absolut Kurant', 'Midori Melon', 'Cranberry Juice', 'Lemon-Lime Soda'],
       measures: [ '3/4 oz ', '3/4 oz ', '1 oz ', '1 splash '],
       instructions: "Shake Absolut Kurant, Midori, and Cranberry juice in shaker with ice: Strain into rocks glass: Splash of seven on top.Absolut Sex.",
       glass: 'Old-fashioned glass'
@@ -14745,7 +14617,7 @@ const drinkList = [
 
   {
       name: "Lemon Drop #5",
-      ingredients: [ 'Absolut Vodka', 'Cointreau', 'Lemon'],
+      ingredients: [ 'Vodka', 'Triple Sec', 'Lemon'],
       measures: [ '1 1/2 shot ', '1 1/2 shot ', 'Juice of 1 wedge '],
       instructions: "Shake vodka, Cointreau and juice of a lemon wedge well with plenty of ice. Strain into a sugar rimmed cocktail glass. Garnish with lemon zest.",
       glass: 'Cocktail glass'
@@ -14753,7 +14625,7 @@ const drinkList = [
 
   {
       name: "Apfel Orange",
-      ingredients: [ 'Apfelkorn', 'Vodka', 'Orange Juice', 'Sprite'],
+      ingredients: [ 'Apfelkorn', 'Vodka', 'Orange Juice', 'Lemon-Lime Soda'],
       measures: [ '1 cl ', '1 cl ', '2 cl ', '2 cl '],
       instructions: "Mix the ingredients, add a couple of ice cubes. Put a slice of orange or lemon (any fruit will do!) on the rim of the glass.",
       glass: 'Highball glass'
@@ -14761,7 +14633,7 @@ const drinkList = [
 
   {
       name: "Vaina",
-      ingredients: [ 'Sherry', 'Chocolate Liqueur', 'Cognac', 'Powdered sugar', 'Egg yolk'],
+      ingredients: [ 'Sherry', 'Chocolate Liqueur', 'Cognac', 'Powdered sugar', 'Egg Yolk'],
       measures: [ '60 ml ', '30 ml ', '30 ml ', '2 - 3 tblsp '],
       instructions: "Put all the ingredients in a cocktail shaker with ice and shake it well. Serve in a red wine glass and add in the top a bit of powdered cinnamon .",
       glass: 'Red wine glass'
@@ -14785,7 +14657,7 @@ const drinkList = [
 
   {
       name: "Smeraldo",
-      ingredients: [ 'Gin', 'Fruit Juice', 'Blue Curacao', 'Cointreau', 'Peach nectar'],
+      ingredients: [ 'Gin', 'Fruit Juice', 'Blue Curacao', 'Triple Sec', 'Peach nectar'],
       measures: [ '3/10 oz dry ', '3/10 oz tropical ', '2/10 oz ', '1/10 oz ', '1/10 oz '],
       instructions: "Put all in a Shacker with Ice, shake it for a while and serve in a cold Cocktail glass",
       glass: 'Cocktail glass'
@@ -14801,7 +14673,7 @@ const drinkList = [
 
   {
       name: "Starla's Waver",
-      ingredients: [ 'Milk', 'Coffee Liqueur', 'Absolut Vodka', 'Rum'],
+      ingredients: [ 'Milk', 'Coffee Liqueur', 'Vodka', 'Rum'],
       measures: [ '1 tblsp ', '3 shots ', '5 shots ', '1 tblsp '],
       instructions: "Get a large glass, (any glass but it must be large) Start from the top of the list and work your way down stirring each time you add an ingredient. When you've finished you need not do anything else just drink it.",
       glass: 'vote'
@@ -14865,7 +14737,7 @@ const drinkList = [
 
   {
       name: "Shut the hell up",
-      ingredients: [ 'Bacardi-151', 'Crown Royal', 'Jägermeister', 'Everclear', 'Grenadine'],
+      ingredients: [ 'Bacardi-151', 'Canadian Whisky', 'Jägermeister', 'Everclear', 'Grenadine'],
       measures: [ '1/2 part Bacardi ', '1 part ', '1 part ', '1/2 part ', '2 splashes '],
       instructions: "Pour Jager at bottom of glass. Mix Crown, Everclear, & 151 separately to layer on top of the Jager. Splash the Grenadine. Attempt to shoot & SHUT THE HELL UP.",
       glass: 'Old-fashioned glass'
@@ -14937,7 +14809,7 @@ const drinkList = [
 
   {
       name: "Cardicas",
-      ingredients: [ 'Rum', 'Cointreau', 'White port'],
+      ingredients: [ 'Rum', 'Triple Sec', 'White port'],
       measures: [ '2 cl ', '1 cl ', '1 cl '],
       instructions: "Stir. No garnish.",
       glass: 'Cocktail glass'
@@ -15009,7 +14881,7 @@ const drinkList = [
 
   {
       name: "Rafu Eighteen",
-      ingredients: [ 'Vodka', 'Pisang Ambon', 'Orange Juice', 'Sprite', 'Lemon'],
+      ingredients: [ 'Vodka', 'Pisang Ambon', 'Orange Juice', 'Lemon-Lime Soda', 'Lemon'],
       measures: [ '3 cl 120 proof ', '4 cl ', 'Fill with ', 'And ', 'Juice of 1 '],
       instructions: "Fill vodka and Pisang in the glas. If you tihnk it's to strong you may fill in with more pisang. Fill then with orange juice and sprite, about half of each till the glas is filled. Take then a twist or two of lemon.",
       glass: 'vote'
@@ -15081,7 +14953,7 @@ const drinkList = [
 
   {
       name: "Gin Blossam",
-      ingredients: [ 'Peach Schnapps', 'Gin', 'Sprite'],
+      ingredients: [ 'Peach Schnapps', 'Gin', 'Lemon-Lime Soda'],
       measures: [ '1 1/2 oz ', '1 oz ', '2 cups '],
       instructions: "Fill the glass about two thirds full of Sprite. Pour in the Schnapps, then gin. Put ice in glass to cool.",
       glass: 'Old-fashioned glass'
@@ -15113,7 +14985,7 @@ const drinkList = [
 
   {
       name: "Ultimate Margarita",
-      ingredients: [ 'Tequila', 'Cointreau', 'Sour Mix', 'Lime'],
+      ingredients: [ 'Tequila', 'Triple Sec', 'Sour Mix', 'Lime'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', 'Juice of 1/4 '],
       instructions: "Pour tequila, Cointreau, and sweet & sour over crushed ice. Add lime juice. Can be made frozen by putting in a blender with 3 cups ice.",
       glass: 'Margarita/Coupette glass'
@@ -15153,7 +15025,7 @@ const drinkList = [
 
   {
       name: "Black River",
-      ingredients: [ 'Vodka', 'Aquavit', 'Coffee Liqueur', 'Sprite', 'Club Soda', 'Lime Juice'],
+      ingredients: [ 'Vodka', 'Aquavit', 'Coffee Liqueur', 'Lemon-Lime Soda', 'Club Soda', 'Lime Juice'],
       measures: [ '2 cl ', '1 cl ', '1 cl ', 'Fifty/fifty with ', 'And ', '2-3 drops '],
       instructions: "First you mix the alcohol into the glass with ice in it. Next you pour Sprite and Farris at the same time into the glas. At last you the drops from lime comes and you serve it with a slice of lime on the side.",
       glass: 'Cocktail glass'
@@ -15249,7 +15121,7 @@ const drinkList = [
 
   {
       name: "Dephaekt",
-      ingredients: [ 'Absolut Kurant', 'Orgeat syrup', 'Frangelico', 'Cranberry Juice', 'Sprite'],
+      ingredients: [ 'Absolut Kurant', 'Orgeat syrup', 'Frangelico', 'Cranberry Juice', 'Lemon-Lime Soda'],
       measures: [ '4 cl ', '1,5 cl ', '1 cl ', 'Fill with 2/3 ', 'Fill with 1/3 '],
       instructions: "Blend the Absolut kurant, Oregat and Frangelico in a mixer. Pour in highball glass, add 2 icecubes, fill with the cranberryjuice and sprite. Put a slice of lemon on the edge of the glass. Optional to add a dash of lime for an even fresher taste.",
       glass: 'Highball glass'
@@ -15289,7 +15161,7 @@ const drinkList = [
 
   {
       name: "Prince of Norway",
-      ingredients: [ 'Vodka', 'Apricot Brandy', 'Lime Juice', 'Sprite', 'Ice'],
+      ingredients: [ 'Vodka', 'Apricot Brandy', 'Lime Juice', 'Lemon-Lime Soda', 'Ice'],
       measures: [ '3/4 oz part ', '3/4 oz ', '1/4 oz ', 'fill ', ' cubes '],
       instructions: "Fill glass with Icecubes, pour all ingrediences into glass. Garnish with orange slice.",
       glass: 'Highball glass'
@@ -15329,7 +15201,7 @@ const drinkList = [
 
   {
       name: "Charlie Coke",
-      ingredients: [ 'Absolut Vodka', 'Cola'],
+      ingredients: [ 'Vodka', 'Cola'],
       measures: [ '1.5 oz ', '1 bottle '],
       instructions: "Add 1.5 oz. Absolut Vodka to 10 oz. cocktail glass filled with ice, top off with Coka-Cola.",
       glass: 'Cocktail glass'
@@ -15496,7 +15368,7 @@ const drinkList = [
   },
 
   {
-      name: "A.D.M. (After Dinner Mint)",
+      name: "After Dinner Mint",
       ingredients: [ 'White Creme de Menthe', 'Southern Comfort', 'Vodka', 'Hot Chocolate'],
       measures: [ '1/2 oz ', '3/4 oz ', '1/2 oz ', 'Fill with '],
       instructions: "shake vigorously",
@@ -15521,7 +15393,7 @@ const drinkList = [
 
   {
       name: "Screaming White Orgasm",
-      ingredients: ['Irish Cream', 'Coffee Liqueur', 'White Rum', 'Cointreau', 'Milk', 'Ice'],
+      ingredients: ['Irish Cream', 'Coffee Liqueur', 'White Rum', 'Triple Sec', 'Milk', 'Ice'],
       measures: [ '3 cl ', '2 cl ', '2 cl ', 'Add a bit ', 'A dash '],
       instructions: "fill up the shaker with ice and put the ingredience in it. Shake it until it gets frosty on the outside. Before you start shaking,put icecubes in the glass and fill it up with water so the glass is cold when you have shaked the drink. Take the icecubes and water out of the glass,and fill the glass again vith icecubes and pour the drink in the glass.",
       glass: 'Cocktail glass'
@@ -15537,7 +15409,7 @@ const drinkList = [
 
   {
       name: "Illusion",
-      ingredients: [ 'Malibu Rum', 'Midori Melon', 'Vodka', 'Cointreau', 'Pineapple Juice'],
+      ingredients: [ 'Malibu Rum', 'Midori Melon', 'Vodka', 'Triple Sec', 'Pineapple Juice'],
       measures: [ '30 ml ', '30 ml ', '30 ml ', '15 ml ', '1 splash '],
       instructions: "pour all spirits in the shaker ... & top with a splash of pineapple juice",
       glass: 'Shot glass'
@@ -15593,7 +15465,7 @@ const drinkList = [
 
   {
       name: "Arizona Stingers",
-      ingredients: [ 'Absolut Vodka', 'Iced tea'],
+      ingredients: [ 'Vodka', 'Iced tea'],
       measures: [ '2 shots ', '12 oz lemon '],
       instructions: "Place ice cubes in the hurricane glass . Add the 2 HEAPING shots of Absolute Vodka (Note: You can add as many shots of Absolute as you want!) Fill the rest of glass with the Arizona Icetea with lemon. Stir to mix using a spoon. Drink up and enjoy!!!!!!!",
       glass: 'Hurricane glass'
@@ -15609,7 +15481,7 @@ const drinkList = [
 
   {
       name: "151 Florida Bushwacker",
-      ingredients: [ 'Malibu Rum', 'Light Rum', 'Bacardi-151', 'Dark Creme de Cacao', 'Cointreau', 'Milk', 'Coconut Liqueur', 'Vanilla Ice-Cream'],
+      ingredients: [ 'Malibu Rum', 'Light Rum', 'Bacardi-151', 'Dark Creme de Cacao', 'Triple Sec', 'Milk', 'Coconut Liqueur', 'Vanilla Ice-Cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz Bacardi ', '1 oz ', '1 oz ', '3 oz ', '1 oz ', '1 cup '],
       instructions: "Combine all ingredients. Blend until smooth. Garnish with chocolate shavings if desired.",
       glass: 'Beer mug'
@@ -15617,7 +15489,7 @@ const drinkList = [
 
   {
       name: "Watermelon Shooter #3",
-      ingredients: [ 'Pineapple Juice', 'Jack Daniels', 'Ice', 'Grenadine'],
+      ingredients: [ 'Pineapple Juice', 'Bourbon', 'Ice', 'Grenadine'],
       measures: [ ' (Dole) '],
       instructions: "In a large juice or water pitcher filled with ice cubes, pour equal parts pineapple juice and Jack Daniels. Stir, then add a splash of grenadine to give the mixture a pink, almost watermelon, tint. Stir until well chilled. Pour into shot glass, straining ice, and enjoy.",
       glass: 'Shot glass'
@@ -15633,7 +15505,7 @@ const drinkList = [
 
   {
       name: "Zizi Coin-coin",
-      ingredients: [ 'Cointreau', 'Lemon Juice', 'Ice', 'Lemon'],
+      ingredients: [ 'Triple Sec', 'Lemon Juice', 'Ice', 'Lemon'],
       measures: [ '5 cl ', '2 cl ', ' cubes ', ' or lime '],
       instructions: "Pour 5cl of Cointreau on ice, add 2cl of fresh lemon (or lime) juice, stir gently, and finally add slices of lemon/lime in glass.",
       glass: 'Margarita/Coupette glass'
@@ -15697,7 +15569,7 @@ const drinkList = [
 
   {
       name: "ACID",
-      ingredients: [ 'Bacardi-151', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Bourbon'],
       measures: [ '1 oz Bacardi ', '1 oz '],
       instructions: "Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.",
       glass: 'Shot glass'
@@ -15705,7 +15577,7 @@ const drinkList = [
 
   {
       name: "Agent Orange",
-      ingredients: [ 'Yukon Jack', 'Jim Beam', 'Apple Schnapps', 'Vodka', 'Light Rum', 'Triple Sec', 'Grenadine', 'Orange Juice'],
+      ingredients: [ 'Yukon Jack', 'Bourbon', 'Apple Schnapps', 'Vodka', 'Light Rum', 'Triple Sec', 'Grenadine', 'Orange Juice'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1/2 oz ', '2 oz '],
       instructions: "Hurricane glass filled with ice add ingredients shake cherry and orange garnish",
       glass: 'Hurricane glass'
@@ -15761,7 +15633,7 @@ const drinkList = [
 
   {
       name: "Crocodile",
-      ingredients: [ 'Midori Melon', 'Bacardi Limon', 'Sprite', 'Ice'],
+      ingredients: [ 'Midori Melon', 'Bacardi Limon', 'Lemon-Lime Soda', 'Ice'],
       measures: [ '2 oz ', '1 oz ', ' or 7-Up '],
       instructions: "Add a few cubes of ice to glass and then add Midori and Bacardi. Fill the rest of the way with the soda and give a little stir.",
       glass: 'vote'
@@ -15785,7 +15657,7 @@ const drinkList = [
 
   {
       name: "Lady Scarlett",
-      ingredients: [ 'Gin', 'Cointreau', 'Dry Vermouth', 'Lime Juice', 'Monin bitter'],
+      ingredients: [ 'Gin', 'Triple Sec', 'Dry Vermouth', 'Lime Juice', 'Monin bitter'],
       measures: [ '2 cl dry ', '2 cl ', '1 cl ', '1 cl ', '1 cl '],
       instructions: "Shake. Garnish with cherry, lemon-peel",
       glass: 'Cocktail glass'
@@ -15801,7 +15673,7 @@ const drinkList = [
 
   {
       name: "Yaka",
-      ingredients: [ 'Absolut Vodka', 'Everclear', 'Lemonade', 'Lemon', 'Water'],
+      ingredients: [ 'Vodka', 'Everclear', 'Lemonade', 'Lemon', 'Water'],
       measures: [ '1 fifth ', '1 fifth ', '1 bag ', '7 slices ', '2 qt '],
       instructions: "Combine the water and lemonade mix, following the directions on the lemonade mix. Add everclear and absolute vodka. Then add the lemon slices and shake to mix. serve cold",
       glass: 'Pitcher'
@@ -15841,7 +15713,7 @@ const drinkList = [
 
   {
       name: "Richie Family",
-      ingredients: [ 'Absolut Vodka', 'Whiskey','Irish Cream', 'Coffee', 'Brown sugar'],
+      ingredients: [ 'Vodka', 'Whiskey','Irish Cream', 'Coffee', 'Brown sugar'],
       measures: [ '3 cl ', '3 cl ', '3 cl ', '25 cl strong, black ', '2 tsp '],
       instructions: "Mix vodka, whiskey and Baileys. Add the coffea and the brown sugar. Blend.",
       glass: 'Beer pilsner'
@@ -15849,7 +15721,7 @@ const drinkList = [
 
   {
       name: "Juicy Lucy",
-      ingredients: [ 'Vodka', 'Gin', 'Blue Curacao', 'Orange Juice', 'Sprite'],
+      ingredients: [ 'Vodka', 'Gin', 'Blue Curacao', 'Orange Juice', 'Lemon-Lime Soda'],
       measures: [ '2 shots ', '1 shot ', '2 shots ', 'Top with ', 'And '],
       instructions: "Just mix them!!!",
       glass: 'Beer mug'
@@ -15857,7 +15729,7 @@ const drinkList = [
 
   {
       name: "Blue Kisok",
-      ingredients: [ 'Blue Curacao', 'Vodka', 'Lime Juice', 'Sprite'],
+      ingredients: [ 'Blue Curacao', 'Vodka', 'Lime Juice', 'Lemon-Lime Soda'],
       measures: [ '1/2 oz ', '1/4 oz ', '1 tblsp ', 'Fill rest of glass '],
       instructions: "Pour an half ounce of Blue Curacao into shot glass. Follow with quarter of an ounce of Vodka. (Try and use Smirnoff) One table spoon of lime juice. Then fill rest of glass with sprite.",
       glass: 'Shot glass'
@@ -15889,7 +15761,7 @@ const drinkList = [
 
   {
       name: "Fuck You",
-      ingredients: [ 'Tequila', 'Jack Daniels', 'Wild Turkey', 'Goldschlager', 'Rum', 'Blueberry Schnapps'],
+      ingredients: [ 'Tequila', 'Bourbon', 'Bourbon', 'Goldschlager', 'Rum', 'Blueberry Schnapps'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz ', '1 oz '],
       instructions: "Mix each ingredient in a glass. Tilt glass 180 degrees and slam it!",
       glass: 'Shot glass'
@@ -15937,7 +15809,7 @@ const drinkList = [
 
   {
       name: "Red Snapper #2",
-      ingredients: [ 'Crown Royal', 'Amaretto', 'Cranberry Juice'],
+      ingredients: [ 'Canadian Whisky', 'Amaretto', 'Cranberry Juice'],
       measures: [ '1 1/4 oz ', '1/2 oz ', '1 splash '],
       instructions: "Mix it all over ice, strain into shot glass.",
       glass: 'Shot glass'
@@ -15945,7 +15817,7 @@ const drinkList = [
 
   {
       name: "Satan's Revenge",
-      ingredients: [ 'Tequila', 'Jack Daniels', 'Goldschlager', 'Tabasco sauce'],
+      ingredients: [ 'Tequila', 'Bourbon', 'Goldschlager', 'Tabasco sauce'],
       measures: [ '1/3 shot ', '1/3 shot ', '1/3 shot ', 'Several drop '],
       instructions: "combine in sequence in shot glass, shoot!",
       glass: 'Shot glass'
@@ -16041,7 +15913,7 @@ const drinkList = [
 
   {
       name: "Vodka Orange",
-      ingredients: [ 'Absolut Vodka', 'Orange Juice'],
+      ingredients: [ 'Vodka', 'Orange Juice'],
       measures: [ '1 part ', '2 parts '],
       instructions: "serve with ice. fresh pressed juice tastes best.",
       glass: 'Cocktail glass'
@@ -16057,7 +15929,7 @@ const drinkList = [
 
   {
       name: "Italian Ice #2",
-      ingredients: [ 'Blue Curacao', 'Chambord Raspberry Liqueur', 'Southern Comfort', 'Sprite'],
+      ingredients: [ 'Blue Curacao', 'Chambord Raspberry Liqueur', 'Southern Comfort', 'Lemon-Lime Soda'],
       measures: [ '1 part ', '1 part ', '1 part ', 'Fill with '],
       instructions: "Place all ingredients in a shaker. Shake well and serve over ice.",
       glass: 'Highball glass'
@@ -16113,7 +15985,7 @@ const drinkList = [
 
   {
       name: "Feel The Burn",
-      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Ouzo', 'Wild Turkey', 'Bacardi-151'],
+      ingredients: [ 'Coffee Liqueur','Irish Cream', 'Ouzo', 'Bourbon', 'Bacardi-151'],
       measures: [ 'Layer 1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz Bacardi '],
       instructions: "Layer all ingredients and light on fire to warm. Blow out flame and drink in one gulp.",
       glass: 'Cocktail glass'
@@ -16121,7 +15993,7 @@ const drinkList = [
 
   {
       name: "Vanilla Vargas",
-      ingredients: [ 'Ice', 'Bacardi-151', 'Crown Royal', 'Vanilla Liqueur', 'Cola'],
+      ingredients: [ 'Ice', 'Bacardi-151', 'Canadian Whisky', 'Vanilla Liqueur', 'Cola'],
       measures: [ '1/2 glass ', '1 shot Bacardi ', '1 shot ', '4 shots ', '1 can '],
       instructions: "Fill the highball glass (or preferrably a 32oz glass) half way with crushed ice. Then add the shots of alcohol in this order: bacardi 151 rum, crown royal, and vanilla liqeur. Now pour one can of pepsi into the mixture. Finally, stir well with a barspoon, or any long spoon to evenly distribute the ingredients.",
       glass: 'Highball glass'
@@ -16225,7 +16097,7 @@ const drinkList = [
 
   {
       name: "Snowball #2",
-      ingredients: [ 'Advocaat', 'Sprite', 'Ice'],
+      ingredients: [ 'Advocaat', 'Lemon-Lime Soda', 'Ice'],
       measures: [ '1/3 ', 'Fill with 2/3 ', 'Add a few '],
       instructions: "Take the glass and rub the edge on a lemon, then dip the rim in sugar. Drop the ice cubes into the glass, pour a 1/3 liqueur and fill it up with Sprite. Stir.",
       glass: 'Cocktail glass'
@@ -16233,7 +16105,7 @@ const drinkList = [
 
   {
       name: "Moonlight Serenade",
-      ingredients: [ 'Orange Liqueur', 'Orange Juice', 'Ice'],
+      ingredients: [ 'Triple Sec', 'Orange Juice', 'Ice'],
       measures: [ '1 part ', '2 parts ', ' cubes '],
       instructions: "Mix in highball glass. Stirr. Garnish with slice of orange.",
       glass: 'Highball glass'
@@ -16281,7 +16153,7 @@ const drinkList = [
 
   {
       name: "Green angel",
-      ingredients: [ 'Pisang Ambon', 'Peachtree Schnapps', 'Malibu Rum', 'Lemonade', 'Sprite', 'Ice', 'Food coloring'],
+      ingredients: [ 'Pisang Ambon', 'Peachtree Schnapps', 'Malibu Rum', 'Lemonade', 'Lemon-Lime Soda', 'Ice', 'Food coloring'],
       measures: [ '4/3 cl ', '4/3 cl ', '4/3 cl ', 'Appx 8 cl ', '1 drop blue '],
       instructions: "Blend Pisang Ambon, Peach Tree, Malibu and lemon squash together in a blender. Put ice cubes in the glas and pour the mix over. Fill up with Sprite, and add a drop of blue syrup. Stir and serve.",
       glass: 'Collins glass'
@@ -16296,8 +16168,8 @@ const drinkList = [
   },
 
   {
-      name: "Wave Runner (a.k.a. Rave Gunner)",
-      ingredients: [ 'Light Rum', 'Cranberry Juice', 'Sprite'],
+      name: "Wave Runner",
+      ingredients: [ 'Light Rum', 'Cranberry Juice', 'Lemon-Lime Soda'],
       measures: [ '2 parts ', '2 parts ', 'Fill with '],
       instructions: "Pour rum and cranberry juice into a tall glass. Slowly add Sprite, stopping immediately when the color changes from red to pink.",
       glass: 'vote'
@@ -16417,7 +16289,7 @@ const drinkList = [
 
   {
       name: "Naked Navel",
-      ingredients: [ 'Absolut Vodka', 'Peach Schnapps'],
+      ingredients: [ 'Vodka', 'Peach Schnapps'],
       measures: [ '1 oz ', '1/2 oz '],
       instructions: "Keep both bottles in the freezer. Pour vodka first to the 1 oz line. Pour in the schnapps, which will form a ball in the bottom of the glass.",
       glass: 'Shot glass'
@@ -16433,7 +16305,7 @@ const drinkList = [
 
   {
       name: "Grendel",
-      ingredients: [ 'Cointreau', 'Blue Curacao', 'White Creme de Menthe', 'Advocaat', 'Vodka', 'Rum', 'Cream', 'Lemonade'],
+      ingredients: [ 'Triple Sec', 'Blue Curacao', 'White Creme de Menthe', 'Advocaat', 'Vodka', 'Rum', 'Cream', 'Lemonade'],
       measures: [ '1 measure ', '1 measure ', '1 measure ', '2 measures ', '2 measures ', '2 measures ', '4 measures ', 'Fill with '],
       instructions: "Shaken with ice and put in a pint glass and topped with lemonade.",
       glass: 'Pint glass'
@@ -16449,7 +16321,7 @@ const drinkList = [
 
   {
       name: "Three Wise Men (vodka)",
-      ingredients: [ 'Jägermeister', 'Absolut Vodka', 'Rumple Minze'],
+      ingredients: [ 'Jägermeister', 'Vodka', 'Rumple Minze'],
       measures: [ '2/3 oz ', '2/3 oz ', '2/3 oz '],
       instructions: "pour 2/3 of an oz. of each ingrediant into a shot glass and drink.",
       glass: 'Shot glass'
@@ -16553,15 +16425,15 @@ const drinkList = [
 
   {
       name: "Geting",
-      ingredients: [ 'Absolut Vodka', 'Banana Liqueur', 'Ginger Ale'],
+      ingredients: [ 'Vodka', 'Banana Liqueur', 'Ginger Ale'],
       measures: [ '2 cl ', '1 cl ', 'Fill with '],
       instructions: "Start with the ice then you take the vodka then the liquor then the ginger ale",
       glass: 'Highball glass'
   },
 
   {
-      name: "Jack Daniel's Lynchburg Lemonade",
-      ingredients: [ 'Jack Daniels', 'Sour Mix', 'Triple Sec', 'Sprite'],
+      name: "Lynchburg Lemonade",
+      ingredients: [ 'Bourbon', 'Sour Mix', 'Triple Sec', 'Lemon-Lime Soda'],
       measures: [ '1 part ', '1 part ', '1 part ', '4 parts '],
       instructions: "Add ice and stir. Garnish with lemon slices and cherries.",
       glass: 'Mason jar'
@@ -16841,7 +16713,7 @@ const drinkList = [
 
   {
       name: "Leaving Las Vegas",
-      ingredients: [ 'Triple Sec', 'Vodka', 'Light Rum', 'Gin', 'Lemonade', 'Sugar', 'Sprite'],
+      ingredients: [ 'Triple Sec', 'Vodka', 'Light Rum', 'Gin', 'Lemonade', 'Sugar', 'Lemon-Lime Soda'],
       measures: [ '1 oz ', '1 oz ', '1 oz ', '1 oz ', 'Fill with ', '2 tblsp ', '1 splash '],
       instructions: "Layer and stir, garnish with lemon",
       glass: 'Hurricane glass'
@@ -16897,7 +16769,7 @@ const drinkList = [
 
   {
       name: "Fairytale",
-      ingredients: [ 'Absolut Vodka', 'Chocolate syrup', 'Strawberries', 'Ice'],
+      ingredients: [ 'Vodka', 'Chocolate syrup', 'Strawberries', 'Ice'],
       measures: [ '6 cl ', '4 cl ', '2 cl crushed ', '3 cl crushed '],
       instructions: "Just pour the vodka and the chocolate syrup together in a glass. Shake well. Then add the mixture of crushed ice and strawberries and voila'.",
       glass: 'Highball glass'
@@ -16913,7 +16785,7 @@ const drinkList = [
 
   {
       name: "Southern Joe",
-      ingredients: [ 'Southern Comfort', 'Jack Daniels'],
+      ingredients: [ 'Southern Comfort', 'Bourbon'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "Pour both ingredients into shot glass. Consume Repeatedly",
       glass: 'Shot glass'
@@ -16928,7 +16800,7 @@ const drinkList = [
   },
 
   {
-      name: "Hillbilly Bob's Mountaindrink",
+      name: "Hillbilly's Drink'",
       ingredients: [ 'Bourbon', 'Coffee Liqueur','Irish Cream', 'Creme de Cacao', 'Milk', 'Cola'],
       measures: [ '1 cl ', '2 cl ', '2 cl ', '2 cl ', '10 cl ', '2 dashes '],
       instructions: "Shake all ingredients except coke.Poor over ice and top with coke for an extra creamy head. Serve with a straw on a sunny day.",
@@ -16937,7 +16809,7 @@ const drinkList = [
 
   {
       name: "Pine Needle",
-      ingredients: [ 'Absolut Vodka', 'Triple Sec', 'Sour Mix', 'Pineapple Juice', 'Lemon-Lime Soda'],
+      ingredients: [ 'Vodka', 'Triple Sec', 'Sour Mix', 'Pineapple Juice', 'Lemon-Lime Soda'],
       measures: [ '1 oz ', '1/2 oz ', '1 1/2 oz ', '2 oz ', '1 splash '],
       instructions: "Fill glass with ice. Add the ingredients in the order listed.",
       glass: 'Highball glass'
@@ -17001,7 +16873,7 @@ const drinkList = [
 
   {
       name: "Blue Balls",
-      ingredients: [ 'Blue Curacao', 'Malibu Rum', 'Peach Schnapps', 'Sour Mix', 'Sprite'],
+      ingredients: [ 'Blue Curacao', 'Malibu Rum', 'Peach Schnapps', 'Sour Mix', 'Lemon-Lime Soda'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/4 oz ', 'dash '],
       instructions: "Mix all ingredients. Chill with ice and strain into a shooter glass!",
       glass: 'Shot glass'
@@ -17041,7 +16913,7 @@ const drinkList = [
 
   {
       name: "Peach Smoothie",
-      ingredients: [ 'Yukon Jack', 'Jack Daniels', 'Peachtree Schnapps'],
+      ingredients: [ 'Yukon Jack', 'Bourbon', 'Peachtree Schnapps'],
       measures: [ '1 part ', '1 part ', '1 part '],
       instructions: "Layer in shot glass Yukon Jack, Jack Daniels and PeachTree Schnapps last",
       glass: 'Shot glass'
@@ -17096,8 +16968,8 @@ const drinkList = [
   },
 
   {
-      name: "Killer Kool-Aid (Rhode Island)",
-      ingredients: [ 'Absolut Vodka', 'Amaretto', 'Malibu Rum', 'Sloe gin', 'Midori Melon', 'Cranberry Juice'],
+      name: "Killer Kool-Aid",
+      ingredients: [ 'Vodka', 'Amaretto', 'Malibu Rum', 'Sloe gin', 'Midori Melon', 'Cranberry Juice'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part ', '1 part ', '1 part '],
       instructions: "Pour equal parts into a mug/glass. Add the alcohol first, then add the cranberry juice last. This drink may be mixed/stirred, but it isn't required.",
       glass: 'vote'
@@ -17120,8 +16992,8 @@ const drinkList = [
   },
 
   {
-      name: "Ken and Kirsten's top shelf Margarita",
-      ingredients: [ 'Tequila', 'Cointreau', 'Lemonade', 'Grapefruit Juice', 'Lime', 'Salt'],
+      name: "Top Shelf Marg",
+      ingredients: [ 'Tequila', 'Triple Sec', 'Lemonade', 'Grapefruit Juice', 'Lime', 'Salt'],
       measures: [ '2 shots ', '1 shot ', '1 cup ', '1 splash ', 'Juice of 3 wedges ', '1 handful '],
       instructions: "Mix all ingredients and add ice. Shake well pouring ingredients into a second glass. At this point coat the rim of the first glass with salt. Repour your drink into the salted glass. Add fresh squeezed lime, kick back and enjoy!",
       glass: 'Margarita/Coupette glass'
@@ -17129,7 +17001,7 @@ const drinkList = [
 
   {
       name: "Nystedt",
-      ingredients: [ 'Absolut Vodka', 'Lemon-Lime Soda', 'Orange Juice', 'Tonic Water', 'Lemon Juice'],
+      ingredients: [ 'Vodka', 'Lemon-Lime Soda', 'Orange Juice', 'Tonic Water', 'Lemon Juice'],
       measures: [ '1 part ', '2 parts ', '2 parts ', '2 parts grapefruit ', 'A little freshly squeezed '],
       instructions: "Shake the orange juice and the grape tonic with lots of ice in a shaker. Pour it in a glass and add the 7-Up and the Vodka. Last, add some lemon and decorate with one slice of orange and one slice of lemon.",
       glass: 'Collins glass'
@@ -17193,7 +17065,7 @@ const drinkList = [
 
   {
       name: "K-V-S Kaboom",
-      ingredients: [ 'Bacardi-151', 'Jack Daniels', 'Absolut Kurant', 'Everclear', 'Cranberry Juice', 'Fruit', 'Ice'],
+      ingredients: [ 'Bacardi-151', 'Bourbon', 'Absolut Kurant', 'Everclear', 'Cranberry Juice', 'Fruit', 'Ice'],
       measures: [ '1 bottle Bacardi ', '1 bottle ', '1 bottle ', '1 bottle ', '2 gal ', 'Some ', '3 bags '],
       instructions: "Mix all ingredients into a large punch bowl or ice chest. Slice fruit and add into mixture. More Cranberry juice may be added if you are a bunch of light-weights. Stir vigorously with a paddle.",
       glass: 'Punch bowl'
@@ -17225,7 +17097,7 @@ const drinkList = [
 
   {
       name: "Blood Clot #2",
-      ingredients: [ 'Cointreau', 'Advocaat'],
+      ingredients: [ 'Triple Sec', 'Advocaat'],
       measures: [ '1-2 oz ', 'Some Cherry '],
       instructions: "Pour Cointreau into glass. Using a spoon, drop the Cherry Advocaat in so it sits on the bottom of the glass. Making sure you have a straw handy, throw the shot back, place the glass on the nearest table and quickly cover the opening of the glass with your hand. Stick the straw between the fingers covering the glass and suck!",
       glass: 'Shot glass'
@@ -17241,7 +17113,7 @@ const drinkList = [
 
   {
       name: "Turkeyball",
-      ingredients: [ 'Wild Turkey', 'Amaretto', 'Pineapple Juice'],
+      ingredients: [ 'Bourbon', 'Amaretto', 'Pineapple Juice'],
       measures: [ '1 oz ', '3/4 oz ', '1 splash '],
       instructions: "Shake with ice and strain into a shot glass.",
       glass: 'Shot glass'
@@ -17272,7 +17144,7 @@ const drinkList = [
   },
 
   {
-      name: "Nutty Irishman (without milk)",
+      name: "Nutty Irishman #3",
       ingredients: [ 'Frangelico','Irish Cream'],
       measures: [ '3 parts ', '2 parts '],
       instructions: "Pour the Frangelico first over a glass with ice. Then, pour the Baileys over the top, but do not stir the drink.",
@@ -17297,15 +17169,15 @@ const drinkList = [
 
   {
       name: "Lady-Killer",
-      ingredients: [ 'Gin', 'Cointreau', 'Apricot Brandy', 'Passion fruit Juice', 'Pineapple Juice'],
+      ingredients: [ 'Gin', 'Triple Sec', 'Apricot Brandy', 'Passion fruit Juice', 'Pineapple Juice'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', '2 oz ', '2 oz '],
       instructions: "Shake all ingredients with ice in shaker, strain into a Champagne flute or Longdrink glas over some cubes of ice. Decorate with mint and cherry",
       glass: 'Champagne flute'
   },
 
   {
-      name: "Absolutely Cranberry Smash",
-      ingredients: [ 'Absolut Vodka', 'Cranberry Juice', 'Ginger Ale', 'Ice'],
+      name: "Cranberry Smash",
+      ingredients: [ 'Vodka', 'Cranberry Juice', 'Ginger Ale', 'Ice'],
       measures: [ '2 oz ', '4 oz ', '2 oz ', 'Add '],
       instructions: "Stir ingredients together. Serve over ice.",
       glass: 'Cocktail glass'
@@ -17352,8 +17224,8 @@ const drinkList = [
   },
 
   {
-      name: "Rocky Mountain Bear Fucker",
-      ingredients: [ 'Tequila', 'Jack Daniels', 'Southern Comfort'],
+      name: "Bear Fucker",
+      ingredients: [ 'Tequila', 'Bourbon', 'Southern Comfort'],
       measures: [ '1/3 oz ', '1/3 oz ', '1/3 oz '],
       instructions: "Pour into shot glass starting with tequila, followed by J.D. and finally Southern. Shoot it.",
       glass: 'Shot glass'
@@ -17377,7 +17249,7 @@ const drinkList = [
 
   {
       name: "Canadian Hunter",
-      ingredients: [ 'Yukon Jack', 'Wild Turkey'],
+      ingredients: [ 'Yukon Jack', 'Bourbon'],
       measures: [ '1 part ', '1 part '],
       instructions: "Mix together in shot glass and discharge into mouth!",
       glass: 'Shot glass'
@@ -17393,7 +17265,7 @@ const drinkList = [
 
   {
       name: "Yellow Birdie",
-      ingredients: [ 'Vodka', 'Creme de Banane', 'Sprite'],
+      ingredients: [ 'Vodka', 'Creme de Banane', 'Lemon-Lime Soda'],
       measures: [ '1 oz ', '1 oz ', '6 oz '],
       instructions: "Pour vodka into glass over ice followed by Creme de Banana, then top it up with Sprite & stir.",
       glass: 'Collins glass'
@@ -17425,7 +17297,7 @@ const drinkList = [
 
   {
       name: "Fuquay Friday Night",
-      ingredients: [ 'Absolut Kurant', 'Sprite', 'Grenadine', 'Cherry Cola'],
+      ingredients: [ 'Absolut Kurant', 'Lemon-Lime Soda', 'Grenadine', 'Cherry Cola'],
       measures: [ '2 shots ', '2 shots ', 'Mix in 2 tblsp ', 'And 1 shot '],
       instructions: "Absolute can be varied to taste and alcohol tollerance. Discretion is advised. Also a dash of lime can be added for a slightly different taste.",
       glass: 'Cocktail glass'
@@ -17473,7 +17345,7 @@ const drinkList = [
 
   {
       name: "Blood of Satan",
-      ingredients: [ 'Jägermeister', 'Goldschlager', 'Irish Whiskey', 'Jack Daniels'],
+      ingredients: [ 'Jägermeister', 'Goldschlager', 'Irish Whiskey', 'Bourbon'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part '],
       instructions: "Layer all 4 ingredients in shot glass. In this order Jägermeister, Goldschlager, Jameson's and Jack Daniels.",
       glass: 'Shot glass'
@@ -17505,7 +17377,7 @@ const drinkList = [
 
   {
       name: "Sex on the Beach #4",
-      ingredients: [ 'Absolut Vodka', 'Midori Melon', 'Chambord Raspberry Liqueur', 'Grapefruit Juice', 'Cranberry Juice'],
+      ingredients: [ 'Vodka', 'Midori Melon', 'Chambord Raspberry Liqueur', 'Grapefruit Juice', 'Cranberry Juice'],
       measures: [ '1/3 oz ', '1/3 oz ', '1/3 oz ', '1 splash ', '3 dashes '],
       instructions: "This can be on the rocks or up... but best on the rocks! Start with the Midori since it is heaviest, then the Chambord and the Absolut. Fill the glass 2/3 full with Cranberry juice, and then a splash of grapefruit for color. It should be an orangish-red color. Garnish with several cherries.",
       glass: 'Cocktail glass'
@@ -17529,7 +17401,7 @@ const drinkList = [
 
   {
       name: "Royal Flush",
-      ingredients: [ 'Crown Royal', 'Peach Schnapps', 'Chambord Raspberry Liqueur', 'Cranberry Juice'],
+      ingredients: [ 'Canadian Whisky', 'Peach Schnapps', 'Chambord Raspberry Liqueur', 'Cranberry Juice'],
       measures: [ '1 1/2 oz ', '1 oz ', '1/2 oz ', '1 oz '],
       instructions: "Pour all the ingredients into tumbler over ice. Strain into glass.",
       glass: 'Old-fashioned glass'
@@ -17537,7 +17409,7 @@ const drinkList = [
 
   {
       name: "The Drink of Champions",
-      ingredients: [ 'Crown Royal', 'Dr Pepper'],
+      ingredients: [ 'Canadian Whisky', 'Dr Pepper'],
       measures: [ '2 oz '],
       instructions: "Pour Crown Royal into beer mug (or whatever type of glass that is available). Fill with chilled Dr. Pepper or add ice cubes before pouring. Stir gently with fork, spoon, knife, toothbrush or whatever is handy or forget to stir and wait for surprise at bottom.",
       glass: 'Beer mug'
@@ -17625,7 +17497,7 @@ const drinkList = [
 
   {
       name: "Belle Melon",
-      ingredients: [ 'Midori Melon', 'Vodka', 'Light cream'],
+      ingredients: [ 'Midori Melon', 'Vodka', 'Cream'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 oz '],
       instructions: "Shake and pour into cocktail glass.",
       glass: 'Cocktail glass'
@@ -17665,7 +17537,7 @@ const drinkList = [
 
   {
       name: "La Bomba",
-      ingredients: [ 'Gold Tequila', 'Cointreau', 'Pineapple Juice', 'Orange Juice', 'Grenadine'],
+      ingredients: [ 'Gold Tequila', 'Triple Sec', 'Pineapple Juice', 'Orange Juice', 'Grenadine'],
       measures: [ '1 1/4 oz ', '3/4 oz ', '1 1/2 oz ', '1 1/2 oz ', '2 dashes '],
       instructions: "Shake all ingredients except grenadine with ice 3 times ONLY. Pour into sugar rimmed cocktail glass. Add grenadine and garnish with a lime wheel.",
       glass: 'Cocktail glass'
@@ -17769,7 +17641,7 @@ const drinkList = [
 
   {
       name: "Toreador",
-      ingredients: [ 'Tequila', 'Creme de Cacao', 'Light cream'],
+      ingredients: [ 'Tequila', 'Creme de Cacao', 'Cream'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 tblsp '],
       instructions: "Shake ingredients with ice and strain into cocktail glass. Top with a little whipped cream and sprinkle lightly with cocoa.",
       glass: 'Cocktail glass'
@@ -17801,7 +17673,7 @@ const drinkList = [
 
   {
       name: "Think Pink",
-      ingredients: [ 'Rum', 'Passoa', 'Sprite', 'Ice'],
+      ingredients: [ 'Rum', 'Passoa', 'Lemon-Lime Soda', 'Ice'],
       measures: [ '2 cl ', '2 cl ', 'Fill with ', ' Cubes '],
       instructions: "Put incrediments in cold glass. Stir well.",
       glass: 'Old-fashioned glass'
@@ -17929,7 +17801,7 @@ const drinkList = [
 
   {
       name: "Olympia-Flip",
-      ingredients: [ 'Galliano', 'Orange Juice', 'Cream', 'Egg yolk'],
+      ingredients: [ 'Galliano', 'Orange Juice', 'Cream', 'Egg Yolk'],
       measures: [ '40 ml ', '30 ml ', '30 ml '],
       instructions: "Put ingredients in shaker with ice, shake very well, pour out in a cocktail glass and put some fine cracked almonds over it as a decoration.",
       glass: 'Cocktail glass'
@@ -18049,7 +17921,7 @@ const drinkList = [
 
   {
       name: "Polar Bear, Swedish",
-      ingredients: [ 'Absolut Vodka', 'Blue Curacao', 'Sprite', 'Ice'],
+      ingredients: [ 'Vodka', 'Blue Curacao', 'Lemon-Lime Soda', 'Ice'],
       measures: [ '4 cl ', '2 cl '],
       instructions: "Mix Absolut Vodka and Blue Curaco, fill it up with Sprite. Use lots of icecubes.",
       glass: 'vote'
@@ -18185,7 +18057,7 @@ const drinkList = [
 
   {
       name: "Barrier Reef",
-      ingredients: [ 'Gin', 'Cointreau', 'Vanilla Ice-Cream'],
+      ingredients: [ 'Gin', 'Triple Sec', 'Vanilla Ice-Cream'],
       measures: [ '3 cl ', '2 cl ', '1 scoop '],
       instructions: "Blend.",
       glass: 'vote'
@@ -18217,7 +18089,7 @@ const drinkList = [
 
   {
       name: "Exotic Finn",
-      ingredients: [ 'Vodka', 'Passion fruit syrup', 'Strawberry syrup', 'Sprite'],
+      ingredients: [ 'Vodka', 'Passion fruit syrup', 'Strawberry syrup', 'Lemon-Lime Soda'],
       measures: [ '2 parts Finlandia ', '1 part ', '1 tsp '],
       instructions: "Fill a highball glass with cracked ice. Add the first three ingredients and stir. Top up with Sprite and garnish with mint leaves, a strawberry, a twist of orange and a straw. Ole Skeiedal, from Norway, took first place in the long drinks listing of the 1993 Finlandia Vodka International Drinks Competition.",
       glass: 'Highball glass'
@@ -18257,7 +18129,7 @@ const drinkList = [
 
   {
       name: "Schnider",
-      ingredients: [ 'Peach Schnapps', 'Cider'],
+      ingredients: [ 'Peach Schnapps', 'Hard Cider'],
       measures: [ '4 shots ', '1 pint '],
       instructions: "Pour schnapps in a pint glass, top up with cider. Drink and enjoy.",
       glass: 'Pint glass'
@@ -18265,7 +18137,7 @@ const drinkList = [
 
   {
       name: "Snowball #3",
-      ingredients: [ 'Jack Daniels', 'Rumple Minze'],
+      ingredients: [ 'Bourbon', 'Rumple Minze'],
       measures: [ '1 oz ', '1 oz '],
       instructions: "mix together into a double shotglass",
       glass: 'vote'
@@ -18273,7 +18145,7 @@ const drinkList = [
 
   {
       name: "White Out",
-      ingredients: [ 'Peppermint Schnapps', 'Cointreau', 'Cognac'],
+      ingredients: [ 'Peppermint Schnapps', 'Triple Sec', 'Cognac'],
       measures: [ '2 parts ', '1 part ', '1 part '],
       instructions: "Crushed ice Build up.",
       glass: 'vote'
@@ -18305,7 +18177,7 @@ const drinkList = [
 
   {
       name: "252",
-      ingredients: [ 'Bacardi-151', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Bourbon'],
       measures: [ '1/2 shot Bacardi ', '1/2 shot '],
       instructions: "Add both ingredients to shot glass, shoot, and get drunk quick",
       glass: 'Shot glass'
@@ -18313,7 +18185,7 @@ const drinkList = [
 
   {
       name: "Klingon Disrupter",
-      ingredients: [ 'Jim Beam', 'Mezcal', 'Cinnamon Schnapps'],
+      ingredients: [ 'Bourbon', 'Mezcal', 'Cinnamon Schnapps'],
       measures: [ '1/3 oz ', '1/3 oz ', '1/3 oz '],
       instructions: "Mix all three ingredients together. (Real Klingons drink it warm!) Shoot it!",
       glass: 'Shot glass'
@@ -18345,14 +18217,14 @@ const drinkList = [
 
   {
       name: "Welcome delight",
-      ingredients: [ 'Orange Juice', 'Vodka', 'White wine', 'Sprite'],
+      ingredients: [ 'Orange Juice', 'Vodka', 'White wine', 'Lemon-Lime Soda'],
       measures: [ '4 parts ', '3 parts ', '6 parts ', '6 parts '],
       instructions: "Simple: Just put them into a bowl, and mix then together.",
       glass: 'vote'
   },
 
   {
-      name: "3-Mile Long Island Iced Tea",
+      name: "Long Island Iced Tea #7",
       ingredients: [ 'Gin', 'Light Rum', 'Tequila', 'Triple Sec', 'Vodka', 'Cola', 'Sour Mix',   'Angostura Bitters', 'Lemon'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1-2 dash ', '1 wedge '],
       instructions: "Fill 14oz glass with ice and alcohol. Fill 2/3 glass with cola and remainder with sweet & sour. Top with dash of bitters and lemon wedge.",
@@ -18377,7 +18249,7 @@ const drinkList = [
 
   {
       name: "Jack Sprite",
-      ingredients: [ 'Jack Daniels', 'Sprite', 'Lemon'],
+      ingredients: [ 'Bourbon', 'Lemon-Lime Soda', 'Lemon'],
       measures: [ '1 shot ', 'To taste ', '1 slice '],
       instructions: "Pour the 1 shot of Jack Daniels into glass followed by Sprite to taste and then 1 slice of lemon. Then stir the beverage and enjoy. Note this is a light drink, a good one to start the evening off.",
       glass: 'vote'
@@ -18489,7 +18361,7 @@ const drinkList = [
 
   {
       name: "Cumulus #1",
-      ingredients: [ 'Drambuie', 'Coffee Liqueur', 'Cream', 'Egg yolk', 'Sugar'],
+      ingredients: [ 'Drambuie', 'Coffee Liqueur', 'Cream', 'Egg Yolk', 'Sugar'],
       measures: [ '3 cl ', '1,5 cl ', '1 cl ', '2 tsp '],
       instructions: "Shake intensily with ice. Serve in frosted glass, and sprinkle with powdered coffee or nutmeg.",
       glass: 'vote'
@@ -18505,7 +18377,7 @@ const drinkList = [
 
   {
       name: "Cinnamon Road",
-      ingredients: [ 'Wild Turkey', 'Apfelkorn', 'Goldschlager', 'Ginger Ale'],
+      ingredients: [ 'Bourbon', 'Apfelkorn', 'Goldschlager', 'Ginger Ale'],
       measures: [ '3 cl ', '2 cl ', '2 cl '],
       instructions: "Shake with ice. Serve with a slice of dried apple.",
       glass: 'vote'
@@ -18561,7 +18433,7 @@ const drinkList = [
 
   {
       name: "Crimson Tide",
-      ingredients: [ 'Absolut Vodka', 'Malibu Rum', 'Chambord Raspberry Liqueur', 'Maui', 'Southern Comfort', 'Bacardi-151', 'Cranberry Juice', 'Sprite'],
+      ingredients: [ 'Vodka', 'Malibu Rum', 'Chambord Raspberry Liqueur', 'Maui', 'Southern Comfort', 'Bacardi-151', 'Cranberry Juice', 'Lemon-Lime Soda'],
       measures: [ '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz ', '1/4 oz Bacardi ', '1/4 oz ', '1/4 oz '],
       instructions: "combine all ingrediants, chill over ice, strain.",
       glass: 'vote'
@@ -18569,7 +18441,7 @@ const drinkList = [
 
   {
       name: "Cyberlady",
-      ingredients: [ 'Cognac', 'Strawberry Liqueur', 'Cointreau', 'Orange Juice', 'Lemon Juice'],
+      ingredients: [ 'Cognac', 'Strawberry Liqueur', 'Triple Sec', 'Orange Juice', 'Lemon Juice'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', '1 oz ', '1 dash '],
       instructions: "Shake well and pour in a cocktail glass, frosted with strawberry.",
       glass: 'Cocktail glass'
@@ -18585,7 +18457,7 @@ const drinkList = [
 
   {
       name: "Old Crusty",
-      ingredients: [ 'Bacardi-151', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Bourbon'],
       measures: [ '1 oz Bacardi ', '1 oz '],
       instructions: " ",
       glass: 'Shot glass'
@@ -18641,7 +18513,7 @@ const drinkList = [
 
   {
       name: "En sånn en",
-      ingredients: [ 'Absolut Vodka', 'Sour Mix', 'Cola', 'Ice'],
+      ingredients: [ 'Vodka', 'Sour Mix', 'Cola', 'Ice'],
       measures: [ '4 cl ', '4 cl '],
       instructions: "Fill longdrinks glas with ice-cubes, add vodka and sour-mix. Top with Coca-Cola, stir.",
       glass: 'vote'
@@ -18665,7 +18537,7 @@ const drinkList = [
 
   {
       name: "Poison Apple",
-      ingredients: [ 'Apfelkorn', 'Absolut Vodka'],
+      ingredients: [ 'Apfelkorn', 'Vodka'],
       measures: [ '1 oz ', '1 oz '],
       instructions: "Pour ingredients over ice in shaker. Shake and strain into shot glass.",
       glass: 'Shot glass'
@@ -18673,7 +18545,7 @@ const drinkList = [
 
   {
       name: "Karma Chameleon",
-      ingredients: [ 'Vodka', 'Peach Schnapps', 'Sprite', 'Grenadine'],
+      ingredients: [ 'Vodka', 'Peach Schnapps', 'Lemon-Lime Soda', 'Grenadine'],
       measures: [ '2 oz ', '2 oz ', '2 oz ', 'To taste '],
       instructions: "Mix well. Serve over ice.",
       glass: 'vote'
@@ -18721,7 +18593,7 @@ const drinkList = [
 
   {
       name: "Penguino",
-      ingredients: [ 'Light Rum', 'Cointreau', 'Tonic Water'],
+      ingredients: [ 'Light Rum', 'Triple Sec', 'Tonic Water'],
       measures: [ '1 shot ', '1 shot ', '6 oz '],
       instructions: "Fill collins glass with ice, add one shot light rum and one shot Cointreau or triple sec. Fill with tonic. Serve ungarnished, or with cherry.",
       glass: 'Collins glass'
@@ -18785,7 +18657,7 @@ const drinkList = [
 
   {
       name: "Sex on the Beach #8",
-      ingredients: [ 'Malibu Rum', 'Pineapple Juice', 'Grenadine', 'Sprite'],
+      ingredients: [ 'Malibu Rum', 'Pineapple Juice', 'Grenadine', 'Lemon-Lime Soda'],
       measures: [ '1 shot ', 'Fill with ', 'Top with ', '1 splash '],
       instructions: "Coco-Rum can be substituted for Malibu Rum.",
       glass: 'vote'
@@ -18857,7 +18729,7 @@ const drinkList = [
 
   {
       name: "Green delight",
-      ingredients: [ 'Vodka', 'Pisang Ambon', 'Sprite', 'Orange Juice'],
+      ingredients: [ 'Vodka', 'Pisang Ambon', 'Lemon-Lime Soda', 'Orange Juice'],
       measures: [ '2 cl ', '2 cl ', '6 cl ', '6 cl '],
       instructions: "Just mix all the ingredients. It is also best served cold.",
       glass: 'Highball glass'
@@ -18865,7 +18737,7 @@ const drinkList = [
 
   {
       name: "Summertime",
-      ingredients: [ 'Vodka', 'Sprite', 'Orange Juice'],
+      ingredients: [ 'Vodka', 'Lemon-Lime Soda', 'Orange Juice'],
       measures: [ '4 cl ', '5 cl ', '5 cl '],
       instructions: "Just mix the ingredients. It can also be served without alchohol. Just mix equal amounts of sprite light and orange juice.",
       glass: 'Highball glass'
@@ -18873,7 +18745,7 @@ const drinkList = [
 
   {
       name: "Cool Kid",
-      ingredients: [ 'Tequila', 'Vodka', 'Sprite'],
+      ingredients: [ 'Tequila', 'Vodka', 'Lemon-Lime Soda'],
       measures: [ '1 part ', '1 part ', '1 part '],
       instructions: "put the shit in a hurricane glass, mix it up, and suck it down",
       glass: 'Hurricane glass'
@@ -18945,7 +18817,7 @@ const drinkList = [
 
   {
       name: "Absolut Stress #1",
-      ingredients: [ 'Absolut Vodka', 'Malibu Rum', 'Peach Schnapps', 'Orange Juice', 'Pineapple Juice', 'Cranberry Juice'],
+      ingredients: [ 'Vodka', 'Malibu Rum', 'Peach Schnapps', 'Orange Juice', 'Pineapple Juice', 'Cranberry Juice'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 oz ', '1 oz ', '1 oz '],
       instructions: "Pour all ingredients into a mixing tin and shake with ice. Pour into a collins glass. No garnish.",
       glass: 'Collins glass'
@@ -18961,7 +18833,7 @@ const drinkList = [
 
   {
       name: "Killing Light",
-      ingredients: [ 'Vodka', 'Cognac', 'Peppermint Schnapps', 'Cointreau', 'Lemon-Lime Soda'],
+      ingredients: [ 'Vodka', 'Cognac', 'Peppermint Schnapps', 'Triple Sec', 'Lemon-Lime Soda'],
       measures: [ '2/8 ', '2/8 ', '1/8 ', '1/8 ', '2/8 '],
       instructions: "Highly dangerous mix-but taste it! You'll be surprised.",
       glass: 'vote'
@@ -18985,7 +18857,7 @@ const drinkList = [
 
   {
       name: "Snowshoe",
-      ingredients: [ 'Peppermint Schnapps', 'Wild Turkey'],
+      ingredients: [ 'Peppermint Schnapps', 'Bourbon'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "Pour peppermint schnapps in shot glass, top with Wild Turkey, drink it up!",
       glass: 'Shot glass'
@@ -19105,7 +18977,7 @@ const drinkList = [
 
   {
       name: "Dr. Daniel",
-      ingredients: [ 'Jack Daniels', 'Dr Pepper', 'Ice'],
+      ingredients: [ 'Bourbon', 'Dr Pepper', 'Ice'],
       measures: [ '2 oz ', '5 oz '],
       instructions: "Put ice in glass. Pour in ingredients. Gently swirl to mix. Drink.",
       glass: 'vote'
@@ -19129,7 +19001,7 @@ const drinkList = [
 
   {
       name: "Bullfrog (The Party Mix)",
-      ingredients: [ 'Vodka', 'Grain alcohol', 'Ginger Ale', 'Lemon-Lime Soda', 'Sprite', 'Lemon', 'Lime'],
+      ingredients: [ 'Vodka', 'Grain alcohol', 'Ginger Ale', 'Lemon-Lime Soda', 'Lemon-Lime Soda', 'Lemon', 'Lime'],
       measures: [ '1/2 gal ', '1 pint ', '2 L ', '2 L ', '2 L ', 'Juice of 2 ', 'Juice of 2 '],
       instructions: "Pour in the soda, and then add the Vodka. After mixing pour in the grain alcohol. Use a knife and cut the lemons and limes and squeeze the juice out of them. store bought lime and lemon juice can be substituted. Now you have a great party drink and should have a good night.",
       glass: 'vote'
@@ -19169,7 +19041,7 @@ const drinkList = [
 
   {
       name: "Tennesee Mud",
-      ingredients: [ 'Coffee', 'Jack Daniels', 'Amaretto', 'Whipped cream'],
+      ingredients: [ 'Coffee', 'Bourbon', 'Amaretto', 'Whipped cream'],
       measures: [ '8 oz ', '4 oz ', '4 oz '],
       instructions: "Mix Coffee, Jack Daniels and Amaretto. Add Cream on top.",
       glass: 'vote'
@@ -19177,7 +19049,7 @@ const drinkList = [
 
   {
       name: "Snow White",
-      ingredients: [ 'Sprite', 'Beer'],
+      ingredients: [ 'Lemon-Lime Soda', 'Beer'],
       measures: [ '3/4 part ', '1/4 part '],
       instructions: "Place Sprite/7up into glass. Pour Heineken to top off. Mixture can be varied. Good summertime drink.",
       glass: 'Beer pilsner'
@@ -19225,7 +19097,7 @@ const drinkList = [
 
   {
       name: "The Betty Ford",
-      ingredients: [ 'Absolut Citron', 'Sprite', 'Grenadine'],
+      ingredients: [ 'Absolut Citron', 'Lemon-Lime Soda', 'Grenadine'],
       measures: [ '1 1/2 oz ', '10 oz ', '1/2 oz '],
       instructions: "Add Grenadine (based on desired sweetness), followed by Absolut. Add ice and then Sprite (her preferred mixing).",
       glass: 'vote'
@@ -19233,7 +19105,7 @@ const drinkList = [
 
   {
       name: "Dead Dog",
-      ingredients: [ 'Crown Royal', 'Beer', 'Tabasco sauce'],
+      ingredients: [ 'Canadian Whisky', 'Beer', 'Tabasco sauce'],
       measures: [ '1 part ', '1 part ', '3 dashes '],
       instructions: "Add in the order given and enjoy!",
       glass: 'vote'
@@ -19449,7 +19321,7 @@ const drinkList = [
 
   {
       name: "Red Witch",
-      ingredients: [ 'Pernod', 'Cider', 'Blackcurrant cordial'],
+      ingredients: [ 'Pernod', 'Hard Cider', 'Blackcurrant cordial'],
       measures: [ '1 shot ', '1 pint ', ' to taste '],
       instructions: "Put Pernod in a pint glass. Fill almost to the top with cider and add the blackcurrant. After that, it's up to you.",
       glass: 'Pint glass'
@@ -19481,7 +19353,7 @@ const drinkList = [
 
   {
       name: "Absolut Stress #2",
-      ingredients: [ 'Absolut Vodka', 'Peach Schnapps', 'Coconut Liqueur', 'Cranberry Juice', 'Pineapple Juice'],
+      ingredients: [ 'Vodka', 'Peach Schnapps', 'Coconut Liqueur', 'Cranberry Juice', 'Pineapple Juice'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 oz ', '1 1/2 oz ', '1 1/2 oz '],
       instructions: "Mix well. Garnish with Orange and Cherry. Enjoy",
       glass: 'vote'
@@ -19489,7 +19361,7 @@ const drinkList = [
 
   {
       name: "Cosmopolitan #3",
-      ingredients: [ 'Vodka', 'Cointreau', 'Cranberry Juice', 'Lime Juice'],
+      ingredients: [ 'Vodka', 'Triple Sec', 'Cranberry Juice', 'Lime Juice'],
       measures: [ '1 oz Stoli ', '1 oz ', 'Small dash ', 'Small dash '],
       instructions: "Stir ingredients on ice and strain into martini glass.",
       glass: 'Cocktail glass'
@@ -19545,7 +19417,7 @@ const drinkList = [
 
   {
       name: "Sangria Classic",
-      ingredients: [ 'Orange', 'White wine', 'Sugar', 'Brandy', 'Cointreau', 'Orange', 'Lemon', 'Ice', 'Club Soda'],
+      ingredients: [ 'Orange', 'White wine', 'Sugar', 'Brandy', 'Triple Sec', 'Orange', 'Lemon', 'Ice', 'Club Soda'],
       measures: [ 'Juice of 1/2 ', '1 bottle dry ', '2 tblsp ', '1 oz ', '1 oz ', '1/2 ', '2 cups ', '1 cup '],
       instructions: "Combine orange juice, wine, sugar, brandy and Cointreau. Add lemon and orange slices. Chill. To serve, add ice and club soda, stir gently.",
       glass: 'Pitcher'
@@ -19633,7 +19505,7 @@ const drinkList = [
 
   {
       name: "Napalm-Death",
-      ingredients: [ 'Cointreau', 'Coffee Liqueur', 'Drambuie','Irish Cream'],
+      ingredients: [ 'Triple Sec', 'Coffee Liqueur', 'Drambuie','Irish Cream'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part '],
       instructions: "Take a shot glass and take equal amounts of the liquor. First the Kahlua, then slowly pour down the Drambuie, then the Baileys and last the Cointreau. Try to get fine layers.",
       glass: 'Shot glass'
@@ -19641,7 +19513,7 @@ const drinkList = [
 
   {
       name: "Bonecrusher",
-      ingredients: [ 'Rum', 'Gin', 'Vodka', 'Sprite', 'Grenadine', 'Lemon', 'Champagne'],
+      ingredients: [ 'Rum', 'Gin', 'Vodka', 'Lemon-Lime Soda', 'Grenadine', 'Lemon', 'Champagne'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 splash ', '1 splash ', ' squeeze '],
       instructions: " ",
       glass: 'vote'
@@ -19649,7 +19521,7 @@ const drinkList = [
 
   {
       name: "Baltimore Zoo",
-      ingredients: [ 'Rum', 'Vodka', 'Gin', 'Sprite', 'Grenadine', 'Lemon', 'Beer'],
+      ingredients: [ 'Rum', 'Vodka', 'Gin', 'Lemon-Lime Soda', 'Grenadine', 'Lemon', 'Beer'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 splash ', '1 splash ', ' squeeze '],
       instructions: "add the liquors and grenadine. Mix. Strain. Add splash of Sprite. Add lemon squeeze. Drinker adds shot of beer.",
       glass: 'vote'
@@ -19697,7 +19569,7 @@ const drinkList = [
 
   {
       name: "Mansion Margarita",
-      ingredients: [ 'Gold Tequila', 'Grand Marnier', 'Cointreau', 'Sour Mix'],
+      ingredients: [ 'Gold Tequila', 'Grand Marnier', 'Triple Sec', 'Sour Mix'],
       measures: [ '1 1/4 oz ', '3/4 oz ', '3/4 oz ', '1 1/4 oz '],
       instructions: "Mix above ingredients in a shaker. Shake and serve on the rocks.",
       glass: 'Margarita/Coupette glass'
@@ -19841,7 +19713,7 @@ const drinkList = [
 
   {
       name: "Gorilla Fart #3",
-      ingredients: [ 'Bacardi-151', 'Southern Comfort', 'Jack Daniels'],
+      ingredients: [ 'Bacardi-151', 'Southern Comfort', 'Bourbon'],
       measures: [ '1/3 shot Bacardi ', '1/3 shot ', '1/3 shot '],
       instructions: "Pour in glass, drink!",
       glass: 'Shot glass'
@@ -19896,7 +19768,7 @@ const drinkList = [
   },
 
   {
-      name: "Pan Galactic Gargle Blaster #2",
+      name: "Pan Galactic #2",
       ingredients: [ 'Champagne', 'Vodka', 'Blue Curacao', 'Sugar',  'Angostura Bitters', 'Cocktail onion'],
       measures: [ '70 ml ', '20 ml ', '10 ml ', '1 splash '],
       instructions: "Splash a puddle of Angostura bitters into a saucer and place the sugar cube in it to soak. This will take a minute ot two. Stir the Champagne (or sparkling wine), the Vodka and the Blue Curacao together in a container and put into the fridge to chill. Place the soaked sugar cube in the bottom of the Champagne glass, pour in the mixture and add drop in the cocktail onion, which should be loose, not on a cocktail stick.",
@@ -19905,7 +19777,7 @@ const drinkList = [
 
   {
       name: "CoonDogg",
-      ingredients: [ 'Crown Royal', 'Blackberry Brandy', 'Lemon-Lime Soda'],
+      ingredients: [ 'Canadian Whisky', 'Blackberry Brandy', 'Lemon-Lime Soda'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz '],
       instructions: "Mix together then strain thru ice.",
       glass: 'Shot glass'
@@ -19953,7 +19825,7 @@ const drinkList = [
 
   {
       name: "Tanga",
-      ingredients: [ 'Tang', 'Absolut Vodka', 'Ice'],
+      ingredients: [ 'Tang', 'Vodka', 'Ice'],
       measures: [ '2 parts ', '1 part ', '5 handfuls '],
       instructions: "In blender add Orange Tang Mix, Absolut Vodka, and ice. Blend until smooth.",
       glass: 'Hurricane glass'
@@ -19968,7 +19840,7 @@ const drinkList = [
   },
 
   {
-      name: "Doug's Modified Cement Mixer",
+      name: "Cement Mixer #2",
       ingredients: ['Irish Cream', 'Lemon Juice'],
       measures: [ '1 shot ', '2 or 3 splashes '],
       instructions: "Put Baileys into a shot glass about 2/3 full. Fill the rest of the shot with Lemon or Lime juice. Take the shot and Swish it around in your mouth. It feels really neat. Swallow it before it becomes solid.",
@@ -19977,7 +19849,7 @@ const drinkList = [
 
   {
       name: "Harley Davidson (the company way)",
-      ingredients: [ 'Yukon Jack', 'Jack Daniels'],
+      ingredients: [ 'Yukon Jack', 'Bourbon'],
       measures: [ '1/2 shot ', '1/2 shot '],
       instructions: "Pour alcohol into the shot glass. Occassionally mix with ice then put into a shot glass. Serve with a lemon wedge.",
       glass: 'Shot glass'
@@ -19985,7 +19857,7 @@ const drinkList = [
 
   {
       name: "Karlsson's dream",
-      ingredients: [ 'Midori Melon', 'Absolut Vodka', 'Milk'],
+      ingredients: [ 'Midori Melon', 'Vodka', 'Milk'],
       measures: [ '6 cl ', '3 cl ', 'Fill with '],
       instructions: "Just blend and drink. It's deadly.",
       glass: 'Highball glass'
@@ -20008,7 +19880,7 @@ const drinkList = [
   },
 
   {
-      name: "Hand-Shaken Margarita on the Rocks",
+      name: "Hand-Shaken Marg",
       ingredients: [ 'Gold Tequila', 'Sour Mix', 'Lime Juice', 'Triple Sec'],
       measures: [ '1 shot ', '1 1/2 part ', '1-2 tblsp ', '1/2 oz '],
       instructions: "use large metal container with plenty of ice and a strainer. Shake well, pour through strainer into margarita glass. Serve with salt and fresh lime.",
@@ -20073,7 +19945,7 @@ const drinkList = [
 
   {
       name: "Rooster Piss",
-      ingredients: [ 'Jack Daniels', 'Cinnamon Schnapps'],
+      ingredients: [ 'Bourbon', 'Cinnamon Schnapps'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "Pour both ingredients into shot glass and enjoy!",
       glass: 'Shot glass'
@@ -20089,14 +19961,14 @@ const drinkList = [
 
   {
       name: "Donivan Flowers' Rocks",
-      ingredients: [ 'Vodka', 'Absolut Vodka', 'Vodka', 'Vodka', 'Irish cream'],
+      ingredients: [ 'Vodka', 'Vodka', 'Vodka', 'Vodka', 'Irish cream'],
       measures: [ '4 oz Stoli ', '4 oz ', '4 oz Blue Label Smirnoff ', '4 oz Skyy ', 'dash '],
       instructions: "Put each of the ingredients into a punch bowl. Mix, and with a straw, SHOOT.",
       glass: 'Punch bowl'
   },
 
   {
-      name: "Pineappleless Pineapple Juice",
+      name: "Fake Pineapple Juice",
       ingredients: [ 'Southern Comfort', 'Bacardi-151', 'Lemon-Lime Soda', 'Orange Juice', 'Cola'],
       measures: [ '4 1/2 oz ', '1 splash Bacardi ', '3 oz ', '4 oz ', '4 oz '],
       instructions: "Pour Southern Comfort to the first line of a 16 oz. Solo Brand plastic cup. Add splash of Bacardi 151 Rum. Add 7-Up, Orange Juice, and Coca-Cola. Swirl it around in the cup a little bit and enjoy.",
@@ -20121,7 +19993,7 @@ const drinkList = [
 
   {
       name: "Smurf",
-      ingredients: [ 'Vodka', 'Orange Juice', 'Sprite', 'Grenadine', 'Margarita Mix', 'Ice'],
+      ingredients: [ 'Vodka', 'Orange Juice', 'Lemon-Lime Soda', 'Grenadine', 'Margarita Mix', 'Ice'],
       measures: [ '2 cl ', '15 cl ', '7 cl ', '2 dashes ', '1/2 dash ', ' cubes '],
       instructions: "Take the vodka in first, then orange juice and sprite. Then you take some dashes of grenadine and stirr it around for 20 sec. On the top of it you have a little dash of Strawb.marg.mix. Add ice cubes.",
       glass: 'Highball glass'
@@ -20145,7 +20017,7 @@ const drinkList = [
 
   {
       name: "Crack Pipe",
-      ingredients: [ 'Bacardi-151', 'Rumple Minze', 'Wild Turkey'],
+      ingredients: [ 'Bacardi-151', 'Rumple Minze', 'Bourbon'],
       measures: [ '1 oz Bacardi ', '1 oz ', '1 oz '],
       instructions: "Shake with ice, strain into glass",
       glass: 'Highball glass'
@@ -20161,7 +20033,7 @@ const drinkList = [
 
   {
       name: "Extended Jail Sentence",
-      ingredients: [ 'Jack Daniels', 'Southern Comfort', 'Gold Tequila', 'Pineapple Juice', 'Ice'],
+      ingredients: [ 'Bourbon', 'Southern Comfort', 'Gold Tequila', 'Pineapple Juice', 'Ice'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 splash ', ' cubes '],
       instructions: "Flash blend with ice cubes.",
       glass: 'Highball glass'
@@ -20201,7 +20073,7 @@ const drinkList = [
 
   {
       name: "Snakebite and Black",
-      ingredients: [ 'Lager', 'Cider', 'Blackcurrant squash'],
+      ingredients: [ 'Lager', 'Hard Cider', 'Blackcurrant squash'],
       measures: [ '1/2 pint ', '1/2 pint ', 'A little bit of '],
       instructions: "Put blackcurrant squash in first up to about 1cm in glass. Then add the larger and cider one after another.",
       glass: 'Pint glass'
@@ -20217,7 +20089,7 @@ const drinkList = [
 
   {
       name: "Öxnäs Temptation",
-      ingredients: [ 'Vodka', 'Banana Liqueur', 'Sprite', 'Orange Juice', 'Grenadine'],
+      ingredients: [ 'Vodka', 'Banana Liqueur', 'Lemon-Lime Soda', 'Orange Juice', 'Grenadine'],
       measures: [ '6 cl ', '2 cl ', 'Nearly fill glass with ', '1 splash ', 'A tiny splash '],
       instructions: "Start by adding the vodka and the banan liqueur. Fill the glass with sprite or similar soft drink. Pour some conc. orange juice. Stir. Add some grenadine for that nice Tequila Sunrise effect, or don't if you think it will be to sweet. Add a slice of orange for decoration.",
       glass: 'Cocktail glass'
@@ -20249,7 +20121,7 @@ const drinkList = [
 
   {
       name: "Golden shower",
-      ingredients: [ 'Banana Liqueur', 'Rum', 'Sprite'],
+      ingredients: [ 'Banana Liqueur', 'Rum', 'Lemon-Lime Soda'],
       measures: [ '1 measure ', '1 measure ', 'Fill with '],
       instructions: "Stire Rum and Banana liqueur with ice. Add Sprite",
       glass: 'vote'
@@ -20265,7 +20137,7 @@ const drinkList = [
 
   {
       name: "Wild Peppertini",
-      ingredients: [ 'Wild Turkey', 'Peppermint Schnapps'],
+      ingredients: [ 'Bourbon', 'Peppermint Schnapps'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "Combine, chill and strain into either a shot glass or ups glass.",
       glass: 'Shot glass'
@@ -20305,7 +20177,7 @@ const drinkList = [
 
   {
       name: "Slemmig Slyna",
-      ingredients: [ 'Absolut Vodka', 'Midori Melon', 'Kiwi Liqueur', 'Sour Mix'],
+      ingredients: [ 'Vodka', 'Midori Melon', 'Kiwi Liqueur', 'Sour Mix'],
       measures: [ '3 cl ', '2 cl ', '2 cl '],
       instructions: "Mix vodka and midori and kiwi with ice. Add sourmix. Shake. Fill with soda. Decorate glass with pineapple.",
       glass: 'Highball glass'
@@ -20353,7 +20225,7 @@ const drinkList = [
 
   {
       name: "Wild Wild West",
-      ingredients: [ 'Jack Daniels', 'Peach Schnapps', 'Cranberry Juice'],
+      ingredients: [ 'Bourbon', 'Peach Schnapps', 'Cranberry Juice'],
       measures: [ '1 1/2 oz ', '1 oz ', '2 oz '],
       instructions: "Take ink pen and stir well!",
       glass: 'Highball glass'
@@ -20457,7 +20329,7 @@ const drinkList = [
 
   {
       name: "Unknown Warrior",
-      ingredients: [ 'Sugar', 'Cointreau', 'Vodka'],
+      ingredients: [ 'Sugar', 'Triple Sec', 'Vodka'],
       measures: [ '1 piece ', '3 cl ', '3 cl '],
       instructions: "Blend vodka and cointreau in a shotglass. Set the drink on fire with a match. Put the piece of sugar on a fork and hold it over the flame from the drink and let it melt down into the glass. When the sugar has melted,use the palm of your hand to put out the flame.",
       glass: 'Shot glass'
@@ -20489,7 +20361,7 @@ const drinkList = [
 
   {
       name: "Double Jack",
-      ingredients: [ 'Jack Daniels', 'Yukon Jack'],
+      ingredients: [ 'Bourbon', 'Yukon Jack'],
       measures: [ '1/2 shot ', '1/2 shot '],
       instructions: "Combine the two jacks in glass.",
       glass: 'Shot glass'
@@ -20521,7 +20393,7 @@ const drinkList = [
 
   {
       name: "Screwdriver á la Carla",
-      ingredients: [ 'Vodka', 'Orange Juice', 'Sugar', 'Egg yolk'],
+      ingredients: [ 'Vodka', 'Orange Juice', 'Sugar', 'Egg Yolk'],
       measures: [ '2 oz ', '6 oz ', '3 tblsp '],
       instructions: "Mix the orange juice with sugar and the yolk of an egg. Then pour in the vodka with some icecubes and stir. Serve well chilled.",
       glass: 'vote'
@@ -20600,8 +20472,8 @@ const drinkList = [
   },
 
   {
-      name: "Three Stages of Friendship",
-      ingredients: [ 'Jack Daniels', 'Tequila', 'Bacardi-151'],
+      name: "Three Stages",
+      ingredients: [ 'Bourbon', 'Tequila', 'Bacardi-151'],
       measures: [ '1/3 oz ', '1/3 oz ', '1/3 oz '],
       instructions: "Mix all three in a shot glass and shoot the damn thing.",
       glass: 'Shot glass'
@@ -20633,7 +20505,7 @@ const drinkList = [
 
   {
       name: "Black Swedish Virgin",
-      ingredients: [ 'Blackberry Schnapps', 'Absolut Vodka', 'Cranberry Juice', 'Lemon-Lime Soda'],
+      ingredients: [ 'Blackberry Schnapps', 'Vodka', 'Cranberry Juice', 'Lemon-Lime Soda'],
       measures: [ '1/4 part ', '1/2 part ', '1/4 part ', '1 splash '],
       instructions: "Mix on the rocks.",
       glass: 'Collins glass'
@@ -20681,14 +20553,14 @@ const drinkList = [
 
   {
       name: "Smurf #2",
-      ingredients: [ 'Maui', 'Sprite', 'Ice'],
+      ingredients: [ 'Maui', 'Lemon-Lime Soda', 'Ice'],
       measures: [ '1/2 cup ', '1/2 cup ', '3 cubes '],
       instructions: "Put ice in cup and fill it half full with sprite. Add maui filling the glass. Stir.",
       glass: 'Parfait glass'
   },
 
   {
-      name: "Sydney Sunrise Sunshine Cocktail",
+      name: "Sydney Sunrise",
       ingredients: [ 'Honey', 'Lime Juice', 'Egg', 'Orange Juice'],
       measures: [ '1-2 tblsp ', '3 cl fresh ', '1-2 dl '],
       instructions: "Mix the ingredients with a mixer.",
@@ -20737,7 +20609,7 @@ const drinkList = [
 
   {
       name: "El Bastardo",
-      ingredients: [ 'Tequila', 'Everclear', 'Jack Daniels', 'Tabasco sauce'],
+      ingredients: [ 'Tequila', 'Everclear', 'Bourbon', 'Tabasco sauce'],
       measures: [ '5 oz ', '3 oz ', '4 oz ', '4 tblsp '],
       instructions: "Mix all at same time into blender. After blending for approx. 30 seconds, fill beer mug 3/4 way and start a chugin'. Oh, it'll burn like hell for about 2 minutes, but once that sauce burns through your stomach lining and virtually injects the alcohol into your blood stream, put the unfinished El Bastardo down because you're gonna hit the floor.",
       glass: 'Beer mug'
@@ -20793,7 +20665,7 @@ const drinkList = [
 
   {
       name: "Waldorf-Astoria Eggnog",
-      ingredients: [ 'Egg yolk', 'Simple Syrup', 'Port', 'Bourbon', 'Milk', 'Cream', 'Nutmeg'],
+      ingredients: [ 'Egg Yolk', 'Simple Syrup', 'Port', 'Bourbon', 'Milk', 'Cream', 'Nutmeg'],
       measures: [ '1/2 oz ', '3/4 oz ', '1 1/2 oz ', '3 1/2 oz ', '1/4 oz '],
       instructions: "Shake well over ice cubes in a shaker and strain into a large highball glass over ice cubes. Sprinkle with nutmeg.",
       glass: 'Highball glass'
@@ -20921,7 +20793,7 @@ const drinkList = [
 
   {
       name: "Schnapp It Up",
-      ingredients: [ 'Peach Schnapps', 'Wildberry Schnapps', 'Absolut Vodka', 'Cranberry Juice'],
+      ingredients: [ 'Peach Schnapps', 'Wildberry Schnapps', 'Vodka', 'Cranberry Juice'],
       measures: [ '1 part ', '1 part ', '1 part ', '3 parts '],
       instructions: "stir all ingredients together - pour over ice - enjoy!!",
       glass: 'vote'
@@ -20929,7 +20801,7 @@ const drinkList = [
 
   {
       name: "The Frad",
-      ingredients: [ 'Coconut Rum', 'Sprite', 'Pineapple Juice', 'Peach Schnapps', 'Ice'],
+      ingredients: [ 'Coconut Rum', 'Lemon-Lime Soda', 'Pineapple Juice', 'Peach Schnapps', 'Ice'],
       measures: [ '1 part ', '2 parts ', '1 part ', '1 part ', ' cubes '],
       instructions: "Add ice, put in Sprite, then add Pineapple Juice, followed by the Coconut Rum and Peach Schnaps. Serve very cold.",
       glass: 'Hurricane glass'
@@ -20945,7 +20817,7 @@ const drinkList = [
 
   {
       name: "Jaq'ed Up Screwdriver",
-      ingredients: [ 'Vodka', 'Grenadine', 'Orange Juice', 'Sprite'],
+      ingredients: [ 'Vodka', 'Grenadine', 'Orange Juice', 'Lemon-Lime Soda'],
       measures: [ '2 shots ', '1 1/4 tsp ', '1 oz ', '1 oz '],
       instructions: "Pour into a large crushed iced filled cup and pour back into the collins glass. Use a plastic stirring utensil if so desired",
       glass: 'Collins glass'
@@ -20953,7 +20825,7 @@ const drinkList = [
 
   {
       name: "Electric Tea",
-      ingredients: [ 'Vodka', 'Gin', 'Light Rum', 'Tequila', 'Blue Curacao', 'Sour Mix', 'Sprite', 'Ice'],
+      ingredients: [ 'Vodka', 'Gin', 'Light Rum', 'Tequila', 'Blue Curacao', 'Sour Mix', 'Lemon-Lime Soda', 'Ice'],
       measures: [ '3/4 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz ', '3/4 oz ', '1 1/2 oz ', '1 oz ', 'Fill with '],
       instructions: "Combine in a pint glass, shake and serve with a lemon wedge",
       glass: 'Pint glass'
@@ -21096,7 +20968,7 @@ const drinkList = [
   },
 
   {
-      name: "Long Island Iced Tea (By a Long Islander)",
+      name: "Long Island Iced Tea #8",
       ingredients: [ 'Vodka', 'Tequila', 'Rum', 'Gin', 'Triple Sec', 'Sour Mix', 'Cola'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 part ', '1 part ', '1 1/2 part ', '1 splash '],
       instructions: "Mix ingredients together over ice in a glass. Pour into shaker and give ONE brisk shake. Pour back into glass and make sure there is a touch of fizz at the top. Garnish with lemon.",
@@ -21105,7 +20977,7 @@ const drinkList = [
 
   {
       name: "Japanese Slipper #1",
-      ingredients: [ 'Midori Melon', 'Cointreau', 'Lime Juice'],
+      ingredients: [ 'Midori Melon', 'Triple Sec', 'Lime Juice'],
       measures: [ '1/3 ', '1/3 ', '1/3 '],
       instructions: "Just Mix it and drink it slow!",
       glass: 'vote'
@@ -21225,14 +21097,14 @@ const drinkList = [
 
   {
       name: "Ejhazz",
-      ingredients: [ 'Absolut Vodka', 'Peach Juice', 'Ice', 'Vanilla extract'],
+      ingredients: [ 'Vodka', 'Peach Juice', 'Ice', 'Vanilla extract'],
       measures: [ '1 1/2 oz ', '3 oz ', ' to taste '],
       instructions: "Add Vidka and peach juice. Fill glass with ice and add vanilla to taste. If the drink is too sweet, dilute it with water.",
       glass: 'Old-fashioned glass'
   },
 
   {
-      name: "Pan Galactic Gargle Blaster #3",
+      name: "Pan Galactic #3",
       ingredients: [ 'Mountain Dew', 'Cranberry Juice', 'Vodka', 'Amaretto'],
       measures: [ '3 L '],
       instructions: "Pour all ingredients into a cooler, chill, and serve. As with most punches, it's hard to be specific about the amounts used. A general rule: pour as much of everything as tastes good, then add more vodka! To make life more interesting, throw in pieces of fruit, and add dry ice to the cooler before serving. Small plastic animals also make a nice garnish (but don't drink them)!",
@@ -21305,7 +21177,7 @@ const drinkList = [
 
   {
       name: "Jihad",
-      ingredients: [ 'Vodka', 'Sprite', 'Orange Juice'],
+      ingredients: [ 'Vodka', 'Lemon-Lime Soda', 'Orange Juice'],
       measures: [ '2 1/2 oz Finlandia ', '3 oz ', '2 oz '],
       instructions: "Just pour all the contents together, and mix.",
       glass: 'Highball glass'
@@ -21313,7 +21185,7 @@ const drinkList = [
 
   {
       name: "Jay's Rootbeer Dream",
-      ingredients: [ 'Absolut Vodka', 'Root beer Schnapps','Irish Cream', 'Heavy cream', 'Cola'],
+      ingredients: [ 'Vodka', 'Root beer Schnapps','Irish Cream', 'Heavy cream', 'Cola'],
       measures: [ '1/4 oz ', '1/2 oz ', '1/2 oz ', '3 oz '],
       instructions: "Add all , except the cola, into a flash cup, Flash for 10 sec. or till foamy. Served in beer mug over half mug of ice. Splash of cola top. If you have a chilled mug it's a plus.",
       glass: 'Beer mug'
@@ -21321,7 +21193,7 @@ const drinkList = [
 
   {
       name: "Purple Devil",
-      ingredients: [ 'Triple Sec', 'Cointreau', 'Amaretto', 'Cranberry Juice', 'Lemon-Lime Soda'],
+      ingredients: [ 'Triple Sec', 'Triple Sec', 'Amaretto', 'Cranberry Juice', 'Lemon-Lime Soda'],
       measures: [ '1 part ', '1 part ', '1 part ', 'Fill with ', '1 splash '],
       instructions: "Shake alcohol with ice. Strain and pour over ice in a tall glass. Add cranberry juice to fill most of the way. Add a splash of 7-up if you want it fizzy!",
       glass: 'Highball glass'
@@ -21353,7 +21225,7 @@ const drinkList = [
 
   {
       name: "Ethnic Sugar",
-      ingredients: [ 'Cointreau', 'Cola', 'Tequila', 'Kool-Aid', 'Surge', 'Ice'],
+      ingredients: [ 'Triple Sec', 'Cola', 'Tequila', 'Kool-Aid', 'Surge', 'Ice'],
       measures: [ '5 oz ', '4 oz ', '2 oz ', '1 tsp ', ' cola '],
       instructions: "Mix all ingrediants together except for the Surge and stir. Fill the rest up with Surge and enjoy.",
       glass: 'Beer mug'
@@ -21369,7 +21241,7 @@ const drinkList = [
 
   {
       name: "Southern Chase",
-      ingredients: [ 'Galliano', 'Southern Comfort', 'Jim Beam'],
+      ingredients: [ 'Galliano', 'Southern Comfort', 'Bourbon'],
       measures: [ '1 part ', '1 part ', '1 part '],
       instructions: "Mix Together and Drink",
       glass: 'Shot glass'
@@ -21385,7 +21257,7 @@ const drinkList = [
 
   {
       name: "Polkagris",
-      ingredients: [ 'Vodka', 'White Creme de Menthe', 'Grenadine', 'Sprite', 'Cherry', 'Ice'],
+      ingredients: [ 'Vodka', 'White Creme de Menthe', 'Grenadine', 'Lemon-Lime Soda', 'Cherry', 'Ice'],
       measures: [ '2 cl ', '2 cl ', '4 cl ', '8 cl ', '2 pieces ', ' cubes '],
       instructions: "Mix the fluids into the glass, add a couple ice cubes and (one or) two cherries. Use a thick, red and white striped straw.",
       glass: 'Highball glass'
@@ -21441,7 +21313,7 @@ const drinkList = [
 
   {
       name: "Butch's Pink Panties",
-      ingredients: [ 'Jim Beam', 'Mountain Dew', 'Ice'],
+      ingredients: [ 'Bourbon', 'Mountain Dew', 'Ice'],
       measures: [ '2 oz ', '6 oz ', 'Blend with '],
       instructions: "Blend all ingredients thoroughly and consume. Put a pair of pink panties on and go out and mow the grass.",
       glass: 'Mason jar'
@@ -21449,7 +21321,7 @@ const drinkList = [
 
   {
       name: "Buckshot",
-      ingredients: ['Irish Cream', 'Tequila', 'Jack Daniels', 'Black pepper'],
+      ingredients: ['Irish Cream', 'Tequila', 'Bourbon', 'Black pepper'],
       measures: [ 'Layer 1/8 oz ', '3/4 oz ', '3/4 oz ', 'Sprinkle fresh ground '],
       instructions: "The Tequila and Whiskey are mixed in the bottom of the shot glass. The Baileys is to act like the 'wax' in a shotgun shell and is layered on top of the whiskey/tequila mix. The fresh ground pepper is your 'buckshot' that creates the spice/burning sensation.",
       glass: 'Shot glass'
@@ -21473,7 +21345,7 @@ const drinkList = [
 
   {
       name: "Christmas Tree Water",
-      ingredients: [ 'Gin', 'Sprite', 'Cayenne pepper'],
+      ingredients: [ 'Gin', 'Lemon-Lime Soda', 'Cayenne pepper'],
       measures: [ '1 part dry ', '3 parts ', '1 dash '],
       instructions: "Place one part dry gin in Cocktail Glass. Do NOT bruise the Gin! Carefully add two parts Sprite. Do NOT bruise the Sprite. Optionally, add a dash of cayenne pepper for added flavor. Add 3 tablespoons of dry ice for that mystical, yet strangely, psycho effect.",
       glass: 'Cocktail glass'
@@ -21584,7 +21456,7 @@ const drinkList = [
   },
 
   {
-      name: "Peppermint Patty (Northern Style)",
+      name: "Peppermint Patty #2",
       ingredients: ['Irish Cream', 'Peppermint Schnapps'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "Served Chilled. Pour equally.",
@@ -21657,7 +21529,7 @@ const drinkList = [
 
   {
       name: "Lady 52",
-      ingredients: [ 'Coffee Liqueur', 'Irish cream', 'Cream', 'Cointreau', 'Chocolate'],
+      ingredients: [ 'Coffee Liqueur', 'Irish cream', 'Cream', 'Triple Sec', 'Chocolate'],
       measures: [ '1 oz ', '1 oz ', '1 - 1 1/2 oz ', '1/2 oz ', 'Ground '],
       instructions: "This a kind of a Pousse Cafe. Float Irish cream over the Kahlua. Shake Cream with Cointreau. Float on the Irish cream. Garnish with choclate.",
       glass: 'Margarita/Coupette glass'
@@ -21673,7 +21545,7 @@ const drinkList = [
 
   {
       name: "On the Deck",
-      ingredients: [ 'Spiced Rum', 'Dark Rum', 'Cointreau', 'Lemonade', 'Cranberry Juice'],
+      ingredients: [ 'Spiced Rum', 'Dark Rum', 'Triple Sec', 'Lemonade', 'Cranberry Juice'],
       measures: [ '1 1/4 oz ', '3/4 oz ', '1/2 oz ', '4 1/2 oz ', '1 oz '],
       instructions: "For best results mix all ingredients into a frosted Mug.",
       glass: 'Beer mug'
@@ -21841,7 +21713,7 @@ const drinkList = [
 
   {
       name: "Jack Frost",
-      ingredients: [ 'Jack Daniels', 'Drambuie', 'Grenadine', 'Sour Mix', 'Orange Juice'],
+      ingredients: [ 'Bourbon', 'Drambuie', 'Grenadine', 'Sour Mix', 'Orange Juice'],
       measures: [ '2 tblsp ', '1 tblsp ', '1 dash ', '1/4 cup ', '1/4 cup '],
       instructions: "Combine all ingredients over ice in a glass.",
       glass: 'vote'
@@ -21865,7 +21737,7 @@ const drinkList = [
 
   {
       name: "Snake in the grass",
-      ingredients: [ 'Cointreau', 'Gin', 'Vermouth', 'Lemon Juice', 'Cherry'],
+      ingredients: [ 'Triple Sec', 'Gin', 'Vermouth', 'Lemon Juice', 'Cherry'],
       measures: [ '2 cl ', '2 cl ', '2 cl ', '2 cl '],
       instructions: "Shake with lots of ice, strain into glass",
       glass: 'Cocktail glass'
@@ -21921,7 +21793,7 @@ const drinkList = [
 
   {
       name: "Spring",
-      ingredients: [ 'Gin', 'Pisang Ambon', 'Sprite'],
+      ingredients: [ 'Gin', 'Pisang Ambon', 'Lemon-Lime Soda'],
       measures: [ '4 cl ', '4 cl ', 'Fill whith '],
       instructions: "Mix gentle, and add ice cubes. Serve whith Straw.",
       glass: 'Highball glass'
@@ -22025,7 +21897,7 @@ const drinkList = [
 
   {
       name: "Long Island Iced Tea #6",
-      ingredients: [ 'Vodka', 'Tequila', 'Gin', 'Rum', 'Cointreau', 'Iced tea', 'Lime Juice', 'Cola'],
+      ingredients: [ 'Vodka', 'Tequila', 'Gin', 'Rum', 'Triple Sec', 'Iced tea', 'Lime Juice', 'Cola'],
       measures: [ '2 cl ', '2 cl ', '2 cl ', '2 cl ', '2 cl '],
       instructions: "First, have all the ingridients cold. Mix the liquor in a glass and then add the iced tea, coca-cola and lemon. Be sure to stir or shake. Serve chilled in a big (beer?) glass.",
       glass: 'Beer mug'
@@ -22081,7 +21953,7 @@ const drinkList = [
 
   {
       name: "The Pink Drink",
-      ingredients: [ 'Galliano', 'Vodka', 'Cointreau', 'Grenadine', 'Milk', 'Whipped cream'],
+      ingredients: [ 'Galliano', 'Vodka', 'Triple Sec', 'Grenadine', 'Milk', 'Whipped cream'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1 oz ', '1 oz '],
       instructions: "Pour Vodka, Galliano, Cointreau, Grenadine and Milk into a cocktail shaker, shake and pour into a cocktail glass and finish off with a dollop of whipped cream on top.",
       glass: 'Cocktail glass'
@@ -22153,7 +22025,7 @@ const drinkList = [
 
   {
       name: "Suicide Stop Light",
-      ingredients: [ 'Midori Melon', 'Absolut Vodka', 'Aftershock', 'Orange Juice'],
+      ingredients: [ 'Midori Melon', 'Vodka', 'Aftershock', 'Orange Juice'],
       measures: [ '1 1/2 oz ', '1 1/2 oz ', '1 1/2 oz ', '1 splash '],
       instructions: "Line three 1 1/2 oz shot glasses up on the bar. pour each of the liquors into its own glass. Splash the orange juice into the vodka for color. Then shoot (RED YELLOW GREEN)",
       glass: 'Shot glass'
@@ -22185,7 +22057,7 @@ const drinkList = [
 
   {
       name: "Applejack",
-      ingredients: [ 'Jack Daniels', 'Midori Melon', 'Sour Mix'],
+      ingredients: [ 'Bourbon', 'Midori Melon', 'Sour Mix'],
       measures: [ '1 oz ', '1/2 oz ', '2 oz '],
       instructions: "Add all ingredients into mixing glass, chill and strain into cocktail glass",
       glass: 'Cocktail glass'
@@ -22217,7 +22089,7 @@ const drinkList = [
 
   {
       name: "Sensei on the Rocks",
-      ingredients: [ 'Coffee Liqueur', 'Malibu Rum', 'Jack Daniels', 'Milk', 'Ice'],
+      ingredients: [ 'Coffee Liqueur', 'Malibu Rum', 'Bourbon', 'Milk', 'Ice'],
       measures: [ '1 part ', '1 part ', 'splash '],
       instructions: "With ice cubes in the the glass, add the Kahlua and Malibu and stir them together. Add the splash of Jack and fill the rest up with milk. Stir and serve.",
       glass: 'Old-fashioned glass'
@@ -22281,7 +22153,7 @@ const drinkList = [
 
   {
       name: "Three Wise Men (on a farm)",
-      ingredients: [ 'Jack Daniels', 'Jim Beam', 'Yukon Jack', 'Wild Turkey'],
+      ingredients: [ 'Bourbon', 'Bourbon', 'Yukon Jack', 'Bourbon'],
       measures: [ '1 shot ', '1 shot ', '1 shot ', '1 shot '],
       instructions: "Line up four shot glasses with a shot of each drink.",
       glass: 'Shot glass'
@@ -22289,7 +22161,7 @@ const drinkList = [
 
   {
       name: "Royal Scandal",
-      ingredients: [ 'Crown Royal', 'Southern Comfort', 'Amaretto', 'Sour Mix', 'Pineapple Juice'],
+      ingredients: [ 'Canadian Whisky', 'Southern Comfort', 'Amaretto', 'Sour Mix', 'Pineapple Juice'],
       measures: [ '1 part ', '1 part ', '1 part ', '1 splash ', '1 splash '],
       instructions: "Add liquors and mixers into shaker with a few cubes of ice. Shake vehemently and strain out ice. Serve as a shooter.",
       glass: 'Shot glass'
@@ -22321,7 +22193,7 @@ const drinkList = [
 
   {
       name: "The 5th Element",
-      ingredients: [ 'Pineapple Juice', 'Sprite', 'Bacardi-151', 'Southern Comfort', 'Everclear'],
+      ingredients: [ 'Pineapple Juice', 'Lemon-Lime Soda', 'Bacardi-151', 'Southern Comfort', 'Everclear'],
       measures: [ '3 oz ', '3 oz ', '1 oz Bacardi ', '1 oz ', '1 oz '],
       instructions: "Chill mug, add ice, pour Sprite and juice into mug. Then add rum and Southern Comfort. Finally add the 5th element: Everclear!",
       glass: 'Beer mug'
@@ -22337,15 +22209,15 @@ const drinkList = [
 
   {
       name: "Duck Fart #2",
-      ingredients: [ 'Crown Royal', 'Coffee Liqueur','Irish Cream'],
+      ingredients: [ 'Canadian Whisky', 'Coffee Liqueur','Irish Cream'],
       measures: [ '1/2 oz ', '1/2 oz ', 'Float 1/3 oz '],
       instructions: "Pour Crown in first...Then the Kahlua, and Float the Baileys on top. Then Slam!",
       glass: 'Shot glass'
   },
 
   {
-      name: "Purple Elastic Thunder Fuck",
-      ingredients: [ 'Vodka', 'Crown Royal', 'Southern Comfort', 'Amaretto', 'Chambord Raspberry Liqueur', 'Pineapple Juice', 'Cranberry Juice'],
+      name: "Thunder Fuck",
+      ingredients: [ 'Vodka', 'Canadian Whisky', 'Southern Comfort', 'Amaretto', 'Chambord Raspberry Liqueur', 'Pineapple Juice', 'Cranberry Juice'],
       measures: [ '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz ', 'Splash ', 'Splash '],
       instructions: "Chill, shake, and strain into shooter glass.",
       glass: 'Shot glass'
@@ -22393,7 +22265,7 @@ const drinkList = [
 
   {
       name: "Sax with T.",
-      ingredients: [ 'Crown Royal', 'Amaretto', 'Peach Schnapps', 'Pineapple Juice', 'Orange Juice', 'Grenadine'],
+      ingredients: [ 'Canadian Whisky', 'Amaretto', 'Peach Schnapps', 'Pineapple Juice', 'Orange Juice', 'Grenadine'],
       measures: [ '1 oz ', '3/4 oz ', '1/4 oz ', 'Fill with ', 'And ', '2 splashes '],
       instructions: "Mix over ice in shaker and strain.",
       glass: 'vote'
@@ -22425,7 +22297,7 @@ const drinkList = [
 
   {
       name: "Gin-Dew-It",
-      ingredients: [ 'Gin', 'Mountain Dew', 'Sprite', 'Lime'],
+      ingredients: [ 'Gin', 'Mountain Dew', 'Lemon-Lime Soda', 'Lime'],
       measures: [ '1 shot ', '6 oz ', '1 splash ', '1 wedge '],
       instructions: "Pour 1 shot of your favorite Gin into a highball glass half filled with ice. Add Mountain Dew till glass is almost filled, then give it a splash of Sprite. Stir well, and garnish with a lime wedge.",
       glass: 'Highball glass'
@@ -22481,7 +22353,7 @@ const drinkList = [
 
   {
       name: "Rootbeer Floatie",
-      ingredients: [ 'Root beer Schnapps', 'Light cream'],
+      ingredients: [ 'Root beer Schnapps', 'Cream'],
       measures: [ '1/2 oz ', '1/2 oz '],
       instructions: "In a shot glass, float .5oz. lt. cream on top of .5oz. rootbeer schnapps.",
       glass: 'Shot glass'
@@ -22521,7 +22393,7 @@ const drinkList = [
 
   {
       name: "Three-Legged Monkey",
-      ingredients: [ 'Crown Royal', 'Amaretto', 'Pineapple Juice'],
+      ingredients: [ 'Canadian Whisky', 'Amaretto', 'Pineapple Juice'],
       measures: [ '1 oz ', '1 oz ', '1 oz '],
       instructions: "Shake and strain, into rocks glass.",
       glass: 'Whiskey sour glass'
@@ -22561,7 +22433,7 @@ const drinkList = [
 
   {
       name: "Avalanche",
-      ingredients: [ 'Crown Royal', 'Coffee Liqueur', 'Cream'],
+      ingredients: [ 'Canadian Whisky', 'Coffee Liqueur', 'Cream'],
       measures: [ '1 shot ', '1 shot ', 'Fill with '],
       instructions: "Mix in highball glass over ice, shake well.",
       glass: 'Highball glass'
@@ -22617,7 +22489,7 @@ const drinkList = [
 
   {
       name: "FuzzB@ll",
-      ingredients: [ 'Peach Schnapps', 'Sprite'],
+      ingredients: [ 'Peach Schnapps', 'Lemon-Lime Soda'],
       measures: [ '1/3 measure ', '2/3 measure '],
       instructions: "Fill cup 2/3rds with Sprite, fill other 1/3 of cup with Peach Schnapps, add ice.",
       glass: 'Highball glass'
@@ -22656,7 +22528,7 @@ const drinkList = [
   },
 
   {
-      name: "Brandon and Will's Coke Float",
+      name: "Dad's Coke Float",
       ingredients: [ 'Vanilla Ice-Cream', 'Cola', 'Bourbon'],
       measures: [ '2 scoops ', '1 can ', '2 oz '],
       instructions: "Scoop two large scoops of vanilla ice-cream into frosted beer mug. Next, add 2 ounces Maker's Mark. Then, pour in coke. Gently stir and enjoy.",
@@ -22681,7 +22553,7 @@ const drinkList = [
 
   {
       name: "SkyLab",
-      ingredients: [ 'Vodka', 'Rum', 'Peach Liqueur', 'Blue Curacao', 'Pineapple Juice', 'Orange Juice', 'Sprite'],
+      ingredients: [ 'Vodka', 'Rum', 'Peach Liqueur', 'Blue Curacao', 'Pineapple Juice', 'Orange Juice', 'Lemon-Lime Soda'],
       measures: [ '1 oz ', '1 oz ', '1/2 oz ', '1/2 oz ', 'splash ', 'splash ', 'splash '],
       instructions: "Pour all ingredients into a shaker, then strain into chilled glass.",
       glass: 'Hurricane glass'
@@ -22697,7 +22569,7 @@ const drinkList = [
 
   {
       name: "Sex on the Beach #10",
-      ingredients: [ 'Vodka', 'Cointreau', 'Passoa', 'Orange Juice'],
+      ingredients: [ 'Vodka', 'Triple Sec', 'Passoa', 'Orange Juice'],
       measures: [ '1 part Smirnoff ', '1 part ', '1 part ', '1 part '],
       instructions: "shake like hell whith some ice",
       glass: 'vote'
@@ -22777,7 +22649,7 @@ const drinkList = [
 
   {
       name: "Green Milkshake",
-      ingredients: [ 'Milk', 'Green Creme de Menthe', 'Cointreau'],
+      ingredients: [ 'Milk', 'Green Creme de Menthe', 'Triple Sec'],
       measures: [ '12 1/2 cl ', '4 cl ', '2 cl '],
       instructions: "Pour Grenadine on the edge of the glass and then sugar to create a red edge on the glass. Then pour all three ingredienses in a shaker and shake it well with crushed ice. Finally pour it in the glass.",
       glass: 'Highball glass'
@@ -22793,7 +22665,7 @@ const drinkList = [
 
   {
       name: "Eliminator",
-      ingredients: [ 'Wild Turkey', 'Tequila', 'Orange Soda', 'Ice'],
+      ingredients: [ 'Bourbon', 'Tequila', 'Orange Soda', 'Ice'],
       measures: [ '1 1/2 oz ', '1 1/2 oz ', '6 oz '],
       instructions: "Mix all ingredients in tall glass. Add more orange soda if it is unpalitable",
       glass: 'Highball glass'
@@ -22849,7 +22721,7 @@ const drinkList = [
 
   {
       name: "White Lady",
-      ingredients: [ 'Gin', 'Egg White', 'Light cream', 'Sugar'],
+      ingredients: [ 'Gin', 'Egg White', 'Cream', 'Sugar'],
       measures: [ '2 oz ', '1 oz ', '1 tsp superfine '],
       instructions: "In a shaker half-filler with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
       glass: 'Cocktail glass'
@@ -22996,5 +22868,14 @@ const allIngredients = [
   'Worcestershire Sauce',
   'Tabasco Sauce',
   'Maple Syrup',
-  'Tea'
+  'Tea',
+  'Blue Curacao',
+  'Olive',
+  'Cherry Brandy',
+  'Egg Yolk',
+  'Benedictine',
+  'Banana',
+  'Hard Cider',
+  'Honey',
+  'Mountain Dew'
 ]
