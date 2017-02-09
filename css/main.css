@@ -40,6 +40,20 @@ h1{
   cursor: pointer;
 }
 
+.get-next {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 14%;
+  height: 30px;
+  line-height: 30px;
+  background-color: black;
+  text-align: center;
+  font-size: 1.1em;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
 /*MAIN*/
 .main {
   /*width: 80%;*/

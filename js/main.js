@@ -164,6 +164,10 @@ const arrowRight = document.querySelector('.arrow-right');
 const restart = document.querySelector('.restart');
 const firstTime = document.querySelector('.first-time');
 const getStarted = document.querySelector('.get-started');
+let almostDrinks = [];
+let missingOneIngredient = {};
+let almostIngredients = [];
+let getNext = document.querySelector('.get-next');
 
 
 
@@ -404,15 +408,24 @@ let boxCount = 0;
 //LOAD CAROUSEL
 function loadCarousel() {
   clearCarousel();
+  almostDrinks = [];
+  almostIngredients = [];
+  missingOneIngredient = {};
+  maxIngredient1 = '';
+  maxValue1 = 0;
+  maxIngredient2 = '';
+  maxValue2 = 0;
+  maxIngredient3 = '';
+  maxValue3 = 0;
   for (var i = 0; i < drinkList.length; i++) {
-    let x = true;
+    let x = 10;
     let drinkIngredients = drinkList[i].ingredients;
     for (var j = 0; j < drinkIngredients.length; j++) {
       if(availableIngredients.indexOf(drinkIngredients[j]) < 0 ){
-        x = false;
+        x--;
       }
     }
-    if (x === true && (availableDrinks.indexOf(drinkList[i].name) < 0)) {
+    if (x === 10 && (availableDrinks.indexOf(drinkList[i].name) < 0)) {
       let recipeLink = document.createElement('div');
       recipeLink.classList.add('recipe-link');
       recipeLink.innerHTML=`${drinkList[i].name}`;
@@ -461,6 +474,55 @@ function loadCarousel() {
         boxCount = 7;
       }
     }
+    else if (x === 9) {
+      almostDrinks.push(drinkList[i].name);
+      for (var k = 0; k < drinkIngredients.length; k++) {
+        if (availableIngredients.indexOf(drinkIngredients[k]) < 0) {
+          almostIngredients.push(drinkIngredients[k]);
+        }
+      }
+    }
+  }
+  calculateIngredientRecommendation();
+}
+
+function calculateIngredientRecommendation() {
+  allIngredients.forEach((element) =>{
+    var count = 0;
+    for (var i = 0; i < almostIngredients.length; i++) {
+      if (almostIngredients[i] === element) {
+        count ++;
+      }
+      missingOneIngredient[element] = count;
+    }
+
+  })
+}
+let maxIngredient1 = '';
+let maxValue1 = 0;
+let maxIngredient2 = '';
+let maxValue2 = 0;
+let maxIngredient3 = '';
+let maxValue3 = 0;
+
+function setRecommendedIngredients (obj) {
+  for (var prop in obj) {
+    if (obj[prop] > maxValue1) {
+      maxValue1 = obj[prop];
+      maxIngredient1 = prop;
+    }
+  }
+  for (var prop2 in obj) {
+    if(obj[prop2] > maxValue2 && prop2 !== maxIngredient1) {
+      maxValue2 = obj[prop2];
+      maxIngredient2 = prop2;
+    }
+  }
+  for (var prop3 in obj) {
+    if(obj[prop3] > maxValue3 && prop3 !== maxIngredient1 && prop3 !== maxIngredient2) {
+      maxValue3 = obj[prop3];
+      maxIngredient3 = prop3;
+    }
   }
 }
 
@@ -508,3 +570,16 @@ getStarted.addEventListener('click', () => {
   firstTime.classList.add('hidden');
   localStorage.setItem('FirstTime', 'nope');
 });
+
+
+//GET NEXT ingredients
+getNext.addEventListener('click', showNextIngredients);
+
+function showNextIngredients() {
+  setRecommendedIngredients(missingOneIngredient);
+  cardGlass.innerHTML = '';
+  cardBody.innerHTML = '';
+  cardTitle.innerHTML = `<h2>What To Buy Next?</h2>`;
+  cardIngredients.innerHTML = `<h3>If you had ${maxIngredient1} you could make ${maxValue1} more drinks!</h3><h3>If you had ${maxIngredient2} you could make ${maxValue2} more drinks!</h3><h3>If you had ${maxIngredient3} you could make ${maxValue3} more drinks!</h3>`;
+  card.classList.remove('hidden');
+}
