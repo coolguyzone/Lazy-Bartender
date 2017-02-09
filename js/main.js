@@ -176,7 +176,8 @@ const getStarted = document.querySelector('.get-started');
 let almostDrinks = [];
 let missingOneIngredient = {};
 let almostIngredients = [];
-let getNext = document.querySelector('.get-next');
+const getNext = document.querySelector('.get-next');
+const closeArrowBox = document.querySelector('.close-arrow-box');
 
 
 
@@ -589,4 +590,11 @@ function showNextIngredients() {
   cardTitle.innerHTML = `<h2>What To Buy Next?</h2>`;
   cardIngredients.innerHTML = `<h3>If you had ${maxIngredient1} you could make ${maxValue1} more drinks!</h3><h3>If you had ${maxIngredient2} you could make ${maxValue2} more drinks!</h3><h3>If you had ${maxIngredient3} you could make ${maxValue3} more drinks!</h3>`;
   card.classList.remove('hidden');
+}
+
+//close arrowBox
+closeArrowBox.addEventListener('click', hideArrowBox);
+
+function hideArrowBox(){
+  arrowBox.classList.add('hidden-with-space');
 }
