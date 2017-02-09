@@ -1169,7 +1169,7 @@ const drinkList = [
 
   {
     name: "Old Fashioned",
-    ingredients: ['Bourbon', 'Angostura Bitters', 'Sugar', 'Water'],
+    ingredients: ['Bourbon', 'Angostura Bitters', 'Sugar', 'Water', 'Orange Peel'],
     measure:['1.5 oz ', '2 dashes ', '1 cube ', '1 dash '],
     instructions: "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange twist, and a cocktail cherry.",
     glass: 'Old-fashioned glass'
