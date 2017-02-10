@@ -399,6 +399,7 @@ and (orientation : portrait) {
     height: 54px;
     line-height: 54px;
     font-size: 1.8em;
+    border: 3px solid white;
   }
 
   .get-next {
@@ -425,7 +426,7 @@ and (orientation : portrait) {
   }
   .card {
     width: 800px;
-    height: 800px;
+    height: 860px;
     left: 9%;
     right: 20%;
     top: 16%;
