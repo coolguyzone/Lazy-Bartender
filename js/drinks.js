@@ -937,7 +937,7 @@ const drinkList = [
 
   {
       name: "Bluebird",
-      ingredients: [ 'Gin', 'Triple Sec', 'Blue Curacao',   'Angostura Bitters', 'Maraschino cherry', 'Lemon Peel'],
+      ingredients: [ 'Gin', 'Triple Sec', 'Blue Curacao',   'Angostura Bitters', 'Cherry', 'Lemon Peel'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 oz ', '2 dashes ', '1 twist of '],
       instructions: "In a mixing glass half-filled with crushed ice, combine the gin, triple sec, Curacao, and bitters. Stir well. Strain into a cocktail glass and garnish with the lemon twist and the cherry.",
       glass: 'Cocktail glass'
@@ -969,7 +969,7 @@ const drinkList = [
 
   {
       name: "Boomerang",
-      ingredients: [ 'Gin', 'Dry Vermouth',   'Angostura Bitters', 'Maraschino Liqueur', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Dry Vermouth',   'Angostura Bitters', 'Maraschino Liqueur', 'Cherry'],
       measures: [ '2 oz ', '1/2 oz ', '2 dashes ', '1/2 tsp '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the gin, vermouth, bitters, and maraschino liqueur. Stir well. Strain into a cocktail glass and garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -1025,7 +1025,7 @@ const drinkList = [
 
   {
       name: "Bourbon Black Hawk",
-      ingredients: [ 'Bourbon', 'Sloe gin', 'Maraschino cherry'],
+      ingredients: [ 'Bourbon', 'Sloe gin', 'Cherry'],
       measures: [ '2 oz ', '1 oz '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the bourbon and sloe gin. Stir and strain into a cocktail glass. Garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -1033,7 +1033,7 @@ const drinkList = [
 
   {
       name: "Bourbon Black Hawk #2",
-      ingredients: [ 'Bourbon', 'Sloe gin', 'Lemon Juice', 'Sugar', 'Maraschino cherry'],
+      ingredients: [ 'Bourbon', 'Sloe gin', 'Lemon Juice', 'Sugar', 'Cherry'],
       measures: [ '2 oz ', '1/2 oz ', '1 oz ', '1 tsp superfine '],
       instructions: "In a shaker half-filled with ice cubes, combine the bourbon, sloe gin, lemon juice, and sugar. Shake well. Strain into a cocktail glass. Garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -1049,7 +1049,7 @@ const drinkList = [
 
   {
       name: "Bourbon Cobbler #1",
-      ingredients: [ 'Sugar', 'Club Soda', 'Maraschino cherry', 'Orange', 'Lemon', 'Bourbon'],
+      ingredients: [ 'Sugar', 'Club Soda', 'Cherry', 'Orange', 'Lemon', 'Bourbon'],
       measures: [ '1 1/2 tsp superfine ', '3 oz ', '2 1/2 oz blended '],
       instructions: "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the bourbon and stir well. Garnish with the cherry, orange and lemon slices.",
       glass: 'Old-fashioned glass'
@@ -1073,7 +1073,7 @@ const drinkList = [
 
   {
       name: "Bourbon Daisy",
-      ingredients: [ 'Bourbon', 'Lemon Juice', 'Grenadine', 'Sugar', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Bourbon', 'Lemon Juice', 'Grenadine', 'Sugar', 'Orange', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp ', '1/2 tsp superfine '],
       instructions: "In a shaker half-filled with ice cubes, combine the bourbon, lemon juice, grenadine, and sugar. Shake well. Pour into an old-fashioned glass. Garnish with the orange slice and the cherry.",
       glass: 'Old-fashioned glass'
@@ -1089,7 +1089,7 @@ const drinkList = [
 
   {
       name: "Bourbon Fix",
-      ingredients: [ 'Sugar', 'Lemon Juice', 'Water', 'Bourbon', 'Maraschino cherry', 'Lemon'],
+      ingredients: [ 'Sugar', 'Lemon Juice', 'Water', 'Bourbon', 'Cherry', 'Lemon'],
       measures: [ '1 tsp superfine ', '1 oz ', '2 tsp ', '2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the sugar, lemon juice, and water. Shake well. Strain into a highball glass almost filled with crushed ice. Add the bourbon. Stir well and garnish with the cherry and the lemon slice.",
       glass: 'Highball glass'
@@ -1137,7 +1137,7 @@ const drinkList = [
 
   {
       name: "Classic Old-Fashioned",
-      ingredients: [   'Angostura Bitters', 'Water', 'Sugar', 'Bourbon', 'Orange', 'Maraschino cherry'],
+      ingredients: [   'Angostura Bitters', 'Water', 'Sugar', 'Bourbon', 'Orange', 'Cherry'],
       measures: [ '3 dashes ', '1 tsp ', '3 oz '],
       instructions: "In an old-fashioned glass, muddle the bitters and water into the sugar cube, using the back of a teaspoon. Almost fill the glass with ice cubes and add the bourbon. Garnish with the orange slice and the cherry. Serve with a swizzle stick.",
       glass: 'Old-fashioned glass'
@@ -1153,7 +1153,7 @@ const drinkList = [
 
   {
       name: "Bourbon Sour",
-      ingredients: [ 'Bourbon', 'Lemon Juice', 'Sugar', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Bourbon', 'Lemon Juice', 'Sugar', 'Orange', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp superfine '],
       instructions: "In a shaker half-filled with ice cubes, combine the bourbon, lemon juice, and sugar. Shake well. Strain into a whiskey sour glass, garnish with the orange slice and cherry.",
       glass: 'Whiskey sour glass'
@@ -1170,7 +1170,7 @@ const drinkList = [
   {
     name: "Old Fashioned",
     ingredients: ['Bourbon', 'Angostura Bitters', 'Sugar', 'Water', 'Orange Peel'],
-    measure:['1.5 oz ', '2 dashes ', '1 cube ', '1 dash '],
+    measures:['1.5 oz ', '2 dashes ', '1 cube ', '1 dash '],
     instructions: "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange twist, and a cocktail cherry.",
     glass: 'Old-fashioned glass'
   },
@@ -1233,7 +1233,7 @@ const drinkList = [
 
   {
       name: "Brandy Cobbler",
-      ingredients: [ 'Sugar', 'Club Soda', 'Lemon', 'Brandy', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Sugar', 'Club Soda', 'Lemon', 'Brandy', 'Cherry', 'Orange'],
       measures: [ '1 tsp superfine ', '3 oz ', '2 oz '],
       instructions: "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the brandy. Stir well. Garnish with the cherry and the orange and lemon slices.",
       glass: 'Old-fashioned glass'
@@ -1265,7 +1265,7 @@ const drinkList = [
 
   {
       name: "Brandy Daisy",
-      ingredients: [ 'Brandy', 'Lemon Juice', 'Sugar', 'Grenadine', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Brandy', 'Lemon Juice', 'Sugar', 'Grenadine', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp superfine ', '1/2 tsp '],
       instructions: "In a shaker half-filled with ice cubes, combine the brandy, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.",
       glass: 'Old-fashioned glass'
@@ -1337,7 +1337,7 @@ const drinkList = [
 
   {
       name: "Brandy Smash",
-      ingredients: [ 'Mint', 'Sugar', 'Club Soda', 'Brandy', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Mint', 'Sugar', 'Club Soda', 'Brandy', 'Orange', 'Cherry'],
       measures: [ '4 fresh ', '1 tsp superfine ', '1 oz ', '2 1/2 oz '],
       instructions: "In an old-fashioned glass, muddle the mint sprigs lightly with the sugar and club soda. Fill the glass with ice cubes. Add the brandy. Stir well and garnish with the orange slice and the cherry.",
       glass: 'Old-fashioned glass'
@@ -1456,14 +1456,6 @@ const drinkList = [
   },
 
   {
-      name: "Buddy's Favorite",
-      ingredients: [ 'Bourbon', 'Water'],
-      measures: [ '1 1/2 oz ', '6 oz cold '],
-      instructions: "Pour ingredients into a highball glass, stir, and serve without ice.",
-      glass: 'Highball glass'
-  },
-
-  {
       name: "Bull's Eye",
       ingredients: [ 'Brandy', 'Hard Cider', 'Ginger Ale'],
       measures: [ '1 oz ', '2 oz hard '],
@@ -1545,7 +1537,7 @@ const drinkList = [
 
   {
       name: "Cabaret",
-      ingredients: [ 'Gin', 'Dry Vermouth', 'Benedictine',   'Angostura Bitters', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Dry Vermouth', 'Benedictine',   'Angostura Bitters', 'Cherry'],
       measures: [ '1 oz ', '1/2 oz ', '1/2 oz ', '2 dashes '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, vermouth, Benedictine, and bitters. Shake well. Strain into a cocktail glass and garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -1609,7 +1601,7 @@ const drinkList = [
 
   {
       name: "California Dream",
-      ingredients: [ 'Tequila', 'Sweet Vermouth', 'Dry Vermouth', 'Maraschino cherry'],
+      ingredients: [ 'Tequila', 'Sweet Vermouth', 'Dry Vermouth', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1/2 oz '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the tequila, sweet vermouth, and dry vermouth. Stir well. Strain into a cocktail glass and garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -1689,7 +1681,7 @@ const drinkList = [
 
   {
       name: "Captain's Table",
-      ingredients: [ 'Gin', 'Campari', 'Grenadine', 'Orange Juice', 'Ginger Ale', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Campari', 'Grenadine', 'Orange Juice', 'Ginger Ale', 'Cherry'],
       measures: [ '2 oz ', '1/2 oz ', '1 tsp ', '1 oz ', '4 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, Campari, grenadine, and orange juice. Shake well. Pour into a collins glass almost filled with ice cubes. Top with the ginger ale. Garnish with the cherry.",
       glass: 'Collins glass'
@@ -2185,7 +2177,7 @@ const drinkList = [
 
   {
       name: "Cornwall-Nash",
-      ingredients: [ 'Light Rum', 'Gin', 'Triple Sec', 'Grapefruit Juice', 'Cherry Brandy', 'Maraschino cherry'],
+      ingredients: [ 'Light Rum', 'Gin', 'Triple Sec', 'Grapefruit Juice', 'Cherry Brandy', 'Cherry'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 oz ', '2 oz ', '1 tsp '],
       instructions: "Pour the rum, gin, triple sec, and grapefruit juice into a highball glass almost filled with ice cubes. Stir well. Drop the cherry brandy into the center of the drink. Garnish with the cherry.",
       glass: 'Highball glass'
@@ -2697,7 +2689,7 @@ const drinkList = [
 
   {
       name: "European",
-      ingredients: [ 'Gin', 'Sherry', 'Dubonnet Rouge', 'Dry Vermouth', 'Grand Marnier', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Sherry', 'Dubonnet Rouge', 'Dry Vermouth', 'Grand Marnier', 'Cherry'],
       measures: [ '1 oz ', '1/2 oz cream ', '1/2 oz ', '1/2 oz ', '1/2 tsp '],
       instructions: "In an old-fashioned glass almost filled with ice cubes, combine the gin, sherry, Dubonnet, vermouth, and Grand Marnier. Stir well. Garnish with the cherry.",
       glass: 'Old-fashioned glass'
@@ -2817,7 +2809,7 @@ const drinkList = [
 
   {
       name: "Fireman's Sour",
-      ingredients: [ 'Light Rum', 'Lime Juice', 'Grenadine', 'Club Soda', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Light Rum', 'Lime Juice', 'Grenadine', 'Club Soda', 'Orange', 'Cherry'],
       measures: [ '1 1/2 oz ', '1 1/2 oz ', '1/2 oz ', '2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the rum, lime juice, and grenadine. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the club soda. Stir well. Garnish with the orange slice and the cherry.",
       glass: 'Highball glass'
@@ -2953,7 +2945,7 @@ const drinkList = [
 
   {
       name: "French '75'",
-      ingredients: [ 'Gin', 'Sugar', 'Lemon Juice', 'Champagne', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Sugar', 'Lemon Juice', 'Champagne', 'Orange', 'Cherry'],
       measures: [ '1 1/2 oz ', '2 tsp superfine ', '1 1/2 oz ', '4 oz Chilled '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, sugar, and lemon juice. Shake well. Pour into a collins glass. Top with the Champagne. Stir well and garnish with the orange slice and the cherry.",
       glass: 'Collins glass'
@@ -3161,7 +3153,7 @@ const drinkList = [
 
   {
       name: "Gin Cobbler",
-      ingredients: [ 'Sugar', 'Club Soda', 'Lemon', 'Gin', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Sugar', 'Club Soda', 'Lemon', 'Gin', 'Cherry', 'Orange'],
       measures: [ '1 tsp superfine ', '3 oz ', '2 oz '],
       instructions: "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the gin. Stir well. Garnish with the cherry and the orange and lemon slices.",
       glass: 'Old-fashioned glass'
@@ -3169,7 +3161,7 @@ const drinkList = [
 
   {
       name: "Gin Daisy",
-      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Grenadine', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Grenadine', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp superfine ', '1/2 tsp '],
       instructions: "In a shaker half-filled with ice cubes, combine the wine, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.",
       glass: 'Old-fashioned glass'
@@ -3193,7 +3185,7 @@ const drinkList = [
 
   {
       name: "Gin Fix",
-      ingredients: [ 'Sugar', 'Lemon Juice', 'Water', 'Gin', 'Maraschino cherry', 'Lemon'],
+      ingredients: [ 'Sugar', 'Lemon Juice', 'Water', 'Gin', 'Cherry', 'Lemon'],
       measures: [ '1 tsp superfine ', '1 oz ', '2 tsp ', '2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the sugar, lemon juice, and water. Shake well. Strain into a highball glass almost filled with crushed ice. Add the gin. Stir well and garnish with the cherry and the lemon slice.",
       glass: 'Highball glass'
@@ -3265,7 +3257,7 @@ const drinkList = [
 
   {
       name: "Gin Sour",
-      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Orange', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp superfine '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
       glass: 'Whiskey sour glass'
@@ -3473,7 +3465,7 @@ const drinkList = [
 
   {
       name: "Gypsy",
-      ingredients: [ 'Sweet Vermouth', 'Maraschino cherry', 'Gin'],
+      ingredients: [ 'Sweet Vermouth', 'Cherry', 'Gin'],
       measures: [ '1 oz ', '1 1/2 oz '],
       instructions: "In a mixing glass half-filled with ice cubes, combine gin and vermouth. Stir well. Strain into a cocktail glass and garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -3953,7 +3945,7 @@ const drinkList = [
 
   {
       name: "Jock Collins",
-      ingredients: [ 'Scotch', 'Lemon Juice', 'Sugar', 'Club Soda', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Scotch', 'Lemon Juice', 'Sugar', 'Club Soda', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 oz ', '1 tsp superfine ', '3 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the Scotch, lemon juice, and sugar. Shake well. Strain into a collins glass alost filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice.",
       glass: 'Collins glass'
@@ -3985,7 +3977,7 @@ const drinkList = [
 
   {
       name: "John Collins",
-      ingredients: [ 'Bourbon', 'Lemon Juice', 'Sugar', 'Club Soda', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Bourbon', 'Lemon Juice', 'Sugar', 'Club Soda', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 oz ', '1 tsp superfine ', '3 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the bourbon, lemon juice, and sugar. Shake well. Strain into a collins glass almost filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice.",
       glass: 'Collins glass'
@@ -4433,7 +4425,7 @@ const drinkList = [
 
   {
       name: "Maiden's Blush",
-      ingredients: [ 'Gin', 'Triple Sec', 'Cherry Brandy', 'Lemon Juice', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Triple Sec', 'Cherry Brandy', 'Lemon Juice', 'Cherry'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 tsp ', '1 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, triple sec, cherry brandy, and lemon juice. Shake well. Strain into a cocktail glass. Garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -4609,7 +4601,7 @@ const drinkList = [
 
   {
       name: "Mary Pickford Cocktail",
-      ingredients: [ 'Light Rum', 'Pineapple Juice', 'Maraschino Liqueur', 'Grenadine', 'Maraschino cherry'],
+      ingredients: [ 'Light Rum', 'Pineapple Juice', 'Maraschino Liqueur', 'Grenadine', 'Cherry'],
       measures: [ '1 1/2 oz ', '1 oz ', '1/2 tsp ', '1/2 tsp '],
       instructions: "In a shaker half-filled with ice cubes, combine the rum, pineapple juice, maraschino liqueur, and grenadine. Shake well. Strain into a cocktail glass. Garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -4945,7 +4937,7 @@ const drinkList = [
 
   {
       name: "Mostly Mal",
-      ingredients: [ 'Añejo Rum', 'Dry Vermouth', 'Triple Sec', 'Grenadine', 'Maraschino cherry'],
+      ingredients: [ 'Añejo Rum', 'Dry Vermouth', 'Triple Sec', 'Grenadine', 'Cherry'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 tsp '],
       instructions: "In a shaker half-filled with ice cubes, combine the rum, vermouth, tiple sec and grenadine. Shake well. Strain into a cocktail glass and garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -4977,7 +4969,7 @@ const drinkList = [
 
   {
       name: "Mumsicle",
-      ingredients: [ 'Dark Rum', 'Bourbon',   'Angostura Bitters', 'Maraschino cherry'],
+      ingredients: [ 'Dark Rum', 'Bourbon',   'Angostura Bitters', 'Cherry'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1 dash '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the rum, bourbon, and bitter. Stir well. Strain into a cocktail glass and garnish with the cherry",
       glass: 'Cocktail glass'
@@ -4985,7 +4977,7 @@ const drinkList = [
 
   {
       name: "Mutiny",
-      ingredients: [ 'Dark Rum',   'Angostura Bitters', 'Dubonnet Rouge', 'Maraschino cherry'],
+      ingredients: [ 'Dark Rum',   'Angostura Bitters', 'Dubonnet Rouge', 'Cherry'],
       measures: [ '1 1/2 oz ', '2 dashes ', '1/2 oz '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the rum, Dubonnet, and bitters. Stir well. Strain into a cocktail glass and garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -5065,7 +5057,7 @@ const drinkList = [
 
   {
       name: "Oaxaca Jim",
-      ingredients: [ 'Gin', 'Orange Juice', 'Grapefruit Juice',   'Angostura Bitters', 'Lemon Peel', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Orange Juice', 'Grapefruit Juice',   'Angostura Bitters', 'Lemon Peel', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1 oz ', '2 dashes ', '1 twist of '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, orange juice, grapefruit juice, and bitters. Shake well. Strain into an old-fashioned glass almost filled with the cubes. Garnish with the lemon twist and the cherry.",
       glass: 'Old-fashioned glass'
@@ -5081,7 +5073,7 @@ const drinkList = [
 
   {
       name: "Old-Fashioned",
-      ingredients: [ 'Blended Whiskey', 'Sugar',  'Angostura Bitters', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Blended Whiskey', 'Sugar',  'Angostura Bitters', 'Orange', 'Cherry'],
       measures: [ '2 oz ', '1 cube ', '2 dashes ', '1 slice '],
       instructions: "Muddle the orange, sugar, bitters and water in an old-fashioned glass until the sugar is almost dissolved. Fill the glass with ice and add blended whiskey. Garnish with a marachino cherry. Serve with a swizzle stick.",
       glass: 'Old-fashioned glass'
@@ -5345,7 +5337,7 @@ const drinkList = [
 
   {
       name: "Perfect Rob Roy",
-      ingredients: [ 'Scotch', 'Sweet Vermouth', 'Dry Vermouth', 'Maraschino cherry'],
+      ingredients: [ 'Scotch', 'Sweet Vermouth', 'Dry Vermouth', 'Cherry'],
       measures: [ '2 1/2 oz ', '1 tsp ', '1 tsp '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the Scotch, sweet vermouth, and dry vermouth. Stir well. Strain into a cocktail glass. Garnish with the cherry or a lemon twist.",
       glass: 'Cocktail glass'
@@ -5689,7 +5681,7 @@ const drinkList = [
 
   {
       name: "Red Gin",
-      ingredients: [ 'Ice', 'Gin', 'Cherry Heering', 'Maraschino cherry'],
+      ingredients: [ 'Ice', 'Gin', 'Cherry Heering', 'Cherry'],
       measures: [ 'crushed ', '2 oz ', '1 tsp '],
       instructions: "In a mixing glass half-filled with crushed ice, combine the gin and Cherry Heering. Stir well. Strain into a cocktail glass. Garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -5753,7 +5745,7 @@ const drinkList = [
 
   {
       name: "Rob Roy",
-      ingredients: [ 'Scotch', 'Sweet Vermouth',  'Angostura Bitters', 'Maraschino cherry'],
+      ingredients: [ 'Scotch', 'Sweet Vermouth',  'Angostura Bitters', 'Cherry'],
       measures: [ '1 1/2 oz ', '3/4 oz ', '1 dash '],
       instructions: "Stir ingredients with ice, strain into a cocktail glass. Garnish with a cherry.",
       glass: 'Cocktail glass'
@@ -5793,7 +5785,7 @@ const drinkList = [
 
   {
       name: "Root Beer Fizz",
-      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Root Beer', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Root Beer', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1 tsp superfine ', '4 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass almost filled with ice cubes. Add the root beer. Stir well. Garnish with the cherry.",
       glass: 'Collins glass'
@@ -5913,7 +5905,7 @@ const drinkList = [
 
   {
       name: "Rum Cobbler",
-      ingredients: [ 'Sugar', 'Club Soda', 'Lemon', 'Dark Rum', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Sugar', 'Club Soda', 'Lemon', 'Dark Rum', 'Cherry', 'Orange'],
       measures: [ '1 tsp superfine ', '3 oz ', '2 oz '],
       instructions: "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the rum. Stir well. Garnish with the cherry and the orange and lemon slices.",
       glass: 'Old-fashioned glass'
@@ -5937,7 +5929,7 @@ const drinkList = [
 
   {
       name: "Rum Daisy",
-      ingredients: [ 'Dark Rum', 'Lemon Juice', 'Sugar', 'Grenadine', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Dark Rum', 'Lemon Juice', 'Sugar', 'Grenadine', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp superfine ', '1/2 tsp '],
       instructions: "In a shaker half-filled with ice cubes, combine the rum, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.",
       glass: 'Old-fashioned glass'
@@ -6017,7 +6009,7 @@ const drinkList = [
 
   {
       name: "Rum Sour",
-      ingredients: [ 'Light Rum', 'Lemon Juice', 'Sugar', 'Orange', 'Maraschino cherry'],
+      ingredients: [ 'Light Rum', 'Lemon Juice', 'Sugar', 'Orange', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp superfine '],
       instructions: "In a shaker half-filled with ice cubes, combine the rum, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
       glass: 'Whiskey sour glass'
@@ -6209,7 +6201,7 @@ const drinkList = [
 
   {
       name: "Scotch Daisy",
-      ingredients: [ 'Scotch', 'Lemon Juice', 'Sugar', 'Grenadine', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Scotch', 'Lemon Juice', 'Sugar', 'Grenadine', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 oz ', '1/2 tsp superfine ', '1/2 tsp '],
       instructions: "In a shaker half-filled with ice cubes, combine the Scotch, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass. Garnish with the cherry and the orange slice.",
       glass: 'Old-fashioned glass'
@@ -6217,7 +6209,7 @@ const drinkList = [
 
   {
       name: "Scotch Fix",
-      ingredients: [ 'Sugar', 'Lemon Juice', 'Water', 'Scotch', 'Maraschino cherry', 'Lemon Juice'],
+      ingredients: [ 'Sugar', 'Lemon Juice', 'Water', 'Scotch', 'Cherry', 'Lemon Juice'],
       measures: [ '1 tsp superfine ', '1 oz ', '2 tsp ', '2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the sugar, lemon juice, and water. Shake well. Strain into a highball glass almost filled with crushed ice. Add the Scotch. Stir well and garnish with the cherry and the lemon slice.",
       glass: 'Highball glass'
@@ -6257,7 +6249,7 @@ const drinkList = [
 
   {
       name: "Scotch Old-Fashioned",
-      ingredients: [   'Angostura Bitters', 'Scotch', 'Water', 'Sugar', 'Orange', 'Maraschino cherry'],
+      ingredients: [   'Angostura Bitters', 'Scotch', 'Water', 'Sugar', 'Orange', 'Cherry'],
       measures: [ '3 dashes ', '3 oz ', '1 tsp '],
       instructions: "In an old-fashioned glass, muddle the bitters and water into the sugar cube, using the back of a teaspoon. Almost fill the glass with ice cubes and add the scotch. Garnish with the orange slice and the cherry. Serve with a swizzle stick.",
       glass: 'Old-fashioned glass'
@@ -6625,7 +6617,7 @@ const drinkList = [
 
   {
       name: "Smart Christine",
-      ingredients: [ 'Gin', 'Benedictine', 'Orange Juice', 'Maraschino cherry'],
+      ingredients: [ 'Gin', 'Benedictine', 'Orange Juice', 'Cherry'],
       measures: [ '2 oz ', '1/2 oz ', '2 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, Benedictine, and orange juice. Shake well. Strain into an old-fashioned glass almost filled with ice cubes. Garnish with the cherry.",
       glass: 'Old-fashioned glass'
@@ -6889,7 +6881,7 @@ const drinkList = [
 
   {
       name: "Stranger-In-Town",
-      ingredients: [ 'Light Rum', 'Sweet Vermouth', 'Calvados', 'Cherry Brandy', 'Maraschino cherry'],
+      ingredients: [ 'Light Rum', 'Sweet Vermouth', 'Calvados', 'Cherry Brandy', 'Cherry'],
       measures: [ '1 1/2 oz ', '1/2 oz ', '1/2 oz ', '1/2 oz '],
       instructions: "In a mixing glass half-filled with ice cubes, combine the rum, vermouth, Calvados, and cherry brandy. Stir well. Strain into a cocktail glass and garnish with the cherry.",
       glass: 'Cocktail glass'
@@ -7249,7 +7241,7 @@ const drinkList = [
 
   {
       name: "Tom Collins",
-      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Club Soda', 'Maraschino cherry', 'Orange'],
+      ingredients: [ 'Gin', 'Lemon Juice', 'Sugar', 'Club Soda', 'Cherry', 'Orange'],
       measures: [ '2 oz ', '1 oz ', '1 tsp superfine ', '3 oz '],
       instructions: "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice.",
       glass: 'Collins glass'
@@ -9033,7 +9025,7 @@ const drinkList = [
 
   {
       name: "Tavern Wine Cooler",
-      ingredients: [ 'Lemonade', 'Mint', 'Red wine', 'Maraschino cherry'],
+      ingredients: [ 'Lemonade', 'Mint', 'Red wine', 'Cherry'],
       measures: [ '3/4 glass ', '1/4 glass dry '],
       instructions: "This makes a colorful as well as refreshing drink if the liquids are not mixed together. Pour the lemonade over crushed ice, then add the red wine. Garnish with a sprig of mint and a cherry. Good for hot days.",
       glass: 'vote'
@@ -10521,7 +10513,7 @@ const drinkList = [
 
   {
       name: "Midori Sour Ultra",
-      ingredients: [ 'Midori Melon', 'Lemon Juice', 'Sugar', 'Maraschino cherry', 'Maraschino cherry Juice'],
+      ingredients: [ 'Midori Melon', 'Lemon Juice', 'Sugar', 'Cherry', 'Maraschino cherry Juice'],
       measures: [ '2 oz ', '3/4 oz freshly squeezed ', '1 tsp superfine ', '1 tblsp '],
       instructions: "Mix ingredients in boston shaker with cracked ice. In a highball glass or champagne flute (optional), fill glass three quarters full with ice. Pour one tablespoon of cherry juice in glass before pouring in mixed ingredients. Garnish with two maraschino cherries and lemon wedge. Drink through a straw.",
       glass: 'Highball glass'
@@ -11913,7 +11905,7 @@ const drinkList = [
 
   {
       name: "Pain Killer",
-      ingredients: [ 'Rum', 'Cream of coconut', 'Pineapple Juice', 'Orange Juice', 'Nutmeg', 'Maraschino cherry', 'Ice'],
+      ingredients: [ 'Rum', 'Cream of coconut', 'Pineapple Juice', 'Orange Juice', 'Nutmeg', 'Cherry', 'Ice'],
       measures: [ '1/4 glass ', '1/4 glass ', '1/3 glass ', 'Healthy splash ', 'Sprinkle ', 'Lots '],
       instructions: "Fill cup with ice. Pour Pusser's Rum to fill about 1/4 of the glass. Fill with an equal amount of Cream of Coconut (Coco Lopez is good. Add some pineapple juice and a good splash of orange juice. Shake well. Add cherry and sprinkly nutmeg. Grab a staw and get ready! This was originally made in the Britsh Virgin Islands -- Pussers is the official rum of the Royal British Navy. Alter the amount of rum to your taste. Sorry about the inexact measurements -- that's the way we do it down in de islans mon!",
       glass: 'vote'
@@ -12241,7 +12233,7 @@ const drinkList = [
 
   {
       name: "Wong Tong Cocktail",
-      ingredients: [ 'Vodka', 'Gin', 'Dry Vermouth', 'Lemonade', 'Maraschino cherry'],
+      ingredients: [ 'Vodka', 'Gin', 'Dry Vermouth', 'Lemonade', 'Cherry'],
       measures: [ '2 oz ', '1 oz ', '1 oz ', '2 oz '],
       instructions: "Pour liquids into a strainer glass with 4-6 ice cubes. Strain into a cocktail glass. Garnish with cherries.",
       glass: 'Cocktail glass'
@@ -12505,7 +12497,7 @@ const drinkList = [
 
   {
       name: "Brandy Manhattan",
-      ingredients: [ 'Maraschino cherry Juice', 'Maraschino cherry',   'Angostura Bitters', 'Sweet Vermouth', 'Brandy', 'Water'],
+      ingredients: [ 'Maraschino cherry Juice', 'Cherry',   'Angostura Bitters', 'Sweet Vermouth', 'Brandy', 'Water'],
       measures: [ '1 tsp ', '2 dashes ', '1/2 oz ', '2 oz ', '1 splash '],
       instructions: "Fill rocks glass with ice. Add Cherry juice and cherry, then bitters. Add brandy, then sweet vermouth. Add water, stir.",
       glass: 'Old-fashioned glass'
@@ -12577,7 +12569,7 @@ const drinkList = [
 
   {
       name: "Manhattan",
-      ingredients: [ 'Sweet Vermouth', 'Bourbon',  'Angostura Bitters', 'Ice', 'Maraschino cherry', 'Orange Peel'],
+      ingredients: [ 'Sweet Vermouth', 'Bourbon',  'Angostura Bitters', 'Ice', 'Cherry', 'Orange Peel'],
       measures: [ '3/4 oz ', '2 1/2 oz Blended ', 'dash ', '2 or 3 ', '1 twist of '],
       instructions: "Combine the vermouth, whiskey, bitters and ice in a mixing glass. Stir gently, don't bruise the spirits and cloud the drink. Place the cherry in a chilled cocktail glass and strain the whiskey mixture over the cherry. Rub the cut edge of the orange peel over the rim of the glass and twist it over the drink to release the oils but don't drop it in.",
       glass: 'Cocktail glass'
@@ -12649,7 +12641,7 @@ const drinkList = [
 
   {
       name: "L&C",
-      ingredients: [ 'Pineapple', 'Pineapple vodka', 'Malibu Rum', 'Ice', 'Maraschino cherry'],
+      ingredients: [ 'Pineapple', 'Pineapple vodka', 'Malibu Rum', 'Ice', 'Cherry'],
       measures: [ '8 oz ', '3 oz Finlandia ', '2 oz ', 'To fill blender ', 'Garnish '],
       instructions: "Put pineapple in the blender and blend (duh) till smooth. Add vodka, rum, and enough ice to raise the level to five cups. Blend until the ice gets all smashed up. Pour into tall glasses; garnish with the cherry. Drink until YOU get all smashed up.",
       glass: 'Highball glass'
@@ -14265,7 +14257,7 @@ const drinkList = [
 
   {
       name: "Wiggle Worm",
-      ingredients: [ 'Vodka', 'Tropicana', 'Sugar', 'Maraschino cherry'],
+      ingredients: [ 'Vodka', 'Tropicana', 'Sugar', 'Cherry'],
       measures: [ '2 jiggers ', '0.5 cup ', '1 tsp '],
       instructions: "Mix Well. Put Vodka in first. Put cherry in last. Add ice if needed.",
       glass: 'Cocktail glass'
@@ -16633,7 +16625,7 @@ const drinkList = [
 
   {
       name: "Buttafuoco",
-      ingredients: [ 'Tequila', 'Galliano', 'Cherry Liqueur', 'Lemon Juice', 'Club Soda', 'Maraschino cherry'],
+      ingredients: [ 'Tequila', 'Galliano', 'Cherry Liqueur', 'Lemon Juice', 'Club Soda', 'Cherry'],
       measures: [ '2 oz white ', '1/2 oz ', '1/2 oz ', '1/2 oz fresh '],
       instructions: "In a cocktail shaker, combine all ingredients except club soda and cherry with cracked ice. Shake well. Strain into glass over ice cubes and fill with club soda. Stir, then add cherry.",
       glass: 'Highball glass'
@@ -17489,7 +17481,7 @@ const drinkList = [
 
   {
       name: "Apello",
-      ingredients: [ 'Orange Juice', 'Grapefruit Juice', 'Apple Juice', 'Maraschino cherry'],
+      ingredients: [ 'Orange Juice', 'Grapefruit Juice', 'Apple Juice', 'Cherry'],
       measures: [ '4 cl ', '3 cl ', '1 cl '],
       instructions: "Stirr. Grnish with maraschino cherry.",
       glass: 'vote'
@@ -20377,7 +20369,7 @@ const drinkList = [
 
   {
       name: "Black Irish",
-      ingredients: [ 'Irish Whiskey', 'Coffee Liqueur', 'Maraschino cherry', 'Ice'],
+      ingredients: [ 'Irish Whiskey', 'Coffee Liqueur', 'Cherry', 'Ice'],
       measures: [ '3 parts ', '1 part ', 'Pour Over '],
       instructions: "Stir ingredients and let sit for one minute.",
       glass: 'Whiskey sour glass'
