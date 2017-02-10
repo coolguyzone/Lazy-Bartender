@@ -598,3 +598,8 @@ closeArrowBox.addEventListener('click', hideArrowBox);
 function hideArrowBox(){
   arrowBox.classList.add('hidden-with-space');
 }
+
+var longIngredients = drinkList.filter(function(element){
+  return element.ingredients.length > 9;
+});
+console.log(longIngredients);
