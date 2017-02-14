@@ -1,6 +1,4 @@
 
-console.log(drinkList.length);
-
 const iconReference = {
   brownDrinks: [
     'Bourbon',
@@ -176,6 +174,7 @@ const getStarted = document.querySelector('.get-started');
 let almostDrinks = [];
 let missingOneIngredient = {};
 let almostIngredients = [];
+let currentBox = 1;
 const getNext = document.querySelector('.get-next');
 const closeArrowBox = document.querySelector('.close-arrow-box');
 
@@ -194,7 +193,6 @@ window.onload = function(){
     firstTime.classList.remove('hidden');
   }
   else {
-    // firstTime.classList.add('hidden');
   }
 }
 
@@ -208,16 +206,11 @@ function closeCard() {
 
 //MAKE CARD LINKS SHOW recipe-box
 function addOrRemove(array, value) {
-  var index = array.indexOf(value);
-  index === -1 ? array.push(value) : array.splice(index,1);
+  array.indexOf(value) === -1 ? array.push(value) : array.splice(array.indexOf(value),1);
   localStorage.setItem('inventory', array);
 }
 
-
-
 //function to see if the ingredients array contains all the ingredients for a drink
-
-
 function addOrRemoveIngredient(event) {
   availableDrinks = [];
   addOrRemove(availableIngredients, event.currentTarget.id);
@@ -228,8 +221,7 @@ function addOrRemoveIngredient(event) {
     }
     else (event.currentTarget.style.backgroundColor = '');
   }
-
-  console.log(availableIngredients);
+  // console.log(availableIngredients);
 }
 
 //Make Card With Recipe Info Show On Recipe-Link click
@@ -255,7 +247,6 @@ function displayRecipe(event){
     ul.append(li);
   }
 
-
   cardBody.innerHTML = `<h3>Recipe</h3><p>${drinkObject.instructions}</p>`
 //List the type of glass to use, or leave empty if the answer is 'vote'
   if(drinkObject.glass === 'vote'){
@@ -264,17 +255,15 @@ function displayRecipe(event){
   else if (startsWithVowel(drinkObject.glass)) {
     cardGlass.innerHTML = `<h3>Serve In An ${drinkObject.glass}</h3>`;
   }
-
   else {
-
     cardGlass.innerHTML = `<h3>Serve In A ${drinkObject.glass}</h3>`;
   }
-  console.log(cardIngredients);
   card.classList.remove('hidden');
 }
 
 //ADD EVENT LISTENER TO ICONS
 icons.forEach(element => element.addEventListener('click', displayArrowBox));
+
 function displayArrowBox(event){
   //USE SETTIMOUT TO ENSURE ANIMATION CAN HAPPEN REPEATEDLY
   setTimeout(() => event.target.classList.remove("animated", "tada"), 1000);
@@ -311,9 +300,8 @@ function displayArrowBox(event){
   }
   ingredientArr.forEach(function(element){
     let li = document.createElement('li');
-    li.id =element;
+    li.id = element;
     li.innerHTML = `<input type="checkbox" id="${element}"><label for="">${element}</label>`;
-
 
     if (ingredientArr.indexOf(element) < 7){
       ul1.append(li);
@@ -337,7 +325,7 @@ function displayArrowBox(event){
       }
     }
   })
-  console.log(ingredientArr);
+  // console.log(ingredientArr);
   form.append(ul1);
   form.append(ul2);
   form.append(ul3);
@@ -359,11 +347,9 @@ function displayArrowBox(event){
 }
 
 //CAROUSEL
-let currentBox = 1;
 function scrollRight(event) {
   let drinkCount = availableDrinks.length;
   if (currentBox === boxCount-1) {
-    console.log('hey!');
     arrowRight.classList.add('hidden');
   }
   if (document.querySelector(`.recipe-box${currentBox+1}`).classList.contains('populated')) {
@@ -375,20 +361,6 @@ function scrollRight(event) {
     arrowLeft.classList.remove('hidden');
   }
 }
-
-
-
-
-//   document.querySelector(`.recipe-box${currentBox}`).classList.add('hidden');
-//   currentBox++;
-//   document.querySelector(`.recipe-box${currentBox}`).classList.remove('hidden');
-//   if (currentBox > 1) {
-//     arrowLeft.classList.remove('hidden');
-//   }
-//   if (document.querySelector(`.recipe-box${currentBox+1}`).classList.contains('populated') === false) {
-//     arrowRight.classList.add('hidden');
-//   }
-// }
 
 function scrollLeft(event) {
   document.querySelector(`.recipe-box${currentBox}`).classList.add('hidden');

@@ -1,7 +1,7 @@
 
 function getAllDrinks() {
 // 19082
-  for (var i = 11000; i < 11005; i++) {
+  for (var i = 11000; i < 11003; i++) {
     fetch(`http://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${i}`)
     .then(function(res){
       return res.json();
@@ -40,5 +40,7 @@ function getAllDrinks() {
   p.innerHTML = drinkList;
   document.querySelector('body').append(p);
 }
+
+let drinkList = [];
 
 getAllDrinks();
