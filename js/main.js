@@ -349,7 +349,7 @@ function displayArrowBox(event){
 //CAROUSEL
 function scrollRight(event) {
   let drinkCount = availableDrinks.length;
-  if (currentBox === boxCount-1) {
+  if (currentBox === rbCount-1) {
     arrowRight.classList.add('hidden');
   }
   if (document.querySelector(`.recipe-box${currentBox+1}`).classList.contains('populated')) {
@@ -386,6 +386,9 @@ function startsWithVowel(string){
 }
 let boxCount = 0;
 //LOAD CAROUSEL
+let carouselCount = 0;
+let rbCount = 1;
+let bottom = document.querySelector('.bottom');
 function loadCarousel() {
   clearCarousel();
   almostDrinks = [];
@@ -413,47 +416,76 @@ function loadCarousel() {
       //Add eventlistener on recipeLink
 
       recipeLink.addEventListener('click', displayRecipe);
-      let recipeCount = document.querySelectorAll('.recipe-link').length;
-      if (recipeCount < 8) {
-        recipeBox1.classList.add('populated');
-        recipeBox1.append(recipeLink);
+      if (carouselCount < 8) {
+        currentRbox = document.querySelector(`.recipe-box${rbCount}`);
+        currentRbox.classList.add('populated');
+        currentRbox.append(recipeLink);
         boxCount = 1;
+        carouselCount++;
       }
-      else if (recipeCount < 16) {
-        recipeBox2.classList.add('populated');
-        recipeBox2.append(recipeLink);
-        boxCount = 2;
-        //CAROUSEL ARROW
-          arrowRight.classList.remove('hidden');
-          arrowRight.addEventListener('click', scrollRight);
-          arrowLeft.addEventListener('click', scrollLeft);
-      }
-      else if (recipeCount < 24) {
-        recipeBox3.classList.add('populated');
-        recipeBox3.append(recipeLink);
-        boxCount = 3;
-      }
-      else if (recipeCount < 32) {
-        recipeBox4.classList.add('populated');
-        recipeBox4.append(recipeLink);
-        boxCount = 4;
-      }
-      else if (recipeCount < 40) {
-        recipeBox5.classList.add('populated');
-        recipeBox5.append(recipeLink);
-        boxCount = 5;
-      }
-      else if (recipeCount < 48) {
-        recipeBox6.classList.add('populated');
-        recipeBox6.append(recipeLink);
-        boxCount = 6;
-      }
-      else if (recipeCount < 56) {
-        recipeBox7.classList.add('populated');
-        recipeBox7.append(recipeLink);
-        boxCount = 7;
+      else {
+        rbCount++;
+        let rBox = document.createElement('div');
+        rBox.classList.add('rb', 'hidden', 'populated', `recipe-box${rbCount}`);
+        rBox.append(recipeLink);
+        bottom.append(rBox);
+        carouselCount = 1;
+        boxCount++;
+            arrowRight.classList.remove('hidden');
+            arrowRight.addEventListener('click', scrollRight);
+            arrowLeft.addEventListener('click', scrollLeft);
+            
       }
     }
+    // if (x === 10 && (availableDrinks.indexOf(drinkList[i].name) < 0)) {
+    //   let recipeLink = document.createElement('div');
+    //   recipeLink.classList.add('recipe-link');
+    //   recipeLink.innerHTML=`${drinkList[i].name}`;
+    //   availableDrinks.push(drinkList[i].name);
+    //   //Add eventlistener on recipeLink
+    //
+    //   recipeLink.addEventListener('click', displayRecipe);
+    //   let recipeCount = document.querySelectorAll('.recipe-link').length;
+    //   if (recipeCount < 8) {
+    //     recipeBox1.classList.add('populated');
+    //     recipeBox1.append(recipeLink);
+    //     boxCount = 1;
+    //   }
+    //   else if (recipeCount < 16) {
+    //     recipeBox2.classList.add('populated');
+    //     recipeBox2.append(recipeLink);
+    //     boxCount = 2;
+    //     //CAROUSEL ARROW
+    //       arrowRight.classList.remove('hidden');
+    //       arrowRight.addEventListener('click', scrollRight);
+    //       arrowLeft.addEventListener('click', scrollLeft);
+    //   }
+    //   else if (recipeCount < 24) {
+    //     recipeBox3.classList.add('populated');
+    //     recipeBox3.append(recipeLink);
+    //     boxCount = 3;
+    //   }
+    //   else if (recipeCount < 32) {
+    //     recipeBox4.classList.add('populated');
+    //     recipeBox4.append(recipeLink);
+    //     boxCount = 4;
+    //   }
+    //   else if (recipeCount < 40) {
+    //     recipeBox5.classList.add('populated');
+    //     recipeBox5.append(recipeLink);
+    //     boxCount = 5;
+    //   }
+    //   else if (recipeCount < 48) {
+    //     recipeBox6.classList.add('populated');
+    //     recipeBox6.append(recipeLink);
+    //     boxCount = 6;
+    //   }
+    //   else if (recipeCount < 56) {
+    //     recipeBox7.classList.add('populated');
+    //     recipeBox7.append(recipeLink);
+    //     boxCount = 7;
+    //   }
+    // }
     else if (x === 9) {
       almostDrinks.push(drinkList[i].name);
       for (var k = 0; k < drinkIngredients.length; k++) {
@@ -510,26 +542,8 @@ function setRecommendedIngredients (obj) {
 
 function clearCarousel() {
   currentBox = 1;
-  recipeBox1.innerHTML="";
-  recipeBox1.classList.remove('hidden');
-  recipeBox2.innerHTML="";
-  recipeBox2.classList.remove('populated');
-  recipeBox2.classList.add('hidden');
-  recipeBox3.innerHTML="";
-  recipeBox3.classList.remove('populated');
-  recipeBox3.classList.add('hidden');
-  recipeBox4.innerHTML="";
-  recipeBox4.classList.remove('populated');
-  recipeBox4.classList.add('hidden');
-  recipeBox5.innerHTML="";
-  recipeBox5.classList.remove('populated');
-  recipeBox5.classList.add('hidden');
-  recipeBox6.innerHTML="";
-  recipeBox6.classList.remove('populated');
-  recipeBox6.classList.add('hidden');
-  recipeBox7.innerHTML="";
-  recipeBox7.classList.remove('populated');
-  recipeBox7.classList.add('hidden');
+  rbCount = 1;
+  bottom.innerHTML='<div class="rb recipe-box1 displayed"></div>';
   arrowRight.classList.add('hidden');
   arrowLeft.classList.add('hidden');
 }
