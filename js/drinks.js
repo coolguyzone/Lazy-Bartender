@@ -2256,7 +2256,7 @@ const drinkList = [
   },
 
   {
-      name: "Damn-The-Weather Cocktail",
+      name: "Damn-The-Weather",
       ingredients: [ 'Sweet Vermouth', 'Gin', 'Orange Juice', 'Triple Sec'],
       measures: [ '1 tblsp ', '1 oz ', '1 tblsp ', '1 tsp '],
       instructions: "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
