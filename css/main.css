@@ -344,7 +344,39 @@ input[type='checkbox']:checked {
 
 
 /*MEDIA QUERIES*/
+/*NARROW WIDTHS ON DESKTOP*/
+@media screen and (max-width: 850px) {
+  .icon-column {
+    width: 25%;
+  }
+  .icon-column img {
+    width: 40%;
+  }
+  .icon-column p {
+    font-size: 1em;
+  }
 
+  .bottle-row {
+    width: 100%;
+  }
+
+  .arrow_box:after, .arrow_box:before {
+    border: none;
+  }
+  .arrow_box {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .card {
+    width: 90%;
+    height: 700px;
+    left: 4%;
+    right: 20%;
+    top: 6%;
+  }
+}
+
+/*MOBILE PHONES*/
 @media only screen
 and (max-device-width : 736px)
 and (orientation : portrait) {
