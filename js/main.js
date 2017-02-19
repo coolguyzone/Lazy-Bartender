@@ -172,6 +172,7 @@ const cardBody = document.querySelector('.card-body');
 const cardGlass = document.querySelector('.card-glass');
 const vowels = ['a','e','i','o','u'];
 const icons = document.querySelectorAll('.icon');
+const iconColumns = document.querySelectorAll('.icon-column');
 const arrowBox = document.querySelector('.arrow_box');
 const form = document.querySelector('form');
 const arrowLeft = document.querySelector('.arrow-left');
@@ -185,6 +186,7 @@ let almostIngredients = [];
 let currentBox = 1;
 const getNext = document.querySelector('.get-next');
 const closeArrowBox = document.querySelector('.close-arrow-box');
+const card2Close = document.querySelector('.card2-close');
 
 
 
@@ -205,11 +207,15 @@ window.onload = function(){
 }
 
 //CARDS
-//CLOSE CARD WHEN CLICKING ON X
+//CLOSE CARDS WHEN CLICKING ON X
 cardClose.addEventListener('click', closeCard);
+card2Close.addEventListener('click', closeCard2);
 
 function closeCard() {
   card.classList.add('hidden');
+}
+function closeCard2() {
+  card2.classList.add('hidden');
 }
 
 //MAKE CARD LINKS SHOW recipe-box
@@ -272,6 +278,11 @@ function displayRecipe(event){
 //ADD EVENT LISTENER TO ICONS
 icons.forEach(element => element.addEventListener('click', displayArrowBox));
 
+const mobileIngredients = document.querySelector('.mobile-ingredients');
+const card2 = document.querySelector('.card2');
+const card2Title = document.querySelector('.card2 h2');
+
+
 function displayArrowBox(event){
   //USE SETTIMOUT TO ENSURE ANIMATION CAN HAPPEN REPEATEDLY
   setTimeout(() => event.target.classList.remove("animated", "tada"), 1000);
@@ -285,26 +296,33 @@ function displayArrowBox(event){
   if (event.target.id === 'clearDrinks') {
     let styleElem =  document.head.appendChild(document.createElement("style"));
     styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 15%;}';
+    card2Title.innerHTML = 'Clear Booze';
+
   }
   else if (event.target.id === 'brownDrinks') {
     let styleElem =  document.head.appendChild(document.createElement("style"));
     styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 29%;}';
+    card2Title.innerHTML = 'Dark Booze';
   }
   else if(event.target.id === 'fruitDrinks') {
     let styleElem =  document.head.appendChild(document.createElement("style"));
     styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 43%;}';
+    card2Title.innerHTML = 'Fruity Booze';
   }
   else if (event.target.id === 'beerWine') {
     let styleElem =  document.head.appendChild(document.createElement("style"));
     styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 57%;}';
+    card2Title.innerHTML = 'Weak Booze';
   }
   else if (event.target.id === 'mixers') {
     let styleElem =  document.head.appendChild(document.createElement("style"));
     styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 71%;}';
+    card2Title.innerHTML = 'Mixers';
   }
   else {
     let styleElem =  document.head.appendChild(document.createElement("style"));
     styleElem.innerHTML = '.arrow_box:after, .arrow_box:before{left: 85%;}';
+    card2Title.innerHTML = 'Produce';
   }
   ingredientArr.forEach(function(element){
     let li = document.createElement('li');
@@ -339,9 +357,16 @@ function displayArrowBox(event){
   form.append(ul3);
   form.append(ul4);
 
-  arrowBox.classList.remove('hidden-with-space');
+  if (screen.width > 736) {
+    arrowBox.classList.remove('hidden-with-space');
+  }
+
   //MEDIA QUERY
   if (screen.width < 736) {
+    mobileIngredients.innerHTML = arrowBox.innerHTML;
+    card2.classList.remove('hidden');
+    let closeArrowBox2 = document.querySelector('.close-arrow-box');
+    closeArrowBox2.classList.add('hidden');
     let formLIs = document.querySelectorAll('form li');
     formLIs.forEach(element => element.addEventListener('click', addOrRemoveIngredient));
     let checkboxes = document.querySelectorAll('input[type=checkbox]');
