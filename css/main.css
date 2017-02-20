@@ -498,6 +498,9 @@ and (orientation : portrait) {
     font-size: 1.8em;
     padding: 12px 0;
     margin-top: 20px;
+  }
+
+  .recipe-link:nth-of-type(odd) {
     margin-right: 30px;
   }
 
@@ -545,8 +548,7 @@ and (orientation : portrait) {
     font-size: 2em;
   }
   h1{
-    margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 7em;
   }
 
@@ -561,7 +563,11 @@ and (orientation : portrait) {
   .bottom {
     margin-top: 100px;
     height: 500px;
-    width: 90%;
+    width: 97%;
+  }
+
+  .rb {
+    text-align: center;
   }
 
   .first-time {
@@ -583,4 +589,21 @@ and (orientation : portrait) {
     font-size: 1.5em;
     margin-top: -10px;
   }
+
+  .arrow-right {
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #A89F38;
+    right: 8px;
+    top: 38%;
+  }
+
+  .arrow-left {
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid #A89F38;
+    left: 8px;
+    top: 38%;
+  }
+
 }
