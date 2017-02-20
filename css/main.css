@@ -242,15 +242,14 @@ form{
 
 
 .card2 {
-  width: 800px;
-  height: 1100px;
+  width: 94%;
+  height: 1450px;
   background-color: black;
   border-radius: 10px;
   position: fixed;
   z-index: 1;
-  left: 9%;
-  right: 20%;
-  top: 7%;
+  top: 3%;
+  left: 3%;
 }
 
 .card h3{
@@ -326,17 +325,19 @@ form{
 
 .mobile-ingredients {
   font-size: 2em;
+  text-align: center;
 }
 
 .mobile-ingredients li {
   border: 3px solid white;
   border-radius: 10px;
-  margin-top: 12px;
-  width: 380px;
-  padding: 4px 0;
+  margin-top: 20px;
+  width: 400px;
+  padding: 12px 0;
 }
 
 .mobile-ingredients ul {
+  margin: 0 30px;
 }
 /*input[type='checkbox'] {
   -webkit-appearance:none;
